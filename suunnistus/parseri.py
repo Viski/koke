@@ -8,6 +8,7 @@ import os
 import re
 import argparse
 import yaml
+from copy import deepcopy
 from datetime import datetime
 from difflib import get_close_matches
 from heapq import nlargest
@@ -54,10 +55,65 @@ table.mytable td {
 }
 """
 
+""" Return the default minimum points value """
+def getMinPoints():
+    return 500
+
+def formatTime(time):
+    time = time.strip()
+
+    # Replace dots with colons, add leading hours, if they did not exist.
+    if not time:
+        return None
+    else:
+        if time.count('.') == 2:
+            timeformat = "%H.%M.%S"
+        elif time.count('.') == 1:
+            timeformat = "%M.%S"
+        else:
+            print("ERROR! Could not parse time string:", time)
+            print("    Erroneous line:", line)
+            exit()
+
+        return datetime.strptime(time, timeformat)
+
+def formatTimeDiff(t):
+
+        if(t < 0):
+            prefix = '-'
+            t = abs(t)
+        else:
+            prefix = '+'
+
+        (hours, r) = divmod(t, 3600)
+        (minutes, seconds) = divmod(r, 60)
+
+        hStr = ""
+        mStr = ""
+        sStr = ""
+
+        # Add hours if any.
+        if hours:
+            hStr = str(hours) + "."
+
+        # Minutes must be added always if hours are present.
+        if minutes or hStr:
+            mStr = str(minutes) + "."
+            # Pad leading zeroes, if hours exist.
+            if hStr:
+                mStr = mStr.rjust(3,'0')
+
+        # Always add seconds.
+        sStr = str(seconds)
+        # Pad leading zeroes, if minutes exist.
+        if mStr:
+            sStr = sStr.rjust(2,'0')
+
+        return prefix + hStr + mStr + sStr
+
 """ Parse results data into python struct"""
 def parseResults(data):
     results = {}
-
 
     for line in data.split('\n'):
         if len(line.strip()) == 0:
@@ -78,28 +134,43 @@ def parseResults(data):
         if team.strip().lower() == "ei aikaa":
             team = ""
 
-        time = time.strip()
+        if name in results:
+            print("ERROR! Duplicate result for", name)
+            exit()
 
-        # Replace dots with colons, add leading hours, if they did not exist.
-        if not time:
-            time = None
-        else:
-            if time.count('.') == 2:
-                timeformat = "%H.%M.%S"
-            elif time.count('.') == 1:
-                timeformat = "%M.%S"
-            else:
-                print("ERROR! Could not parse time string:", time)
-                print("    Erroneous line:", line)
-                exit()
+        results[name] = {"time": formatTime(time), "team": team}
 
-            time = datetime.strptime(time, timeformat)
+    return results
+
+""" Parse results data from other tracks into python struct"""
+def parseOtherResults(data):
+    results = {}
+
+    for line in data.split('\n'):
+        if len(line.strip()) == 0:
+            continue
+
+        res = line.split()
+
+        pos = res[0]
+        name = tuple(res[1:3])
+
+        team = ""
+        if len(res) == 6:
+            team = res[3]
+
+        time = res[-2]
+        timeDiff = res[-1]
 
         if name in results:
             print("ERROR! Duplicate result for", name)
             exit()
 
-        results[name] = {"time": time, "team": team}
+        results[name] = {
+            "pos": pos,
+            "time": formatTime(time),
+            "timediff": timeDiff,
+            "team": team}
 
     return results
 
@@ -126,7 +197,11 @@ def findNamesFromResults(participants, results, reverseNames, searchForCloseMatc
             n = {}
             n['first'] = name['first']
             n['last'] = name['last']
+            if 'pos' in results[t]:
+                n['pos'] = results[t]['pos']
             n['time'] = results[t]['time']
+            if 'timediff' in results[t]:
+                n['timediff'] = results[t]['timediff']
             n['team'] = results[t]['team']
             ret.append(n)
         elif searchForCloseMatches:
@@ -168,7 +243,7 @@ Rules:
     * The winner can't receive more than 1050 points. If winner's points are cut,
       also everyone else who received more than 1000 points will get point reductions
       in the same scale than the winner (same points/second scale)
-* Every starter gets at least 500 points.
+* Every starter gets at least minimum points.
 """
 def calculatePoints(participants, threshold, reference):
 
@@ -185,7 +260,7 @@ def calculatePoints(participants, threshold, reference):
 
     def calculate(reftime, time, secsPerPointForWinner = None):
         if not time:
-            return 500 # Every non-finisher gets 500p
+            return getMinPoints() # Every non-finisher gets minimum
 
         # If winner's points are capped to 1050, everyone else with faster time
         # than the reference gets point with the same scale.
@@ -195,8 +270,8 @@ def calculatePoints(participants, threshold, reference):
         else:
             points = timeToPoints(reftime, time, 10)
 
-        if points < 500:
-            points = 500 # Everyone gets at least 500p
+        if points < getMinPoints():
+            points = getMinPoints() # Everyone gets at least the minimum
 
         return points
 
@@ -222,14 +297,47 @@ def calculatePoints(participants, threshold, reference):
         print("      Limiting largest points. Winner gets one point every",
             secsPerPointForWinner, "seconds.")
 
+    pos = 1
     for i in participants:
         i['points'] = calculate(refTime, i['time'], secsPerPointForWinner)
         if i['time']:
-            i['timediff'] = int(timeDiff(i['time'], bestTime))
+            i['timediff'] = formatTimeDiff(int(timeDiff(i['time'], bestTime)))
+            i['pos'] = str(pos) + '.'
+            pos += 1
+        else:
+            i['pos'] = '-'
 
     return bestTime
 
-def resultsToTable(results, series, eventData, config):
+def createSeriesTable(series, eventData, config):
+
+    seriesData = eventData['series'][series]
+    hdr = []
+
+    hdr.append(SimpleTableRow(["Koneen Kerho", "suunnistusjaos", "sarjakilpailu", series.upper(), config["name"].upper(), "", ""], header=True))
+    hdr.append(SimpleTableRow(["", "", "", "", "", "", ""], header=True))
+    hdr.append(SimpleTableRow(["osakilpailu:", "{0} / {1}".format(eventData["event_number"], config["year"]), "", "", "", "", ""], header=True))
+    hdr.append(SimpleTableRow(["rata:", seriesData["track"], seriesData["length"], "", "", "", ""], header=True))
+    hdr.append(SimpleTableRow(["paikka:", eventData["location"], "", "", "", "", ""], header=True))
+    hdr.append(SimpleTableRow(["päivä:", eventData["date"], "", "", "", "", ""], header=True))
+    hdr.append(SimpleTableRow(["järjestäjä:", eventData["organizer"], "", "", "", "", ""], header=True))
+    hdr.append(SimpleTableRow(["", "", "", "", "", "", ""], header=True))
+    hdr.append(SimpleTableRow(["sija", "nimi", "", "seura", "aika", u"Δt", "pisteet"], header=True))
+
+    table = SimpleTable(hdr, css_class="mytable")
+    return table
+
+def createWrongSeriesTable(series):
+
+    hdr = []
+
+    hdr.append(SimpleTableRow(["   muu rata:", series], header=True))
+    hdr.append(SimpleTableRow(["sija", "nimi", "", "seura", "aika", u"Δt", "pisteet"], header=True))
+
+    table = SimpleTable(hdr, css_class="mytable")
+    return table
+
+def resultsToTable(table, results):
 
     # Sort participants by time
     results = sortByTime(results)
@@ -241,80 +349,21 @@ def resultsToTable(results, series, eventData, config):
         if not 'timediff' in i:
             return ""
 
-        t = i['timediff']
-
-        if(t < 0):
-            prefix = '-'
-            t = abs(t)
-        else:
-            prefix = '+'
-
-        (hours, r) = divmod(t, 3600)
-        (minutes, seconds) = divmod(r, 60)
-
-        hStr = ""
-        mStr = ""
-        sStr = ""
-
-        # Add hours if any.
-        if hours:
-            hStr = str(hours) + "."
-
-        # Minutes must be added always if hours are present.
-        if minutes or hStr:
-            mStr = str(minutes) + "."
-            # Pad leading zeroes, if hours exist.
-            if hStr:
-                mStr = mStr.rjust(3,'0')
-
-        # Always add seconds.
-        sStr = str(seconds)
-        # Pad leading zeroes, if minutes exist.
-        if mStr:
-            sStr = sStr.rjust(2,'0')
-
-        return prefix + hStr + mStr + sStr
+        return i['timediff']
 
     def getPoints(i):
         return i['points'] if 'points' in i else "Error!"
 
-    def constructHeader(series, eventData, config):
-        seriesData = eventData['series'][series]
-        r = []
-
-        r.append(SimpleTableRow(["Koneen Kerho", "suunnistusjaos", "sarjakilpailu", series.upper(), config["name"].upper(), "", ""], header=True))
-        r.append(SimpleTableRow(["", "", "", "", "", "", ""], header=True))
-        r.append(SimpleTableRow(["osakilpailu:", "{0} / {1}".format(eventData["event_number"], config["year"]), "", "", "", "", ""], header=True))
-        r.append(SimpleTableRow(["rata:", seriesData["track"], "", "", "", "", ""], header=True))
-        r.append(SimpleTableRow(["paikka:", eventData["location"], "", "", "", "", ""], header=True))
-        r.append(SimpleTableRow(["päivä:", eventData["date"], "", "", "", "", ""], header=True))
-        r.append(SimpleTableRow(["järjestäjä:", eventData["organizer"], "", "", "", "", ""], header=True))
-        r.append(SimpleTableRow(["rata:", seriesData["length"], "", "", "", "", ""], header=True))
-        r.append(SimpleTableRow(["", "", "", "", "", "", ""], header=True))
-        r.append(SimpleTableRow(["sija", "nimi", "", "seura", "aika", u"Δt", "pisteet"], header=True))
-
-        return r
-
-    table = SimpleTable(
-        constructHeader(series, eventData, config),
-        css_class="mytable")
-
     pos = 1
     for i in results:
-        if i['time']:
-            posStr = str(pos) + '.'
-            pos += 1
-        else:
-            posStr = '-'
-
         row = SimpleTableRow(
-        [posStr, i['last'], i['first'], i['team'], getTime(i),
+        [i['pos'], i['last'], i['first'], i['team'], getTime(i),
             getTimeDiff(i), getPoints(i)])
         table.add_row(row)
 
     return table
 
-def updatePointsForParticipants(participants, points, eventId):
+def updatePointsForParticipants(participants, points, eventId, wrongTrack):
 
 # TODO: Hyi, mitä looppailua
     for name in points:
@@ -326,7 +375,7 @@ def updatePointsForParticipants(participants, points, eventId):
             if not 'points' in name2:
                 name2['points'] = {}
 
-            name2['points'][eventId] = {'count': name['points']}
+            name2['points'][eventId] = {'count': name['points'], 'wrongTrack': wrongTrack}
             break
 
 def getFileNameForSeries(series):
@@ -336,14 +385,64 @@ def getFileNameForEvent(number, series):
     return "{0}_{1}.html".format(number, unidecode(series))
 
 
-def calculateEvent(eventFile, config, resultsDir):
-    eventData = readYamlFile(eventFile)
-    print("\nParsing event {0}: {1}".format(eventData['event_number'], eventData['location']))
+def parseSeries(eventData, seriesName, config, outputData):
+    print("   Parsing series:", seriesName)
 
-    for seriesName, seriesConfig in config['series'].items():
-        print("   Parsing series:", seriesName)
+    seriesConfig = config['series'][seriesName]
+    outputData.setdefault(seriesName, {})
+    parsedResults = parseResults(eventData['series'][seriesName]['data'])
 
-        parsedResults = parseResults(eventData['series'][seriesName]['data'])
+    # Search for people from unknown series
+    # TODO: Make series selection automatic (with force override)
+    unknownPeople = findNamesFromResults(config['unknown_participants'], parsedResults, eventData['reverse_names'], False)
+    if(unknownPeople):
+        print("\n#############################################################\n")
+        print("   Found", len(unknownPeople), "participants with unknown series:")
+        for i in unknownPeople:
+            print("      ", i['first'], i['last'])
+        print("\n#############################################################\n")
+
+    correctPeople = findNamesFromResults(seriesConfig['participants'], parsedResults, eventData['reverse_names'], True)
+    bestTime = calculatePoints(correctPeople, seriesConfig['participant_threshold'], seriesConfig['reference_position'])
+    updatePointsForParticipants(seriesConfig['participants'], correctPeople, eventData['event_number'], False)
+
+    # Add people from wrong series and set their points to X
+    for wrongSeriesName, wrongSeriesConfig in config['series'].items():
+        if wrongSeriesName == seriesName:
+            continue
+
+        wrongPeople = findNamesFromResults(wrongSeriesConfig['participants'], parsedResults, eventData['reverse_names'], False)
+
+        # First, set the points to X and calculate the time diffs
+        for i in wrongPeople:
+            i['points'] = 'X'
+            i['pos'] = '-'
+            if i['time'] and bestTime:
+                i['timediff'] = formatTimeDiff(int(timeDiff(i['time'], bestTime)))
+
+        # Merge results to the series finisher list
+        # deepcopy() to avoid changing the points
+        correctPeople = correctPeople + deepcopy(wrongPeople)
+
+        # Update points to the minimum and save for the participants
+        for i in wrongPeople:
+            i['points'] = getMinPoints()
+        updatePointsForParticipants(wrongSeriesConfig['participants'], wrongPeople, eventData['event_number'], True)
+
+        # Save the participants to their own series
+        outputData.setdefault(wrongSeriesName, {}).setdefault("wrongTrack", {})
+        wrongSeriesKey = "KoKe " + eventData['series'][seriesName]['track'] + " " + eventData['series'][seriesName]['length']
+        outputData[wrongSeriesName]["wrongTrack"][wrongSeriesKey] = wrongPeople
+
+    # Save correct people to the series
+    outputData[seriesName]["correctTrack"] = correctPeople
+
+def parseOtherSeries(eventData, config, outputData):
+
+    for seriesName, seriesData in eventData['series']['other'].items():
+        print("   Parsing other series:", seriesName)
+
+        parsedResults = parseOtherResults(seriesData)
 
         # Search for people from unknown series
         # TODO: Make series selection automatic (with force override)
@@ -355,36 +454,57 @@ def calculateEvent(eventFile, config, resultsDir):
                 print("      ", i['first'], i['last'])
             print("\n#############################################################\n")
 
-        correctPeople = findNamesFromResults(seriesConfig['participants'], parsedResults, eventData['reverse_names'], True)
-        bestTime = calculatePoints(correctPeople, seriesConfig['participant_threshold'], seriesConfig['reference_position'])
-        updatePointsForParticipants(seriesConfig['participants'], correctPeople, eventData['event_number'])
-
         # Add people from wrong series and set their points to X
         for wrongSeriesName, wrongSeriesConfig in config['series'].items():
-            if wrongSeriesName == seriesName:
-                continue
 
             wrongPeople = findNamesFromResults(wrongSeriesConfig['participants'], parsedResults, eventData['reverse_names'], False)
+            print("      Found", len(wrongPeople), "participants from", wrongSeriesName)
+
+            # Update points to the minimum and save for the participants
             for i in wrongPeople:
-                i['points'] = 'X'
-                if i['time'] and bestTime:
-                    i['timediff'] = int(timeDiff(i['time'], bestTime))
+                i['points'] = getMinPoints()
+            updatePointsForParticipants(wrongSeriesConfig['participants'], wrongPeople, eventData['event_number'], True)
 
-            updatePointsForParticipants(wrongSeriesConfig['participants'], wrongPeople, eventData['event_number'])
+            # Save the participants to their own series
+            outputData.setdefault(wrongSeriesName, {}).setdefault("wrongTrack", {})
+            wrongSeriesKey = seriesName
+            outputData[wrongSeriesName]["wrongTrack"][wrongSeriesKey] = wrongPeople
 
-            # Merge results
-            correctPeople = correctPeople + wrongPeople
 
-        #updatePointsForParticipants(seriesConfig['participants'], points, eventData['event_number'])
+def calculateEvent(eventFile, config, resultsDir):
+    eventData = readYamlFile(eventFile)
+    print("\nParsing event {0}: {1}".format(eventData['event_number'], eventData['location']))
 
+    data = {}
+
+    for seriesName in config['series'].keys():
+        parseSeries(eventData, seriesName, config, data)
+
+    # Parse participants in other series
+    if 'other' in eventData['series']:
+        parseOtherSeries(eventData, config, data)
+
+    # Output HTML
+    for seriesName, seriesData in data.items():
         htmlPage = HTMLPage(tables=[], css=getCSS())
-        htmlPage.add_table(resultsToTable(correctPeople, seriesName, eventData, config))
+        table = createSeriesTable(seriesName, eventData, config)
+        resultsToTable(table, seriesData["correctTrack"])
+        htmlPage.add_table(table)
+
+# Testi
+        for wrongSeriesName, wrongSeriesPeople in seriesData["wrongTrack"].items():
+            if len(wrongSeriesPeople) == 0:
+                continue
+
+            table = createWrongSeriesTable(wrongSeriesName)
+            resultsToTable(table, wrongSeriesPeople)
+            htmlPage.add_table(table)
 
         outputFile = getFileNameForEvent(
             eventData['event_number'], seriesName)
         outputPath = os.path.join(resultsDir, outputFile)
 
-        print("      Writing event results to:", outputPath)
+        print("   Writing event results to:", outputPath)
         htmlPage.save(outputPath)
 
 
@@ -503,11 +623,16 @@ def outputSeriesTables(config, resultsDir):
                 if k > maxEventNumber:
                     maxEventNumber = k
 
+                # Mark asterisk to points from wrong tracks
+                val = "{0}"
+                if v['wrongTrack']:
+                    val = val + '*'
+
                 # Graying out unused points
                 if not 'used' in v:
-                    field = """<font color="gray">({0})</font>"""
+                    field = """<font color="gray">(""" + val + """)</font>"""
                 else:
-                    field = """{0}"""
+                    field = val
                 temp[k+2] = field.format(v['count'])
 
             rows.append(temp)
@@ -515,6 +640,11 @@ def outputSeriesTables(config, resultsDir):
 
         for row in rows:
             r.append(SimpleTableRow(updateRow(emptyRow(rowWidth), row)))
+
+        # Add explainer for astersik
+        r.append(SimpleTableRow([""]))
+        r.append(SimpleTableRow([""]))
+        r.append(SimpleTableRow(['*', 'muu rata']))
 
         return r, maxEventNumber
 
