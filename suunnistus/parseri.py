@@ -160,7 +160,14 @@ def parseOtherResults(data):
             team = res[3]
 
         time = res[-2]
+        if(time == '-'):
+            time = None
+        else:
+            time = formatTime(time)
+
         timeDiff = res[-1]
+        if(timeDiff == '-'):
+            timeDiff = ""
 
         if name in results:
             print("ERROR! Duplicate result for", name)
@@ -168,7 +175,7 @@ def parseOtherResults(data):
 
         results[name] = {
             "pos": pos,
-            "time": formatTime(time),
+            "time": time,
             "timediff": timeDiff,
             "team": team}
 
