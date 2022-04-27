@@ -68,11 +68,14 @@ def formatTime(time):
     else:
         if time.count('.') == 2:
             timeformat = "%H.%M.%S"
+        elif time.count(':') == 2:
+            timeformat = "%H:%M:%S"
         elif time.count('.') == 1:
             timeformat = "%M.%S"
+        elif time.count(':') == 1:
+            timeformat = "%M:%S"
         else:
             print("ERROR! Could not parse time string:", time)
-            print("    Erroneous line:", line)
             exit()
 
         return datetime.strptime(time, timeformat)
@@ -120,7 +123,7 @@ def parseResults(data):
             continue
 
         # Remove leading position markers and time differences
-        res = re.sub(r'^\s*[0-9\.\-]*\s*(\S+\s\S*)\s*((?:[^\W\d]*\s*)*)([0-9\.]*).*',
+        res = re.sub(r'^\s*[0-9\.\-]*\s*(\S+\s\S*)\s*((?:[^\W\d]*\s*)*)([0-9\.:]*).*',
                      r'\1|\2|\3',
                      line,
                      re.UNICODE)
@@ -184,7 +187,7 @@ def parseOtherResults(data):
 
 def readYamlFile(filePath):
     with open(filePath, 'r') as f:
-        return yaml.load(f)
+        return yaml.safe_load(f)
 
 def findNamesFromResults(participants, results, reverseNames, searchForCloseMatches):
 
