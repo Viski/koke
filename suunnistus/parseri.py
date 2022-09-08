@@ -622,11 +622,23 @@ def outputSeriesTables(config, resultsDir):
         lastCellIndex = rowWidth -1
         maxEventNumber = 0
 
+        prev_pos = 0
+        prev_points = 0
+
         for name in sortedParticipants:
             if not 'total_points' in name:
                 break
 
-            temp = {0: pos, 1: name['last'], 2: name['first'], lastCellIndex: "<b>{0}</b>".format(name['total_points'])}
+            # If points are tied with the previous participant, use the same position
+            actual_pos = pos
+            if prev_points == name['total_points']:
+                actual_pos = prev_pos
+
+            temp = {0: actual_pos, 1: name['last'], 2: name['first'], lastCellIndex: "<b>{0}</b>".format(name['total_points'])}
+
+            # Save position and points for the next round
+            prev_pos = actual_pos
+            prev_points = name['total_points']
 
             # Fill in points
             for k, v in name['points'].items():
