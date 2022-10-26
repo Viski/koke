@@ -262,6 +262,9 @@ def calculatePoints(participants, threshold, reference):
         return
 
     def timeToPoints(reftime, time, secsPerPoint):
+        if not time or not reftime:
+            return getMinPoints() # Every non-finisher gets minimum
+
         timediff = timeDiff(reftime,time)
         # 1 point for every full secsPerPoint
         pointdiff = round(timediff/secsPerPoint, 6)
@@ -269,7 +272,7 @@ def calculatePoints(participants, threshold, reference):
         return points
 
     def calculate(reftime, time, secsPerPointForWinner = None):
-        if not time:
+        if not time or not reftime:
             return getMinPoints() # Every non-finisher gets minimum
 
         # If winner's points are capped to 1050, everyone else with faster time
@@ -299,6 +302,7 @@ def calculatePoints(participants, threshold, reference):
     # Check if best points need limiting
     secsPerPointForWinner = None
     bestTime = participants[0]['time']
+
     bestPoints = timeToPoints(refTime, bestTime, 10)
 
     if bestPoints > 1050:
