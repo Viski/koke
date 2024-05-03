@@ -1,0 +1,28 @@
+event_number: 4
+location: Paraatinkalliot, Nurmijärvi
+date: 29.6.
+organizer: RR / Kari Vuorio
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 6,5 km
+        data: |
+            1  Kaivosaari Antti          	 KoKe                50.43
+            2. Salomäki Janne            		 KoKe 	     54.16
+            3. Aaltonen Tero             		 KoKe	  1.21.55
+            4. Kiviaho Erkka		KoKe	  1.32.42
+    lyhyt:
+        track: B
+        length: 4,6 km
+        data: |
+            1. Kiuru Esko                  		KoKe                 49.45
+            2. Puputti Tapio		 KoKe                 50.24
+            3. Lipsonen Ville             	 KoKe                 52.43
+            4. Lamminmäki Timo             	KOKE                 58.03
+            5. Välimaa Pertti		 KoKe	     1.02.25
+            Pyhälampi Risto             	KoKe
+    other:
+        'C Vaativa 3,6 km': |
+            15. Haataja Jukka KoKe 01.08.25 +25.53
+            -   Rantala Hannu Koke -    -

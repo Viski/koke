@@ -1,0 +1,31 @@
+event_number: 4
+location: Kytäjä, Hyvinkää
+date: 10.5.
+organizer: RR / Arto Niemi
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,6 km
+        data: |
+            1. Jukka Viero 1.03.55
+            2. Hannu Pohjola 1.04.25
+            3. Veijo Salmi 1.11.41
+            4. Erkka Kiviaho 1.13.45
+            5. Tero Aaltonen 1.15.00
+            6. Pekka Koskinen 1.16.53
+            7. Reinhard Lenz 1.48.33
+            Sami Haaranen
+            Sakke Ahoniemi
+    lyhyt:
+        track: B
+        length: 5,0 km
+        data: |
+            1. Esko Kiuru 51.50
+            2. Tapio Puputti 59.06
+            3. Mika Väisänen 1.08.28
+            4. Ari Nieminen 1.11.13
+            5. Risto Pyhälampi 1.47.34
+    other:
+        'C vaativa 3.3 km': |
+            - Hannu Rantala - -

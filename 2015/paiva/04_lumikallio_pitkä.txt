@@ -1,0 +1,14 @@
+
+1. Korpela Roope               HyRa              1.21.17
+2. Reinikka Kenneth            HyRa              1.35.44    +14.27
+3. Uusitalo Timo                                 1.36.28    +15.11
+4. Paananen Teemu                                1.50.37    +29.20
+5. Marttinen Pasi              HyRa              1.51.24    +30.07
+6. Lehtinen Sauli                                2.12.53    +51.36
+
+1. Salomäki Janne              KoKe              1.03.37
+2. Kiiskinen Hannu             KoKe              1.33.51    +30.14
+3. Viero Jukka                                   1.38.37    +35.00
+4. Aaltonen Tero                                 1.42.48    +39.11
+5. Similä Mika                 KoKe              1.43.49    +40.12
+6. Huuhka Pertti               KoKe              2.30.59  +1.27.22

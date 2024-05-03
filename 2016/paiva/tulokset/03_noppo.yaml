@@ -1,0 +1,38 @@
+event_number: 3
+location: Noppo, Hyvinkää
+date: 28.4.
+organizer: HyRa / Hannu Salomäki
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 6,2 km
+        data: |
+            1. Åberg Janne 46.10
+            2. Puolakanaho Mikko 48.04
+            3. Pohjola Hannu 54.33
+            4. Viero Jukka 56.01
+            5. Aunula Tero 58.32
+            6. Lipsonen Ville 58.53
+            7. Aaltonen Tero 1.01.50
+            8. Koskinen Pekka 1.03.34
+            9. Välimaa Pertti 1.03.39
+            10. Loisa Markus 1.25.00
+
+    lyhyt:
+        track: B
+        length: 4,4 km
+        data: |
+            1. Kiuru Esko 40.02
+            2. Fröblom Jari 46.28
+            3. Rautajärvi Henri 46.40
+            4. Salo Jarmo 51.30
+            5. Räty Timo 54.38
+            6. Ahlström Valtteri 55.09
+            6. Lamminmäki Timo 56.01
+            7. Merilä Reetta 56.16
+            8. Markus Esa 1.05.25
+            9. Haataja Jukka 1.06.43
+            10. Pyhälampi Risto 1.07.14
+            11. Rantala Hannu 1.08.06
+            - Lenz Reinhard Ei aikaa

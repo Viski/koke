@@ -1,0 +1,27 @@
+event_number: 18
+location: Kirvasto, Riihimäki
+date: 3.9.
+organizer: RiSu / Jari Paukkola
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 5,7 km
+        data: |
+            1. Sami Haaranen 47.10 +56
+            2. Tero Aaltonen 52.06 +5.52
+            3. Erkka Kiviaho 1.06.13 +19.59
+            4. Markus Loisa 1.08.03 +21.49
+            5. Mika Kollanus 1.37.59 +51.45
+    lyhyt:
+        track: B
+        length: 4,5 km
+        data: |
+            1. Reinhard Lenz 52.51 +15.06
+            2. Tapio Puputti 53.50 +16.05
+            3. Esa Ojapalo 54.28 +16.43
+            4. Jyrki Laaksonheimo 54.57 +17.12
+            5. Jari Fröblom 57.53 +20.08
+            6. Erkki Kallela 58.08 +20.23
+            7. Janne Lindroos 1.27.10 +49.25
+            8. Pertti Huuhka 1.42.01 +1.04.16

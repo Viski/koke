@@ -1,0 +1,37 @@
+event_number: 5
+location: Ylimmäinen, Vihti
+date: 7.5.
+organizer: RR / Ari Enroth
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 6,8 km
+        data: |
+            1. Ustinov Jarkko                KoKe                               57.35
+            2. Aaltonen Tero                                                    59.58
+            3. Lipsonen Ville                                                 1.04.03
+            4. Leppänen Ilkka                KoKe                             1.06.20
+            5. Salmi Veijo                   RR                               1.07.04
+            6. Välimaa Pertti                                                 1.20.42
+            7. Puolakanaho Mikko             KoKe                             1.26.08
+            8. Kiviaho Erkka                 KoKe                             1.31.28
+            9. Kollanus Mika                 KoKe                             2.07.07
+    lyhyt:
+        track: B
+        length: 4,6 km
+        data: |
+            1. Kattainen Jimi                                                   52.33
+            2. Forsman Kristian              Brahe                              56.21
+            3. Sihvola Esko                  KoKe                               58.39
+            4. Partanen Paavo                HyRa                               58.58
+            5. Lamminmäki Timo               KoKe                             1.01.37
+            6. Salomäki Hannu                KoKe                             1.08.21
+            7. Kallela Erkki                 KoKe                             1.11.06
+            8. Itäkodes Jari                                                  1.28.34
+            9. Vainonen Pekka                KoKe                             1.32.14
+            10. Puputti Tapio                 KoKe                             1.42.06
+            11. Haataja Jukka                 KoKe                             1.44.55
+            12. Pyhälampi Risto               KoKe                             1.45.06
+            13. Ward Allison 		 KoKe		          1.50.03
+            14. Huuhka Pertti                                                  2.05.28

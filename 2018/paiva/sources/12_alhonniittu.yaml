@@ -1,0 +1,35 @@
+event_number: 12
+location: Alhonniittu, Nurmijärvi
+date: 26.6.
+organizer: RR / Jarmo Hyvönen
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 5,8 km
+        data: |
+            1. Jarkko Ustinov KoKe 51.10 +10.23
+            2. Ville Lipsonen KoKe 53.30 +12.43
+            3. Jukka Viero KoKe 53.55 +13.08
+            4. Pertti Välimaa KoKe 55.53 +15.06
+            5. Hannu Pohjola KoKe 1.00.42 +19.55
+            6. Ilkka Leppänen KoKe 1.02.52 +22.05
+            7. Markus Loisa KoKe 1.14.20 +33.33
+            8. Tero Aaltonen KoKe 1.27.25 +46.38
+
+    lyhyt:
+        track: B
+        length: 4,5 km
+        data: |
+            1. Johanna Pensas KoKe 54.59 +10.48
+            2. Erkki Kallela KoKe 1.03.30 +19.19
+            3. Tapio Puputti KoKe 1.26.00 +41.49
+            4. Risto Pyhälampi KoKe 1.26.25 +42.14
+            5. Oskar Lönnberg KoKe 1.27.03 +42.52
+            6. Pertti Huuhka KoKe 1.50.31 +1.06.20
+            7. Jani Lappalainen KoKe 2.03.50 +1.19.39
+            8. Petri Törhönen KoKe 2.04.11 +1.20.00
+            9. Erkka Kiviaho 2.42.31 +1.58.20
+            - Pekka Vainonen KoKe
+            - Mikko Palomäki KoKe
+            - Pekka Perälä KoKe

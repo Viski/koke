@@ -1,0 +1,27 @@
+event_number: 7
+location: Alhonniittu, Nurmijärvi
+date: 10.8.
+organizer: RR / Seppo Krook
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,1 km
+        data: |
+            1. Jukka Viero 1.03.48
+            2. Erkka Kiviaho 1.39.0
+    lyhyt:
+        track: B
+        length: 5,3 km
+        data: |
+            1. Pertti Välimaa 1.06.27
+            2. Tomi Myllärinen 1.15.22
+            3. Ville Lipsonen 1.30.42
+            4. Tapio Puputti 1.36.38
+            5. Juhani Sirjola 2.10.53
+            - Risto Pyhälampi
+    other:
+        'C Vaativa 3,0 km': |
+            7. Paavo Partanen 45.07 +07.11
+            14. Erkki Kallela 01.02.10 +24.14
+            - Hannu Rantala - -

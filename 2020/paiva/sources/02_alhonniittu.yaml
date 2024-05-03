@@ -1,0 +1,26 @@
+event_number: 2
+location: Alhonniittu, Nurmijärvi
+date: 23.6.
+organizer: RR / Jarmo Hyvönen
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 5,8 km
+        data: |
+            1. Haaranen Sami KoKe 49.34
+            2. Lipsonen Ville 1.10.02 +20.28
+            3. Kiviaho Erkka KoKe 1.31.57 +42.23
+            4. Kollanus Mika 1.56.45 +1.07.11
+            5. Loisa Markus KoKe 1.59.00 +1.09.26
+
+    lyhyt:
+        track: B
+        length: 4,3 km
+        data: |
+            1. Salmi Veijo KoKe 54.19 +17.38
+            2. Partanen Esa KoKe 1.07.37 +30.56
+            3. Lenz Reinhard KoKe 1.14.23 +37.42
+            4. Puputti Tapio KoKe 1.19.22 +42.41
+            5. Huuhka Pertti 2.11.00 +1.34.19
+            Pyhälampi Risto KoKe

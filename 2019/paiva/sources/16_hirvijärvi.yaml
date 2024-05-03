@@ -1,0 +1,31 @@
+event_number: 16
+location: Hirvijärvi, Riihimäki
+date: 13.8.
+organizer: RiSu / Jarmo Kapanen
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,4 km
+        data: |
+            1. Sami Haaranen 48.32
+            2. Janne Salomäki 59.56 +11.24
+            3. Ilkka Leppänen 1.05.24 +16.52
+            4. Hannu Pohjola 1.05.30 +16.58
+            5. Tero Aaltonen 1.07.30 +18.58
+            6. Ville Lipsonen 1.08.31 +19.59
+            7. Pertti Välimaa 1.17.29 +28.57
+            8. Esko Kiuru 1.20.41 +32.09
+            9. Erkka Kiviaho 1.21.06 +32.34
+            10. Mika Kollanus 1.41.16 +52.44
+    lyhyt:
+        track: B
+        length: 4,7 km
+        data: |
+            1. Kristian Forsman 49.28 +11.22
+            2. Esa Partanen 54.31 +16.25
+            3. Timo Lamminmäki 1.02.19 +24.13
+            4. Reinhard Lenz 1.08.17 +30.11
+            5. Tapio Puputti 1.16.38 +38.32
+            6. Erkki Kallela 1.22.07 +44.01
+            7. Pertti Huuhka 1.55.01 +1.16.55

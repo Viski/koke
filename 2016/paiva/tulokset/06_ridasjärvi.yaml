@@ -1,0 +1,37 @@
+event_number: 6
+location: Ridasjärvi, Hyvinkää
+date: 19.5.
+organizer: HyRa / Jukka Vähänen
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,7 km
+        data: |
+             1. Antti Kaivosaari 1.03.21
+             2. Ville Lipsonen 1.12.22 +9.01
+             3. Janne Salomäki 1.14.24 +11.03
+             4. Hannu Pohjola 1.15.55 +12.34
+             5. Jukka Viero 1.16.29 +13.08
+             6. Pertti Välimaa 1.18.06 +14.45
+             7. Tero Aunula 1.24.30 +21.09
+             8. Tero Aaltonen 1.25.46 +22.25
+             9. Visa Jokelainen 1.26.42 +23.21
+
+    lyhyt:
+        track: B
+        length: 3,3 km
+        data: |
+             1. Esko Kiuru 35.39
+             2. Matti Lehto 36.53 +1.14
+             3. Harry Halonen 37.32 +1.53
+             4. Hannu Salomäki 38.26 +2.47
+             5. Reinhard Lenz 40.25 +4.46
+             6. Juha Räikkönen 46.37 +10.58
+             7. Esa Ojapalo 46.41 +11.02
+             8. Esa Partanen 48.01 +12.22
+             9. Claudio Stuppi 1.02.31 +26.52
+             10. Erkki Kallela 1.04.10 +28.31
+             11. Risto Pyhälampi 1.09.22 +33.43
+             12. Oskar Lönnberg 1.11.14 +35.35
+             13. Jukka Haataja 1.20.38 +44.59

@@ -1,0 +1,31 @@
+event_number: 14
+location: Hirvijärvi, Riihimäki
+date: 15.8.
+organizer: RiSu / Jarmo Kapanen
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,8 km
+        data: |
+            1. Tomi Korhonen 1.15.25
+            2. Jukka Viero 1.25.25
+            3. Ari Nieminen 1.57.35
+
+    lyhyt:
+        track: B
+        length: 5,4 km
+        data: |
+            1. Johannes Pyyhtiä 1.01.54
+            2. Marko Saarinen 1.09.22
+            3. Reinhard Lenz 1.11.11
+            4. Pertti Välimaa 1.13.19
+            5. Hannu Salomäki 1.14.00
+            6. Asmo Tenhunen 1.19.31
+            7. Esa Ojapalo 1.32.23
+            8. Tapio Puputti 1.51.39
+            Risto Pyhälampi
+
+    other:
+        'C 3,6 km': |
+            1. Esko Kiuru   0.41.20 +00.00

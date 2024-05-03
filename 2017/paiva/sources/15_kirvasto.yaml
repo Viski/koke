@@ -1,0 +1,30 @@
+event_number: 15
+location: Kirvasto, Riihimäki
+date: 8.9.
+organizer: RiSu / Esa Ojapalo
+reverse_names: True
+series:
+    pitkä:
+        track: KoKe Pitkä (B)
+        length: 4,3 km
+        data: |
+            1. Sami Haaranen 30.31
+            2. Antti Kaivosaari 32.57 +2.26
+            3. Matti Lehto 41.05 +10.34
+            4. Pertti Välimaa 42.18 +11.47
+            5. Esko Kiuru 42.37 +12.06
+            6. Tero Aaltonen 50.54 +3.08
+            7. Jyrki Laaksonheimo 1.05.55 +35.24
+            8. Ville Lipsonen 1.06.02 +18.16
+
+    lyhyt:
+        track: KoKe Lyhyt (C)
+        length: 3,3 km
+        data: |
+            1. Hannu Salomäki 33.27
+            2. Jari Fröblom 35.32 +2.05
+            3. Reinhard Lenz 37.18 +3.51
+            4. Erkki Kallela 42.14 +8.47
+            5. Erkki Lepistö 42.55 +9.28
+            6. Risto Pyhälampi 56.58 +23.31
+            7. Pertti Huuhka 58.43 +25.16

@@ -1,0 +1,26 @@
+event_number: 13
+location: Alhonniittu, Nurmijärvi
+date: 8.8.
+organizer: RR / Jarmo Hyvönen
+reverse_names: True
+series:
+    pitkä:
+        track: KoKe Pitkä
+        length: 6,2 km
+        data: |
+            1. Janne Salomäki KoKe 51.17
+            2. Sami Haaranen KoKe 1.01.48 +10.31
+            3. Jukka Viero 1.14.37 +23.20
+            4. Ville Lipsonen KoKe 1.21.39 +30.22
+            5. Markus Loisa KoKe 1.41.48 +50.31
+            6. Jyrki Laaksonheimo KoKe Ei aikaa
+
+    lyhyt:
+        track: KoKe Lyhyt
+        length: 4,4 km
+        data: |
+            1. Jarmo Salo KoKe 57.44 +10.17
+            2. Erkki Kallela KoKe 1.03.19 +15.52
+            3. Hannu Salomäki KoKe 1.06.46 +19.19
+            - Juhani Sirjola KoKe Ei aikaa
+            - Risto Pyhälampi KoKe Ei aikaa

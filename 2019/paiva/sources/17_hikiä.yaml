@@ -1,0 +1,26 @@
+event_number: 17
+location: Hikiä, Hausjärvi
+date: 22.8.
+organizer: HyRa / Ossi Autio
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 5,9 km
+        data: |
+            1. Kaivosaari Antti HyRa 58.39
+            2. Aaltonen Tero KoKe 1.00.18 +01.39
+            3. Lipsonen Ville 1.13.51 +15.12
+            4. Välimaa Pertti KoKe 1.19.52 +21.13
+            5. Kollanus Mika KoKe 1.33.41 +35.02
+    lyhyt:
+        track: B
+        length: 3,9 km
+        data: |
+            1. Lenz Reinhard KoKe 54.12
+            2. Salomäki Hannu KOKE 59.33 +05.21
+            3. Puputti Tapio RiSu 1.11.44 +17.32
+            4. Itäkodes Jari KoKe 1.12.48 +18.36
+            5. Pyhälampi Risto KoKe 1.22.17 +28.05
+            6. Sirjola Juhani KoKe 1.23.54 +29.42
+            Kallela Erkki KoKe

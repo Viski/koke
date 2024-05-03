@@ -1,0 +1,27 @@
+event_number: 14
+location: Koskelankulma, Hyvinkää
+date: 31.8.
+organizer: HyRa / Aarno Saviaho
+reverse_names: True
+series:
+    pitkä:
+        track: KoKe Pitkä (B)
+        length: 5,4 km
+        data: |
+            1. Janne Salomäki KoKe 59.52
+            2. Pertti Välimaa KoKe 1.01.43
+            3. Hannu Pohjola KoKe 1.15.40 +15.48
+            4. Ville Lipsonen KoKe 1.24.04 +24.12
+            5. Jyrki Laaksonheimo HyRa 1.26.25 +24.42
+            - Markus Loisa Ei aikaa
+
+    lyhyt:
+        track: KoKe Lyhyt (C)
+        length: 4,0 km
+        data: |
+            1. Esko Kiuru HyRa 42.09
+            2. Hannu Salomäki HyRa 47.40 +5.31
+            3. Esa Partanen KoKe 48.19 +6.10
+            4. Erkki Kallela KoKe 1.02.18 +20.09
+            5. Pekka Vainonen KoKe 1.07.06 +24.57
+            - Risto Pyhälampi Ei aikaa

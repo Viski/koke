@@ -1,0 +1,31 @@
+event_number: 2
+location: Kuru, Hyvinkää
+date: 19.9.
+organizer: HyRa / Esko Kiuru
+reverse_names: False
+series:
+    pitkä:
+        track: B
+        length: 4,4 km
+        data: |
+            1. Salomäki Janne 54.47
+            2. Haaranen Sami 1.01.01 +06.14
+            3. Lipsonen Ville 1.09.20 +14.33
+            4. Myllärinen Tomi 1.16.07 +21.20
+            5. Kiviaho Erkka 1.22.37 +27.50
+            6. Viero Jukka 1.24.47
+            7. Nieminen Ari 1.31.27 +36.40
+            8. Ahoniemi Sakke 1.33.28 +38.41
+            9. Ojapalo Esa 1.53.34 +58.47
+    lyhyt:
+        track: C
+        length: 3,0 km
+        data: |
+            1. Välimaa Pertti 49.40
+            2. Partanen Paavo 57.52 +08.12
+            3. Kallela Erkki 1.07.25 +17.45
+            4. Vainonen Pekka 1.15.43 +26.03
+            5. Pyhälampi Risto 1.20.00
+            6. Huuhka Pertti 1.38.15 +48.35
+            Itäkodes Jari ei aikaa
+            Salo Jarmo ei aikaa

@@ -1,0 +1,30 @@
+event_number: 10
+location: Riutta, Riihimäki
+date: 7.9.
+organizer: RiSu / Jarmo Kapanen
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,2 km
+        data: |
+            1. Ari Saastamoinen 54.31
+            2. Janne Salomäki 56.50
+            3. Erkka Kiviaho 1.21.31
+
+    lyhyt:
+        track: B
+        length: 4,9 km
+        data: |
+            1. Ville Lipsonen 59.33
+            2. Timo Lamminmäki 1.07.23
+            3. Tapio Puputti 1.13.02
+            4. Hannu Salomäki 1.18.36
+            5. Ari Nieminen 1.21.56
+            6. Esa Ojapalo 1.23.23
+            7. Janne Lindroos 1.41.51
+            8. Risto Pyhälampi 2.12.40
+    other:
+        'C 3.5 km': |
+            6. Erkki Kallela                                 1.04.46    +20.10
+            16. Jukka Haataja                                 1.23.42    +39.06

@@ -1,0 +1,39 @@
+event_number: 2
+location: Partionummi, Nurmijärvi
+date: 15.6.
+organizer: RR / RR-tytöt
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 6,5 km
+        data: |
+            1. Haaranen Sami                 KoKe                               43.50
+            2. Saastamoinen Ari              KoKe                               46.43
+            3. Kaivosaari Antti              KoKe                               49.29
+            4. Salomäki Janne                KoKe                               54.14
+            5. Aaltonen Tero                 KoKe                               59.08
+            6. Kiviaho Erkka                 KoKe                             1.00.54
+            7. Sihvola Esko                  KoKe                             1.24.38
+
+    lyhyt:
+        track: B
+        length: 4,9 km
+        data: |
+            1. Kiuru Esko                    KoKe                               38.42
+            2. Lipsonen Ville                KoKe                               42.47
+            3. Lenz Reinhard                 KoKe                               43.41
+            4. Välimaa Pertti                Jyry                               47.48
+            5. Lamminmäki Timo               KOKE                               49.19
+            6. Puputti Tapio                 KoKe                               50.15
+            7. Lindroos Janne                KoKe                             1.07.39
+            8. Nieminen Ari                  KoKe                             1.10.06
+            9. Lönnberg Oskar                KoKe                             1.13.19
+            10. Ojapalo Esa                   KoKe                             1.14.11
+
+            Huuhka Pertti                 KoKe                            ei aikaa
+            Pyhälampi Risto               KoKe                            ei aikaa
+            Rantala Hannu                 KoKe                            ei aikaa
+    other:
+        'C 3,4km': |
+            5. Salomäki Hannu KoKe 36.41 +03.43

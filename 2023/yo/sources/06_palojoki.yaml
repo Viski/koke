@@ -1,0 +1,32 @@
+event_number: 6
+location: Palojoki
+date: 24.10.
+organizer: RR / Jarmo Hyvönen
+reverse_names: True
+series:
+    pitkä:
+        track: B
+        length: 4,6 km
+        data: |
+            1. Tomi Myllärinen KoKe 1.03.04
+            5. Esko Sihvola KoKe 1.27.45
+
+    lyhyt:
+        track: CV
+        length: 3,1 km
+        data: |
+            1. Reinhard Lenz KoKe 49.46
+            2. Hannu Salomäki KoKe 51.37
+            3. Pertti Välimaa KoKe 52.36
+            4. Timo Lamminmäki KoKe 53.02
+            5. Tapio Puputti KoKe 55.03
+            6. Sakke Ahoniemi KoKe 1.11.21
+            Erkki Kallela KoKe
+            Risto Pyhälampi KoKe
+
+    other:
+        'Päivä A 5,9 km': |
+            7. Hannu Pohjola KoKe 1.12.56 +22.36
+
+        'Päivä B 4,6 km': |
+            5. Ville Lipsonen KoKe 1.02.24 +23.35

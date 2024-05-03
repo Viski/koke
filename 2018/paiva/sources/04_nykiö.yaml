@@ -1,0 +1,43 @@
+event_number: 4
+location: Nykiö, Hyvinkää
+date: 3.5.
+organizer: HyRa / Timo Väre
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 5,5 km
+        data: |
+            1. Salomäki Janne KoKe 46.28
+            2. Kaivosaari Antti KoKe 57.06 +10.38
+            3. Viero Jukka KoKe 58.06 +11.38
+            4. Ustinov Jarkko KoKe 58.47 +12.19
+            5. Haaranen Sami KoKe 59.21 +12.53
+            6. Kiuru Esko 1.03.33 +17.05
+            7. Pohjola Hannu KoKe 1.03.47 +17.19
+            8. Välimaa Pertti KoKe 1.04.40 +18.12
+            9. Aaltonen Tero KoKe 1.05.57 +19.29
+            10. Lipsonen Ville KoKe 1.16.59 +30.31
+            12. Myllärinen Tomi KoKe 1.18.07 +33.20
+            13. Rautajärvi Henri KoKe 1.27.17 +42.30
+            14. Leppänen Ilkka KoKe 1.27.25 +40.57
+            15. Räty Timo 1.27.43 +41.15
+            16. Puolakanaho Mikko KoKe 1.28.25 +41.57
+            Ahoniemi Sakke KoKe ei aikaa
+            Stuppi Claudio KoKe ei aikaa
+
+    lyhyt:
+        track: B
+        length: 4,9 km
+        data: |
+            1. Pensas Johanna KoKe 1.01.56
+            2. Sihvola Esko KoKe 1.07.53 +05.57
+            3. Lamminmäki Timo KoKe 1.13.52 +11.56
+            4. Kallela Erkki KoKe 1.19.37 +17.41
+            5. Partanen Esa KoKe 1.23.58 +22.02
+            6. Vainonen Pekka KoKe 1.38.41 +36.45
+            7. Ojapalo Esa KoKe 1.50.38 +48.42
+            8. Huuhka Pertti KoKe 2.00.57 +59.01
+            9. Pyhälampi Risto KoKe 2.20.11 +1.18.15
+            Fröblom Jari KoKe ei aikaa
+            Lenz Reinhard KoKe ei aikaa

@@ -1,0 +1,23 @@
+event_number: 11
+location: Paraatinkalliot, Nurmijärvi
+date: 28.6.
+organizer: RR / Jaakko Leinonen
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,6 km
+        data: |
+            1. Janne Salomäki 57.12
+            2. Tero Aaltonen 1.14.25
+            3. Erkka Kiviaho 1.38.01
+
+    lyhyt:
+        track: B
+        length: 5,3 km
+        data: |
+            1. Veijo Salmi 56.43
+            2. Ville Lipsonen 58.08
+            3. Tapio Puputti 1.22.49
+            4. Pertti Välimaa 1.52.49
+            Risto Pyhälampi

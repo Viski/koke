@@ -1,0 +1,37 @@
+event_number: 4
+location: Käpylännummi
+date: 10.10.
+organizer: RR / Markus Pentti, Juho Peltokorpi
+reverse_names: True
+series:
+    pitkä:
+        track: B
+        length: 5,4 km
+        data: |
+            1. Janne Salomäki KoKe 38.47
+            2. Erkka Kiviaho KoKe 47.11
+            3. Ville Lipsonen KoKe 54.00
+            4. Tomi Myllärinen KoKe 56.43
+            5. Ari Nieminen KoKe 1.10.27
+
+    lyhyt:
+        track: CV
+        length: 3,5 km
+        data: |
+            1. Sakke Ahoniemi KoKe 28.29
+            2. Pertti Välimaa KoKe 29.04
+            3. Timo Lamminmäki KoKe 35.12
+            4. Veijo Salmi KoKe 36.34
+            5. Hannu Salomäki KoKe 37.43
+
+    other:
+        'C 3,5 km': |
+            3. Reinhard Lenz KoKe 36.58 +07:55
+            7. Risto Pyhälampi KoKe 1.17.59 +48:56
+
+        'Päivä B 5,4 km': |
+            4. Johannes Pyyhtiä KoKe 43.58 +07.27
+
+        'Päivä CV 3,5 km': |
+            8. Paavo Partanen KoKe 33.12 +05.07
+            10. Jukka Haataja KoKe 34.00 +05.55

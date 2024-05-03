@@ -1,0 +1,29 @@
+event_number: 10
+location: Alhonniittu, Nurmijärvi
+date: 21.6.
+organizer: RR / Ari Laapas
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,1 km
+        data: |
+            1. Tero Aaltonen 1.14.58
+            2. Reinhard Lenz 1.23.19
+
+    lyhyt:
+        track: B
+        length: 4,5 km
+        data: |
+            1. Ville Tiljander 51.48
+            2. Veijo Salmi 55.06
+            3. Johannes Pyyhtiä 1.08.33
+            4. Timo Lamminmäki 1.13.20
+            5. Esko Sihvola 1.14.23
+            6. Pertti Välimaa 1.15.16
+            7. Tapio Puputti 1.38.15
+            Risto Pyhälampi ei aikaa
+
+    other:
+        'C vaativa 2.7 km': |
+            16. Jukka Haataja    01:00:50 +21:13

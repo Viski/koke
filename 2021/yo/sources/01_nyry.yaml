@@ -1,0 +1,31 @@
+event_number: 1
+location: Nyry, Nurmijärvi
+date: 16.9.
+organizer: HyRa / Marko Pietari
+reverse_names: True
+series:
+    pitkä:
+        track: B
+        length: 5,025 km
+        data: |
+            1. Janne Salomäki 52.50
+            2. Ville Lipsonen 1.31.59
+            Esko Kiuru Ei aikaa
+    lyhyt:
+        track: C vaativa
+        length: 2,975 km
+        data: |
+            1. Erkki Kallela 55.26
+            2. Ari Nieminen 1.05.26
+            3. Reinhard Lenz Ei aikaa
+
+    other:
+        'A päivä 7,25km': |
+            - Erkka Kiviaho - -
+        'B päivä 5,025km': |
+            2. Tapio Puputti	KoKe 	1.10.18	+8.29
+            3. Timo Lamminmäki		1.14.38	+12.19
+        'C vaativa päivä 2,975km': |
+            - Jukka Haataja - -
+        'C päivä 2,775km': |
+            8. Risto Pyhälampi	KoKe 	1.19.31	+43.58

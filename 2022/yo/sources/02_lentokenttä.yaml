@@ -1,0 +1,28 @@
+event_number: 2
+location: Lentokenttä, Hyvinkää
+date: 22.9.
+organizer: HyRa / Mikko ja Aino Norrbacka
+reverse_names: False
+series:
+    pitkä:
+        track: B
+        length: 4,5 km
+        data: |
+            1. Lipsonen Ville KoKe 36.15
+            2. Hölttä Sami KoKe 36.41
+            3. Myllärinen Tomi KoKe 36.47
+            4. Nieminen Ari KoKe 50.48
+
+    lyhyt:
+        track: C
+        length: 3,2 km
+        data: |
+            1. Salmi Veijo RR 26.18
+            2. Lenz Reinhard KoKe 30.03
+            3. Puputti Tapio KoKe 32.29
+            4. Välimaa Pertti KoKe 32.48
+            Pyhälampi Risto KoKe
+
+    other:
+        'Päivä A 4,5 km': |
+            1. Pyyhtiä Johannes KoKe    35.04 00.00

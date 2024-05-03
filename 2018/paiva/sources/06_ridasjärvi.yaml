@@ -1,0 +1,36 @@
+event_number: 6
+location: Ridasjärvi, Hyvinkää
+date: 17.5.
+organizer: HyRa / Ville Tiljander
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 6,4 km
+        data: |
+            1. Salomäki Janne KoKe 54.00
+            2. Haaranen Sami KoKe 57.06 +03.06
+            3. Koskinen Pekka KoKe 1.17.59 +23.59
+            4. Välimaa Pertti KoKe 1.22.59 +28.59
+            5. Myllärinen Tomi KoKe 1.23.46 +29.46
+            6. Aaltonen Tero KoKe 1.25.57 +31.57
+            7. Lipsonen Ville KoKe 1.27.27 +33.27
+            8. Leppänen Ilkka KoKe 1.32.41 +38.41
+            9. Laaksonheimo Jyrki 2.27.24 +1.33.24
+
+    lyhyt:
+        track: B
+        length: 5,0 km
+        data: |
+            1. Pensas Johanna KoKe 1.02.26
+            2. Salomäki Hannu HyRa 1.11.47 +09.21
+            3. Lenz Reinhard KoKe 1.14.12 +11.46
+            4. Lamminmäki Timo 1.16.06 +13.40
+            5. Väisänen Mika KoKe 1.16.22 +13.56
+            6. Halonen Harry KoKe 1.17.40 +15.14
+            7. Partanen Esa KoKe 1.22.01 +19.35
+            8. Kallela Erkki KoKe 1.23.36 +21.10
+            9. Räikkönen Juha KoKe 1.28.56 +26.30
+            10. Vainonen Pekka KoKe 1.49.51 +47.25
+            11. Pyhälampi Risto KoKe 2.10.13 +1.07.47
+            Lindroos Janne KoKe

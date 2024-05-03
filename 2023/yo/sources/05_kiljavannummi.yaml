@@ -1,0 +1,37 @@
+event_number: 5
+location: Kiljavannummi
+date: 17.10.
+organizer: RR / Tapio Ojala
+reverse_names: True
+series:
+    pitkä:
+        track: B
+        length: 5,4 km
+        data: |
+            1. Ville Lipsonen KoKe 40.32
+            2. Erkka Kiviaho KoKe 43.37
+            3. Asmo Tenhunen KoKe 47.17
+            4. Tomi Myllärinen KoKe 48.50
+            5. Esko Sihvola KoKe 51.52
+            6. Ari Nieminen KoKe 56.17
+
+    lyhyt:
+        track: CV
+        length: 3,8 km
+        data: |
+            1. Pertti Välimaa KoKe 32.16
+            2. Veijo Salmi KoKe 34.18
+            3. Esko Kiuru KoKe 39.05
+            4. Timo Lamminmäki KoKe 39.25
+            5. Hannu Salomäki KoKe 45.30
+            6. Tapio Puputti KoKe 51.41
+            Risto Pyhälampi KoKe
+
+    other:
+        'Päivä B 5,4 km': |
+            2. Johannes Pyyhtiä KoKe 36.47 +08.06
+
+        'Päivä CV 3,8 km': |
+            8. Jari Fröblom KoKe 43.46 +11.38
+            13. Janne Salomäki KoKe 47.01 +14.53
+            17. Jukka Haataja KoKe 50.06 +17.58

@@ -1,0 +1,25 @@
+event_number: 4
+location: Käpylännummi, Nurmijärvi
+date: 12.10.
+organizer: RR / Veijo Salmi
+reverse_names: False
+series:
+    pitkä:
+        track: B
+        length: 4,9 km
+        data: |
+            1. Myllärinen Tomi KoKe 44:58
+            2. Kiviaho Erkka KoKe 47:33
+    lyhyt:
+        track: C vaativa
+        length: 3,6 km
+        data: |
+            1. Lamminmäki Timo KoKe 32:56
+            2. Halonen Harry KoKe 35:30
+            3. Salomäki Hannu KoKe 36:05
+            4. Palomäki Mikko HyRa 38:54
+            5. Kallela Erkki KoKe 40:26
+            6. Nieminen Ari KoKe 43:32
+            7. Puputti Tapio KoKe 45:08
+            8. Sihvola Esko KoKe 46:46
+            9. Pyhälampi Risto KoKe 1:04:34

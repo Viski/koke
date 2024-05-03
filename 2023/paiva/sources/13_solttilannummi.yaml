@@ -1,0 +1,29 @@
+event_number: 13
+location: Solttilannummi, Hyvinkää
+date: 1.8.
+organizer: RR / Panu Enqvist
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,4 km
+        data: |
+            1. Jarkko Ustinov 44.30
+            2. Erkka Kiviaho 1.04.38
+            3. Ari Nieminen 1.42.43
+
+    lyhyt:
+        track: B
+        length: 4,8 km
+        data: |
+            1. Johannes Pyyhtiä 49.41
+            2. Hannu Salomäki 58.19
+            3. Pertti Välimaa 1.02.31
+            4. Tapio Puputti 1.06.14
+            Risto Pyhälampi
+
+    other:
+        'C vaativa 3,4 km': |
+            - Jukka Haataja - -
+        'C 3,3 km': |
+            4. Erkki Kallela 41.06 +08:25

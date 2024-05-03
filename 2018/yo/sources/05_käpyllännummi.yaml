@@ -1,0 +1,32 @@
+event_number: 5
+location: Käpylännummi, Nurmijärvi
+date: 16.10.
+organizer: RR / Esko Alho
+reverse_names: True
+series:
+    pitkä:
+        track: B
+        length: 4,9 km
+        data: |
+            1. Jarkko Ustinov KoKe 29.40
+            2. Janne Salomäki KoKe 30.05 +25
+            3. Johanna Pensas KoKe 36.14 +6.34
+            4. Esko Kiuru HyRa 38.21 +8.41
+            5. Veijo Salmi RR 38.29 +8.49
+            6. Marko Saarinen KoKe 38.31 +8.51
+            7. Esa Ojapalo KoKe 51.36 +21.56
+            8. Pertti Välimaa KoKe 51.52 +22.12
+            9. Erkka Kiviaho 1.19.02 +49.22
+    lyhyt:
+        track: C
+        length: 3,6 km
+        data: |
+            1. Hannu Salomäki KoKe 33.24 +9.29
+            2. Esko Sihvola KoKe 35.12 +11.17
+            3. Jimi Kattainen KoKe 36.39 +12.44
+            4. Timo Lamminmäki KoKe 37.52 +13.57
+            5. Erkki Kallela KoKe 40.24 +16.29
+            6. Risto Pyhälampi KoKe 49.36 +25.41
+            7. Jari Itäkodes KoKe 51.52 +27.57
+            8. Pertti Huuhka KoKe 54.30 +30.35
+            9. Erkki Lepistö KoKe 1.01.11 +37.16

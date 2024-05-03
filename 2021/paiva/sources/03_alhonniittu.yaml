@@ -1,0 +1,22 @@
+event_number: 3
+location: Alhonniittu, Nurmijärvi
+date: 22.6.
+organizer: RR / Ari Laapas
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 5,9 km
+        data: |
+            1. Salomäki Janne             KoKe 	          56.50
+            2. Kaivosaari Antti           KoKe               1.12.37
+            3. Aaltonen Tero              KoKe               1.42.50
+    lyhyt:
+        track: B
+        length: 3,9 km
+        data: |
+            1. Kiuru Esko                  KoKe                 48.54
+            2. Lipsonen Ville              KoKe                 49.53
+            3. Lamminmäki Timo             KoKe               1.01.44
+            4. Puputti Tapio		 KoKe               1.10.47
+            Pyhälampi Risto             KoKe

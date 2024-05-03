@@ -1,0 +1,32 @@
+event_number: 9
+location: Nykiö, Hyvinkää
+date: 16.6.
+organizer: HyRa / Kenneth Reinikka
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,2 km
+        data: |
+            1. Jukka Viero 1.11.55
+            2. Tero Aaltonen 1.16.52
+            3. Reinhard Lenz 1.29.58
+            Anastasia Glebova
+
+    lyhyt:
+        track: B
+        length: 4,7 km
+        data: |
+            1. Johannes Pyyhtiä 56.25
+            2. Ville Lipsonen 1.03.35
+            3. Tapio Puputti 1.07.35
+            4. Pertti Välimaa 1.10.20
+            Risto Pyhälampi
+
+    other:
+        'C1 vaativa 2.9 km': |
+            9. Erkki Kallela                              53.58 +19:33
+        'C2 helppo 2.5 km': |
+            5. Erkki Lepistö    KoKe                      55.07 +27:25
+        'D 1.6 km': |
+            1. Henri Rautajärvi HyRa                    38:23 00:00

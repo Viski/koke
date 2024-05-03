@@ -1,0 +1,31 @@
+event_number: 8
+location: Jauholammi, Hyvinkää
+date: 9.6.
+organizer: HyRa / Esko Kiuru
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,2 km
+        data: |
+            1. Janne Salomäki 1.13.23
+            2. Jukka Viero 1.25.58
+            3. Erkka Kiviaho 1.37.39
+            4. Visa Jokelainen 2.04.07
+            5. Marko Saarinen 2.12.08
+            6. Tero Aaltonen 2.23.35
+            Sakke Ahoniemi
+    lyhyt:
+        track: B2
+        length: 4,7 km
+        data: |
+            1. Veijo Salmi 1.04.45
+            2. Tapio Puputti 1.27.13
+            3. Pertti Välimaa 1.27.49
+            4. Timo Lamminmäki 2.07.57
+            5. Reinhard Lenz 2.47.22
+            Risto Pyhälampi
+            Johannes Pyyhtiä
+    other:
+        'D 2.7 km': |
+            7. Erkki Lepistö    KoKe                      1.11.52    +9.22

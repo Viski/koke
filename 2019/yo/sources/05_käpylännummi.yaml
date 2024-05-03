@@ -1,0 +1,28 @@
+event_number: 5
+location: Käpylännummi, Nurmijärvi
+date: 15.10.
+organizer: RR / Mikanor Pitkänen,<br>Rasmus Laapas,<br>Aleksi Hämäläinen
+reverse_names: False
+series:
+    pitkä:
+        track: B
+        length: 5,0 km
+        data: |
+            1. Salomäki Janne 35.54 +02.13
+            2. Ahoniemi Sakke HyRa 43.25 +09.44
+            3. Lenz Reinhard KoKe 49.00 +15.19
+            4. Nieminen Ari KoKe 53.31 +19.50
+    lyhyt:
+        track: C
+        length: 3,6 km
+        data: |
+            1. Salmi Veijo KoKe 28.37
+            1. Välimaa Pertti KoKe 28.37
+            2. Lamminmäki Timo KoKe 31.55 +03.18
+            3. Kiviaho Erkka KoKe 37.00 +08.23
+            4. Salomäki Hannu HyRa 37.55 +09.18
+            5. Kallela Erkki KoKe 38.22 +09.45
+            6. Palomäki Mikko KoKe 40.34 +11.57
+            7. Itäkodes Jari KoKe 47.12 +18.35
+            8. Pyhälampi Risto KoKe 1.01.49 +33.12
+            9. Huuhka Pertti KoKe 1.02.39 +34.02

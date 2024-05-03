@@ -1,0 +1,36 @@
+event_number: 17
+location: Kirvasto, Riihimäki
+date: 4.9.
+organizer: RiSu / Esa Ojapalo
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 5,9 km
+        data: |
+            1. Sami Haaranen 41.13
+            2. Jarkko Ustinov 48.12 +6.59
+            3. Janne Salomäki 48.50 +7.37
+            4. Antti Kaivosaari 50.29 +9.16
+            5. Tero Aaltonen 52.42 +11.29
+            6. Ville Lipsonen 54.37 +13.24
+            7. Pertti Välimaa 57.25 +16.12
+            8. Marko Saarinen 1.05.32 +24.19
+            9. Jyrki Laaksonheimo 1.10.22 +29.09
+
+    lyhyt:
+        track: B
+        length: 4,3 km
+        data: |
+            1. Johanna Pensas 36.46
+            2. Johannes Pyyhtiä 38.57 +2.11
+            3. Hannu Salomäki 39.17 +2.31
+            4. Esko Sihvola 40.49 +4.03
+            5. Tomi Myllärinen 48.28
+            6. Erkki Kallela 52.59 +16.13
+            7. Jari Fröblom 57.45 +20.59
+            8. Tapio Puputti 1.00.58 +24.12
+            9. Erkki Lepistö 1.04.11 +27.25
+            10. Risto Pyhälampi 1.08.00 +31.14
+            11. Pertti Huuhka 1.08.36 +31.50
+            12. Jukka Haataja 1.12.21 +35.35

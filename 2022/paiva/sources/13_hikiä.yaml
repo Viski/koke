@@ -1,0 +1,32 @@
+event_number: 13
+location: Hikiä, Hyvinkää
+date: 11.8.
+organizer: HyRa / Ossi Autio
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,2 km
+        data: |
+            1. Janne Salomäki 49.12
+            2. Janne Åberg 59.15
+            3. Ville Lipsonen 1.16.27
+            4. Reinhard Lenz 1.23.27
+            5. Pekka Koskinen 1.30.51
+
+    lyhyt:
+        track: B
+        length: 4,4 km
+        data: |
+            1. Ville Tiljander 44.38
+            2. Pertti Välimaa 52.29
+            3. Timo Lamminmäki 57.18
+            4. Hannu Salomäki 58.06
+            5. Tapio Puputti 59.41
+            6. Esko Kiuru 1.00.40
+            7. Johannes Pyyhtiä 1.00.44
+            Risto Pyhälampi
+
+    other:
+        'C 3.5 km': |
+            17. Erkki Lepistö   KoKe     1:08:10    +25:44

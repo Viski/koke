@@ -1,0 +1,44 @@
+﻿event_number: 1
+location: Lentokenttä
+date: 18.4.
+organizer: HyRa / Kenneth Reinikka
+reverse_names: True
+series:
+    pitkä:
+        track: B
+        length: 5,0 km
+        data: |
+            1. Janne Salomäki KoKe 33.37
+            2. Johannes Pyyhtiä KoKe 39.30
+            3. Sakke Ahoniemi KoKe 40.13
+            4. Ville Lipsonen KoKe 40.54
+            5. Janne Åberg KoKe 42.02
+            6. Asmo Tenhunen KoKe 42.14
+            7. Ilkka Leppänen KoKe 42.20
+            8. Pertti Välimaa KoKe 44.13
+            9. Jukka Poussu KoKe 46.13
+            10. Tero Aaltonen KoKe 48.01
+            10. Aleksi Tenkula KoKe 48.01
+            12. Henri Rautajärvi KoKe 48.35
+            13. Jimi Kattainen KoKe 51.01
+            14. Tapio Puputti KoKe 54.51
+            15. Mika Väisänen KoKe 1.08.18
+            16. Jussi Perälä KoKe 1.09.55
+            17. Timi Honkanen KoKe 1.35.00
+
+    lyhyt:
+        track: CV
+        length: 3,0 km
+        data: |
+            1. Veijo Salmi KoKe 26.09
+            2. Hannu Salomäki KoKe 28.30
+            3. Reinhard Lenz KoKe 29.02
+            4. Paavo Partanen KoKe 31.07
+            5. Ari Nieminen KoKe 34.11
+            6. Jukka Haataja KoKe 48.44
+            5. Risto Pyhälampi KoKe 56.22
+
+    other:
+        'C-rata 2,5 km': |
+            22. Petri Puputti KoKe 1.15.58 +54.11
+

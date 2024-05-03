@@ -1,0 +1,149 @@
+event_number: 9
+location: Kytäjä, Hyvinkää
+date: 9.6.
+organizer: HyRa / Heikki Sandström
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 6,0 km
+        data: |
+            1. Kopra Tero                                      57.28
+            2. Mähönen Timo                                    58.53
+            3. Åberg Janne                                   1.00.13
+            4. Mäkinen Seppo                                 1.00.26
+            5. Suhonen Antto-Iiro                            1.00.51
+            6. Iso-Markku Paula                              1.03.04
+            7. Viitanen Lauri                                1.04.58
+            8. Niemi Arto                                    1.08.17
+            9. Jumppanen Oskari                              1.10.31
+            10. Kivijärvi Janne                               1.17.29
+            11. Halme Tapio                                   1.19.04
+            12. Marttila Jussi                                1.19.17
+            13. Korhonen Antti                                1.20.01
+            14. Uhotoinen Anu                                 1.21.42
+            15. Ylikopsa Mikko                                1.24.51
+            16. Valkonen Timo                                 1.25.02
+            17. Tiainen Pekka                                 1.28.22
+            18. Heikura Mika                                  1.28.36
+            19. Joensuu Jouni                                 1.28.37
+            20. Lipsonen Ville                                1.29.34
+            21. Pietari Marko                                 1.30.14
+            22. Törmä Henri                                   1.30.47
+            23. Vainio Reima                                  1.34.35
+            24. Ruokonen Jari                                 1.34.55
+            25. Heikkilä Ari                                  1.36.36
+            26. Hievanen Jouni                                1.39.35
+            27. Jokelainen Visa                               1.43.40
+            28. Hievanen Oliver                               1.48.05
+            29. Viero Jukka                                   1.54.52
+            30. Okker Saija                                   1.56.02
+            31. Lenz Reinhard                                 1.56.40
+            32. Karppinen Noora                               2.00.22
+            33. Uusitalo Timo                                 2.02.11
+            34. Niittoaho Mikko                               2.05.30
+            35. Marttinen Pasi                                2.07.05
+            36. Aaltonen Tero                                 2.15.01
+            37. Lindberg Jussi                                2.19.14
+            38. Jansson Jussi                                 2.26.13
+            39. Huuhka Pertti                                 2.28.32
+            40. Ala-Ventelä Janne                             2.51.31
+            - Blasom Timo
+            - Koskela Ville
+            - Heino Mikko
+            - Stuppi Claudio                                  Ei aikaa
+            - Öhman Ali
+            - Autere Pekka
+            - Hassinen Kari
+            - Alanko Aarno
+            - Lindberg Joonas
+            - Mattila Matti
+            - Vidgren Teemu
+            - Nikkilä Vesa
+            - Säkö Ilkka
+            - Rouvinen Tomi
+            - Orrainen Mikko
+            - Borgenström Jussi
+            - Välimaa Pertti
+
+    lyhyt:
+        track: B
+        length: 4,3 km
+        data: |
+            1. Partanen Tapani                                 46.19
+            2. Kölhi Matti                                     56.34
+            3. Åberg Petri                                     56.47
+            4. Friman Ronja                                  1.00.14
+            5. Moisander Suvi                                1.01.53
+            6. Haavisto Mia                                  1.02.28
+            7. Pensas-Maajärvi Johanna                       1.03.09
+            8. Salo Jarmo                                    1.06.51
+            9. Laurinen Mari                                 1.06.52
+            10. Jumppanen Ville                               1.08.32
+            11. Tervo Vesa                                    1.10.35
+            12. Liljeström Åke                                1.10.37
+            13. Levänen Jari                                  1.11.38
+            14. Kiuru Esko                                    1.12.06
+            15. Borgenström Elina                             1.13.07
+            16. Partanen Esa                                  1.13.27
+            17. Hyvärilä Jussi                                1.16.43
+            18. Lipsonen Jouko                                1.17.41
+            19. Järvinen Jorma                                1.18.50
+            20. Lepistö Lauri                                 1.18.53
+            21. Vainio Janne                                  1.22.11
+            22. Tuomaala Antti                                1.22.28
+            23. Räty Timo                                     1.23.00
+            24. Kopra Anna                                    1.23.19
+            25. Nieminen Ari                                  1.25.04
+            26. Rantanen Joona                                1.25.04
+            27. Tulkki Ilari                                  1.25.07
+            28  Tikkanen Leena                                1.25.51
+            29. Pirinen Vesa                                  1.27.22
+            30. Saarinen Antti                                1.28.05
+            31. Markkanen Jani                                1.28.48
+            32. Asmundela Saara                               1.29.34
+            33. Levänen Jarmo                                 1.29.45
+            34. Lahti Miikka                                  1.30.42
+            35. Anttola Sakari                                1.31.16
+            36. Kerkelä Virpi                                 1.33.02
+            37. Nokkala Sanna                                 1.33.06
+            38. Pietari Esko                                  1.33.10
+            39. Autio Ilkka                                   1.33.14
+            40. Himanen Juha                                  1.34.23
+            41. Vartia Jaana                                  1.34.44
+            42. Pohjola Laura                                 1.34.46
+            43. Norrbacka Aino                                1.35.31
+            44. Partanen Risto                                1.35.45
+            45. Järvinen Jari                                 1.39.05
+            46. Merilä Reetta                                 1.40.42
+            47. Nokkala Jari                                  1.43.44
+            48. Tuomisto Lasse                                1.43.48
+            49. Palonen Petri                                 1.45.56
+            50. Ojanne Asko                                   1.48.02
+            51. Väisänen Mika                                 1.48.53
+            52. Myllyniemi Esa                                1.53.11
+            53. Tapola Jussi                                  1.56.20
+            54. Vehmas Keijo                                  2.00.58
+            55. Hämäläinen Anneli                             2.06.38
+            56. Paukkola Jari                                 2.08.05
+            57. Pyhälampi Risto                               2.26.17
+            58. Särkilahti Soini                              2.36.47
+            59. Mattila Piritta                               2.42.08
+            60. Tervakoski Jouni                              3.14.06
+            - Tarkkanen Tuomas
+            - Suhonen Anniina
+            - Votkin Markku
+            - Korpela Roope
+            - Rusanen Markku
+            - Räikkönen Juha
+            - Ilomäki Janne
+            - Halonen Harry
+            - Orrainen Oskari
+            - Toivonen Juha
+            - Iso-Markku Jouko
+            - Valo Johannes
+            - Lönnberg Oskar
+            - Nikkilä Tero
+            - Markus Esa
+            - Palonen Krista
+            - Veteläinen Miika

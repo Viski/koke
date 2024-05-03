@@ -1,0 +1,39 @@
+event_number: 8
+location: Hikiä, Riihimäki
+date: 29.5.
+organizer: RiSu / Esa Ojapalo
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 5,9 km
+        data: |
+            1. Janne Salomäki 44.27
+            2. Jarkko Ustinov 48.24 +3.57
+            3. Antti Kaivosaari 48.42 +4.15
+            4. Sami Haaranen 49.33 +5.06
+            5. Ville Lipsonen 58.48 +14.21
+            6. Tero Aaltonen 1.01.13 +16.46
+            7. Tomi Myllärinen 1.05.03 +20.36
+            8. Jukka Viero 1.06.43 +22.16
+            9. Timo Räty 1.14.57 +30.30
+            10. Jyrki Laaksonheimo 1.35.16 +50.49
+
+    lyhyt:
+        track: B
+        length: 4,0 km
+        data: |
+            1. Reinhard Lenz 39.54
+            2. Esko Sihvola 43.49 +3.55
+            3. Esko Kiuru 48.24 +8.30
+            4. Timo Lamminmäki 50.09 +10.15
+            5. Johannes Pyyhtiä 50.49 +10.55
+            6. Mikko Palomäki 51.15 +11.21
+            7. Erkki Kallela 56.04 +16.10
+            8. Pekka Vainonen 1.05.14 +25.20
+            9. Oskar Lönnberg 1.05.28 +25.34
+            10. Heikki Saloranta 1.05.47 +25.53
+            11. Matti Lahikainen 1.08.47 +28.53
+            12. Risto Pyhälampi 1.24.44 +44.50
+            13. Pertti Huuhka 1.29.00 +49.06
+            Erkki Lepistö

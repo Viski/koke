@@ -1,0 +1,29 @@
+event_number: 11
+location: Paraatinkalliot, Nurmijärvi
+date: 27.6.
+organizer: RR / Jaakko Leinonen
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,1 km
+        data: |
+            1. Jukka Viero 1.01.11
+            2. Hannu Pohjola 1.13.03
+            3. Ville Lipsonen 1.20.30
+
+    lyhyt:
+        track: B
+        length: 4,9 km
+        data: |
+            1. Esko Sihvola 1.05.58
+            2. Tapio Puputti 1.09.23
+            3. Hannu Salomäki 1.11.15
+            4. Harry Halonen 1.11.42
+            Pertti Välimaa
+            Reinhard Lenz
+            Risto Pyhälampi
+
+    other:
+        'C vaativa 3,6 km': |
+            2. Veijo Salmi 35.34    +05:34

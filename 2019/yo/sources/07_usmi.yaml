@@ -1,0 +1,32 @@
+event_number: 7
+location: Usmi, Hyvinkää
+date: 29.10.
+organizer: KoKe / Hannu Salomäki
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 4,7 km
+        data: |
+            1. Salomäki Janne                     47.17
+            2. Ahoniemi Sakke                   1.05.13    +17.56
+            3. Sihvola Esko                     1.06.54    +19.37
+            4. Välimaa Pertti                   1.15.04    +27.47
+            5. Kiviaho Erkka                    1.15.31    +28.14
+            6. Nieminen Ari                     1.25.52    +38.35
+            7. Lamminmäki Timo                  1.28.46    +41.29
+              Forsman Kristian
+              Viero Jukka
+    lyhyt:
+        track: B
+        length: 3,2 km
+        data: |
+            1. Salo Jarmo                         44.57
+            2. Puputti Tapio                      49.54
+            3. Partanen Paavo                     51.36    +01.42
+            4. Kallela Erkki                      54.47    +04.53
+            5. Lenz Reinhard                        56.05    +06.11
+            6. Pyhälampi Risto                  1.24.36    +34.42
+            7. Huuhka Pertti                    1.25.21    +35.27
+            8. Palomäki Mikko                   1.38.07    +48.13
+              Itäkodes Jari

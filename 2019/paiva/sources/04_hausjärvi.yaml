@@ -1,0 +1,32 @@
+event_number: 4
+location: Hausjärvi kk
+date: 30.4.
+organizer: RiSu / Matti Toivonen
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,2 km
+        data: |
+            1. Jarkko Ustinov		  47.24
+            2. Ville Lipsonen		  55.41
+            3. Tero Aaltonen		  59.38
+            4. Veijo Salmi	         	1.01.01
+            5. Pertti Välimaa	          	1.01.35
+            6. Timo Räty	          	1.13.30
+            7. Mika Kollanus	          	1.15.42
+            8. Tomi Myllärinen	          	1.17.28
+            9. Jimi Kattainen            		1.22.34
+    lyhyt:
+        track: B
+        length: 4,9 km
+        data: |
+            1. Esko Sihvola		 50.08
+            2. Esa Partanen	                       50.27
+            3. Tapio Puputti		 53.15
+            4. Jyrki Laaksonheimo		 53.32
+            5. Esa Ojapalo		 59.25
+            6. Erkki Lepistö	                    1.08.04
+            7. Jukka Haataja	                    1.10.47
+            8. Risto Pyhälampi	                    1.20.32
+            9. Pertti Huuhka	                    1.40.44

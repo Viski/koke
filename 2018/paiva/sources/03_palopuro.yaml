@@ -1,0 +1,37 @@
+event_number: 3
+location: Palopuro, Hyvinkää
+date: 26.4.
+organizer: HyRa / Kenneth Reinikka
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 6,2 km
+        data: |
+            1. Salmi Veijo KoKe 1.04.35
+            2. Aaltonen Tero KoKe 1.06.58 +02.23
+            3. Välimaa Pertti KoKe 1.10.48 +06.13
+            4. Lipsonen Ville KoKe 1.17.02 +12.27
+            5. Viero Jukka KoKe 1.17.34 +12.59
+            6. Leppänen Ilkka KoKe 1.22.49 +18.14
+            7. Puolakanaho Mikko KoKe 1.25.27 +20.52
+            8. Koskinen Pekka KoKe 1.42.10 +37.35
+
+    lyhyt:
+        track: B
+        length: 4,5 km
+        data: |
+            1. Salomäki Hannu KoKe 52.54
+            2. Sihvola Esko KoKe 54.02 +01.08
+            3. Poussu Jukka 1.00.07
+            4. Lamminmäki Timo KoKe 1.00.52 +07.58
+            5. Partanen Paavo KoKe 1.01.00 +08.06
+            6. Fröblom Jari KoKe 1.03.03 +10.09
+            7. Toura Antti KoKe 1.10.40 +17.46
+            8. Nieminen Ari KoKe 1.11.49 +18.55
+            9. Väisänen Mika KoKe 1.13.28 +20.34
+            10. Vainonen Pekka KoKe 1.17.01 +24.07
+            11. Huuhka Pertti KoKe 1.28.56 +36.02
+            12. Stuppi Claudio HyRa 1.29.15 +36.21
+            Pyhälampi Risto
+            Lenz Reinhard

@@ -1,0 +1,24 @@
+event_number: 10
+location: Rokokallio, Nurmijärvi
+date: 13.6.
+organizer: RR / Timo Valkonen
+reverse_names: True
+series:
+    pitkä:
+        track: KoKe Pitkä
+        length: 6,5 km
+        data: |
+            1. Antti Kaivosaari KoKe 1.01.03 +8.07
+            2. Hannu Pohjola KoKe 1.11.01 +18.05
+            3. Jukka Viero KoKe 1.15.11 +22.15
+            4. Tero Aaltonen KoKe 1.17.25 +24.29
+            5. Pertti Välimaa KoKe 1.21.31 +28.35
+            6. Sakke Ahoniemi KoKe 1.25.13 +32.17
+            7. Juha Tervola 1.37.59 +45.03
+
+    lyhyt:
+        track: KoKe Lyhyt
+        length: 4,8 km
+        data: |
+            1. Veijo Salmi RR 56.50 +28.53
+            2. Pertti Huuhka KoKe 1.39.11 +1.11.14

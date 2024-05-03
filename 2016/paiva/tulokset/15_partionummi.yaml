@@ -1,0 +1,27 @@
+event_number: 15
+location: Partionummi, Nurmijärvi
+date: 30.8.
+organizer: RR / Jaakko Pitkänen
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,6 km
+        data: |
+             1. Ville Lipsonen 1.01.31 +16.30
+             2. Sakke Ahoniemi 1.23.30 +38.29
+             3. Pertti Huuhka 2.22.53 +1.37.52
+
+    lyhyt:
+        track: B
+        length: 4,5 km
+        data: |
+             1. Esko Kiuru 42.30 +7.38
+             2. Paavo Partanen 44.10 +9.18
+             3. Timo Lamminmäki 45.11 +10.19
+             4. Esa Partanen 47.52 +13.00
+             5. Ari Nieminen 50.16 +15.24
+             6. Harry Halonen 50.43 +15.51
+             7. Jari Fröblom 54.15 +19.23
+             8. Jari Itäkodes 1.02.32 +27.40
+             - Risto Pyhälampi Ei aikaa

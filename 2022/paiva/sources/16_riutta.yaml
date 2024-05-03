@@ -1,0 +1,28 @@
+event_number: 16
+location: Riutta, Riihimäki
+date: 6.9.
+organizer: RiSu / Jarmo Kapanen
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,4 km
+        data: |
+            1. Reinhard Lenz 1.42.58
+
+    lyhyt:
+        track: B
+        length: 5,0 km
+        data: |
+            1. Jarkko Ustinov 47.26
+            2. Johannes Pyyhtiä 53.38
+            3. Pertti Välimaa 1.02.19
+            4. Timo Lamminmäki 1.07.59
+            5. Tapio Puputti 1.10.49
+            6 Esa Ojapalo 1.21.49
+            Hannu Salomäki
+            Risto Pyhälampi
+
+    other:
+        'C 3,7 km': |
+            17. Erkki Lepistö                    1.08.22    +32.26

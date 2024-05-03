@@ -1,0 +1,39 @@
+event_number: 6
+location: Nyry, Hausjärvi
+date: 17.5.
+organizer: HyRa / Janne Åberg
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 5,7 km
+        data: |
+            1. Salomäki Janne                     47.31
+            2. Haaranen Sami                      49.09    +01.38
+            3. Salmi Veijo                      1.04.23    +16.52
+            4. Kaivosaari Antti                 1.06.36    +19.05
+            5. Puolakanaho Mikko                1.09.42    +22.11
+            6. Välimaa Pertti                   1.10.50    +23.19
+            7. Lamminmäki Timo                  1.18.21    +30.50
+            8. Väisänen Mika                    1.19.07    +31.36
+            9. Aaltonen Tero                    1.19.11    +31.40
+            10. Myllärinen Tomi                  1.25.10    +37.39
+            11. Viero Jukka                      1.36.03    +48.32
+            12. Toivonen Juha                    1.40.44    +53.13
+            13. Jokelainen Visa                  1.45.28    +57.57
+            14. Kollanus Mika                    1.48.19  +1.00.48
+
+    lyhyt:
+        track: B
+        length: 4,0 km
+        data: |
+            1. Sihvola Esko                       47.59
+            2. Puputti Tapio                      49.53    +01.54
+            3. Halonen Harry                      53.40    +05.41
+            4. Kallela Erkki                      58.25    +10.26
+            5. Itäkodes Jari                    1.15.14    +27.15
+            6. Lindroos Janne                   1.26.58    +38.59
+            7. Lönnberg Oskar                   1.27.03    +39.04
+            8. Pyhälampi Risto                  1.37.58    +49.59
+            9. Huuhka Pertti                    1.39.56    +51.57
+

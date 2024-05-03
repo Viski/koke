@@ -1,0 +1,38 @@
+event_number: 7
+location: Hausjärvi, Riihimäki
+date: 22.5.
+organizer: RiSu / Matti Toivonen
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,1 km
+        data: |
+            1. Antti Kaivosaari 59.28 +17.23
+            2. Ville Lipsonen 1.01.23 +19.18
+            3. Tero Aaltonen 1.03.05 +21.00
+            4. Jukka Viero 1.05.18 +23.13
+            5. Visa Jokelainen 1.24.16 +42.11
+            6. Pertti Välimaa 1.25.12 +43.07
+            7. Jyrki Laaksonheimo 1.43.04 +1.00.59
+
+    lyhyt:
+        track: B
+        length: 4,3 km
+        data: |
+            1. Reinhard Lenz 40.37
+            2. Esko Sihvola 47.26 +6.49
+            3. Jarmo Salo 48.04 +7.27
+            4. Kristian Forsman 51.23 +10.46
+            5. Erkki Kallela 51.48 +11.11
+            6. Mika Väisänen 54.01 +13.24
+            7. Tim Wikström 57.26 +16.49
+            8. Esa Partanen 58.40 +18.03
+            9. Esa Ojapalo 58.44 +18.07
+            10. Pekka Vainonen 1.00.00 +19.23
+            11. Timo Lamminmäki 1.01.18 +20.41
+            12. Jari Fröblom 1.01.30 +20.53
+            13. Erkki Lepistö 1.01.58 +21.21
+            14. Oskar Lönnberg 1.06.45 +26.08
+            15. Pertti Huuhka 1.23.13 +42.36
+            16. Risto Pyhälampi 1.31.28 +50.51

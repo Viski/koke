@@ -1,0 +1,27 @@
+event_number: 14
+location: Solttilannummi, Nurmijärvi
+date: 31.7.
+organizer: RR / Lauri Laajaniemi
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,5 km
+        data: |
+            1. Antti Kaivosaari KoKe 52.23 +16.38
+            2. Tero Aaltonen KoKe 53.35 +17.50
+            3. Ville Lipsonen KoKe 1.01.18 +25.33
+
+    lyhyt:
+        track: B
+        length: 4,5 km
+        data: |
+            1. Esko Kiuru KoKe 39.35 +5.23
+            2. Reinhard Lenz KoKe 41.22 +7.10
+            3. Erkki Kallela KoKe 44.58 +10.46
+            4. Pekka Vainonen 52.36 +18.24
+            5. Jyrki Laaksonheimo KoKe 1.06.52 +32.40
+            6. Pertti Huuhka KoKe 1.12.02 +37.50
+            7. Juhani Sirjola KoKe 1.12.19 +38.07
+            8. Tapio Puputti KoKe 1.13.01 +38.49
+            9. Risto Pyhälampi KoKe 1.21.38 +47.26

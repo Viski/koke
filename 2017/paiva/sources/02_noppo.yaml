@@ -1,0 +1,35 @@
+event_number: 2
+location: Noppo, Hyvinkää
+date: 20.4.
+organizer: HyRa / Kenneth Reinikka
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 7,2 km
+        data: |
+            1. Kaivosaari Antti 50.13
+            2. Salomäki Janne 51.46 +1.33
+            3. Haaranen Sami 1.04.02 +13.49
+            4. Ahoniemi Sakke 1.13.21 +23.08
+            5. Lipsonen Ville 1.18.02 +27.49
+            6. Toivonen Juha 1.22.46 +32.33
+            7. Aaltonen Tero 1.25.39 +35.26
+            8. Laaksonheimo Jyrki 1.52.55 +1.02.42
+
+    lyhyt:
+        track: B
+        length: 5,1 km
+        data: |
+            1. Pensas Johanna 46.23
+            2. Kiuru Esko 50.54 +4.31
+            3. Fröblom Jari 53.16 +6.53
+            4. Partanen Paavo 57.33 +11.41
+            5. Palomäki Mikko 1.02.17 +15.54
+            6. Kallela Erkki 1.04.28 +18.05
+            7. Nieminen Ari 1.08.13 +21.50
+            8. Lenz Reinhard 1.09.30 +23.07
+            9. Lepistö Erkki 1.16.42 +30.19
+            10. Huuhka Pertti 1.32.27 +46.04
+            11. Vainonen Pekka 1.34.02 +47.39
+            12. Merilä Reetta 1.39.07 +52.44

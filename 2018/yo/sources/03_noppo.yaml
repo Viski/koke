@@ -1,0 +1,35 @@
+event_number: 3
+location: Noppo, Hyvinkää
+date: 27.9.
+organizer: HyRa / Lauri Aaltonen
+reverse_names: False
+series:
+    pitkä:
+        track: B
+        length: 4,6 km
+        data: |
+            1. Haaranen Sami KoKe 39.27
+            2. Salomäki Janne HyRa 40.40 +01.13
+            3. Kiuru Esko HyRa 49.19 +09.52
+            4. Forsman Kristian 49.45 +10.18
+            5. Välimaa Pertti KoKe 52.03 +12.36
+            6. Myllärinen Tomi KoKe 53.48 +14.21
+            7. Koskinen Pekka KoKe 54.39 +15.12
+            8. Lipsonen Ville KoKe 57.13 +17.46
+            9. Viero Jukka KoKe 1.25.09
+            10. Nieminen Ari KoKe 1.30.37
+
+    lyhyt:
+        track: C vaikea
+        length: 3,3 km
+        data: |
+            1. Sihvola Esko KoKe 39.56
+            2. Vainonen Pekka KoKe 43.26 +03.30
+            3. Salomäki Hannu KoKe 47.01 +07.05
+            4. Kiviaho Erkka 47.46 +07.50
+            5. Kallela Erkki KoKe 49.47 +09.51
+            6. Fröblom Jari KoKe 52.52 +12.56
+            7. Itäkodes Jari KoKe 53.44 +13.48
+            8. Pyhälampi Risto KoKe 1.05.59 +26.03
+            9. Lenz Reinhard KoKe 1.08.15 +28.19
+            10. Huuhka Pertti KoKe 1.29.49 +49.53

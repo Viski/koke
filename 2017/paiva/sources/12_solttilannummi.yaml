@@ -1,0 +1,28 @@
+event_number: 12
+location: Solttilannummi, Nurmijärvi
+date: 1.8.
+organizer: RR / Veijo Salmi
+reverse_names: True
+series:
+    pitkä:
+        track: KoKe Pitkä
+        length: 6,4 km
+        data: |
+            1. Antti Kaivosaari KoKe 52.34 +6.02
+            2. Jukka Viero KoKe 1.04.38 +18.06
+            3. Tomi Myllärinen KoKe 1.16.59 +30.27
+            4. Visa Jokelainen KoKe 1.28.55 +42.23
+            5. Jyrki Laaksonheimo KoKe 2.13.50 +1.27.18
+
+    lyhyt:
+        track: KoKe Lyhyt
+        length: 4,9 km
+        data: |
+            1. Mikko Puolakanaho KoKe 45.38 +10
+            2. Esko Kiuru KoKe 53.21 +7.53
+            3. Jari Itäkodes KoKe 1.13.16 +27.48
+            4. Juhani Sirjola KoKe 1.15.38 +30.10
+            5. Hannu Rantala KoKe 1.21.03 +35.35
+            6. Erkki Lepistö KoKe 1.22.25 +36.57
+            7. Pekka Vainonen KoKe 1.26.28 +41.00
+            - Risto Pyhälampi KoKe ei aikaa

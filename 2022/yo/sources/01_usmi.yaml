@@ -1,0 +1,32 @@
+event_number: 1
+location: Usmi, Hyvinkää
+date: 15.9.
+organizer: HyRa / Ari Kattainen
+reverse_names: False
+series:
+    pitkä:
+        track: B
+        length: 3,6 km
+        data: |
+            1. Ustinov Jarkko KoKe 59.49
+            2. Myllärinen Tomi KoKe 1.02.41
+            3. Saarinen Marko 1.31.18
+            4. Nieminen Ari KoKe 2.12.41
+            Sihvola Esko    KoKe
+
+    lyhyt:
+        track: C
+        length: 2,2 km
+        data: |
+            Salomäki Hannu
+            Pyhälampi Risto
+
+    other:
+        'Päivä A 4,5 km': |
+            4. Pohjola Hannu   KoKe    1.01.07 +12.08
+        'Päivä B 3,6 km': |
+            7. Pyyhtiä Johannes KoKe 	1:02:58	+6:45
+            27. Puputti Tapio  KoKe    1.58.13 +56:00
+        'Päivä C 2,2 km': |
+            4. Halonen Harry   KoKe    0.41.16 +9:33
+            18. Kallela Erkki   KoKe    1.07.43 +36:00

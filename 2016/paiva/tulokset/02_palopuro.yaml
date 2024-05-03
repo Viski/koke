@@ -1,0 +1,42 @@
+event_number: 2
+location: Palopuro, Hyvinkää
+date: 21.4.
+organizer: HyRa / Tuomo Kauppinen
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 6,5 km
+        data: |
+            1. Viitanen Lauri 50.47
+            2. Åberg Janne 54.58 +4.11
+            3. Salomäki Janne 1.06.27 +15.40
+            4. Hölttä Sami 1.08.59 +18.12
+            5. Aunula Tero 1.15.56 +25.09
+            6. Koskinen Pekka 1.17.57 +27.10
+            7. Pohjola Hannu 1.20.35 +29.48
+            8. Viero Jukka 1.22.19 +31.32
+            9. Välimaa Pertti 1.29.27 +38.40
+            10. Aaltonen Tero 1.35.03 +44.16
+            11. Loisa Markus 1.42.18 +51.31
+            12. Puolakanaho Mikko 1.45.53 +55.06
+            13. Huuhka Pertti 2.45.28 +1.54.41
+            - Lipsonen Ville Ei aikaa
+
+    lyhyt:
+        track: B
+        length: 4,4 km
+        data: |
+            1. Salomäki Hannu 51.44
+            2. Lehto Matti 55.05 +3.21
+            3. Räikkönen Juha 55.37 +3.53
+            4. Rautajärvi Henri 57.25 +5.41
+            5. Partanen Paavo 58.42
+            6. Partanen Esa 58.43 +6.59
+            7. Väisänen Mika 1.01.43 +9.59
+            8. Urho Ilmari 1.07.41 +15.57
+            9. Nieminen Ari 1.15.13 +23.29
+            10. Lenz Reinhard 1.15.38 +23.54
+            11. Merilä Reetta 1.25.34 +33.50
+            12. Pyhälampi Risto 1.26.18 +34.34
+            - Haataja Jukka Ei aikaa

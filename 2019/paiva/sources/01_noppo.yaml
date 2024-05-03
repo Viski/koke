@@ -1,0 +1,38 @@
+event_number: 1
+location: Noppo, Hyvinkää
+date: 11.4.
+organizer: HyRa / Tapio Tukiainen
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 4,9 km
+        data: |
+            1. Haaranen Sami KoKe 39.15
+            2. Salomäki Janne HyRa 41.29
+            3. Ustinov Jarkko KoKe 56.42
+            4. Välimaa Pertti KoKe 57.10
+            5. Ahoniemi Sakke HyRa 1.00.00
+            6. Kiuru Esko HyRa 1.00.32
+            7. Viero Jukka KoKe 1.01.01
+            8 Koponen Sami KoKe 1.01.34
+            9. Kattainen Jimi KoKe 1.01.42
+            10. Koskinen Pekka KoKe 1.02.35
+            11. Väisänen Mika KoKe 1.05.00
+            12. Aaltonen Tero KoKe 1.07.40
+            13. Puputti Tapio KoKe 1.11.10
+            14. Pohjola Hannu KoKe 1.15.36
+            15. Lamminmäki Timo KoKe 1.15.38
+            16. Kollanus Mika KoKe 1.29.13
+
+    lyhyt:
+        track: B
+        length: 3,4 km
+        data: |
+            1. Kiviaho Erkka 43.47
+            2. Kallela Erkki KoKe 46.18
+            3. Stuppi Claudio HyRa 53.40
+            4. Itäkodes Jari KoKe 1.04.49
+            5. Pyhälampi Risto KoKe 1.11.54
+            6. Laaksonheimo Jyrki 1.18.28
+            7. Lindroos Janne 1.20.33

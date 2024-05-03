@@ -1,0 +1,25 @@
+event_number: 1
+location: Partionummi, Nurmijärvi
+date: 16.6.
+organizer: RR / Vesa Tervo
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 6,7 km
+        data: |
+            1. Haaranen Sami KoKe 48.37
+            2. Aaltonen Tero KoKe 1.00.18 +11.41
+            3. Kollanus Mika KoKe 1.31.49 +43.12
+            4. Loisa Markus KoKe 1.37.54 +49.17
+            5. Laaksonheimo Jyrki KoKe 2.06.03 +1.17.26
+
+    lyhyt:
+        track: B
+        length: 4,8 km
+        data: |
+            1. Puputti Tapio KoKe 52.04 +11.43
+            2. Partanen Esa KoKe 53.45 +13.24
+            3. Lamminmäki Timo KoKe 54.40 +14.19
+            4. Pyhälampi Risto KoKe 1.37.40 +57.19
+            5. Huuhka Pertti KoKe 1.37.44 +57.23

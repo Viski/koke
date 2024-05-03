@@ -1,0 +1,29 @@
+event_number: 6
+location: Kiljava, Nurmijärvi
+date: 23.10.
+organizer: RR / Harry Virtanen
+reverse_names: True
+series:
+    pitkä:
+        track: B
+        length: 4,7 km
+        data: |
+            1. Jarkko Ustinov KoKe 33.19
+            2. Janne Salomäki KoKe 34.27 +1.08
+            3. Veijo Salmi RR 42.06 +8.47
+            4. Tomi Myllärinen KoKe 49.33 +16.14
+            5. Johanna Pensas KoKe 51.53 +18.34
+            6. Ari Nieminen KoKe 58.44 +25.25
+            7. Pertti Välimaa KoKe 1.00.12 +26.53
+    lyhyt:
+        track: C
+        length: 2,9 km
+        data: |
+            3. Timo Lamminmäki KoKe 35.50 +10.28
+            4. Reinhard Lenz KoKe 40.38 +15.16
+            5. Jari Itäkodes KoKe 41.23 +16.01
+            6. Pertti Huuhka KoKe 58.17 +32.55
+            7. Risto Pyhälampi KoKe 59.52 +34.30
+            8. Erkki Lepistö KoKe 1.01.17 +35.55
+            1. Jimi Kattainen KoKe
+            2. Jari Fröblom KoKe

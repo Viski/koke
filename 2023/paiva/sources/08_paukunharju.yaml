@@ -1,0 +1,30 @@
+event_number: 8
+location: Paukunharju, Hyvinkää
+date: 8.6.
+organizer: HyRa / Erja Raikko
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,0 km
+        data: |
+            1. Pekka Koskinen 1.00.15
+            2. Tero Aaltonen 1.01.16
+            3. Marko Saarinen 1.07.54
+            4. Sakke Ahoniemi 1.13.06
+            5. Tomi Myllärinen 1.16.03
+            6. Pertti Välimaa 1.22.42
+
+    lyhyt:
+        track: B
+        length: 4,7 km
+        data: |
+            1. Esko Kiuru 48.37
+            2. Tapio Puputti 55.49
+            3. Esko Sihvola 1.04.42
+            4. Hannu Salomäki 1.13.15
+            Risto Pyhälampi
+
+    other:
+        'C vaativa 3,6 km': |
+            14. Jukka Haataja 1.09.58   +26:44

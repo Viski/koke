@@ -1,0 +1,36 @@
+event_number: 5
+location: Kaukas, Hyvinkää
+date: 9.5.
+organizer: HyRa / Esko Kiuru
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 5,8 km
+        data: |
+            1. Ustinov Jarkko KoKe 56.28
+            2. Kaivosaari Antti KoKe 59.35 +03.07
+            3. Lipsonen Ville KoKe 1.00.31 +04.03
+            4. Salmi Veijo KoKe 1.02.05 +05.37
+            5. Aaltonen Tero KoKe 1.02.29 +06.01
+            6. Koskinen Pekka KoKe 1.16.10 +19.42
+            7. Välimaa Pertti KoKe 1.21.06 +24.38
+            8. Ahoniemi Sakke HyRa 1.32.18 +35.50
+            9. Laaksonheimo Jyrki 1.47.33 +51.05
+            Haaranen Sami KoKe
+
+    lyhyt:
+        track: B
+        length: 4,4 km
+        data: |
+            1. Halonen Harry KoKe 55.55
+            2. Partanen Esa KoKe 58.54 +02.59
+            3. Kallela Erkki KoKe 1.02.44 +06.49
+            4. Lamminmäki Timo KoKe 1.07.06 +11.11
+            5. Väisänen Mika KoKe 1.11.15 +15.20
+            6. Lenz Reinhard KoKe 1.15.54 +19.59
+            7. Ojapalo Esa KoKe 1.16.59 +21.04
+            8. Vainonen Pekka KoKe 1.20.42 +24.47
+            9. Huuhka Pertti KoKe 1.56.56 +1.01.01
+            Fröblom Jari KoKe
+            Pyhälampi Risto KoKe

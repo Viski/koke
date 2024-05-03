@@ -1,0 +1,35 @@
+event_number: 15
+location: Sveitsi, Hyvinkää
+date: 24.8.
+organizer: HyRa / Jussi Hyvärilä
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,1 km
+        data: |
+            1. Jarkko Ustinov 50.12
+            2. Jukka Viero 54.00
+            3. Pekka Koskinen 59.18
+            4. Hannu Pohjola 1.00.27
+            5. Aleksi Tenkula 1.04.24
+            6. Jukka Poussu 1.04.46
+            7. Tomi Myllärinen 1.07.44
+            8. Jimi Kattainen 1.09.21
+            Ari Nieminen
+
+    lyhyt:
+        track: B
+        length: 5,4 km
+        data: |
+            1. Pertti Välimaa 40.35
+            2. Johannes Pyyhtiä 45.03
+            3. Hannu Salomäki 46.30
+            4. Tapio Puputti 53.07
+            Risto Pyhälampi
+
+    other:
+        'C 3,6 km': |
+            3. Timo Lamminmäki 32.24 +8:24
+            5. Erkki Kallela 34.06 +10:06
+            10. Annika Pankko 35.30 +11:30

@@ -1,0 +1,27 @@
+event_number: 4
+location: Usmi
+date: 27.10.
+organizer: KoKe / Hannu Salomäki
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 4,5 km
+        data: |
+            Salomäki Janne KoKe 46.51
+            Lenz Reinhard KoKe 1.34.41
+            Nieminen Ari KoKe 1.47.51
+            Kiviaho Erkka
+            Lipsonen Ville
+
+    lyhyt:
+        track: B
+        length: 3,2 km
+        data: |
+            1. Välimaa Pertti KoKe 42.28
+            2. Kiuru Esko 43.45
+            3. Palomäki Mikko KoKe 1.10.35
+            4. Lamminmäki Timo KoKe 1.24.19
+            5. Puputti Tapio KoKe 1.41.00
+            6. Pyhälampi Risto 1.52.47
+            7. Huuhka Pertti KoKe 1.53.06

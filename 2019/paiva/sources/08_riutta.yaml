@@ -1,0 +1,35 @@
+event_number: 8
+location: Riutta, Riihimäki
+date: 28.5.
+organizer: RiSu / Jarmo Kapanen
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,1 km
+        data: |
+            1. Janne Salomäki 55.36
+            2. Ilkka Leppänen 1.10.07
+            3. Tero Aaltonen 1.10.25
+            4. Pertti Välimaa 1.15.08
+            5. Juha Toivonen 1.19.07
+            6. Erkka Kiviaho 1.25.12
+            7. Timo Lamminmäki 1.25.18
+            8. Ville Lipsonen 1.29.00
+            9. Mika Kollanus 1.32.09
+            10. Kristian Forsman  1.56.42
+            11. Janne Lindroos  3.16.15
+    lyhyt:
+        track: B
+        length: 4,8 km
+        data: |
+            1. Esko Kiuru 58.37
+            2. Esko Sihvola 59.42
+            3. Esa Partanen 1.03.07
+            4. Esa Ojapalo 1.15.41
+            5. Tapio Puputti 1.18.34
+            6. Allison Ward 1.50.52
+            7. Risto Pyhälampi 1.52.27
+            8. Juhani Sirjola 1.55.57
+            9. Erkki Lepistö 2.05.08
+            10. Pertti Huuhka 2.12.47

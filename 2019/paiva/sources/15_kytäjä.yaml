@@ -1,0 +1,31 @@
+event_number: 15
+location: Kytäjä, Hyvinkää
+date: 8.8.
+organizer: HyRa / Tapani ja Lauri Partanen
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 6,2 km
+        data: |
+            1. Ustinov Jarkko 1.08.39
+            2. Lipsonen Ville 1.17.25 +08.46
+            3. Haaranen Sami 1.20.57 +12.18
+            4. Aaltonen Tero 1.27.17 +18.38
+            5. Välimaa Pertti 2.04.33 +55.54
+            Kollanus Mika ei aikaa
+    lyhyt:
+        track: B
+        length: 4,3 km
+        data: |
+            1. Kiuru Esko 52.58
+            2. Sihvola Esko 1.09.17 +16.19
+            3. Salomäki Hannu 1.09.37 +16.39
+            4. Partanen Esa 1.09.46 +16.48
+            5. Puputti Tapio 1.20.09 +27.11
+            6. Kallela Erkki 1.34.03 +41.05
+            7. Pyhälampi Risto 1.59.21 +1.06.23
+            8. Huuhka Pertti 3.01.51 +2.08.53
+            Itäkodes Jari ei aikaa
+            Lepistö Erkki ei aikaa
+            Sirjola Juhani ei aikaa

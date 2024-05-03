@@ -1,0 +1,37 @@
+event_number: 7
+location: Lumikallio, Hyvinkää
+date: 26.5.
+organizer: HyRa / Janne Åberg
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 6,7 km
+        data: |
+             1. Viitanen Lauri 54.01
+             2. Salomäki Janne 58.59 +4.58
+             3. Välimaa Pertti 1.20.58 +26.57
+             4. Viero Jukka 1.21.29 +27.28
+             5. Aaltonen Tero 1.23.28
+             5. Aunula Tero 1.29.55 +35.54
+             6. Koskinen Pekka 1.34.52 +40.51
+             7. Loisa Markus 2.06.40 +1.12.39
+             8. Huuhka Pertti 2.09.06 +1.15.05
+
+    lyhyt:
+        track: B
+        length: 5,0 km
+        data: |
+             1. Pensas-Maajärvi Johanna 53.56
+             2. Halonen Harry 1.08.30 +14.34
+             3. Lenz Reinhard 1.14.04 +20.08
+             4. Partanen Paavo 1.15.49 +21.53
+             5. Partanen Esa 1.22.39 +28.43
+             6. Lehto Matti 1.27.57 +34.01
+             7. Nieminen Ari 1.37.03 +43.07
+             8. Palomäki Mikko 1.39.17 +45.21
+             9. Pyhälampi Risto 1.47.08 +53.12
+             10. Urho Ilmari 2.01.27 +1.07.31
+             - Itäkodes Jari Ei aikaa
+             - Porma Mikko Ei aikaa
+             - Salomäki Hannu Ei aikaa

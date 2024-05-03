@@ -1,0 +1,27 @@
+event_number: 17
+location: Noppo, Hyvinkää
+date: 7.9.
+organizer: HyRa / Mona Kantelinen, Hilda Damskägg
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,4 km
+        data: |
+            1. Pekka Koskinen 54.09
+            2. Ville Lipsonen 57.14
+            3. Jimi Kattainen 1.06.36
+            4. Ari Nieminen 1.18.56
+
+    lyhyt:
+        track: B
+        length: 5,4 km
+        data: |
+            1. Veijo Salmi 48.55
+            2. Pertti Välimaa 50.37
+            3. Sakke Ahoniemi 54.19
+            4. Esko Sihvola 1.00.46
+            5. Reinhard Lenz 1.01.23
+            6. Tapio Puputti 1.04.00
+            Hannu Salomäki
+            Risto Pyhälampi

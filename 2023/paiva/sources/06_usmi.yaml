@@ -1,0 +1,35 @@
+event_number: 6
+location: Usmi / Jauholammi, Hyvinkää
+date: 25.5.
+organizer: HyRa / Janne Åberg
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,1 km
+        data: |
+            1. Erkka Kiviaho 1.27.39
+            2. Timo Lamminmäki 1.38.24
+            3. Tomi Myllärinen 1.40.22
+            4. Marko Saarinen 1.40.43
+            5. Tero Aaltonen 1.51.22
+            Pekka Koskinen
+
+    lyhyt:
+        track: B
+        length: 4,3 km
+        data: |
+            1. Pertti Välimaa 56.42
+            2. Ville Lipsonen 1.02.37
+            3. Reinhard Lenz 1.03.30
+            4. Asmo Tenhunen 1.04.51
+            5. Esko Sihvola 1.16.34
+            6. Harry Halonen 1.25.13
+            7. Tapio Puputti 1.44.37
+            Esko Kiuru
+            Risto Pyhälampi
+    other:
+        'C vaativa 3,5 km': |
+            - Erkki Kallela - -
+        'C helppo 2,7 km': |
+            11. Erkki Lepistö   1:31:26   +38:01

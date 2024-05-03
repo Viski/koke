@@ -1,0 +1,33 @@
+event_number: 3
+location: Nyry, Hyvinkää
+date: 29.9.
+organizer: HyRa / Kenneth Reinikka
+reverse_names: False
+series:
+    pitkä:
+        track: B
+        length: 4,3 km
+        data: |
+            1. Salomäki Janne KoKe 53.32
+            2. Myllärinen Tomi KoKe 1.02.46
+            3. Saarinen Marko RR 1.29.44
+            4. Ahoniemi Sakke KoKe 1.41.18
+            Nieminen Ari KoKe
+
+    lyhyt:
+        track: C
+        length: 2,7 km
+        data: |
+            1. Lenz Reinhard KoKe 58.13
+            Pyhälampi Risto KoKe
+
+    other:
+        'Päivä A 5,5 km': |
+            4. Pohjola Hannu KoKe 1.11.38 +14:48
+
+        'Päivä B 4,3 km': |
+            4. Välimaa Pertti KoKe 1.01.07 +20:38
+            7. Puputti Tapio KoKe 1.15.56 +35:27
+
+        'Päivä C1 vaativa 2,7km': |
+            12. Palomäki Mikko KoKe 58.01 +23:22

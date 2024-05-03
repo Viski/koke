@@ -1,0 +1,27 @@
+event_number: 6
+location: Nyry, Hyvinkää
+date: 6.8.
+organizer: HyRa / Jyrki Laaksonheimo
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 6,9 km
+        data: |
+            1. Salomäki Janne 1.00.58
+            2. Ustinov Jarkko 1.12.43
+            3. Lipsonen Ville 1.22.12
+            4. Koskinen Pekka 1.41.50
+            - Haaranen Sami
+
+    lyhyt:
+        track: B
+        length: 5,2 km
+        data: |
+            1. Kiuru Esko 1.07.43
+            2. Lenz Reinhard 1.10.09
+            3. Puputti Tapio 1.14.50
+            4. Partanen Esa 1.18.08
+            5. Salomäki Hannu 1.28.59
+             Pyhälampi Risto
+             Välimaa Pertti

@@ -1,0 +1,31 @@
+event_number: 11
+location: Kytäjä, Hyvinkää
+date: 29.6.
+organizer: HyRa / Marko Pietari
+reverse_names: False
+series:
+    pitkä:
+        track: KoKe Pitkä
+        length: 5,0 km
+        data: |
+            1. Haaranen Sami 55.00
+            2. Puolakanaho Mikko 1.14.06 +19.06
+            3. Välimaa Pertti 1.14.57 +19.57
+            4. Viero Jukka 1.15.36 +20.36
+            5. Tervola Juha 1.53.06 +58.06
+            - Aaltonen Tero Ei aikaa
+            - Stuppi Claudio Ei aikaa
+
+    lyhyt:
+        track: KoKe Lyhyt
+        length: 3,2 km
+        data: |
+            1. Salomäki Hannu 1.03.10
+            2. Räty Timo 1.19.42 +16.32
+            3. Nieminen Ari 1.20.25 +15.52
+            4. Sirjola Juhani 1.27.27 +24.17
+            5. Halonen Harry 1.30.10 +27.00
+            6. Åberg Janne  1.32.33
+            7. Itäkodes Jari 1.52.40 +48.07
+            8. Huuhka Pertti 1.57.48 +53.15
+            - Laaksonheimo Jyrki Ei aikaa

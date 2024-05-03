@@ -1,0 +1,25 @@
+event_number: 2
+location: Pietarinmäki, Nurmijärvi
+date: 25.4.
+organizer: RR / Antti Liljaniemi
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 4,9 km
+        data: |
+            1. Timo Lamminmäki 1.21.21
+            2. Erkka Kiviaho 1.23.10
+            3. Ville Lipsonen 1.25.49
+            4. Tero Aaltonen 1.33.26
+            5. Ari Nieminen 1.38.46
+            6. Jimi Kattainen 2.00.23
+
+    lyhyt:
+        track: B
+        length: 3,7 km
+        data: |
+            1. Veijo Salmi 49.49
+            2. Tapio Puputti 53.33
+            3. Esa Partanen 1.01.55
+            4. Jukka Haataja

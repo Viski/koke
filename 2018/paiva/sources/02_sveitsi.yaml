@@ -1,0 +1,43 @@
+event_number: 2
+location: Sveitsi, Hyvinkää
+date: 19.4.
+organizer: HyRa / Jyrki Laaksonheimo
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 5,3 km
+        data: |
+            1. Ustinov Jarkko KoKe 45.39
+            2. Kiuru Esko 47.07 +01.28
+            3. Leppänen Ilkka 51.45 +06.06
+            4. Aaltonen Tero Koke 52.07 +06.28
+            5. Poussu Jukka 53.50 +08.11
+            6. Puolakanaho Mikko HyRa 53.55 +08.16
+            7. Ahoniemi Sakke HyRa 55.01 +09.22
+            8. Viero Jukka Koke 1.00.38 +14.59
+            9. Lenz Reinhard KoKe 1.01.36 +15.57
+            10. Toivonen Juha KoKe 1.02.11 +16.32
+            11. Räty Timo 1.02.39 +17.00
+            12. Välimaa Pertti KoKe 1.03.28 +17.49
+            13. Halonen Harry HyRa 1.05.16 +19.37
+            14. Pohjola Hannu KoKe 1.09.43 +20.26
+            15. Lipsonen Ville KoKe 1.10.31 +21.14
+            16. Väisänen Mika KoKe 1.13.13 +27.34
+            17. Silanpää Erik 1.21.05 +35.26
+            18. Stuppi Claudio HyRa 1.41.14 +51.57
+            Koskinen Pekka Ei aikaa
+
+    lyhyt:
+        track: B
+        length: 4,2 km
+        data: |
+            1. Sihvola Esko KoKe 30.16
+            2. Lehto Matti 35.10 +04.54
+            3. Fröblom Jari KoKe 35.45 +05.29
+            4. Kallela Erkki 38.03 +07.47
+            5. Ojapalo Esa KoKe 39.28 +09.12
+            6. Vainonen Pekka KoKe 41.04 +10.48
+            7. Lepistö Erkki KoKe 48.15 +17.59
+            8. Pyhälampi Risto KoKe 1.00.38 +30.22
+            9. Huuhka Pertti KoKe 1.06.56 +36.40

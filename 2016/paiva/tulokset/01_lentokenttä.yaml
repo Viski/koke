@@ -1,0 +1,40 @@
+event_number: 1
+location: Lentokenttä, Hyvinkää
+date: 14.4.
+organizer: HyRa / Kenneth Reinikka
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 6,8 km
+        data: |
+            1. Koskinen Pekka 52.17 +13.45
+            2. Aunula Tero 54.17 +15.45
+            3. Aaltonen Tero 55.53 +17.21
+            4. Toivonen Juha 56.50 +18.18
+            5. Lipsonen Ville 1.00.19 +21.47
+            6. Jokelainen Visa 1.03.11 +24.39
+            7. Kiuru Esko 1.05.29 +26.57
+            8. Välimaa Pertti 1.18.07 +39.35
+            9. Huuhka Pertti 1.39.29 +1.00.57
+
+    lyhyt:
+        track: B
+        length: 4,7 km
+        data: |
+            1. Rautajärvi Henri 36.43 +9.26
+            1. Räikkönen Juha 36.43 +9.26
+            3. Fröblom Jari 38.33 +11.16
+            4. Lehto Matti 39.11 +11.54
+            5. Salomäki Hannu 41.05 +13.48
+            6. Partanen Paavo 41.43 +14.26
+            7. Lenz Reinhard 41.52
+            8. Lamminmäki Timo 45.47 +18.30
+            9. Merilä Reetta 46.25 +19.08
+            10. Urho Ilmari 51.48
+            11. Väisänen Mika 47.22 +20.05
+            12. Ojapalo Esa 52.09 +24.52
+            13. Pyhälampi Risto 56.39 +29.22
+            14. Haataja Jukka 1.05.12 +37.55
+            - Ahlström Valtteri Ei aikaa
+

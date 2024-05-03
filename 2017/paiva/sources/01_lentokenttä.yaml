@@ -1,0 +1,37 @@
+event_number: 1
+location: Lentokenttä, Hyvinkää
+date: 12.4.
+organizer: HyRa / Pia Vähänen
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 6,9 km
+        data: |
+            1. Salomäki Janne 51.59
+            2. Aaltonen Tero Lynx 1.04.14 +12.15
+            3. Pohjola Hannu KoKe 1.04.50 +12.51
+            4. Hölttä Sami 1.05.49 +13.50
+            5. Myllärinen Tomi KoKe 1.19.45 +27.46
+            6. Toivonen Juha RiSu 1.23.35 +31.36
+            7. Laaksonheimo Jyrki HyRa 1.33.42 +41.43
+            - Välimaa Pertti KoKe
+
+    lyhyt:
+        track: B
+        length: 4,1 km
+        data: |
+            1. Viero Jukka KoKe 35.05
+            2. Pensas Johanna KoKe 35.25 +20
+            3. Räty Timo 41.13 +6.08
+            4. Fröblom Jari 41.27 +6.22
+            5. Nieminen Ari KoKe 44.48 +9.43
+            6. Väisänen Mika 46.52 +11.47
+            7. Lenz Reinhard 52.20 +17.15
+            8. Itäkodes Jari 56.53 +21.48
+            9. Vainonen Pekka KoKe 57.40 +22.35
+            10. Urho Ilmari 59.57 +24.52
+            11. Haataja Jukka KoKe 1.00.13 +25.08
+            12. Lepistö Erkki KoKe 1.02.01 +26.56
+            13. Merilä Reetta 1.04.16 +29.11
+            14. Huuhka Pertti KoKe 1.05.38 +30.33

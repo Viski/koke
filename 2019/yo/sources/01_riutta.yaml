@@ -1,0 +1,27 @@
+event_number: 1
+location: Riutta, Riihimäki
+date: 10.9.
+organizer: RiSu / Jarmo Kapanen
+reverse_names: True
+series:
+    pitkä:
+        track: B
+        length: 5,0 km
+        data: |
+            1. Sami Haaranen 47.24
+            2. Jarkko Ustinov 47.53 +29
+            3. Janne Salomäki 55.55 +8.31
+            4. Sakke Ahoniemi 1.03.48 +16.24
+            5. Kristian Forsman 1.05.35 +18.11
+            6. Tomi Myllärinen 1.16.51 +29.27
+            7. Markus Loisa 1.23.18 +35.54
+            8. Ari Nieminen 1.40.56 +53.32
+    lyhyt:
+        track: C
+        length: 3,4 km
+        data: |
+            1. Esa Ojapalo 1.01.28 +11.55
+            2. Hannu Salomäki 1.09.52 +20.19
+            3. Jari Itäkodes 1.37.49 +48.16
+            4. Risto Pyhälampi 1.51.23 +1.01.50
+            5. Pertti Huuhka 1.51.40 +1.02.07

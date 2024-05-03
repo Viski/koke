@@ -1,0 +1,41 @@
+event_number: 5
+location: Kaukas, Hyvinkää
+date: 12.5.
+organizer: HyRa / Kenneth Reinikka
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,1 km
+        data: |
+            1. Lauri Viitanen 48.17
+            2. Janne Salomäki 53.16 +4.59
+            3. Sami Hölttä 1.03.29 +15.12
+            4. Tero Aunula 1.13.33 +25.16
+            5. Tero Aaltonen 1.15.47 +27.30
+            6. Pertti Välimaa 1.23.55 +35.38
+            7. Visa Jokelainen 1.39.24 +51.07
+            8. Pertti Huuhka 2.05.00 +1.16.43
+
+    lyhyt:
+        track: B
+        length: 4,4 km
+        data: |
+             1. Esko Kiuru 51.04
+             2. Johanna Pensas-Maajärvi 53.37 +2.33
+             3. Esa Partanen 55.24 +4.20
+             4. Mikko Palomäki 55.43 +4.39
+             5. Hannu Salomäki 55.58 +4.54
+             6. Harry Halonen 56.28 +5.24
+             7. Matti Lehto 57.24 +6.20
+             8. Reinhard Lenz 59.14 +8.00
+             9. Paavo Partanen 1.00.41 +9.37
+             10. Timo Räty 1.05.55 +14.51
+             11. Mika Väisänen 1.06.02 +14.58
+             12. Ari Nieminen 1.08.13 +17.09
+             13. Erkki Kallela 1.11.37 +20.33
+             14. Esa Markus 1.13.10 +22.06
+             15. Mikko Porma 1.17.08 +26.04
+             16. Erkki Lepistö 1.26.48 +35.44
+             17. Reetta Merilä 1.34.24 +43.20
+             - Jari Itäkodes Ei aikaa

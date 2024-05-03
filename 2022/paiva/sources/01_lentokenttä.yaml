@@ -1,0 +1,27 @@
+event_number: 1
+location: Lentokenttä, Hyvinkää
+date: 21.4.
+organizer: HyRa / ???
+reverse_names: True
+series:
+    pitkä:
+        track: B
+        length: 5,0 km
+        data: |
+            1. Jukka Viero 45.58
+            2. Tomi Myllärinen 47.00
+            3. Sakke Ahoniemi 50.20
+            4. Tero Aaltonen 1.06.24
+            5. Reinhard Lenz 1.06.37
+            6. Ville Lipsonen
+    lyhyt:
+        track: C
+        length: 3,1 km
+        data: |
+            1. Pertti Välimaa 30.55
+            2. Valtteri Ahlström 35.43
+            3. Tapio Puputti 36.42
+            4. Jyrki Laaksonheimo 37.49
+            5. Ari Nieminen 39.21
+            6. Esko Sihvola 43.24
+            7. Risto Pyhälampi 1.04.13

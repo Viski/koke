@@ -1,0 +1,27 @@
+event_number: 4
+location: Paukunharju, Hyvinkää
+date: 23.7.
+organizer: HyRa / Ossi Autio
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 6,9 km
+        data: |
+            1. Haaranen Sami KoKe 46.07
+            2. Kaivosaari Antti KoKe 1.08.57
+            3. Lipsonen Ville KoKe 1.27.47
+            4. Poussu Jukka KoKe 1.29.59
+            5. Laaksonheimo Jyrki KoKe 1.55.52
+
+    lyhyt:
+        track: B
+        length: 4,5 km
+        data: |
+            1. Kiuru Esko KoKe 43.05
+            2. Välimaa Pertti 52.12
+            3. Pyyhtiä Johannes 56.08
+            4. Lenz Reinhard KoKe 1.05.40
+            5. Haataja Jukka KoKe 1.23.00
+            6. Pyhälampi Risto KoKe 1.30.54
+            7. Puputti Tapio KoKe 1.31.46

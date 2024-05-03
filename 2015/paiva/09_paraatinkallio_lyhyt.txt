@@ -1,0 +1,97 @@
+
+1. Arto Niemi                  RR                  36.49
+2. Jari Pelllinen              AngA                44.23     +7.34
+3. Martti Lankinen                                 47.43    +10.54
+4. Kari Vuorio                 RR                  47.59    +11.10
+5. Kauko Parkkinen             RR                  48.10    +11.21
+6. Lasse Ruusinen              RR                  48.47    +11.58
+7. Juho Peltokorpi                                 51.03    +14.14
+8. Pertti Valtee               HS                  53.31    +16.42
+9. Jouni Huttunen              Tuusula             55.19    +18.30
+10. Esa Partanen                KoKe                57.21    +20.32
+11. Nina Tupitsa                HS                  58.03    +21.14
+12. Seppo Kukko                                     58.08    +21.19
+13. Ari Ahokas                  RR                  59.09    +22.20
+14. Paavo Holappa               TVV                 59.18    +22.29
+15. Minnami Hatakka             TVV                 59.36    +22.47
+16. Jouni Joensuu                                 1.00.10    +23.21
+17. Lauri Lepistö               KeU               1.01.40    +24.51
+18. Lasse Saari                                   1.01.41    +24.52
+19. Jorma Järvinen              KeU               1.01.43    +24.54
+20. Antti Siirtola                                1.03.06    +26.17
+20. Timo Räty                   KoKe              1.03.06    +26.17
+22. Seppo Krook                 RR                1.03.57    +27.08
+23. Verneri Pohtala             KeU               1.04.02    +27.13
+24. Kaisa Käär                                    1.04.28    +27.39
+25. Ilkka Säkö                                    1.04.41    +27.52
+26. Timo Lamminmäki             KoKe              1.04.50    +28.01
+27. Seppo Varmavuo              RR                1.05.25    +28.36
+28. Mika Malmberg                                 1.05.51    +29.02
+29. Eija Tammenlarva            RR                1.07.23    +30.34
+30. Samu Kannisto                                 1.07.38    +30.49
+31. Veikko Virtanen             KoKe              1.07.40    +30.51
+31. Esa Myllyniemi                                1.07.40    +30.51
+33. Jouko Lipsanen                                1.07.48    +30.59
+33. Heikki Niskanen             TVV               1.07.48    +30.59
+35. Teppo Hämäläinen                              1.10.09    +33.20
+36. Kari Ahtola                 EsAk              1.10.44    +33.55
+36. Jari Erkkilä                                  1.10.44    +33.55
+38. Veli-Matti Töyli            RR                1.11.14    +34.25
+39. Hannu Malinen               RR                1.11.32    +34.43
+39. Kaisla Seppälä              RR                1.11.32    +34.43
+41. Kari Kuulasmaa              RR                1.11.49    +35.00
+42. Pekka Peltonen              MU                1.12.12    +35.23
+43. Raija Lappeteläinen                           1.13.01    +36.12
+44. Esko Väisänen               RR                1.14.48    +37.59
+45. Kari Kuusela                RR                1.14.59    +38.10
+46. Heidi Strang                HyRa              1.16.17    +39.28
+47. Tapio Ranta                 RR                1.18.44    +41.55
+48. Evelina Laaksonen                             1.18.49    +42.00
+49. Jari Fröblom                KoKe              1.18.55    +42.06
+50. Stefan Gustafsson                             1.19.40    +42.51
+51. Timo Torniainen             Navi              1.19.47    +42.58
+52. Kristiina Ahlqvist                            1.21.08    +44.19
+53. Päivi Härkönen                                1.21.46    +44.57
+54. Martti Santajoki            RR                1.21.59    +45.10
+55. Jukka Koivistoinen                            1.22.45    +45.56
+56. Riitta Nissi                RR                1.22.48    +45.59
+57. Esa Nissinen                KeU               1.23.20    +46.31
+58. Anne Paalanen               RR                1.24.34    +47.45
+59. Kirsti Salmi                RR                1.24.36    +47.47
+60. Ville Laukka                                  1.25.59    +49.10
+61. Päivi Varmavuo              RR                1.27.15    +50.26
+62. Holger Boström                                1.28.11    +51.22
+63. Minia Nietula               HS                1.29.03    +52.14
+64. Armi Kosunen                HS                1.29.19    +52.30
+65. Tiit Tellismaa                                1.30.18    +53.29
+66. Risto Pyhälampi             KoKe              1.30.43    +53.54
+67. Mikko Pilvi                                   1.32.24    +55.35
+68. Seija Siikavuo              RR                1.32.40    +55.51
+69. Altti Torkkeli                                1.33.11    +56.22
+70. Eila Pekkarinen             KeU               1.33.37    +56.48
+71. Sisko Mikkonen              TVV               1.36.22    +59.33
+72. Minna Nurmi                 RR                1.37.39  +1.00.50
+73. Antti Liljaniemi            RR                1.40.06  +1.03.17
+74. Romet Visnapuu                                1.40.23  +1.03.34
+75. Teemu Roine                                   1.42.29  +1.05.40
+76. Kimmo Juntunen                                1.45.51  +1.09.02
+76. Petri Grönlund                                1.45.51  +1.09.02
+78. Piia Heiniö                 RR                1.52.24  +1.15.35
+79. Taina Salmninen                               1.53.06  +1.16.17
+80. Tuomo Sihvo                                   1.53.17  +1.16.28
+80. Saara Sihvo                                   1.53.17  +1.16.28
+82. Aki Erkkilä                                   1.55.03  +1.18.14
+83. Jonas Lindholm                                2.10.27  +1.33.38
+84. Stanislav Stoyanov                            2.10.36  +1.33.47
+85. Ulla-Maija Mäensivu                           2.13.23  +1.36.34
+85. Aija-Marjut Laukkanen                         2.13.23  +1.36.34
+87. M. Jokinen                  RR                2.14.05  +1.37.16
+87. Anja Sievänen               RR                2.14.05  +1.37.16
+- Merja Lahdenperä            RR               Ei aikaa
+- Tommi Hurme                                  Ei aikaa
+- Mikko Saleva                                 Ei aikaa
+- Toni Malmström                               Ei aikaa
+- Sauli Savela                RR               Ei aikaa
+- Harri Latvala               RR               Ei aikaa
+- Lasse                                        Ei aikaa
+- Kalle                                        Ei aikaa

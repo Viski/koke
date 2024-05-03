@@ -1,0 +1,27 @@
+event_number: 6
+location: Koskenkulma itä, Hyvinkää
+date: 25.5.
+organizer: HyRa / Vähäset
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,1 km
+        data: |
+            1. Tero Aaltonen 56.23
+            2. Reinhard Lenz 1.08.56
+            3. Pekka Koskinen 1.15.37
+            4. Ville Lipsonen 1.26.43
+    lyhyt:
+        track: B
+        length: 3,2 km
+        data: |
+            1. Ville Tiljander 30.04
+            1. Johannes Pyyhtiä 31.36
+            2. Pertti Välimaa 33.12
+            3. Timo Lamminmäki 34.41
+            4. Mika Väisänen 40.24
+            5. Esa Partanen 41.13
+            6. Tapio Puputti 49.02
+            7. Risto Pyhälampi 1.36.21
+            Erkki Kallela

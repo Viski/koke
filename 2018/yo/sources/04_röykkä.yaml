@@ -1,0 +1,33 @@
+event_number: 4
+location: Röykkä, Nurmijärvi
+date: 2.10.
+organizer: RR / Timo Leismala
+reverse_names: True
+series:
+    pitkä:
+        track: B
+        length: 4,7 km
+        data: |
+            1. Sami Haaranen KoKe 38.25
+            2. Johanna Pensas KoKe 50.12 +12.47
+            3. Pertti Välimaa KoKe 51.30 +14.05
+            4. Veijo Salmi RR 52.04 +14.39
+            5. Kristian Forsman KoKe 59.41 +22.16
+            6. Ville Lipsonen KoKe 59.44 +22.19
+            7. Janne Åberg HyRa 1.06.54 +29.29
+            8. Ari Nieminen KoKe 1.16.00 +37.01
+            9. Jyrki Laaksonheimo KoKe 1.32.06 +54.41
+
+    lyhyt:
+        track: C
+        length: 3,3 km
+        data: |
+            1. Hannu Salomäki KoKe 39.18
+            2. Esko Sihvola KoKe 39.45 +27
+            3. Reinhard Lenz KoKe 48.21 +9.03
+            4. Erkki Kallela KoKe 48.33 +9.15
+            5. Pekka Vainonen KoKe 48.34 +9.16
+            6. Jari Itäkodes KoKe 57.30 +18.12
+            7. Jimi Kattainen KoKe 59.23 +20.05
+            8. Pertti Huuhka KoKe 1.00.50 +21.32
+            9. Risto Pyhälampi KoKe 1.13.22 +34.04

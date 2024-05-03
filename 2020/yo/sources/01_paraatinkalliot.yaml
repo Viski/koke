@@ -1,0 +1,28 @@
+event_number: 1
+location: Paraatinkalliot, Nurmijärvi
+date: 8.9.
+organizer: RR / ????
+reverse_names: False
+series:
+    pitkä:
+        track: B
+        length: 4,7 km
+        data: |
+            1. Salomäki Janne HyRa 42.42
+            2. Haaranen Sami KoKe 43.23
+            3. Ustinov Jarkko KoKe 43.49
+            4. Nieminen Ari KoKe 1.14.14
+
+    lyhyt:
+        track: C (vaativa)
+        length: 3,7 km
+        data: |
+            1. Kiuru Esko KoKe 55.49
+            2. Palomäki Mikko KoKe 1.24.33
+            Pyhälampi Risto KoKe
+    other:
+        'A (päivä) 6,3km': |
+            4. Lipsonen Ville KoKe 1.09.49 +12.27
+        'B (päivä) 4,7km': |
+            2. Salmi Veijo RR 51.29 +10.26
+            8. Lamminmäki Timo KoKe 1.00.15 +19.12

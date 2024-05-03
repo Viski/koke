@@ -1,0 +1,29 @@
+event_number: 12
+location: Koskelankulma, Hyvinkää
+date: 4.8.
+organizer: HyRa / Jussi Hyvärilä
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,9 km
+        data: |
+            1. Janne Salomäki 57.57
+            2. Hannu Pohjola 1.22.51
+            3. Tero Aaltonen
+
+    lyhyt:
+        track: B
+        length: 5,0 km
+        data: |
+            1. Ville Tiljander 59.42
+            2. Esko Kiuru 1.03.58
+            3. Hannu Salomäki 1.14.09
+            4. Johannes Pyyhtiä 1.19.39
+            5. Tapio Puputti 1.19.48
+            4. Pertti Välimaa 1.31.24
+            Risto Pyhälampi
+
+    other:
+        'C 2.7 km': |
+            6. Erkki Lepistö    43:18	+14:37

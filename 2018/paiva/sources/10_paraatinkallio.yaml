@@ -1,0 +1,27 @@
+event_number: 10
+location: Paraatinkallio, Nurmijärvi
+date: 12.6.
+organizer: RR / Veijo Salmi
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,0 km
+        data: |
+            1. Antti Kaivosaari KoKe 52.27 +8.02
+            2. Pertti Välimaa KoKe 1.02.17 +17.52
+            3. Hannu Pohjola KoKe 1.04.29 +20.04
+            4. Ville Lipsonen KoKe 1.22.59 +38.34
+
+    lyhyt:
+        track: B
+        length: 4,6 km
+        data: |
+            1. Johanna Pensas KoKe 49.15 +2.39
+            2. Kristian Forsman Koke 53.06 +6.30
+            3. Hannu Salomäki KoKe 55.30 +8.54
+            4. Erkki Kallela KoKe 1.10.00 +23.24
+            5. Oskar Lönnberg KoKe 1.24.51 +38.15
+            6. Pertti Huuhka KoKe 1.32.50 +46.14
+            7. Risto Pyhälampi KoKe 1.36.37 +50.01
+            Heikki Saloranta

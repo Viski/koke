@@ -1,0 +1,28 @@
+event_number: 11
+location: Paraatinkallio, Nurmijärvi
+date: 28.6.
+organizer: RR / Seppo Krook
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,4 km
+        data: |
+             1. Lauri Viitanen KoKe 50.10 +12.03
+             2. Antti Kaivosaari KoKe 54.23 +16.16
+             3. Hannu Pohjola KoKe 1.02.14 +24.07
+             4. Tero Aaltonen KoKe 1.06.20 +28.13
+             5. Pertti Välimaa KoKe 1.08.51 +30.44
+             6. Jukka Viero KoKe 1.12.16 +34.09
+             7. Pertti Huuhka KoKe 2.19.42 +1.41.35
+
+    lyhyt:
+        track: B
+        length: 4,8 km
+        data: |
+             1. Esa Partanen KoKe 56.17 +15.35
+             2. Harry Halonen KoKe 1.00.37 +19.55
+             3. Reetta Merilä KoKe 1.19.16 +38.34
+             4. Juha Tervola KoKe 1.32.01
+             5. Risto Pyhälampi KoKe 1.48.52 +1.08.10
+             Esko Kiuru

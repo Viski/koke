@@ -1,0 +1,28 @@
+event_number: 5
+location: Partionummi, Nurmijärvi
+date: 11.10.
+organizer: RR / Janne Puhakka
+reverse_names: True
+series:
+    pitkä:
+        track: B
+        length: 5,5 km
+        data: |
+             1. Jukka Viero KoKe 49.31
+             2. Pertti Välimaa KoKe 54.32 +5.01
+             3. Tomi Myllärinen KoKe 1.05.27 +15.56
+             4. Pekka Koskinen KoKe 1.06.05 +16.34
+             5. Sakke Ahoniemi KoKe 1.08.42 +19.11
+             6. Ari Nieminen KoKe 1.22.08 +32.37
+             7. Esa Ojapalo KoKe 1.57.10 +1.07.39
+
+    lyhyt:
+        track: C
+        length: 3,1 km
+        data: |
+             1. Esko Kiuru 29.46 +1.07
+             2. Veijo Salmi KoKe 31.26 +2.47
+             3. Hannu Salomäki KoKe 33.29 +4.50
+             4. Jari Itäkodes KoKe 44.11 +15.32
+             5. Mikko Palomäki HyRa 44.45 +16.06
+             6. Risto Pyhälampi KoKe 53.58 +25.19

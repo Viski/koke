@@ -1,0 +1,35 @@
+event_number: 4
+location: Käpylännummi, Nurmijärvi
+date: 11.10.
+organizer: RR / Kimmo Vilska
+reverse_names: True
+series:
+    pitkä:
+        track: B
+        length: 5,2 km
+        data: |
+            1. Janne Salomäki KoKe 33.29
+            2. Marko Saarinen RR 44.30
+            3. Erkka Kiviaho KoKe 46.21
+            4. Tomi Myllärinen KoKe 50.16
+            5. Timo Lamminmäki KoKe 53.44
+            6. Ari Nieminen KoKe 1.01.56
+
+    lyhyt:
+        track: C
+        length: 3,4 km
+        data: |
+            1. Reinhard Lenz KoKe 28.34
+            2. Sakke Ahoniemi KoKe 31.43
+            3. Hannu Salomäki KoKe 36.26
+            4. Tapio Puputti KoKe 36.43
+            5. Risto Pyhälampi KoKe 1.06.39
+
+    other:
+        'Päivä B 5,2 km': |
+            5. Ville Lipsonen KoKe 39.17 +08.08
+            6. Johannes Pyyhtiä KoKe 39.46 +08.37
+
+        'Päivä C 3,4 km': |
+            21. Erkki Lepistö KoKe 40.19 +13.33
+

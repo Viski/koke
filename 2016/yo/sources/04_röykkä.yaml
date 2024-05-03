@@ -1,0 +1,31 @@
+event_number: 4
+location: Röykkä, Nurmijärvi
+date: 4.10.
+organizer: RR / Veijo Salmi
+reverse_names: True
+series:
+    pitkä:
+        track: B
+        length: 4,7 km
+        data: |
+             1. Pertti Välimaa KoKe 43.50 +3.25
+             2. Jukka Viero KoKe 44.15 +3.50
+             3. Sakke Ahoniemi KoKe 48.46 +8.21
+             4. Ville Lipsonen KoKe 51.18 +10.53
+             5. Pekka Koskinen KoKe 52.07 +11.42
+             6. Tomi Myllärinen KoKe 57.53 +17.28
+             7. Ari Nieminen KoKe 1.12.18 +31.53
+             8. Pertti Huuhka KoKe 1.22.45 +42.20
+
+    lyhyt:
+        track: C
+        length: 3,5 km
+        data: |
+             1. Esko Kiuru KoKe 37.39 +3.50
+             2. Hannu Salomäki KoKe 39.50 +6.01
+             3. Mikko Palomäki HyRa 45.50 +12.01
+             4. Jari Itäkodes KoKe 50.09 +16.20
+             5. Reinhard Lenz KoKe 50.23 +16.34
+             6. Erkki Kallela KoKe 53.37 +19.48
+             7. Pekka Vainonen KoKe 1.06.58 +33.09
+             - Risto Pyhälampi KoKe

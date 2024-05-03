@@ -1,0 +1,30 @@
+event_number: 4
+location: Partionummi, Nurmijärvi
+date: 10.10.
+organizer: RR / Janne Puhakka
+reverse_names: True
+series:
+    pitkä:
+        track: B
+        length: 4,7 km
+        data: |
+            1. Ville Lipsonen KoKe 44.02 +5.00
+            2. Pertti Välimaa KoKe 48.18 +9.16
+            3. Janne Salomäki KoKe 58.00
+            4. Tomi Myllärinen KoKe 58.11 +19.09
+            5. Juha Tervola 1.07.25 +28.23
+            6. Jyrki Laaksonheimo KoKe 1.24.53 +45.51
+
+    lyhyt:
+        track: C
+        length: 3,1 km
+        data: |
+            1. Jari Fröblom KoKe 36.52 +3.24
+            2. Mikko Palomäki KoKe 39.00 +5.32
+            3. Pekka Vainonen KoKe 41.14 +7.46
+            4. Erkki Kallela KoKe 48.12 +14.44
+            5. Pertti Huuhka KoKe 1.01.18 +27.50
+            6. Reinhard Lenz KoKe 1.03.13 +29.45
+            - Esko Sihvola KoKe
+            - Risto Pyhälampi KoKe
+            - Hannu Salomäki KoKe

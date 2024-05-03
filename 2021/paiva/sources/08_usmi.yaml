@@ -1,0 +1,27 @@
+event_number: 8
+location: Usmi, Hyvinkää
+date: 19.8.
+organizer: HyRa / Jussi Borgenström
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 5,3 km
+        data: |
+            1. Ari Saastamoinen 59.54
+            7. Reinhard Lenz 1.30.48
+    lyhyt:
+        track: B
+        length: 3,95 km
+        data: |
+            1. Esko Kiuru 50.51
+            2. Timo Lamminmäki 56.50
+            3. Ville Lipsonen 1.01.14
+            4. Johannes Pyyhtiä 1.04.36
+            5. Hannu Salomäki 1.05.34
+            6. Tapio Puputti 1.14.19
+            Risto Pyhälampi Ei aikaa
+            Pertti Välimaa Ei aikaa
+    other:
+        'C vaikea 2,775 km': |
+            - Erkki Kallela - -

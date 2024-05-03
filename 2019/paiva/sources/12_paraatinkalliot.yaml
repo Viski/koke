@@ -1,0 +1,25 @@
+event_number: 12
+location: Paraatinkalliot, Nurmijärvi
+date: 25.6.
+organizer: RR / Timo Valkonen
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 6,4 km
+        data: |
+            1. Lipsonen Ville 1.03.42 +22.14
+            2. Välimaa Pertti KoKe 1.05.38 +24.10
+            3. Aaltonen Tero KoKe 1.06.01 +24.33
+            4. Kiviaho Erkka KoKe 1.09.07 +27.39
+            5. Lamminmäki Timo KoKe 1.19.39 +38.11
+            6. Loisa Markus KoKe 1.46.43 +1.05.15
+    lyhyt:
+        track: B
+        length: 5,0 km
+        data: |
+            1. Partanen Esa KoKe 51.15 +05.11
+            2. Palomäki Mikko KoKe 57.12 +11.08
+            3. Puputti Tapio KoKe 1.11.41 +25.37
+            4. Pyhälampi Risto KoKe 1.41.50 +55.46
+            5. Huuhka Pertti KoKe 1.42.19 +56.15

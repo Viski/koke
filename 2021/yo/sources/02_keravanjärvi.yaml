@@ -1,0 +1,28 @@
+event_number: 2
+location: Keravanjärvi, Hyvinkää
+date: 23.9.
+organizer: HyRa / Hannu Salomäki
+reverse_names: True
+series:
+    pitkä:
+        track: B
+        length: 4,95 km
+        data: |
+            1. Janne Salomäki 49.19
+            2. Tomi Myllärinen 1.06.04
+            3. Erkka Kiviaho 1.35.51
+
+    lyhyt:
+        track: C1 vaativa
+        length: 3,225 km
+        data: |
+            1. Reinhard Lenz 54.44
+            2. Erkki Kallela 57.43
+            3. Ari Nieminen 59.39
+
+    other:
+        'B päivä 4,95 km': |
+            11. Ville Lipsonen	KoKe 	1.07.08	+20.31
+            13. Tapio Puputti	KoKe 	1.09.50	+23.13
+        'C2 päivä 2,785 km': |
+            1. Risto Pyhälampi	KoKe 	1.03.00 -

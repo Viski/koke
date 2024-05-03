@@ -1,0 +1,29 @@
+event_number: 15
+location: Keravanjärvi, Mäntsälä
+date: 1.9.
+organizer: HyRa / Friman
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,5 km
+        data: |
+            1. Janne Salomäki 47.58
+            2. Pekka Koskinen 1.18.02
+
+    lyhyt:
+        track: B
+        length: 5,0 km
+        data: |
+            1. Johannes Pyyhtiä 59.11
+            2. Reinhard Lenz 59.54
+            3. Timo Lamminmäki 1.03.28
+            4. Hannu Salomäki 1.03.35
+            5. Ville Lipsonen 1.04.24
+            6. Pertti Välimaa 1.04.41
+            Risto Pyhälampi
+
+    other:
+        'C1 vaativa 3,6 km': |
+            7. Ari Nieminen		50:57	+17:15
+            14. Erkki Kallela	Hyra 	59:10	+25:28

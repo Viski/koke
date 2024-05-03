@@ -1,0 +1,33 @@
+event_number: 1
+location: Keravanjärvi
+date: 14.9.
+organizer: HyRa / Kenneth Reinikka
+reverse_names: True
+series:
+    pitkä:
+        track: B
+        length: 4,6 km
+        data: |
+            1. Janne Salomäki Koke 50.41
+            2. Asmo Tenhunen Koke 1.01.02
+            3. Janne Åberg KoKe 1.04.59
+            4. Ville Lipsonen Koke 1.10.26
+            4. Esko Sihvola Koke 1.24.02
+            4. Ari Nieminen Koke 1.39.38
+
+    lyhyt:
+        track: CV
+        length: 2,7 km
+        data: |
+            1. Hannu Salomäki Koke 36.01
+            2. Sakke Ahoniemi Koke 50.12
+            3. Reinhard Lenz Koke 54.51
+             Risto Pyhälampi Koke
+
+    other:
+        'Päivä B 4,6 km': |
+            7. Johannes Pyyhtiä Koke 1.03.56 +17:52
+            11. Tapio Puputti Koke 1.25.40 +39:36
+
+        'Päivä CV 2,7 km': |
+            4. Erkki Kallela Rasti 53.28 +17:34

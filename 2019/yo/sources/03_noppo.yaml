@@ -1,0 +1,27 @@
+event_number: 3
+location: Noppo, Hyvinkää
+date: 26.9.
+organizer: HyRa / Rasmus Ahoniemi
+reverse_names: False
+series:
+    pitkä:
+        track: B
+        length: 5,0 km
+        data: |
+            1. Myllärinen Tomi 59.18
+            2. Sihvola Esko 1.00.20 +01.02
+            3. Nieminen Ari 1.04.08 +04.50
+            4. Ahoniemi Sakke 1.08.32 +09.14
+    lyhyt:
+        track: C
+        length: 3,3 km
+        data: |
+            1. Kiuru Esko 34.13
+            2. Salo Jarmo 36.52 +02.39
+            3. Ojapalo Esa 46.40 +12.27
+            4. Fröblom Jari 47.25 +13.12
+            5. Vainonen Pekka 54.08 +19.55
+            6. Itäkodes Jari 1.05.02 +30.49
+            7. Salomäki Hannu 1.11.36 +37.23
+            8. Pyhälampi Risto 1.17.13 +43.00
+            9. Huuhka Pertti 1.17.48 +43.35

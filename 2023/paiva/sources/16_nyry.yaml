@@ -1,0 +1,27 @@
+event_number: 16
+location: Nyry, Hyvinkää
+date: 31.8.
+organizer: HyRa / Virpi Kiiskinen
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 4,8 km
+        data: |
+            1. Janne Salomäki 41.25
+            2. Jimi Kattainen 53.29
+            3. Pekka Koskinen 1.07.58
+            4. Sakke Ahoniemi 1.09.04
+            5. Ari Nieminen 1.20.33
+
+    lyhyt:
+        track: B
+        length: 4,0 km
+        data: |
+            1. Pertti Välimaa 47.41
+            Risto Pyhälampi
+
+    other:
+        'C 2,7 km': |
+            1. Timo Lamminmäki 45.20 +0.00
+            2. Erkki Kallela 48.46 +3.26

@@ -1,0 +1,31 @@
+event_number: 5
+location: Solttilannummi, Hyvinkää
+date: 17.5.
+organizer: RR / Mika Loukkalahti
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,6 km
+        data: |
+            1. Janne Salomäki 47.26
+            2. Tero Aaltonen 57.17
+            3. Reinhard Lenz 1.15.00
+
+    lyhyt:
+        track: B
+        length: 5,3 km
+        data: |
+            1. Veijo Salmi 45.41
+            2. Esko Kiuru 48.10
+            3. Esko Sihvola 48.53
+            4. Timo Lamminmäki 51.55
+            5. Tapio Puputti 53.13
+            6. Mika Väisänen 54.55
+            7. Risto Pyhälampi 1.34.56
+            Juhani Sirjola ei aikaa
+            Pertti Välimaa ei aikaa
+    other:
+        'C vaativa 4.3 km': |
+            9. Erkki Kallela 46:27 +16:35
+            20. Jukka Haataja 57:33 +27:41

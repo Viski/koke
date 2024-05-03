@@ -1,0 +1,39 @@
+
+1. Juntunen Antti              HyRa                42.50
+2. Rissanen Antti              TP                  43.23       +33
+3. Heino Mikko                 HyRa                51.15     +8.25
+4. Moisander Suvi                                  54.09    +11.19
+5. Andersin Jeremi                                 55.16    +12.26
+6. Lintumäki Aki                                   55.26    +12.36
+7. Hautakangas Nuuti           HyRa              1.00.32    +17.42
+8. Heikura Mika                                  1.02.43    +19.53
+9. Kleemola Joona              HyRa              1.05.39    +22.49
+10. Hartikainen Markus                            1.06.17    +23.27
+11. Damskägg Marika             HyRa              1.06.18    +23.28
+12. Bister Hanna                HyRa              1.06.20    +23.30
+13. Kanto Saara                                   1.09.01    +26.11
+14. Lindberg Jussi              HyRa              1.11.25    +28.35
+15. Ikkala Sari                 HyRa              1.13.20    +30.30
+16. Virtanen Heli               HyRa              1.17.35    +34.45
+17. Santajoki Martti                              1.22.21    +39.31
+18. Asmundela Saara                               1.26.36    +43.46
+19. Pirinen Vesa                                  1.28.24    +45.34
+20. Trög Yrjö                                     1.31.26    +48.36
+21. Palonen Petri                                 1.54.26  +1.11.36
+22. Boström Holger              HyRa              1.55.55  +1.13.05
+23. Väre Timo                   HyRa              2.11.01  +1.28.11
+24. Tuomiranta Kaisa            HyRa              2.11.03  +1.28.13
+- Autio Wertti                HyRa             Ei aikaa
+- Pohjola Laura                                Ei aikaa
+
+
+1. Välimaa Pertti              KoKe                54.42
+2. Partanen Esa                KoKe              1.03.49     +9.07
+3. Räty Timo                   KoKe              1.19.47    +25.05
+4. Väisänen Mika               KoKe              1.20.03    +25.21
+5. Lenz Reinhard               KoKe              1.20.23    +25.41
+6. Porma Mikko                 KoKe              1.22.33    +27.51
+7. Pyhälampi Risto             KoKe              1.31.11    +36.29
+8. Lönnberg Oskar                                2.33.31  +1.38.49
+Lepistö Erkki                  KoKe               -
+

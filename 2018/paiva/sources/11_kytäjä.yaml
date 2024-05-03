@@ -1,0 +1,29 @@
+event_number: 11
+location: Kytäjä, Hyvinkää
+date: 20.6.
+organizer: HyRa / Lauri Aaltonen
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 6,1 km
+        data: |
+            1. Ustinov Jarkko 1.11.55
+            2. Puolakanaho Mikko 1.36.56 +25.01
+            3. Viero Jukka 1.43.26 +31.31
+            4. Lipsonen Ville 1.43.51 +31.56
+            5. Aaltonen Tero 1.46.30 +34.35
+
+    lyhyt:
+        track: B
+        length: 3,8 km
+        data: |
+            1. Forsman Kristian 1.04.48
+            2. Lenz Reinhard 1.06.59 +02.11
+            3. Halonen Harry 1.17.26 +12.38
+            4. Kiviaho Erkka 1.25.42 +20.54
+            5. Vainonen Pekka 1.27.04 +22.16
+            6. Palomäki Mikko 1.46.19 +41.31
+            7. Pyhälampi Risto 1.57.23 +52.35
+            8. Puputti Tapio 1.58.20 +53.32
+            Kiuru Esko

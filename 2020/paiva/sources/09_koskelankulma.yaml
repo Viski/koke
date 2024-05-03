@@ -1,0 +1,32 @@
+event_number: 9
+location: Koskelankulma, Hyvinkää
+date: 27.8.
+organizer: HyRa / Aarno Saviaho
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 6,3 km
+        data: |
+            1. Haaranen Sami KoKe 51.15
+            2. Salomäki Janne KoKe 54.06
+            3. Ustinov Jarkko KoKe 1.00.11
+            4. Lipsonen Ville KoKe 1.20.16
+            5. Koskinen Pekka KoKe 1.21.56
+            6. Kollanus Mika 1.34.24
+            Laaksonheimo Jyrki HyRa
+
+    lyhyt:
+        track: C (vaativa)
+        length: 3,4 km
+        data: |
+            1. Salmi Veijo RR 35.22
+            2. Välimaa Pertti 36.19
+            3. Salomäki Hannu 42.46
+            4. Kallela Erkki 46.09
+            5. Ahoniemi Sakke 47.27
+            6. Nieminen Ari 52.02
+            7. Lepistö Erkki KoKe 53.54
+            8. Puputti Tapio KoKe 57.30
+            9. Lindroos Janne 1.00.06
+            10. Pyhälampi Risto KoKe 1.03.31

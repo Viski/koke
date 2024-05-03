@@ -1,0 +1,28 @@
+event_number: 2
+location: Nyry, Hyvinkää
+date: 21.9.
+organizer: HyRa / Jussi Borgenström
+reverse_names: True
+series:
+    pitkä:
+        track: B
+        length: 4,7 km
+        data: |
+            1. Sami Haaranen 44.13
+            2. Esko Kiuru 54.01 +9.48
+            3. Ville Lipsonen 59.06 +14.53
+            3. Jukka Viero 59.06 +14.53
+            - Jyrki Laaksonheimo Ei aikaa
+
+    lyhyt:
+        track: C
+        length: 3,2 km
+        data: |
+            1. Jarmo Salo 35.00
+            2. Reinhard Lenz 44.19 +9.19
+            3. Jari Itäkodes 1.00.52 +25.52
+            4. Esa Ojapalo 1.01.51 +26.51
+            5. Esko Sihvola 1.06.32 +31.32
+            6. Pertti Huuhka 1.18.25 +43.25
+            - Erkki Kallela Ei aikaa
+            - Risto Pyhälampi Ei aikaa

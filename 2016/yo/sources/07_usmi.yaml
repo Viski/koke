@@ -1,0 +1,28 @@
+event_number: 7
+location: Usmi, Hyvinkää
+date: 25.10.
+organizer: KoKe / Hannu ja Janne Salomäki
+reverse_names: False
+series:
+    pitkä:
+        track: Pitkä
+        length: 3,8 km
+        data: |
+             1. Åberg Janne HyRa 40.03
+             2. Viitanen Lauri 53.28 +13.25
+             4. Pohjola Hannu KoKe 1.01.18 +21.15
+             5. Lipsonen Ville KoKe 1.03.44 +23.41
+             6. Kiuru Esko HyRa 1.12.03 +32.00
+             7. Välimaa Pertti KoKe 1.39.59 +59.56
+             8. Pensas-Maajärvi Johanna KoKe 1.41.28 +1.01.25
+             - Nieminen Ari KoKe
+
+    lyhyt:
+        track: Lyhyt
+        length: 2,0 km
+        data: |
+             1. Partanen Paavo HyRa 34.28 +31
+             2. Palomäki Mikko HyRa 42.48 +8.51
+             3. Itäkodes Jari KoKe 47.26 +13.29
+             4. Vainonen Pekka KoKe 48.46 +14.49
+             - Pyhälampi Risto KoKe

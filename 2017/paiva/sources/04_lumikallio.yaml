@@ -1,0 +1,39 @@
+event_number: 4
+location: Lumikallio, Hyvinkää
+date: 4.5.
+organizer: HyRa / Esko Kiuru
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 6,5 km
+        data: |
+            1. Salomäki Janne KoKe 52.42
+            2. Kaivosaari Antti KoKe 55.52 +3.10
+            3. Toivonen Juha KoKe 1.16.37 +23.55
+            4. Lipsonen Ville KoKe 1.18.49 +26.07
+            5. Myllärinen Tomi KoKe 1.20.34 +27.52
+            6. Välimaa Pertti KoKe 1.35.32 +42.50
+            7. Laaksonheimo Jyrki HyRa 2.19.44 +1.27.14
+
+    lyhyt:
+        track: B
+        length: 4,7 km
+        data: |
+            1. Lehto Matti 54.55
+            2. Salomäki Hannu HyRa 56.45 +1.50
+            3. Salmi Veijo KoKe 58.13 +3.18
+            4. Saarinen Marko RR 58.54 +17.24
+            5. Puolakanaho Mikko KoKe 1.00.41 +5.46
+            6. Lenz Reinhard KoKe 1.06.26 +11.31
+            7. Halonen Harry HyRa 1.06.37 +11.42
+            8. Partanen Esa KoKe 1.15.10 +20.15
+            9. Räty Timo 1.15.24 +20.29
+            10. Nieminen Ari KoKe 1.16.08 +21.13
+            11. Lamminmäki Timo 1.16.39 +21.44
+            12. Rantanen Joonas 1.18.01 +23.06
+            13. Tervola Juha 1.26.48 +45.18
+            14. Väisänen Mika KoKe 1.27.23 +32.28
+            15. Vainonen Pekka KoKe 1.31.57 +37.02
+            16. Huuhka Pertti KoKe 2.04.42 +1.23.12
+            - Merilä Reetta Ei aikaa

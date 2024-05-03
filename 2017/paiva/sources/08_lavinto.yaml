@@ -1,0 +1,38 @@
+event_number: 8
+location: Lavinto, Riihimäki
+date: 30.5.
+organizer: RiSu / Matti Toivonen
+reverse_names: True
+series:
+    pitkä:
+        track: KoKe Pitkä
+        length: 5,4 km
+        data: |
+            1. Janne Salomäki 36.22
+            2. Antti Kaivosaari 39.04 +2.42
+            3. Sami Haaranen 50.40 +14.18
+            4. Tero Aaltonen 50.48 +14.26
+            5. Ville Lipsonen 53.22 +17.00
+            6. Jukka Viero 55.04 +18.42
+            7. Pertti Välimaa 55.45 +19.23
+            8. Jyrki Laaksonheimo 1.13.07 +36.45
+
+    lyhyt:
+        track: KoKe Lyhyt
+        length: 4,3 km
+        data: |
+            1. Johanna Pensas 33.02
+            2. Matti Lehto 37.40 +4.38
+            3. Harry Halonen 42.15 +9.13
+            4. Esko Kiuru 43.07 +10.05
+            5. Esa Partanen 45.06 +12.04
+            6. Jari Fröblom 46.13 +13.11
+            7. Erkki Kallela 48.04 +15.02
+            8. Esa Ojapalo 49.03 +16.01
+            9. Hannu Salomäki 52.04 +19.02
+            10. Jukka Haataja 52.56 +19.54
+            11. Erkki Lepistö 58.07 +25.05
+            12. Reinhard Lenz 1.05.20 +32.18
+            13. Jari Itäkodes 1.08.43 +35.41
+            14. Pekka Vainonen 1.11.13 +38.11
+            15. Oskar Lönnberg 1.31.57 +58.55

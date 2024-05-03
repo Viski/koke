@@ -1,0 +1,31 @@
+event_number: 2
+location: Sofieberg, Nurmijärvi
+date: 22.9.
+organizer: RR / Esko Alho
+reverse_names: False
+series:
+    pitkä:
+        track: B
+        length: 4,4 km
+        data: |
+            1. Myllärinen Tomi KoKe 1.05.19
+            2. Lenz Reinhard KoKe 1.05.44
+            3. Nieminen Ari KoKe 1.14.28
+            4. Loisa Markus KoKe 1.23.31
+
+    lyhyt:
+        track: C (vaativa)
+        length: 3,5 km
+        data: |
+            1. Kallela Erkki KoKe 1.17.44
+            2. Pyhälampi Risto KoKe 1.55.54
+    other:
+        'B (päivä) 4,4km': |
+            5. Lipsonen Ville KoKe 48.15 +09.42
+            19. Lamminmäki Timo KoKe 58.53 +20.20
+            28. Puputti Tapio KoKe 1.09.48 +31.15
+            29. Lindroos Janne KoKe 1.12.26 +33.53
+        "C (vaativa, päivä) 3,5km": |
+            20. Lepistö Erkki KoKe 1.25.29 +41.24
+        'C (päivä) 3,3km': |
+            3. Haataja Jukka KoKe 1.04.59 +17.29

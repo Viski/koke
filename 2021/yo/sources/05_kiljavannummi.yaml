@@ -1,0 +1,26 @@
+event_number: 5
+location: Kiljavannummi, Nurmijärvi
+date: 19.10.
+organizer: RR / Mika Loukkalahti
+reverse_names: False
+series:
+    pitkä:
+        track: B
+        length: 5,3 km
+        data: |
+            1. Salomäki Janne KoKe 32:19
+            2. Kiviaho Erkka KoKe 46:21
+            3. Lipsonen Ville KoKe 48:21
+    lyhyt:
+        track: C
+        length: 3,5 km
+        data: |
+            1. Salmi Veijo KoKe 28:31
+            2. Lamminmäki Timo KoKe 30:10
+            3. Salomäki Hannu KoKe 30:10
+            4. Puputti Tapio KoKe 34:21
+            5. Lenz Reinhard KoKe 35:32
+            6. Nieminen Ari KoKe 37:10
+            7. Kallela Erkki KoKe 41:15
+            8. Halonen Harry KoKe 54:48
+            9. Pyhälampi Risto KoKe 59:28

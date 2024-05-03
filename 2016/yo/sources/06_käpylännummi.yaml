@@ -1,0 +1,28 @@
+event_number: 6
+location: Käpylännummi, Nurmijärvi
+date: 18.10.
+organizer: RR / Seppo Väisänen
+reverse_names: True
+series:
+    pitkä:
+        track: B
+        length: 4,9 km
+        data: |
+             1. Janne Salomäki KoKe 37.41 +1.02
+             2. Johanna Pensas-Maajärvi 43.16
+             2. Visa Jokelainen KoKe 52.45 +16.06
+             3. Pertti Välimaa KoKe 54.05 +17.26
+             4. Pekka Koskinen KoKe 55.18 +18.39
+
+    lyhyt:
+        track: C
+        length: 3,0 km
+        data: |
+             1. Esko Kiuru KoKe 25.36
+             2. Veijo Salmi RR 27.16 +1.40
+             3. Hannu Salomäki KoKe 29.56 +4.20
+             4. Mikko Palomäki 34.45
+             5. Risto Pyhälampi KoKe 44.33 +18.57
+             6. Reinhard Lenz KoKe 45.44 +20.08
+             7. Pekka Vainonen 48.52
+             - Jari Itäkodes KoKe

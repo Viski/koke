@@ -1,0 +1,23 @@
+event_number: 9
+location: Nyry, Hausjärvi
+date: 15.6.
+organizer: HyRa / Heikki Seppälä
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,5 km
+        data: |
+            1. Tero Aaltonen 1.52.51
+
+    lyhyt:
+        track: B
+        length: 4,8 km
+        data: |
+            1. Hannu Salomäki 1.10.54
+            2. Reinhard Lenz 1.13.57
+            Risto Pyhälampi
+
+    other:
+        'C vaativa 3,4 km': |
+            10. Annika Pankko 1.02.46    +20:12

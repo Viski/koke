@@ -1,0 +1,26 @@
+event_number: 13
+location: Ridasjärvi, Hyvinkää
+date: 25.7.
+organizer: HyRa / Kenneth Reinikka
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 6,5 km
+        data: |
+            1. Ustinov Jarkko 1.03.42
+            2. Lipsonen Ville 1.11.54 +08.12
+            3. Aaltonen Tero 1.19.56 +16.14
+            Kollanus Mika ei aikaa
+    lyhyt:
+        track: B
+        length: 4,5 km
+        data: |
+            1. Sihvola Esko 59.13
+            2. Lenz Reinhard 1.04.43 +05.30
+            3. Ojapalo Esa 1.05.32 +06.19
+            4. Salomäki Hannu 1.12.08 +12.55
+            5. Lindroos Janne 1.42.40 +43.27
+            6. Pyhälampi Risto 1.52.36 +53.23
+            7. Puputti Tapio 2.23.29 +1.24.16
+            8. Huuhka Pertti 2.30.06 +1.30.53

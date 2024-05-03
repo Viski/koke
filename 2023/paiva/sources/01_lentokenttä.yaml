@@ -1,0 +1,30 @@
+event_number: 1
+location: Lentokenttä, Hyvinkää
+date: 20.4.
+organizer: HyRa / Marko Pietari
+reverse_names: True
+series:
+    pitkä:
+        track: B
+        length: 5,0 km
+        data: |
+            1. Sami Hölttä 37.06
+            2. Jukka Poussu 38.09
+            3. Ville Lipsonen 38.43
+            4. Pertti Välimaa 44.29
+            5. Timo Lamminmäki 44.39
+            6. Tomi Myllärinen 45.01
+
+    lyhyt:
+        track: C vaativa
+        length: 3,1 km
+        data: |
+            1. Veijo Salmi 23.16
+            2. Tapio Puputti 25.02
+            3. Esko Sihvola 26.53
+            4. Harry Halonen 28.34
+            5. Mika Väisänen 29.05
+            6. Reinhard Lenz 30.20
+            7. Esa Ojapalo 33.51
+            8. Esa Partanen 35.22
+            9. Risto Pyhälampi 50.52

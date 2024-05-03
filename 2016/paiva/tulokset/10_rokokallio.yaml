@@ -1,0 +1,33 @@
+event_number: 10
+location: Rokokallio, Nurmijärvi
+date: 14.6.
+organizer: RR / Kari Vuorio
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,6 km
+        data: |
+             1. Janne Salomäki KoKe 1.01.46 +8.56
+             2. Hannu Pohjola KoKe 1.03.07 +10.17
+             3. Ville Lipsonen KoKe 1.07.46 +14.56
+             4. Tero Aaltonen KoKe 1.08.33 +15.43
+             5. Pertti Välimaa KoKe 1.13.40 +20.50
+             6. Tomi Myllärinen KoKe 1.24.23 +31.33
+             7. Reinhard Lenz KoKe 1.24.56 +32.06
+             8. Pertti Huuhka KoKe 2.02.58 +1.10.08
+
+    lyhyt:
+        track: B
+        length: 4,8 km
+        data: |
+             1. Harry Halonen KoKe 58.44 +14.51
+             2. Esa Partanen KoKe 1.03.55 +20.02
+             3. Jarmo Salo KoKe 1.05.06 +21.13
+             4. Erkki Lepistö KoKe 1.14.13 +30.20
+             5. Jari Itäkodes KoKe 1.26.58 +43.05
+             6. Risto Pyhälampi KoKe 1.27.42 +43.49
+             7. Jukka Haataja 1.36.50 +52.57
+             8. Juha Tervola KoKe 1.44.15
+             8. Oskar Lönnberg KoKe 1.45.45 +1.01.52
+             9. Henry Silvennoinen 1.56.19 +1.12.26

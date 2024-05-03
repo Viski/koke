@@ -1,0 +1,30 @@
+event_number: 2
+location: Paukunharju, Hyvinkää
+date: 15.9.
+organizer: HyRa / Arttu Ylönen
+reverse_names: False
+series:
+    pitkä:
+        track: Firma pitkä yö
+        length: 3,9 km
+        data: |
+             1. Pensas-Maajärvi Johanna 33.41
+             2. Välimaa Pertti 37.59
+             3. Lipsonen Ville 38.54 +5.13
+             4. Viero Jukka 41.59 +8.18
+             5. Myllärinen Tomi 45.33 +11.52
+             6. Lenz Reinhard 50.58 +17.17
+             7. Nieminen Ari 52.04 +18.23
+             8. Huuhka Pertti 1.27.24 +53.43
+             - Ojapalo Esa Ei aikaa
+
+    lyhyt:
+        track: Firma lyhyt yö
+        length: 2,9 km
+        data: |
+             1. Kiuru Esko 28.44
+             2. Salomäki Hannu 36.14 +7.30
+             3. Palomäki Mikko 37.53 +9.09
+             4. Itäkodes Jari 44.29 +15.45
+             5. Pyhälampi Risto 49.56 +21.12
+             6. Vainonen Pekka 1.08.16 +39.32

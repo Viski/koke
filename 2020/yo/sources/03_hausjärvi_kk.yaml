@@ -1,0 +1,34 @@
+event_number: 3
+location: Hausjärvi KK
+date: 29.9.
+organizer: RiSu / Mauri Saarinen
+reverse_names: True
+series:
+    pitkä:
+        track: B
+        length: 4,1 km
+        data: |
+            1. Sami Haaranen KoKe 28.58
+            2. Janne Salomäki KoKe 29.15
+            4. Ville Lipsonen KoKe 40.59
+            5. Jukka Viero KoKe 47.18
+            6. Reinhard Lenz KoKe 51.28
+            7. Ari Nieminen KoKe 53.17
+    lyhyt:
+        track: C
+        length: 3,0 km
+        data: |
+            1. Esko Kiuru KoKe 29.57
+            2. Pertti Välimaa KoKe 34.08
+            3. Timo Lamminmäki KoKe 37.12
+            4. Tapio Puputti KoKe 40.09
+            5. Erkki Kallela KoKe 44.17
+            6. Risto Pyhälampi KoKe 1.09.22
+            7. Pertti Huuhka KoKe 1.10.11
+            Hannu Salomäki KoKe
+    other:
+        'A (päivä) 5,9km': |
+            9. Johannes Pyyhtiä 1.06.57 +22.19
+        'C (päivä) 3,0km': |
+            16. Erkki Lepistö 47.19 +21.11
+            29. Jukka Haataja 1.09.24 +43.16

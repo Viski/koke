@@ -1,0 +1,31 @@
+event_number: 13
+location: Nyry, Hyvinkää
+date: 26.7.
+organizer: HyRa / Antti Korhonen
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 6,7 km
+        data: |
+            1. Salomäki Janne HyRa 1.03.24
+            2. Pohjola Hannu KoKe 1.18.03 +14.39
+            3. Välimaa Pertti KoKe 1.29.29 +29.10
+            4. Aaltonen Tero KoKe 1.48.34 +45.10
+            Laaksonheimo Jyrki ei aikaa
+
+    lyhyt:
+        track: B
+        length: 4,7 km
+        data: |
+            1. Lenz Reinhard KoKe 59.35
+            2. Viero Jukka KoKe 1.00.32 +18.44
+            3. Salomäki Hannu HyRa 1.05.57 +24.09
+            4. Ojapalo Esa KoKe 1.17.05 +17.30
+            5. Vainonen Pekka KoKe 1.19.48 +20.13
+            6. Kiuru Esko KoKe 1.23.01 +23.26
+            7. Lönnberg Oskar KoKe 1.38.25 +38.50
+            6. Huuhka Pertti KoKe 1.49.07 +49.32
+            7. Puputti Tapio 1.58.39 +59.04
+            8. Lindroos Janne 2.02.40 +1.03.05
+            9. Pyhälampi Risto 2.09.50 +1.10.15

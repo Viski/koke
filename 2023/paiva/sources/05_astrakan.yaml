@@ -1,0 +1,29 @@
+event_number: 5
+location: Astrakan / Hinkalonnummi, Hyvinkää
+date: 16.5.
+organizer: RR / Jukka Alho
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 7,4 km
+        data: |
+            1. Janne Salomäki 59.14
+            2. Hannu Pohjola 1.15.16
+            3. Pekka Koskinen 1.20.39
+            4. Jimi Kattainen 1.29.37
+
+    lyhyt:
+        track: B
+        length: 5,0 km
+        data: |
+            1. Pertti Välimaa 59.37
+            2. Reinhard Lenz 1.03.32
+            3. Sakke Ahoniemi 1.06.59
+            4. Tapio Puputti 1.09.07
+            Risto Pyhälampi
+
+    other:
+        'C vaativa 3,6 km': |
+            1. Veijo Salmi 36:10 +0
+            - Jukka Haataja - -

@@ -1,0 +1,30 @@
+event_number: 1
+location: Nyry, Hyvinkää
+date: 13.9.
+organizer: HyRa / Esko Kiuru
+reverse_names: False
+series:
+    pitkä:
+        track: B3
+        length: 4,5 km
+        data: |
+            1. Ustinov Jarkko KoKe 48.12
+            2. Salmi Veijo KoKe 54.24
+            3. Haaranen Sami KoKe 54.53
+            4. Pensas Johanna KoKe 1.02.02
+            5. Forsman Kristian KoKe 1.08.58
+            6. Myllärinen Tomi KoKe 1.10.27
+            7. Ojapalo Esa KoKe 2.11.27
+
+    lyhyt:
+        track: C4 vaikea
+        length: 3,1 km
+        data: |
+            1. Kallela Erkki KoKe 55.00
+            2. Kattainen Jimi KoKe 1.00.12
+            3. Itäkodes Jari KoKe 1.00.42
+            4. Pyhälampi Risto KoKe 1.06.20
+            5. Vainonen Pekka KoKe 1.08.45
+            6. Nieminen Ari KoKe 1.13.54
+            Huuhka Pertti KoKe
+            Salomäki Hannu KoKe

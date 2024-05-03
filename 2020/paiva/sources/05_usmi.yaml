@@ -1,0 +1,27 @@
+event_number: 5
+location: Usmi, Hyvinkää
+date: 30.7.
+organizer: HyRa / Ari Kattainen
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 5,1 km
+        data: |
+            1. Salomäki Janne KoKe 1.01.44
+            2. Ustinov Jarkko KoKe 1.10.11
+            3. Saarinen Marko RR 1.43.31
+            3. Lipsonen Ville KoKe 1.44.39
+            4. Aaltonen Tero KoKe 2.17.42
+            5. Laaksonheimo Jyrki KoKe 2.41.48
+
+    lyhyt:
+        track: B
+        length: 3,6 km
+        data: |
+            1. Välimaa Pertti KoKe 48.57
+            2. Kiuru Esko KoKe 49.02
+            3. Pyyhtiä Johannes KoKe 1.12.21
+            4. Halonen Harry KoKe 1.16.28
+            5. Salomäki Hannu KoKe
+            6. Pyhälampi Risto KoKe

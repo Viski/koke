@@ -1,0 +1,28 @@
+event_number: 8
+location: Nykiö, Hyvinkää
+date: 20.8.
+organizer: HyRa / Marko Pietari
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 6,6 km
+        data: |
+            1. Koskinen Pekka KoKe 1.31.43
+            - Lipsonen Ville KoKe
+
+    lyhyt:
+        track: B
+        length: 4,8 km
+        data: |
+            1. Puputti Tapio KoKe 58.20
+            2. Salmi Veijo RR 59.56
+            3. Kiuru Esko 1.02.52
+            4. Partanen Esa 1.10.07
+            5. Lamminmäki Timo 1.23.55
+            5. Lenz Reinhard 1.24.13
+            6. Pyyhtiä Johannes 1.27.42
+            7. Salomäki Hannu 1.29.08
+            8. Nieminen Ari 1.38.01
+            9. Lindroos Janne 1.59.11
+            10. Pyhälampi Risto KoKe 2.13.13

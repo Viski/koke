@@ -1,0 +1,22 @@
+event_number: 10
+location: Alhonniittu, Nurmijärvi
+date: 20.6.
+organizer: RR / Jukka Alho
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 5,9 km
+        data: |
+
+    lyhyt:
+        track: B
+        length: 4,3 km
+        data: |
+            1. Veijo Salmi 54.36
+            2. Johannes Pyyhtiä 1.06.22
+            3. Pertti Välimaa 1.10.22
+            4. Tapio Puputti 1.16.35
+            5. Reinhard Lenz 1.20.57
+            6. Esko Sihvola 1.21.37
+            Risto Pyhälampi

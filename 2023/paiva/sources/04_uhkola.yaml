@@ -1,0 +1,33 @@
+event_number: 4
+location: Uhkola / Vahteristo, Riihimäki
+date: 9.5.
+organizer: RiSu / Ari-Pekka Miettinen
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,0 km
+        data: |
+            1. Tero Aaltonen 1.11.35
+            2. Ville Lipsonen 1.14.09
+            3. Ari Nieminen 1.32.18
+            4. Pekka Koskinen 1.38.23
+            Jimi Kattainen
+
+    lyhyt:
+        track: B
+        length: 4,6 km
+        data: |
+            1. Reinhard Lenz 55.50
+            2. Johannes Pyyhtiä 1.01.28
+            3. Harry Halonen 1.01.35
+            4. Esa Partanen 1.03.36
+            5. Tapio Puputti 1.07.46
+            6. Esa Ojapalo 1.18.08
+            Risto Pyhälampi
+            Hannu Salomäki
+            Pertti Välimaa
+
+    other:
+        'C 3,5 km': |
+            - Erkki Lepistö - -

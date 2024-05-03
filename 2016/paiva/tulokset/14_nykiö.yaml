@@ -1,0 +1,28 @@
+event_number: 14
+location: Nykiö, Hyvinkää
+date: 11.8.
+organizer: HyRa / Esa Vesterinen
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 5,8 km
+        data: |
+             1. Lipsonen Ville 1.12.34
+             2. Pohjola Hannu 1.23.50 +11.16
+             3. Lenz Reinhard 1.33.20 +20.46
+             4. Huuhka Pertti 2.11.39 +59.05
+
+    lyhyt:
+        track: B
+        length: 4,0 km
+        data: |
+             1. Pensas-Maajärvi Johanna 50.19
+             2. Partanen Esa 56.25 +6.06
+             3. Salomäki Hannu 57.28 +7.09
+             4. Palomäki Mikko 1.00.46 +10.27
+             5. Väisänen Mika 1.02.29 +12.10
+             6. Nieminen Ari 1.03.16 +12.57
+             7. Puolakanaho Mikko 1.06.18 +15.59
+             8. Pyhälampi Risto 1.21.21 +31.02
+             9. Itäkodes Jari 1.42.35 +52.16

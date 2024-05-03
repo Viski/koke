@@ -1,0 +1,26 @@
+event_number: 3
+location: Noppo, Hyvinkää
+date: 22.9.
+organizer: HyRa / Antti Korhonen
+reverse_names: False
+series:
+    pitkä:
+        track: Firma pitkä yö
+        length: 4,9 km
+        data: |
+             1. Välimaa Pertti KoKe 48.03
+             2. Salomäki Janne KoKe 50.40
+             3. Nieminen Ari KoKe 1.04.36 +16.33
+             4. Ojapalo Esa KoKe 1.13.28 +25.25
+             5. Viero Jukka KoKe 1.13.51 +25.48
+             6. Huuhka Pertti KoKe 1.22.25 +34.22
+
+    lyhyt:
+        track: Firma lyhyt yö
+        length: 2,9 km
+        data: |
+             1. Salomäki Hannu KoKe 38.43
+             2. Kallela Erkki KoKe 45.18 +6.35
+             3. Pyhälampi Risto KoKe 46.54 +8.11
+             4. Vainonen Pekka 53.13 +14.30
+             5. Palomäki Mikko HyRa 53.31 +14.48

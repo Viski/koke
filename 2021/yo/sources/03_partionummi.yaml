@@ -1,0 +1,24 @@
+event_number: 3
+location: Partionummi, Nurmijärvi
+date: 5.10.
+organizer: RR / Alho
+reverse_names: False
+series:
+    pitkä:
+        track: B
+        length: 4,7 km
+        data: |
+            1. Salomäki Janne KoKe 39:49
+            2. Kiviaho Erkka KoKe 1:05:42
+            3. Lipsonen Ville KoKe 1:08:29
+
+    lyhyt:
+        track: C vaativa
+        length: 3,3 km
+        data: |
+            1. Salmi Veijo KoKe 36:02
+            2. Kiuru Esko KoKe 40:36
+            3. Lamminmäki Timo KoKe 44:46
+            4. Salomäki Hannu KoKe 49:47
+            5. Kallela Erkki KoKe 1:04:59
+            6. Pyhälampi Risto KoKe 1:43:12

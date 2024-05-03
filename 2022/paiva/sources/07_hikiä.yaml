@@ -1,0 +1,29 @@
+event_number: 7
+location: Hikiä, Hausjärvi
+date: 31.5.
+organizer: RiSu / Martti Hakola
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,1 km
+        data: |
+            1 Hannu Pohjola 1.01.00
+            2. Marko Saarinen 1.14.39
+            3. Ville Lipsonen 1.14.48
+            4. Sakke Ahoniemi 1.39.25
+
+    lyhyt:
+        track: B
+        length: 4,6 km
+        data: |
+            1. Erkka Kiviaho 47.27
+            2. Tapio Puputti 49.17
+            3. Timo Lamminmäki 49.36
+            4. Johannes Pyyhtiä 53.05
+            5. Esa Ojapalo 1.24.30
+            Risto Pyhälampi ei aikaa
+
+    other:
+        'C 3.3 km': |
+            11. Erkki Kallela                      52.43    +15.34

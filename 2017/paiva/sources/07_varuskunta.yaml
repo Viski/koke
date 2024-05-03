@@ -1,0 +1,36 @@
+event_number: 7
+location: Varuskunta, Riihimäki
+date: 23.5.
+organizer: RiSu / Jouni Tuomola
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,4 km
+        data: |
+            1. Janne Salomäki 49.30
+            2. Antti Kaivosaari 51.16 +1.46
+            3. Tero Aaltonen 1.01.18 +11.48
+            4. Tero Niemi 1.05.19 +20.26
+            5. Jukka Viero 1.09.41 +20.11
+            6. Pekka Koskinen 1.12.31 +23.01
+            7. Sakke Ahoniemi 1.14.14 +24.44
+            8. Visa Jokelainen 1.19.55 +30.25
+            - Pertti Välimaa Ei aikaa
+
+    lyhyt:
+        track: B
+        length: 5,4 km
+        data: |
+            1. Johanna Pensas 47.25
+            2. Esko Kiuru 59.06 +11.41
+            3. Mikko Puolakanaho 1.01.16 +13.51
+            4. Jari Fröblom 1.04.55 +17.30
+            5. Reinhard Lenz 1.12.07 +24.42
+            6. Harry Halonen 1.14.57 +27.32
+            7. Mika Väisänen 1.18.34 +31.09
+            8. Ari Nieminen 1.20.15 +32.50
+            9. Esa Partanen 1.20.52 +33.27
+            10. Pekka Vainonen 1.31.34 +44.09
+            11. Oskar Lönnberg 1.31.56 +44.31
+            12. Pertti Huuhka 2.08.07 +1.20.42

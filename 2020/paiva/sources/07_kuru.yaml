@@ -1,0 +1,26 @@
+event_number: 7
+location: Kuru, Hyvinkää
+date: 13.8.
+organizer: HyRa / Jussi ja Touko Hyvärilä
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 6,5 km
+        data: |
+            1. Salomäki Janne KoKe 1.00.37
+            2. Haaranen Sami KoKe 1.01.09
+            3. Ustinov Jarkko KoKe 1.04.59
+            4. Lipsonen Ville KoKe 1.26.33
+            - Koskinen Pekka KoKe
+            - Laaksonheimo Jyrki HyRa
+
+    lyhyt:
+        track: B
+        length: 4,4 km
+        data: |
+            1. Salmi Veijo RR 55.13
+            2. Partanen Esa KoKe 1.06.53
+            3. Puputti Tapio KoKe 1.09.43
+            4. Pyhälampi Risto KoKe 2.09.09
+            5. Lindroos Janne 2.10.37

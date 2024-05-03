@@ -1,0 +1,39 @@
+event_number: 9
+location: Hikiä, Riihimäki
+date: 7.6.
+organizer: HyRa / Jussi Borgenström
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 7,3 km
+        data: |
+            1. Haaranen Sami 58.37
+            2. Aaltonen Tero 1.12.19 +13.42
+            3. Viero Jukka 1.18.39 +20.02
+            4. Lipsonen Ville 1.25.22 +33.42
+            5. Puolakanaho Mikko 1.27.04 +28.27
+            6. Ahoniemi Sakke 1.40.20 +41.43
+            7. Toivonen Juha 1.40.59 +42.22
+            8. Laaksonheimo Jyrki 1.45.25 +46.48
+
+    lyhyt:
+        track: B
+        length: 4,9 km
+        data: |
+            1. Forsman Kristian 58.23
+            2. Saarinen Marko 59.39
+            3. Kallela Erkki 1.11.47
+            4. Partanen Esa 1.20.08 +08.21
+            5. Ojapalo Esa 1.24.00 +12.13
+            6. Väisänen Mika 1.28.16 +16.29
+            5. Lönnberg Oskar 1.32.56 +21.09
+            6. Huuhka Pertti 1.33.12 +21.25
+            7. Saloranta Heikki 1.34.57 +54.14
+            8. Lindroos Janne 2.04.17 +1.23.34
+            9. Puputti Tapio 2.20.41 +1.08.54
+            10. Lappalainen Jani 2.21.44 +1.09.57
+            11. Kollanus Mika 2.30.21 +1.18.34
+            Lepistö Erkki
+            Pyhälampi Risto
+            Stuppi Claudio

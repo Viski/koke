@@ -1,0 +1,30 @@
+event_number: 5
+location: Sääksi, Nurmijärvi
+date: 18.10.
+organizer: RR / Tapio Ojala
+reverse_names: False
+series:
+    pitkä:
+        track: B
+        length: 5,3 km
+        data: |
+            1. Salomäki Janne KoKe 34.09
+            2. Hölttä Sami KoKe 40.18
+            3. Lipsonen Ville KoKe 40.57
+            4. Saarinen Marko RR 45.54
+            5. Ahoniemi Sakke KoKe 47.14
+            6. Nieminen Ari KoKe 1.04.12
+
+    lyhyt:
+        track: C
+        length: 3,5 km
+        data: |
+            1. Puputti Tapio KoKe 40.25
+            2. Salomäki Hannu KoKe 42.00
+            3. Kallela Erkki KoKe 45.15
+            4. Pyhälampi Risto KoKe 1.13.09
+
+    other:
+        'Päivä B 5,3 km': |
+           13. Välimaa Pertti KoKe 44.32  +11.53
+

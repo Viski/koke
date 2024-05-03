@@ -1,0 +1,33 @@
+event_number: 13
+location: Hausjärvi kk, Riihimäki
+date: 2.8.
+organizer: RiSu / Matti Toivonen
+reverse_names: False
+series:
+    pitkä:
+        track: 6
+        length: 5,9 km
+        data: |
+             1. Kaivosaari Antti 44.04 +2.21
+             2. Salomäki Janne 45.42 +3.59
+             3. Koskinen Pekka 1.02.00 +20.17
+             4. Huuhka Pertti 1.42.20 +1.00.37
+
+    lyhyt:
+        track: 4A
+        length: 4,3 km
+        data: |
+             1. Pensas-Maajärvi Johanna 35.00
+             2. Kiiskinen Hannu 39.54 +4.54
+             3. Lipsonen Ville 41.50 +6.50
+             4. Kiuru Esko 42.13 +7.13
+             5. Salomäki Hannu 43.32 +8.32
+             6. Kallela Erkki 50.48 +15.48
+             7. Lepistö Erkki 54.42 +19.42
+             8. Nieminen Ari 55.24 +20.24
+             9. Haataja Jukka 58.01 +23.01
+             10. Lönnberg Oskar 1.02.51 +27.51
+             11. Pyhälampi Risto 1.07.06 +32.06
+             12. Itäkodes Jari 1.08.07 +33.07
+             13. Markus Esa 1.13.13 +38.13
+             14. Rantala Hannu 1.13.19 +38.19

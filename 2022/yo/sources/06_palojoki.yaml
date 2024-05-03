@@ -1,0 +1,22 @@
+event_number: 6
+location: Palojoki, Nurmijärvi
+date: 25.10.
+organizer: RR / Jarmo Hyvönen
+reverse_names: False
+series:
+    pitkä:
+        track: B
+        length: 4,4 km
+        data: |
+            1. Kiviaho Erkka KoKe 52.13
+            2. Lamminmäki Timo KoKe 1.03.50
+            3. Ahoniemi Sakke KoKe 1.11.07
+            4. Saarinen Marko RR 1.15.05
+
+    lyhyt:
+        track: C
+        length: 2,2 km
+        data: |
+            1. Salomäki Hannu KoKe 41.10
+            2. Puputti Tapio KoKe 56.47
+            3. Pyhälampi Risto KoKe 1.25.03

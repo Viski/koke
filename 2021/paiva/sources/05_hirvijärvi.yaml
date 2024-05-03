@@ -1,0 +1,28 @@
+event_number: 5
+location: Hirvijärvi, Riihimäki
+date: 27.7.
+organizer: RiSu / Jarmo Kapanen
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,5 km
+        data: |
+            1. Sami Haaranen                                   55.46
+            2. Marko Saarinen                                1.30.47
+            3. Esko Sihvola                                     2.17.46
+    lyhyt:
+        track: B
+        length: 5,35 km
+        data: |
+            1. Ville Lipsonen                                  59.16
+            2. Johannes Pyyhtiä                           1.08.31
+            3. Reinhard Lenz                               1.10.13
+            4. Pertti Välimaa                                1.13.52
+            5. Pekka Koskinen                             1.20.30
+            6. Esa Ojapalo                                    1.27.31
+            - Risto Pyhälampi
+            - Tapio Puputti
+    other:
+        'C Vaativa 3,8km': |
+            16. Erkki Kallela 01.00.53 +16.00

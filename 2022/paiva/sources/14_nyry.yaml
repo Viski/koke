@@ -1,0 +1,23 @@
+event_number: 14
+location: Nyry, Hyvinkää
+date: 18.8.
+organizer: HyRa / T. Väre
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,2 km
+        data: |
+            1. Janne Salomäki 1.01.10
+            2. Ville Lipsonen 1.17.54
+            3. Asmo Tenhunen
+
+    lyhyt:
+        track: B
+        length: 4,6 km
+        data: |
+            1. Esko Kiuru 56.10
+            2. Pertti Välimaa 1.07.56
+            3. Tapio Puputti 1.13.02
+            4. Hannu Salomäki
+            Risto Pyhälampi

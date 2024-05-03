@@ -1,0 +1,27 @@
+event_number: 14
+location: Vatsia, Riihimäki
+date: 30.7.
+organizer: RiSu / Jarmo Kapanen
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,3 km
+        data: |
+            1. Janne Salomäki 54.36 +9.06
+            2. Jarkko Ustinov 1.00.54 +15.24
+            3. Tero Aaltonen 1.06.57 +21.27
+            4. Hannu Pohjola 1.12.59 +27.29
+            5. Ville Lipsonen 1.18.05 +32.35
+            6. Pertti Välimaa 1.21.00 +35.30
+            7. Ilkka Leppänen 1.29.16 +43.46
+            8. Mika Kollanus 1.32.25 +46.55
+    lyhyt:
+        track: B
+        length: 4,7 km
+        data: |
+            1. Reinhard Lenz 51.58 +6.07
+            2. Tapio Puputti 1.06.22 +20.31
+            3. Hannu Salomäki 1.08.17 +22.26
+            4. Esa Ojapalo 1.17.39 +31.48
+            5. Risto Pyhälampi 1.49.39 +1.03.48

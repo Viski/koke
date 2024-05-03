@@ -1,0 +1,37 @@
+event_number: 3
+location: Palopuro, Hyvinkää
+date: 27.4.
+organizer: HyRa / Hannu Salomäki
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 6,3 km
+        data: |
+            1. Kaivosaari Antti 52.37
+            2. Salomäki Janne 52.55 +18
+            3. Haaranen Sami 1.00.57 +8.20
+            4. Ahoniemi Sakke 1.20.20 +27.43
+            5. Myllärinen Tomi 1.24.49 +32.12
+            6. Aaltonen Tero 1.26.13 +33.36
+            7. Jokelainen Visa 1.28.31 +35.54
+            - Lipsonen Ville Ei aikaa
+            - Koskinen Pekka Ei aikaa
+            - Laaksonheimo Jyrki Ei aikaa
+
+    lyhyt:
+        track: B
+        length: 4,2 km
+        data: |
+            1. Pensas Johanna 41.07
+            2. Puolakanaho Mikko 46.49 +5.42
+            3. Väisänen Mika 52.10 +11.03
+            4. Nieminen Ari 1.01.48 +20.41
+            5. Lamminmäki Timo 1.02.13 +21.06
+            6. Lenz Reinhard 1.02.41 +21.34
+            7. Räty Timo 1.09.28 +28.21
+            8. Huuhka Pertti 1.17.12 +36.05
+            9. Vainonen Pekka 1.43.50 +1.02.43
+            - Kiuru Esko Ei aikaa
+            - Halonen Harry Ei aikaa
+            - Partanen Paavo Ei aikaa

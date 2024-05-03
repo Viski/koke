@@ -1,0 +1,35 @@
+event_number: 2
+location: Hikiä
+date: 21.9.
+organizer: HyRa / Jouni Rantanen
+reverse_names: True
+series:
+    pitkä:
+        track: B
+        length: 5,5 km
+        data: |
+            1. Janne Salomäki KoKe 1.02.23
+            2. Janne Åberg KoKe 1.11.23
+            3. Jimi Kattainen KoKe 1.30.09
+            4. Ari Nieminen KoKe 1.31.51
+            5. Marko Saarinen RR 1.34.12
+            6. Esko Sihvola KoKe 1.41.45
+            Pekka Koskinen KoKe
+
+    lyhyt:
+        track: CV
+        length: 3,8 km
+        data: |
+            Risto Pyhälampi KoKe
+            Pertti Välimaa KoKe
+
+    other:
+        'C 2,9 km': |
+            4. Mikko Palomäki KoKe 56.05 +15:44
+
+        'Päivä B 5,5 km': |
+            1. Johannes Pyyhtiä KoKe 51.16 +00:00
+
+        'Päivä CV 3,8 km': |
+            1. Timo Lamminmäki KoKe 44.13 +00:00
+            6. Jari Fröblom KoKe 56.49 +12:36

@@ -1,0 +1,33 @@
+event_number: 4
+location: Partionummi, Nurmijärvi
+date: 9.10.
+organizer: RR / Janne Puhakka
+reverse_names: False
+series:
+    pitkä:
+        track: B
+        length: 5,1 km
+        data: |
+            1. Salomäki Janne HyRa 43.14
+            2. Ahoniemi Sakke HyRa 47.58 +04.44
+            3. Ustinov Jarkko KoKe 54.49 +11.35
+            4. Sihvola Esko KoKe 1.04.10 +20.56
+            5. Forsman Kristian Brahe 1.04.18 +21.04
+            6. Myllärinen Tomi KoKe 1.04.27 +21.13
+            7. Lenz Reinhard KoKe 1.17.39 +34.25
+            8. Nieminen Ari KoKe 1.22.51 +39.37
+            Loisa Markus KoKe
+    lyhyt:
+        track: C
+        length: 3,1 km
+        data: |
+            1. Salmi Veijo KoKe 31.04 +02.50
+            2. Lamminmäki Timo KoKe 40.47 +12.33
+            3. Kallela Erkki KoKe 42.20 +14.06
+            4. Palomäki Mikko KoKe 44.09 +15.55
+            5. Itäkodes Jari KoKe 49.00 +20.46
+            6. Ojapalo Esa 49.57 +21.43
+            7. Vainonen Pekka KoKe 57.54 +29.40
+            8. Pyhälampi Risto KoKe 1.09.54 +41.40
+            9. Huuhka Pertti KoKe 1.10.36 +42.22
+            Välimaa Pertti KoKe

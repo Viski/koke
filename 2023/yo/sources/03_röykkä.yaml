@@ -1,0 +1,27 @@
+event_number: 3
+location: Röykkä
+date: 26.9.
+organizer: RR / Vesa Tervo
+reverse_names: True
+series:
+    pitkä:
+        track: B
+        length: 4,7 km
+        data: |
+            1. Jukka Viero KoKe 54.16
+            2. Ville Lipsonen KoKe 1.07.01
+            3. Esko Sihvola KoKe 1.12.37
+
+    lyhyt:
+        track: CV
+        length: 3,6 km
+        data: |
+            1. Sakke Ahoniemi KoKe 45.46
+            2. Hannu Salomäki KoKe 46.52
+            3. Timo Lamminmäki KoKe 49.52
+            4. Mikko Palomäki KoKe 1.11.19
+            Risto Pyhälampi KoKe
+
+    other:
+        'Päivä B 4,7 km': |
+            14. Tapio Puputti KoKe 58.17 +19:18

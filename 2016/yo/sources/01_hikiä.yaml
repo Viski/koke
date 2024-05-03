@@ -1,0 +1,28 @@
+event_number: 1
+location: Hikiä, Riihimäki
+date: 6.9.
+organizer: RiSu / Mauri Saarinen
+reverse_names: True
+series:
+    pitkä:
+        track: 6
+        length: 6,0 km
+        data: |
+             1. Janne Salomäki 55.23
+             2. Tomi Myllärinen 1.21.46
+             3. Ari Nieminen 1.49.51
+             4. Pertti Huuhka Ei aikaa
+
+    lyhyt:
+        track: 4A
+        length: 3,7 km
+        data: |
+             1. Esko Kiuru 36.19
+             2. Pekka Koskinen 43.48
+             3. Pertti Välimaa 44.26
+             4. Erkki Kallela 48.27
+             5. Risto Pyhälampi 50.04
+             6. Jari Itäkodes 51.57
+             7. Mikko Palomäki 1.02.45
+             8. Hannu Salomäki 1.10.14
+             Reetta Merilä Ei aikaa

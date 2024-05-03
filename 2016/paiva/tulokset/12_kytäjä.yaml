@@ -1,0 +1,33 @@
+event_number: 12
+location: Kytäjä, Hyvinkää
+date: 28.7.
+organizer: HyRa / Jussi Borgenström
+reverse_names: False
+series:
+    pitkä:
+        track: A
+        length: 5,6 km
+        data: |
+             1. Viitanen Lauri 46.01
+             2. Salomäki Janne 51.51 +5.50
+             3. Pohjola Hannu 1.02.33 +16.32
+             4. Lipsonen Ville 1.13.54 +27.53
+             5. Koskinen Pekka 1.21.47 +35.46
+             6. Myllärinen Tomi 1.22.13 +36.12
+             7. Huuhka Pertti 1.57.45 +1.11.44
+
+    lyhyt:
+        track: B
+        length: 4,0 km
+        data: |
+             1. Partanen Paavo 52.47
+             2. Salomäki Hannu 53.55 +6.54
+             2. Puolakanaho Mikko 55.44 +2.57
+             3. Lenz Reinhard 1.01.29 +8.42
+             4. Virtanen Veikko 1.11.44 +18.57
+             5. Palomäki Mikko 1.14.45 +21.58
+             6. Nieminen Ari 1.24.50 +32.03
+             7. Lönnberg Oskar 1.27.51 +35.04
+             8. Kallela Erkki 1.41.18 +48.31
+             9. Itäkodes Jari 1.44.58 +52.11
+             10. Pyhälampi Risto 1.51.33 +58.46

@@ -1,0 +1,35 @@
+event_number: 4
+location: Suomies, Nurmijärvi
+date: 3.5.
+organizer: RR / Esko Alho
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 5,9 km
+        data: |
+            1. Lauri Viitanen KoKe 47.02
+            2. Tero Aaltonen KoKe 1.07.02 +20.00
+            3. Ville Lipsonen KoKe 1.07.11 +20.09
+            4. Tero Aunula 1.11.52 +24.50
+            5. Pertti Välimaa KoKe 1.18.48 +31.46
+            6. Visa Jokelainen KoKe 1.19.30 +32.28
+            7. Pertti Huuhka KoKe 2.16.48 +1.29.46
+
+    lyhyt:
+        track: B
+        length: 4,4 km
+        data: |
+            1. Johanna Pensas-Maajärvi KoKe 50.36 +2.07
+            2. Esko Kiuru KoKe 53.26 +4.57
+            3. Timo Lamminmäki KoKe 1.05.46 +17.17
+            4. Valtteri Ahlström KoKe 1.05.54 +17.25
+            5. Juha Räikkönen KoKe 1.07.43 +19.14
+            6. Harry Halonen KoKe 1.08.12 +19.43
+            7. Mikko Palomäki KoKe 1.08.48 +20.19
+            8. Hannu Salomäki KoKe 1.11.05 +22.36
+            9. Ari Nieminen KoKe 1.13.12 +24.43
+            10. Esa Markus KoKe 1.32.02 +43.33
+            11. Jukka Haataja 1.45.45 +57.16
+            12. Risto Pyhälampi KoKe 1.45.55 +57.26
+            - Antti Kaivosaari KoKe Ei aikaa
