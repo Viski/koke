@@ -1,0 +1,33 @@
+﻿event_number: 2
+location: Kipinä
+date: 2.5.
+organizer: HyRa / Esko Kiuru
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 3,8 km
+        data: |
+            1. Janne Salomäki 17.26
+            2. Jukka Viero 19.09
+            3. Jimi Kattainen 19.34
+            4. Jukka Poussu 20.10
+            5. Asmo Tenhunen 21.10
+            6. Pertti Välimaa 22.02
+            7. Tero Aaltonen 22.03
+            8. Henri Rautajärvi 23.14
+            9. Timi Honkanen 26.08
+            10. Jussi Perälä 26.48
+            11. Claudio Stuppi 27.21
+
+    lyhyt:
+        track: B
+        length: 3,1 km
+        data: |
+            1. Veijo Salmi 19.56
+            2. Tapio Puputti 20.54
+            3. Valtteri Ahlström 22.14
+            4. Harry Halonen 23.42
+            5. Maria Zakrewski 39.57
+            6. Risto Pyhälampi 53.59
+            7. Erkki Lepistö 54.05

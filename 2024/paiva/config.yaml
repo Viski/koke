@@ -40,7 +40,6 @@ series:
             - {last: Pohjola, first: Hannu}
             - {last: Poussu, first: Jukka}
             - {last: Puolakanaho, first: Mikko}
-            - {last: Puputti, first: Tapio}
             - {last: Pyyhtiä, first: Johannes}
             - {last: Rautajärvi, first: Henri}
             - {last: Räty, first: Timo}
@@ -48,6 +47,7 @@ series:
             - {last: Saarinen, first: Marko}
             - {last: Salomäki, first: Janne}
             - {last: Silanpää, first: Erik}
+            - {last: Stuppi, first: Claudio}
             - {last: Tenhunen, first: Asmo}
             - {last: Tenkula, first: Aleksi}
             - {last: Tervola, first: Juha}
@@ -94,6 +94,7 @@ series:
             - {last: Perälä, first: Pekka}
             - {last: Porma, first: Mikko}
             - {last: Puputti, first: Petri}
+            - {last: Puputti, first: Tapio}
             - {last: Pyhälampi, first: Risto}
             - {last: Rantala, first: Hannu}
             - {last: Rantanen, first: Joonas}
@@ -105,7 +106,6 @@ series:
             - {last: Sihvola, first: Esko}
             - {last: Silvennoinen, first: Henry}
             - {last: Sirjola, first: Juhani}
-            - {last: Stuppi, first: Claudio}
             - {last: Tiljander, first: Ville}
             - {last: Toura, first: Antti}
             - {last: Törhönen, first: Petri}
@@ -114,6 +114,7 @@ series:
             - {last: Virtanen, first: Veikko}
             - {last: Ward, first: Allison}
             - {last: Wikström, first: Tim}
+            - {last: Zakrewski, first: Maria}
 
 unknown_participants:
             - {last: Aikkila, first: Riitta}
