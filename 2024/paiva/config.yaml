@@ -47,7 +47,6 @@ series:
             - {last: Saarinen, first: Marko}
             - {last: Salomäki, first: Janne}
             - {last: Silanpää, first: Erik}
-            - {last: Stuppi, first: Claudio}
             - {last: Tenhunen, first: Asmo}
             - {last: Tenkula, first: Aleksi}
             - {last: Tervola, first: Juha}
@@ -106,6 +105,7 @@ series:
             - {last: Sihvola, first: Esko}
             - {last: Silvennoinen, first: Henry}
             - {last: Sirjola, first: Juhani}
+            - {last: Stuppi, first: Claudio}
             - {last: Tiljander, first: Ville}
             - {last: Toura, first: Antti}
             - {last: Törhönen, first: Petri}

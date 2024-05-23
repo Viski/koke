@@ -1,0 +1,39 @@
+﻿event_number: 5
+location: Kuru Maisala
+date: 16.5.
+organizer: HyRa / Erja Raikko
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,2 km
+        data: |
+            1. Janne Salomäki 1.00.21
+            2. Jukka Viero 1.11.01
+            3. Ville Lipsonen 1.21.31
+            4. Tero Aaltonen 1.25.54
+            5. Pekka Koskinen 1.27.16
+            6. Asmo Tenhunen 1.32.57
+            7  Erkka Kiviaho 1.49.16
+            8. Pertti Välimaa 2.07.48
+            9. Aleksi Tenkula 2.23.17
+            Timi Honkanen ei aikaa
+            Jussi Perälä ei aikaa
+
+
+    lyhyt:
+        track: B
+        length: 4,6 km
+        data: |
+            1. Veijo Salmi 57.04
+            2. Reinhard Lenz 1.22.07
+            3. Harry Halonen 1.26.08
+            4. Annika Pankko 1.29.36
+            5. Jyrki Laaksonheimo 2.01.42
+            Risto Pyhälampi ei aikaa
+            Claudio Stuppi ei aikaa
+
+
+    other:
+        'Rata C2 3,1 km': |
+            3. Erkki Kallela 1.12.32 +8.29
