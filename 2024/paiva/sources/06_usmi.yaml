@@ -1,0 +1,37 @@
+﻿event_number: 6
+location: Usmi
+date: 23.5.
+organizer: HyRa / Hannu Salomäki
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,4 km
+        data: |
+            1. Erkka Kiviaho   1.38.47
+            2. Aleksi Tenkula  1.47.17
+            3. Sakke Ahoniemi  2.06.23
+            4. Tero Aaltonen   2.43.21
+            Asmo Tenhunen
+            Pekka Koskinen
+
+    lyhyt:
+        track: B
+        length: 4,4 km
+        data: |
+            1. Hannu Pohjola 56.34
+            2. Ville Lipsonen 1.10.38
+            3. Tapio Puputti 1.11.04
+            4. Pertti Välimaa 1.17.56
+            5. Jukka Poussu 1.19.52
+            6. Johannes Pyyhtiä 1.27.10
+            7. Ari Nieminen 1.32.57
+            8. Harry Halonen 1.35.35
+            9. Reinhard Lenz 1.36.31
+            Risto Pyhälampi ei aikaa
+
+    other:
+        CV 2,8 km': |
+            - Mikko Palomäki - -
+        C 2,4 km': |
+            4. Claudio Stuppi 39.58 +15:52
