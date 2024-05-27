@@ -32,12 +32,10 @@ series:
             - {last: Koskinen, first: Pekka}
             - {last: Lamminmäki, first: Timo}
             - {last: Leppänen, first: Ilkka}
-            - {last: Lipsonen, first: Ville}
             - {last: Loisa, first: Markus}
             - {last: Myllärinen, first: Tomi}
             - {last: Niemi, first: Tero}
             - {last: Perälä, first: Jussi}
-            - {last: Pohjola, first: Hannu}
             - {last: Poussu, first: Jukka}
             - {last: Puolakanaho, first: Mikko}
             - {last: Pyyhtiä, first: Johannes}
@@ -55,7 +53,6 @@ series:
             - {last: Viero, first: Jukka}
             - {last: Viitanen, first: Lauri}
             - {last: Väisänen, first: Mika}
-            - {last: Välimaa, first: Pertti}
             - {last: Åberg, first: Janne}
 
     lyhyt:
@@ -79,6 +76,7 @@ series:
             - {last: Lenz, first: Reinhard}
             - {last: Lepistö, first: Erkki}
             - {last: Lindroos, first: Janne}
+            - {last: Lipsonen, first: Ville}
             - {last: Lönnberg, first: Oskar}
             - {last: Markus, first: Esa}
             - {last: Merilä, first: Reetta}
@@ -91,6 +89,7 @@ series:
             - {last: Partanen, first: Paavo}
             - {last: Pensas, first: Johanna}
             - {last: Perälä, first: Pekka}
+            - {last: Pohjola, first: Hannu}
             - {last: Porma, first: Mikko}
             - {last: Puputti, first: Petri}
             - {last: Puputti, first: Tapio}
@@ -112,6 +111,7 @@ series:
             - {last: Urho, first: Ilmari}
             - {last: Vainonen, first: Pekka}
             - {last: Virtanen, first: Veikko}
+            - {last: Välimaa, first: Pertti}
             - {last: Ward, first: Allison}
             - {last: Wikström, first: Tim}
             - {last: Zakrewski, first: Maria}
