@@ -1,0 +1,35 @@
+﻿event_number: 7
+location: Hikiä
+date: 28.5.
+organizer: RiSu / Johanna Lahti
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,4 km
+        data: |
+            1. Hannu Pohjola 59.42
+            2. Tero Aaltonen 1.03.36
+            3. Asmo Tenhunen 1.12.35
+            4. Sakke Ahoniemi 1.12.53
+            5. Aleksi Tenkula 1.14.30
+            6. Henri Rautajärvi 1.21.45
+            7. Pekka Koskinen 1.21.56
+            8. Johannes Pyyhtiä 1.26.51
+            9. Erkka Kiviaho 1.35.15
+            10 Esa Ojapalo 1.36.32
+
+    lyhyt:
+        track: B
+        length: 4,6 km
+        data: |
+            1. Pertti Välimaa 52.49
+            2. Harry Halonen 53.28
+            3. Reinhard Lenz 1.07.55
+            Tapio Puputti ei aikaa
+            Risto Pyhälampi ei aikaa
+
+    other:
+        'Rata C 3,5 km': |
+            15. Erkki Kallela 47.50 +13.36
+            27. Jukka Haataja 56.30 +22.16
