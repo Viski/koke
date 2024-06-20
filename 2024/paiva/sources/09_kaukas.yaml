@@ -1,0 +1,30 @@
+﻿event_number: 9
+location: Kaukas
+date: 24.10.
+organizer: HyRa / Kenneth Reinikka
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,3 km
+        data: |
+            1. Janne Salomäki 1.00.50
+            2. Janne Åberg 1.01.51
+            3. Tero Aaltonen 1.13.53
+            4. Aleksi Tenkula 1.29.33
+            6. Jussi Perälä 2.25.09
+
+    lyhyt:
+        track: B
+        length: 4,2 km
+        data: |
+            1. Hannu Salomäki 56.24
+            2. Tapio Puputti 1.11.15
+            3. Ari Nieminen 1.11.36
+            4. Annika Pankko 1.13.19
+            Risto Pyhälampi ei aikaa
+            Hannu Rantala ei aikaa
+
+    other:
+        'Rata CV 3,0 km':
+            7. Timo Lamminmäki 49.32 +11.59
