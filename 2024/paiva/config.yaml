@@ -30,7 +30,6 @@ series:
             - {last: Koponen, first: Sami}
             - {last: Korhonen, first: Tomi}
             - {last: Koskinen, first: Pekka}
-            - {last: Lamminmäki, first: Timo}
             - {last: Leppänen, first: Ilkka}
             - {last: Loisa, first: Markus}
             - {last: Myllärinen, first: Tomi}
@@ -71,6 +70,7 @@ series:
             - {last: Kiuru, first: Esko}
             - {last: Laaksonheimo, first: Jyrki}
             - {last: Lahikainen, first: Matti}
+            - {last: Lamminmäki, first: Timo}
             - {last: Lappalainen, first: Jani}
             - {last: Lehto, first: Matti}
             - {last: Lenz, first: Reinhard}
