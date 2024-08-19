@@ -1,0 +1,27 @@
+﻿event_number: 13
+location: Kilometrikallio, Loppi
+date: 6.8.
+organizer: RiSu / Ari-Pekka Miettinen
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 5,3 km
+        data: |
+            1. Janne Salomäki 50.00
+            2. Asmo Tenhunen 1.07.40
+            3. Tero Aaltonen 1.09.46
+            4. Johannes Pyyhtiä 1.22.34
+            5. Marko Saarinen 1.26.41
+
+    lyhyt:
+        track: B
+        length: 3,9 km
+        data: |
+            1. Pertti Välimaa 49.30
+            2. Ville Lipsonen 52.03
+            3. Reinhard Lenz 1.00.03
+            4. Hannu Salomäki 1.01.30
+            5. Tapio Puputti 1.04.23
+            6. Esa Ojapalo 1.33.40
+            Risto Pyhälampi ei aikaa

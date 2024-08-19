@@ -1,0 +1,33 @@
+﻿event_number: 10
+location: Alhonniitty
+date: 25.6.
+organizer: RR / Ari Laapas
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 5,5 km
+        data: |
+            1. Jukka Viero 1.02.50
+            2. Erkka Kiviaho 1.13.26
+            3. Tero Aaltonen 1.16.43
+            4. Aleksi Tenkula 1.33.13
+
+    lyhyt:
+        track: B
+        length: 4,1 km
+        data: |
+            1. Pertti Välimaa 1.03.34
+            2. Johannes Pyyhtiä 1.04.46
+            3. Ville Lipsonen 1.06.51
+            4. Hannu Salomäki 1.07.55
+            5. Sakke Ahoniemi 1.09.28
+            6. Timo Lamminmäki 1.11.48
+            7. Tapio Puputti 1.20.55
+            Risto Pyhälampi ei aikaa
+
+    other:
+        'Rata CV 3,1 km': |
+            35. Pekka Vainonen 1.29.45 +36.47
+            - Hannu Rantala - -
+

@@ -1,0 +1,30 @@
+﻿event_number: 14
+location: Majolampi
+date: 13.8.
+organizer: RiSu / Martti Hakola
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,4 km
+        data: |
+            1. Janne Salomäki 59.57
+            2. Asmo Tenhunen 1.18.11
+            3. Tero Aaltonen 1.30.11
+            4. Jimi Kattainen 1.37.45
+
+    lyhyt:
+        track: B
+        length: 4,61 km
+        data: |
+            1. Ville Lipsonen 50.56
+            2. Marko Saarinen 54.51
+            3. Reinhard Lenz 1.03.44
+            4. Tapio Puputti 1.05.27
+            5. Esa Ojapalo 1.21.00
+            6. Pertti Välimaa 1.25.44
+            Risto Pyhälampi ei aikaa
+
+    other:
+        'Rata C 3,2 km': |
+            20. Pekka Vainonen 1.08.32   +24.15

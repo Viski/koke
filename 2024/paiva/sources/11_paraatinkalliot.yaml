@@ -1,0 +1,30 @@
+﻿event_number: 11
+location: Paraatinkalliot
+date: 2.7.
+organizer: RR / Jaakko Leinonen
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,5 km
+        data: |
+            1. Erkka Kiviaho 1.09.33
+            2. Janne Åberg 1.10.29
+            3. Tero Aaltonen 1.14.50
+            4. Pekka Koskinen 1.26.35
+
+    lyhyt:
+        track: B
+        length: 5,1 km
+        data: |
+            1. Johannes Pyyhtiä 50.34
+            3. Timo Lamminmäki 1.02.30
+            4. Tapio Puputti 1.03.57
+            5. Pertti Välimaa 1.04.02
+            Risto Pyhälampi ei aikaa
+
+    other:
+        'Rata CV 3,5 km': |
+            38. Pekka Vainonen 1.22.22 +46.36
+            - Hannu Rantala - -
+
