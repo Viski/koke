@@ -1,0 +1,32 @@
+﻿event_number: 15
+location: Keravanjärvi
+date: 29.8.
+organizer: HyRa / Pekka Vasara
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,5 km
+        data: |
+            1. Jarkko Ustinov 1.00.01
+            2.  Jukka Viero 1.03.35
+            3.  Hannu Pohjola 1.06.37
+            4.  Sakke Ahoniemi 1.11.32
+            5.  Aleksi Tenkula 1.12.29
+            6.  Tero Aaltonen 1.15.03
+            7.  Asmo Tenhunen 1.18.50
+            Jussi Perälä ei aikaa
+
+    lyhyt:
+        track: B
+        length: 4,2 km
+        data: |
+            1. Pertti Välimaa 44.29
+            2. Ville Lipsonen 45.44
+            3. Esko Sihvola 46.05
+            4. Reinhard Lenz 51.17
+            5. Timo Lamminmäki 54.50
+            6. Johannes Pyyhtiä 59.11
+            7. Esa Ojapalo 1.04.04
+            Risto Pyhälampi ei aikaa
+
