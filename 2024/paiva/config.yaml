@@ -8,7 +8,7 @@
 year: 2024
 name: päivä
 max_number_of_results: 6
-number_of_events: 17
+number_of_events: 16
 scp_destination: vjokelai@lakka.kapsi.fi:sites/vjokelai.kapsi.fi/www/suunnistus/koke/2022/paiva
 series:
     pitkä:
@@ -107,6 +107,7 @@ series:
             - {last: Stuppi, first: Claudio}
             - {last: Tiljander, first: Ville}
             - {last: Toura, first: Antti}
+            - {last: Tyni, first: Tuomas}
             - {last: Törhönen, first: Petri}
             - {last: Urho, first: Ilmari}
             - {last: Vainonen, first: Pekka}
