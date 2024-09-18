@@ -1,0 +1,31 @@
+﻿event_number: 1
+location: Nyry
+date: 12.9.
+organizer: HyRa / Seppo Mäkinen
+reverse_names: True
+series:
+    pitkä:
+        track: B
+        length: 4,7 km
+        data: |
+            1.  Jarkko Ustinov 1.00.15
+            2.  Aleksi Tenkula 1.08.02
+            3.  Tomi Myllärinen 1.13.09
+            4.  Sakke Ahoniemi 1.13.18
+            5.  Pekka Koskinen 1.14.16
+            6.  Asmo Tenhunen 1.20.07
+
+    lyhyt:
+        track: C
+        length: 2,7 km
+        data: |
+            1.  Pertti Välimaa 36.44
+            2.  Hannu Salomäki 1.09.10
+            Pekka Vainonen ei aikaa
+            Mikko Palomäki ei aikaa
+            Risto Pyhälampi ei aikaa
+
+    other:
+        'Rata päivä B 4,7 km': |
+            9.  Ville Lipsonen 1.06.24 +11.39
+            - Johannes Pyyhtiä -  -
