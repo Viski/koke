@@ -1,0 +1,34 @@
+﻿event_number: 2
+location: Riutta
+date: 17.09.
+organizer: RiSu / Jarmo Kapanen
+reverse_names: True
+series:
+    pitkä:
+        track: B
+        length: 4,8 km
+        data: |
+            1.  Asmo Tenhunen 1.06.37
+            2.  Pekka Koskinen 1.10.08
+            3.  Marko Saarinen 1.11.02
+            4.  Tomi Myllärinen 1.12.03
+            5.  Aleksi Tenkula 1.15.31
+            6.  Ville Lipsonen 1.15.43
+
+    lyhyt:
+        track: CV
+        length: 3,5 km
+        data: |
+            1. Hannu Salomäki 47.48
+            2. Pertti Välimaa 51.25
+            3. Reinhard Lenz 1.04.03
+            4. Esa Ojapalo 1.05.45
+            5. Pekka Vainonen 1.21.13
+            Risto Pyhälampi ei aikaa
+
+    other:
+        'Rata päivä B 4,8 km': |
+            3. Johannes Pyyhtiä 50.55 +5.10
+            14 Tapio Puputti 1.16.57 +31.12
+        'Rata päivä CV 3,5 km': |
+            6. Erkki Kallela 56.25 +10.46
