@@ -1,0 +1,32 @@
+﻿event_number: 3
+location: Röykkä
+date: 24.9.
+organizer: RR / Veijo Salmi
+reverse_names: True
+series:
+    pitkä:
+        track: B
+        length: 4,8 km
+        data: |
+            1. Jarkko Ustinov 41.46
+            2. Asmo Tenhunen 48.11
+            3. Erkka Kiviaho 49.31
+            4. Marko Saarinen 53.24
+            5. Tomi Myllärinen 54.56
+            6. Sakke Ahoniemi 59.25
+            Esko Sihvola ei aikaa
+
+    lyhyt:
+        track: CV
+        length: 3,5 km
+        data: |
+            1. Pertti Välimaa 37.09
+            2. Reinhard Lenz 54.47
+            3. Hannu Salomäki 1.01.32
+            Risto Pyhälampi ei aikaa
+
+    other:
+        'Yö C 2,9 km': |
+            7. Tapio Puputti - -
+        'Päivä B 4,6 km': |
+            14. Timo Lamminmäki 1.00.58 +19.51
