@@ -1,0 +1,27 @@
+﻿event_number: 5
+location: Kiljavannummi
+date: 15.10.
+organizer: RR / Markus Pentti, Juho Peltokorpi
+reverse_names: True
+series:
+    pitkä:
+        track: B
+        length: 5,2 km
+        data: |
+            1.  Jarkko Ustinov 36.38
+            2.  Janne Salomäki 38.49
+            3.  Asmo Tenhunen 47.27
+            4.  Marko Saarinen 1.05.22
+
+    lyhyt:
+        track: CV
+        length: 3,6 km
+        data: |
+            1. Veijo Salmi 35.54
+            2. Tapio Puputti 36.33
+            3. Pertti Välimaa 37.55
+            4. Ari Nieminen 38.25
+            5. Reinhard Lenz 39.47
+            6. Timo Lamminmäki 44.14
+            Risto Pyhälampi ei aikaa
+

@@ -33,7 +33,6 @@ series:
             - {last: Loisa, first: Markus}
             - {last: Myllärinen, first: Tomi}
             - {last: Niemi, first: Tero}
-            - {last: Nieminen, first: Ari}
             - {last: Poussu, first: Jukka}
             - {last: Puolakanaho, first: Mikko}
             - {last: Räty, first: Timo}
@@ -77,6 +76,7 @@ series:
             - {last: Markus, first: Esa}
             - {last: Merilä, first: Reetta}
             - {last: Mäkelä, first: Tapio}
+            - {last: Nieminen, first: Ari}
             - {last: Ojapalo, first: Esa}
             - {last: Palomäki, first: Mikko}
             - {last: Partanen, first: Esa}
