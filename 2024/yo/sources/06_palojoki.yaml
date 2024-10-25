@@ -1,0 +1,31 @@
+﻿event_number: 6
+location: Palojoki
+date: 22.10.
+organizer: RR / Jarmo Hyvönen, Reijo Krook
+reverse_names: True
+series:
+    pitkä:
+        track: B
+        length: 4,2 km
+        data: |
+            1. Jukka Viero 48.03
+            2. Erkka Kiviaho 50.10
+            3. Sakke Ahoniemi 56.25
+            4. Marko Saarinen 1.04.08
+            5. Esko Sihvola 1.14.29
+
+    lyhyt:
+        track: CV
+        length: 3,1 km
+        data: |
+            1. Timo Lamminmäki 45.47
+            2. Tapio Puputti 52.26
+            3. Reinhard Lenz 1.01.03
+            4. Ari Nieminen 1.04.10
+            Hannu Salomäki ei aikaa
+            Risto Pyhälampi ei aikaa
+
+    other:
+        'Rata C 2,2 km': |
+            3.  Erkki Kallela 37.20 +05.23
+
