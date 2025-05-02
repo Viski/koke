@@ -1,0 +1,39 @@
+﻿event_number: 2
+location: Lentokenttä
+date: 24.4.
+organizer: HyRa / Kenneth Reinikka
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,5 km
+        data: |
+            1. Tero Aaltonen 50.03
+            2. Aleksi Tenkula 50.58
+            3. Asmo Tenhunen 52.33
+            4. Jukka Poussu 53.22
+            5. Sakke Ahoniemi 58.13
+            6. Tomi Myllärinen 1.05.42
+               Erkka Kiviaho ei aikaa
+
+    lyhyt:
+        track: B
+        length: 4,6 km
+        data: |
+            1. Reinhard Lenz 43.13
+            2. Timo Lamminmäki 45.23
+            3. Timi Honkanen 48.05
+            4. Hannu Salomäki 49.12
+            5. Pertti Välimaa 50.03
+            6. Elisa Paljakka 59.19
+            7. Markus Rytömaa 1.09.45
+            8. Risto Pyhälampi 1.41.17
+               Markus Loisa ei aikaa
+               Hannu Rantala ei aikaa
+
+    other:
+        'C Vaativa 5,9 km': |
+            1. Janne Åberg 18.43 +0
+            17. Erkki Kallela 32.50 +14.02
+            21. Paavo Partanen 34.59 +16.11
+

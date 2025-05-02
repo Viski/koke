@@ -1,0 +1,29 @@
+﻿event_number: 1
+location: Pietarinmäki
+date: 15.4.
+organizer: RR / Mika Loukkalahti
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 5,5 km
+        data: |
+            1. Jukka Viero 1.16.59
+            2. Tero Aaltonen 1.39.58
+               Markus Rytömaa ei aikaa
+
+    lyhyt:
+        track: B
+        length: 4,2 km
+        data: |
+            1. Veijo Salmi 1.08.18
+            2. Timo Lamminmäki 1.16.29
+            3. Esko Sihvola 1.23.41
+            4. Reinhard Lenz 1.28.39
+            5. Tapio Puputti 1.29.35
+               Ville Lipsonen ei aikaa
+
+    other:
+        'Päivä C 2,2 km': |
+            19. Erkki Kallela 1.02.57 +24.22
+
