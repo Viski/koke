@@ -126,7 +126,7 @@ def parseResults(data):
         res = re.sub(r'^\s*[0-9\.\-]*\s*(\S+\s\S*)\s*((?:[^\W\d]*\s*)*)([0-9\.:]*).*',
                      r'\1|\2|\3',
                      line,
-                     re.UNICODE)
+                     flags = re.UNICODE)
         if len(res) == 0:
             continue
 
