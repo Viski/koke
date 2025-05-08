@@ -38,7 +38,6 @@ series:
             - {last: Rautajärvi, first: Henri}
             - {last: Räty, first: Timo}
             - {last: Saastamoinen, first: Ari}
-            - {last: Saarinen, first: Marko}
             - {last: Salomäki, first: Janne}
             - {last: Silanpää, first: Erik}
             - {last: Tenhunen, first: Asmo}
@@ -98,6 +97,7 @@ series:
             - {last: Rantanen, first: Joonas}
             - {last: Rytömaa, first: Markus}
             - {last: Räikkönen, first: Juha}
+            - {last: Saarinen, first: Marko}
             - {last: Salmi, first: Veijo}
             - {last: Salo, first: Jarmo}
             - {last: Salomäki, first: Hannu}
