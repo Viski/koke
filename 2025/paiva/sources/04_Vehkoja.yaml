@@ -1,0 +1,39 @@
+﻿event_number: 4
+location: Vehkoja
+date: 8.5.
+organizer: HyRa / Mika Similä
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 4,6 km
+        data: |
+            1. Jukka Viero 42.44
+            2. Aleksi Tenkula 47.22
+            3. Pekka Koskinen 50.36
+            4. Asmo Tenhunen 51.11
+            5. Tero Aaltonen 55.47
+            6. Annika Pankko 1.08.35
+
+    lyhyt:
+        track: B
+        length: 3,1 km
+        data: |
+            1. Ville Tiainen 37.35
+            2. Timi Honkanen 38.01
+            3. Ville Lipsonen 38.16
+            4. Reinhard Lenz 43.44
+            5. Markus Loisa 45.37
+            6. Timo Lamminmäki 46.19
+            7. Hannu Salomäki 47.46
+            8. Pertti Välimaa 49.20
+            9. Tapio Puputti 53.29
+            10. Ari Nieminen 55.24
+            11. Markus Rytömaa 58.44
+            12. Claudio Stuppi 1.10.38
+            Risto Pyhälampi ei aikaa
+
+    other:
+        'C  vaativa 2,9 km': |
+            18. Erkki Kallela 45.57 +18.28
+            22. Jukka Haataja 50.09 +22.40

@@ -1,0 +1,37 @@
+﻿event_number: 5
+location: Kilometrikallio
+date: 13.5.
+organizer: RiSu / Jouni Lähteenmäki
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 5,1 km
+        data: |
+            1. Janne Salomäki 50.36
+            2. Sami Hölttä 1.03.22
+            3. Aleksi Tenkula 1.11.52
+            4. Tero Aaltonen 1.12.37
+            5. Asmo Tenhunen 1.12.48
+            6. Pekka Koskinen 1.14.59
+            7. Hannu Pohjola 1.15.09
+            Sakke Ahoniemi ei aikaa
+
+    lyhyt:
+        track: B
+        length: 4,1 km
+        data: |
+            1. Jukka Viero 41.33
+            2. Johannes Pyyhtiä 53.25
+            3. Ville Lipsonen 54.43
+            4. Timi Honkanen 55.30
+            5. Reinhard Lenz 1.03.39
+            6. Hannu Salomäki 1.05.34
+            7. Timo Lamminmäki 1.15.37
+            8. Markus Rytömaa 1.42.50
+            Risto Pyhälampi ei aikaa
+
+    other:
+        'C vaativa 3,2 km': |
+            15. Paavo Partanen 1.02.09 +18.34
+

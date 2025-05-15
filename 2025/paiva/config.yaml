@@ -31,10 +31,11 @@ series:
             - {last: Leppänen, first: Ilkka}
             - {last: Myllärinen, first: Tomi}
             - {last: Niemi, first: Tero}
+            - {last: Pankko , first: Annika}
             - {last: Perälä, first: Jussi}
+            - {last: Pohjola, first: Hannu}
             - {last: Poussu, first: Jukka}
             - {last: Puolakanaho, first: Mikko}
-            - {last: Pyyhtiä, first: Johannes}
             - {last: Rautajärvi, first: Henri}
             - {last: Räty, first: Timo}
             - {last: Saastamoinen, first: Ari}
@@ -83,16 +84,15 @@ series:
             - {last: Ojapalo, first: Esa}
             - {last: Paljakka, first: Elisa}
             - {last: Palomäki, first: Mikko}
-            - {last: Pankko , first: Annika}
             - {last: Partanen, first: Esa}
             - {last: Partanen, first: Paavo}
             - {last: Pensas, first: Johanna}
             - {last: Perälä, first: Pekka}
-            - {last: Pohjola, first: Hannu}
             - {last: Porma, first: Mikko}
             - {last: Puputti, first: Petri}
             - {last: Puputti, first: Tapio}
             - {last: Pyhälampi, first: Risto}
+            - {last: Pyyhtiä, first: Johannes}
             - {last: Rantala, first: Hannu}
             - {last: Rantanen, first: Joonas}
             - {last: Rytömaa, first: Markus}
@@ -106,6 +106,7 @@ series:
             - {last: Silvennoinen, first: Henry}
             - {last: Sirjola, first: Juhani}
             - {last: Stuppi, first: Claudio}
+            - {last: Tiainen, first: Ville}
             - {last: Tiljander, first: Ville}
             - {last: Toura, first: Antti}
             - {last: Tyni, first: Tuomas}
