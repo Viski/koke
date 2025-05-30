@@ -1,0 +1,45 @@
+﻿event_number: 6
+location: Nyry
+date: 22.5.
+organizer: HyRa / Erja Raikko
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,3 km
+        data: |
+            1. Janne Salomäki 57.47
+            2. Louna Vartiainen 58.47
+            3. Janne Åberg 1.02.23
+            4. Tero Aaltonen 1.07.31
+            5. Jukka Viero 1.08.05
+            6. Pekka Koskinen 1.12.59
+            7. Aleksi Tenkula 1.15.01
+            8. Asmo Tenhunen 1.17.20
+            9. Erkka Kiviaho 1.17.41
+            10. Ville Tiainen 1.19.04
+            11. Sakke Ahoniemi 1.36.29
+
+    lyhyt:
+        track: B
+        length: 4,5 km
+        data: |
+            1. Johannes Pyyhtiä 48.08
+            2. Pertti Välimaa 58.51
+            3. Veijo Salmi 59.55
+            4. Timo Lamminmäki 1.00.57
+            5. Hannu Salomäki 1.07.24
+            6. Ville Lipsonen 1.11.00
+            7. Harry Halonen 1.12.20
+            8. Tapio Puputti 1.13.03
+            9. Ari Nieminen 1.31.41
+            10. Markus Rytömaa 1.57.59
+            Timi Honkanen ei aikaa
+            Markus Loisa ei aikaa
+            Risto Pyhälampi ei aikaa
+
+    other:
+        'C vaativa 3,2 km': |
+            35. Jukka Haataja 1.58.58 +1.20.57
+            39. Martti Haukijärvi 2.07.25 +1.29.24
+
