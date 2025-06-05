@@ -1,0 +1,35 @@
+﻿event_number: 7
+location: Hikiä
+date: 24.10.
+organizer: RiSu / Teija Koskinen
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,1 km
+        data: |
+            1. Tero Aaltonen 1.09.27
+            2. Johannes Pyyhtiä 1.17.00
+            3. Marko Saarinen 1.21.28
+            4. Sakke Ahoniemi 1.26.17
+            5. Annika Pankko 1.30.24
+
+    lyhyt:
+        track: B
+        length: 4,8 km
+        data: |
+            1. Reinhard Lenz 49.46
+            2. Ville Lipsonen 59.56
+            3. Esko Sihvola 1.01.58
+            4. Pertti Välimaa 1.02.19
+            5. Tapio Puputti 1.05.44
+            6. Ari Nieminen 1.08.43
+            7. Markus Rytömaa 1.36.42
+            8. Risto Pyhälampi 2.07.38
+
+    other:
+        'Päivä Cv 3,7 km': |
+            - Jukka Haataja - -
+
+        'Päivä X 9,1 km': |
+            8. Pekka Koskinen 1.36.34 +31.54
