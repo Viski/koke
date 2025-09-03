@@ -22,6 +22,7 @@ series:
             - {last: Hölttä, first: Sami}
             - {last: Jokelainen, first: Visa}
             - {last: Kaivosaari, first: Antti}
+            - {last: Karvinen, first: Heikki}
             - {last: Kattainen, first: Jimi}
             - {last: Kiviaho, first: Erkka}
             - {last: Kollanus, first: Mika}
@@ -66,6 +67,7 @@ series:
             - {last: Huuhka, first: Pertti}
             - {last: Itäkodes, first: Jari}
             - {last: Kallela, first: Erkki}
+            - {last: Karhu, first: Otso}
             - {last: Kiiskinen, first: Hannu}
             - {last: Kiuru, first: Esko}
             - {last: Laaksonheimo, first: Jyrki}
@@ -84,6 +86,7 @@ series:
             - {last: Mäkelä, first: Tapio}
             - {last: Nieminen, first: Ari}
             - {last: Ojapalo, first: Esa}
+            - {last: Paldaanius, first: Nelli}
             - {last: Paljakka, first: Elisa}
             - {last: Palomäki, first: Mikko}
             - {last: Partanen, first: Esa}
