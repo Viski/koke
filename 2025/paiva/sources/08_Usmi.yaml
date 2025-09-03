@@ -1,0 +1,42 @@
+﻿event_number: 8
+location: Usmi
+date: 5.6.
+organizer: HyRa / Kaisa Friman
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,6 km
+        data: |
+            1. Janne Salomäki 1.16.56
+            2. Aleksi Tenkula 1.37.18
+            3. Asmo Tenhunen 1.41.17
+            4. Erkka Kiviaho 1.43.09
+            5. Jukka Viero 1.45.40
+            6. Tero Aaltonen 2.06.48
+            7. Pekka Koskinen 2.12.22
+            8. Heikki Karvinen 2.30.12
+            9. Sakke Ahoniemi ei aikaa
+
+    lyhyt:
+        track: B
+        length: 4,7 km
+        data: |
+            1. Ville Lipsonen 1.15.39
+            2. Johannes Pyyhtiä 1.17.32
+            3. Reinhard Lenz 1.28.51
+            4. Timo Lamminmäki 1.31.32
+            5. Tapio Puputti 1.40.23
+            6. Markus Rytömaa 2.08.49
+            7. Pertti Välimaa 2.29.27
+            Mikko Porma ei aikaa
+            Risto Pyhälampi ei aikaa
+
+    other:
+        'Päivä C 2,7 km': |
+            - Erkki Kallela - -
+            - Claudio Stuppi - -
+
+        'Päivä E 8,5 km': |
+            6.  Janne Åberg 1.45.30 +30.41
+

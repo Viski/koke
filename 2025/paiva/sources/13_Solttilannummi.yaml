@@ -1,0 +1,28 @@
+﻿event_number: 13
+location: Solttilannummi
+date: 29.7.
+organizer: RR / Pasi Enqvist
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,6 km
+        data: |
+            1. Pekka Koskinen 1.08.28
+            2. Tero Aaltonen 1.09.21
+            3. Sakke Ahoniemi 1.26.51
+
+    lyhyt:
+        track: B
+        length: 5,1 km
+        data: |
+            1. Johannes Pyyhtiä 46.06
+            2. Tapio Puputti 1.01.07
+            3. Pertti Välimaa 1.05.46
+            4. Markus Rytömaa 1.15.57
+            Risto Pyhälampi ei aikaa
+
+    other:
+        'Päivä CV 3,7 km': |
+            5. Esko Kiuru 44.56 +10.35
+

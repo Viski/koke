@@ -1,0 +1,35 @@
+﻿event_number: 12
+location: Paraatikallio
+date: 1.7.
+organizer: RR / Jaakko Leinonen
+
+reverse_names: True
+series:
+
+    pitkä:
+        track: A
+        length: 6,1 km
+        data: |
+            1.  Aleksi Tenkula 1.04.35
+            2.  Marko Saarinen 1.14.57
+            3.  Heikki Karvinen 1.27.08
+
+    lyhyt:
+        track: B
+        length: 4,8 km
+        data: |
+            1. Jukka Viero 49.30
+            2. Ville Lipsonen 50.08
+            3. Johannes Pyyhtiä 50.18
+            4. Reinhard Lenz 54.21
+            5. Timo Lamminmäki 1.00.34
+            6. Esko Sihvola 1.05.22
+            7. Tapio Puputti 1.11.12
+            8. Mikko Porma 1.18.56
+            9. Otso Karhu 1.19.47
+            Risto Pyhälampi ei aikaa
+
+    other:
+        'Päivä CV 3,6 km': |
+            - Hannu Rantala - -
+

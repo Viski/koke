@@ -1,0 +1,32 @@
+﻿event_number: 9
+location: Hinkalonnummi
+date: 19.6.
+organizer: RR / Vesa Tervo
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 7,2 km
+        data: |
+            1. Tero Aaltonen 1.10.55
+            2. Sami Hölttä 1.13.02
+            3. Asmo Tenhunen 1.14.15
+
+    lyhyt:
+        track: B
+        length: 4,8 km
+        data: |
+            1. Johannes Pyyhtiä 45.31
+            2. Veijo Salmi 54.57
+            3. Ville Lipsonen 54.58
+            4. Pertti Välimaa 1.01.07
+            5. Otso Karhu 1.05.44
+            6. Reinhard Lenz 1.08.24
+            7. Tapio Puputti 1.17.49
+            8. Nelli Paldaanius 1.35.38
+            9. Markus Rytömaa 1.45.46
+            Risto Pyhälampi ei aikaa
+
+    other:
+        'Päivä C 3,0 km': |
+            8. Erkki Kallela 43.27 +10.20

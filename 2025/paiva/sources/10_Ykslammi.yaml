@@ -1,0 +1,25 @@
+﻿event_number: 10
+location: Ykslammi
+date: 17.6.
+organizer: RiSu / Anna-Kaisa Kosenius
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 3,5 km
+        data: |
+            1. Johannes Pyyhtiä 35.31
+            2. Tero Aaltonen 41.23
+            3. Tapio Puputti 55.18
+            4. Ari Nieminen 59.19
+
+    lyhyt:
+        track: B
+        length: 2,4 km
+        data: |
+            1. Reinhard Lenz 38.20
+            2. Markus Rytömaa 39.31
+            3. Hannu Salomäki 40.46
+            Tapio Puputti ei aikaa
+            Risto Pyhälampi ei aikaa
+

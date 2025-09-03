@@ -1,0 +1,28 @@
+﻿event_number: 11
+location: Röykkä
+date: 24.6.
+organizer: RR / Veijo Salmi
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 5,7 km
+        data: |
+            1. Aleksi Tenkula 59.10
+            2. Asmo Tenhunen 1.00.06
+            3. Hannu Pohjola 1.07.11
+            4. Pekka Koskinen 1.12.32
+
+    lyhyt:
+        track: B
+        length: 4,6 km
+        data: |
+            1. Otso Karhu 1.14.38
+            2. Tapio Puputti 1.25.09
+            3. Markus Rytömaa 1.31.34
+
+    other:
+        'Päivä CV 3,7 km': |
+            - Hannu Rantala - -
+
+
