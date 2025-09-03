@@ -1,0 +1,34 @@
+﻿event_number: 15
+location: Keravanjärvi
+date: 14.8.
+organizer: HyRa / Jouni  Rantanen
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,2 km
+        data: |
+            1. Janne Salomäki 53.22
+            2. Jukka Viero 1.04.44
+            3. Erkka Kiviaho 1.08.43
+            4. Sakke Ahoniemi 1.30.48
+            5. Tero Aaltonen 1.35.57
+
+    lyhyt:
+        track: B
+        length: 4,1 km
+        data: |
+            1. Ville Lipsonen 55.19
+            2. Reinhard Lenz 1.03.26
+            3. Timo Lamminmäki 1.04.28
+            4. Tapio Puputti 1.12.10
+            5. Ari Nieminen 1.25.07
+            6. Esa Markus 1.39.04
+            7. Markus Rytömaa 1.43.27
+            Hannu Salomäki ei aikaa
+            Esko Kiuru ei aikaa
+            Risto Pyhälampi ei aikaa
+
+    other:
+        'Päivä CV 2,9 km': |
+            7. Claudio Stuppi 1.10.23 +38.10
