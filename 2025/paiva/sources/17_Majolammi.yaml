@@ -1,0 +1,31 @@
+﻿event_number: 17
+location: Majolammi
+date: 3.9.
+organizer: RiSu / Martti Hakoila /Jari Kapanen
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 6,1 km
+        data: |
+            1. Asmo Tenhunen 1.06.46
+            2. Tero Aaltonen 1.08.00
+            3. Erkka Kiviaho 1.08.50
+
+    lyhyt:
+        track: B
+        length: 4,7 km
+        data: |
+            1. Johannes Pyyhtiä 50.14
+            2. Ville Lipsonen 1.01.20
+            3. Markus Rytömaa 1.17.04
+            4. Tapio Puputti 1.18.32
+            5. Markus Loisa 1.20.55
+            6. Otso Karhu 1.32.30
+            7. Esa Ojapalo 1.43.43
+            Reinhard Lenz ei aikaa
+
+    other:
+        'Päivä C 3,5 km': |
+            11. Paavo Partanen 1.02.57 +22.41
+
