@@ -1,0 +1,33 @@
+﻿event_number: 1
+location: Alhonniittu
+date: 9.9.
+organizer: RR / Kari Vuorio
+reverse_names: True
+series:
+    pitkä:
+        track: B
+        length: 4,9 km
+        data: |
+            1. Janne Salomäki 52.43
+            2. Asmo Tenhunen 59.24
+            3. Marko Saarinen 1.26.36
+            4. Reinhard Lenz 1.39.45
+
+    lyhyt:
+        track: CV
+        length: 3,4 km
+        data: |
+            1. Sakke Ahoniemi 49.15
+            2. Tapio Puputti 57.10
+            3. Hannu Salomäki 58.42
+            4. Esko Kiuru ei aikaa
+
+    other:
+        "Päivä B 4,9 km": |
+            15. Timo Lamminmäki 1.11.49 +24.45
+            23. Ville Lipsonen 1.19.11 +32.07
+            24. Mikko Porma 1.20.52 +33.48
+
+        "Päivä CV 3,4 km": |
+            4. Veijo Salmi 43.09 +10.36
+

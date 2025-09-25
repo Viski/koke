@@ -1,0 +1,153 @@
+# Participant threshold describes how many participants
+# there must be in a race to award full points
+
+# Point pivot describes which position gets 1000 points
+# in case there are enough participants for
+# awarding full points
+
+year: 2025
+name: yö
+max_number_of_results: 3
+number_of_events: 6
+series:
+    pitkä:
+        participant_threshold: 6
+        reference_position: 3
+        participants:
+            - {last: Aaltonen, first: Tero}
+            - {last: Aunula, first: Tero}
+            - {last: Glebova, first: Anastasia}
+            - {last: Haaranen, first: Sami}
+            - {last: Hölttä, first: Sami}
+            - {last: Jokelainen, first: Visa}
+            - {last: Kaivosaari, first: Antti}
+            - {last: Karvinen, first: Heikki}
+            - {last: Kattainen, first: Jimi}
+            - {last: Kiviaho, first: Erkka}
+            - {last: Kollanus, first: Mika}
+            - {last: Koponen, first: Sami}
+            - {last: Korhonen, first: Tomi}
+            - {last: Koskinen, first: Pekka}
+            - {last: Lenz, first: Reinhard}
+            - {last: Leppänen, first: Ilkka}
+            - {last: Myllärinen, first: Tomi}
+            - {last: Niemi, first: Tero}
+            - {last: Pankko , first: Annika}
+            - {last: Perälä, first: Jussi}
+            - {last: Pohjola, first: Hannu}
+            - {last: Poussu, first: Jukka}
+            - {last: Puolakanaho, first: Mikko}
+            - {last: Rautajärvi, first: Henri}
+            - {last: Räty, first: Timo}
+            - {last: Saarinen, first: Marko}
+            - {last: Saastamoinen, first: Ari}
+            - {last: Salomäki, first: Janne}
+            - {last: Silanpää, first: Erik}
+            - {last: Tenhunen, first: Asmo}
+            - {last: Tenkula, first: Aleksi}
+            - {last: Tervola, first: Juha}
+            - {last: Toivonen, first: Juha}
+            - {last: Ustinov, first: Jarkko}
+            - {last: Vartiainen, first: Louna}
+            - {last: Viero, first: Jukka}
+            - {last: Viitanen, first: Lauri}
+            - {last: Väisänen, first: Mika}
+            - {last: Åberg, first: Janne}
+
+    lyhyt:
+        participant_threshold: 6
+        reference_position: 3
+        participants:
+            - {last: Ahlström, first: Valtteri}
+            - {last: Ahoniemi, first: Sakke}
+            - {last: Forsman, first: Kristian}
+            - {last: Fröblom, first: Jari}
+            - {last: Haataja, first: Jukka}
+            - {last: Halonen, first: Harry}
+            - {last: Haukijärvi, first: Martti}
+            - {last: Honkanen, first: Timi}
+            - {last: Huuhka, first: Pertti}
+            - {last: Itäkodes, first: Jari}
+            - {last: Kallela, first: Erkki}
+            - {last: Karhu, first: Otso}
+            - {last: Kiiskinen, first: Hannu}
+            - {last: Kiuru, first: Esko}
+            - {last: Laaksonheimo, first: Jyrki}
+            - {last: Lahikainen, first: Matti}
+            - {last: Lamminmäki, first: Timo}
+            - {last: Lappalainen, first: Jani}
+            - {last: Lehto, first: Matti}
+            - {last: Lepistö, first: Erkki}
+            - {last: Lindroos, first: Janne}
+            - {last: Lipsonen, first: Ville}
+            - {last: Loisa, first: Markus}
+            - {last: Lönnberg, first: Oskar}
+            - {last: Markus, first: Esa}
+            - {last: Merilä, first: Reetta}
+            - {last: Mäkelä, first: Tapio}
+            - {last: Nieminen, first: Ari}
+            - {last: Ojapalo, first: Esa}
+            - {last: Paldaanius, first: Nelli}
+            - {last: Paljakka, first: Elisa}
+            - {last: Palomäki, first: Mikko}
+            - {last: Partanen, first: Esa}
+            - {last: Partanen, first: Paavo}
+            - {last: Pensas, first: Johanna}
+            - {last: Perälä, first: Pekka}
+            - {last: Porma, first: Mikko}
+            - {last: Puputti, first: Petri}
+            - {last: Puputti, first: Tapio}
+            - {last: Pyhälampi, first: Risto}
+            - {last: Pyyhtiä, first: Johannes}
+            - {last: Rantala, first: Hannu}
+            - {last: Rantanen, first: Joonas}
+            - {last: Rytömaa, first: Markus}
+            - {last: Räikkönen, first: Juha}
+            - {last: Salmi, first: Veijo}
+            - {last: Salo, first: Jarmo}
+            - {last: Salomäki, first: Hannu}
+            - {last: Saloranta, first: Heikki}
+            - {last: Sihvola, first: Esko}
+            - {last: Silvennoinen, first: Henry}
+            - {last: Sirjola, first: Juhani}
+            - {last: Stuppi, first: Claudio}
+            - {last: Tiainen, first: Ville}
+            - {last: Tiljander, first: Ville}
+            - {last: Toura, first: Antti}
+            - {last: Tyni, first: Tuomas}
+            - {last: Törhönen, first: Petri}
+            - {last: Urho, first: Ilmari}
+            - {last: Vainonen, first: Pekka}
+            - {last: Virtanen, first: Veikko}
+            - {last: Välimaa, first: Pertti}
+            - {last: Ward, first: Allison}
+            - {last: Wikström, first: Tim}
+            - {last: Zakrewski, first: Maria}
+
+unknown_participants:
+            - {last: Aikkila, first: Riitta}
+            - {last: Enqvist, first: Pasi}
+            - {last: Kattainen, first: Ari}
+            - {last: Kauranen, first: Ari}
+            - {last: Nieminen, first: Visa}
+            - {last: Numelin, first: C-J}
+            - {last: Pekkarinen, first: Matti}
+            - {last: Pirnes, first: Ilkka}
+            - {last: Pylvänäinen, first: Seppo}
+            - {last: Saarenpää, first: Iiris}
+            - {last: Seljavaara, first: Veijo}
+            - {last: Vänni, first: Kimmo}
+            - {last: Wu, first: Evian}
+            - {last: Loikas, first: Juha-Pekka}
+            - {last: Lähteenmäki, first: Hannu}
+            - {last: Norrbacka, first: Mikko}
+            - {last: Romppanen, first: Harri}
+            - {last: Vilminko, first: Paavo}
+            - {last: Degerholm, first: Markku}
+            - {last: Kemppainen, first: Pekka}
+            - {last: Krüger, first: Andrei}
+            - {last: Kytömäki, first: Marko}
+            - {last: Mokko, first: Matti}
+            - {last: Mäkelä, first: Ulla}
+            - {last: Tuppurainen, first: Tero}
+

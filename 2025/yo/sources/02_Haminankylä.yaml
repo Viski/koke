@@ -1,0 +1,32 @@
+﻿event_number: 2
+location: Haminankylä
+date: 16.9.
+organizer: RiRu / Heikki Liimatainen
+reverse_names: True
+series:
+    pitkä:
+        track: A
+        length: 4,0 km
+        data: |
+            1. Janne Salomäki 45.24
+            2. Asmo Tenhunen 57.07
+            3. Marko Saarinen 1.06.09
+            Aleksi Tenkula ei aikaa
+
+    lyhyt:
+        track: C
+        length: 3,1 km
+        data: |
+            1. Hannu Salomäki 51.14
+            2. Otso Karhu 1.07.35
+            3. Sakke Ahoniemi 1.13.35
+            4. Ari Nieminen 1.25.57
+
+    other:
+        'Päivä A 5,1 km': |
+            8. Hannu Pohjola 1.06.46 +20.06
+            10. Johannes Pyyhtiä 1.08.57 +22.17
+
+        'Päivä B 4,0 km': |
+            5. Tapio Puputti 1.13.39 +21.49
+            6. Ville Lipsonen 1.17.10 +25.20
