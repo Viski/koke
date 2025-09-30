@@ -1,0 +1,30 @@
+﻿event_number: 3
+location: Röykkä
+date: 23.9.
+organizer: RR / Janne Puhakka
+reverse_names: True
+series:
+    pitkä:
+        track: B
+        length: 4,5 km
+        data: |
+            1. Asmo Tenhunen 49.07
+            2. Ville Lipsonen 58.41
+            3. Marko Saarinen 59.10
+
+    lyhyt:
+        track: CV
+        length: 3,4 km
+        data: |
+            1. Esko Kiuru 39.53
+            2. Hannu Salomäki 44.00
+            3. Sakke Ahoniemi 45.30
+            4. Otso Karhu 48.53
+            5. Tapio Puputti 58.02
+            6. Ari Nieminen 1.05.52
+            Risto Pyhälampi ei aikaa
+
+    other:
+        'Yö C 3,3 km': |
+            1. Veijo Salmi 37.52 0
+
