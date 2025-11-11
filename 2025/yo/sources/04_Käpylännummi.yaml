@@ -1,0 +1,36 @@
+event_number: 4
+location: Käpylännummi
+date: 8.10.
+organizer: RR / Juha Menna, Tapio Ojala
+reverse_names: True
+series:
+    pitkä:
+        track: B
+        length: 5,3 km
+        data: |
+            1.  Jarkko Ustinov 37.01
+            2.  Erkka Kiviaho 43.04
+            3.  Asmo Tenhunen 43.54
+            4.  Ville Lipsonen 46.49
+            5.  Esko Sihvola 58.27
+            Tomi Myllärinen ei aikaa
+
+    lyhyt:
+        track: CV
+        length: 3,5 km
+        data: |
+            1. Veijo Salmi 36.42
+            2. Pertti Välimaa 37.16
+            3. Timo Lamminmäki 37.59
+            4. Tapio Puputti 43.22
+            5. Reinhard Lenz 44.36
+            6. Jari Fröblom 52.58
+            Risto Pyhälampi ei aikaa
+
+    other:
+        'Yö C 3,2 km': |
+            3. Erkki Kallela 42.42 +08.51
+            - Mikko Palomäki - -
+
+        'Päivä B 5,3 km': |
+            1. Johannes Pyyhtiä 38.15 +0

@@ -1,0 +1,32 @@
+﻿event_number: 6
+location: Palojoki
+date: 21.10.
+organizer: RR / Tapio Ojala ja Seppo Krook
+reverse_names: True
+series:
+    pitkä:
+        track: B
+        length: 4,1 km
+        data: |
+            1. Janne Salomäki 43.25
+            2. Erkka Kiviaho 50.06
+            3. Ville Lipsonen 55.21
+            4. Reinhard Lenz 1.12.22
+
+    lyhyt:
+        track: CV
+        length: 3,4 km
+        data: |
+            1. Hannu Salomäki 50.43
+            2. Timo Lamminmäki 54.56
+            3. Ari Nieminen 1.14.46
+            4. Sakke Ahoniemi 1.15.44
+            Risto Pyhälampi ei aikaa
+
+    other:
+        'Päivä A 4,7 km': |
+            - Johannes Pyyhtiä - -
+
+        'Päivä CV 3,4 km': |
+            31. Erkki Kallela 1.06.48 +30.37
+

@@ -1,0 +1,35 @@
+﻿event_number: 5
+location: Kiljavannummi
+date: 14.10.
+organizer: RR / Juha Menna
+reverse_names: True
+series:
+    pitkä:
+        track: B
+        length: 5,3 km
+        data: |
+            1. Erkka Kiviaho 42.11
+            2. Asmo Tenhunen 42.36
+            3. Ville Lipsonen 44.51
+            4. Pekka Koskinen 45.19
+            5. Aleksi Tenkula 49.02
+            6. Marko Saarinen 49.21
+            7. Reinhard Lenz 1.02.52
+
+    lyhyt:
+        track: CV
+        length: 4,0 km
+        data: |
+            1. Sakke Ahoniemi 35.38
+            2. Esko Kiuru 38.13
+            3. Tapio Puputti 41.33
+            4. Otso Karhu 46.36
+            5. Ari Nieminen 50.42
+
+    other:
+        'Päivä A 7,1 km': |
+            1. Jarkko Ustinov 43.14 -
+
+        'Yö C 3,0 km': |
+            5. Erkki Kallela 46.26 +13.26
+
