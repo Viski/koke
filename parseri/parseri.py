@@ -114,63 +114,79 @@ def formatTimeDiff(t):
 
         return prefix + hStr + mStr + sStr
 
-""" Parse results data into python struct"""
+""" Parse results data into python struct.
+
+Handles both the unified format and the legacy main-series format:
+  Unified:  "1. Lastname Firstname 24.49 +0.00" / "- Lastname Firstname - -"
+  Legacy:   "1. Lastname Firstname 24.49" / "Lastname Firstname ei aikaa"
+"""
 def parseResults(data):
     results = {}
 
-    for line in data.split('\n'):
-        if len(line.strip()) == 0:
-            continue
-
-        # Remove leading position markers and time differences
-        res = re.sub(r'^\s*[0-9\.\-]*\s*(\S+\s\S*)\s*((?:[^\W\d]*\s*)*)([0-9\.:]*).*',
-                     r'\1|\2|\3',
-                     line,
-                     flags = re.UNICODE)
-        if len(res) == 0:
-            continue
-
-        (name, team, time) = res.split('|')
-
-        name = tuple(name.strip().split())
-
-        if team.strip().lower() == "ei aikaa":
-            team = ""
-
-        if name in results:
-            print("ERROR! Duplicate result for", name)
-            exit()
-
-        results[name] = {"time": formatTime(time), "team": team}
-
-    return results
-
-""" Parse results data from other tracks into python struct"""
-def parseOtherResults(data):
-    results = {}
+    def looks_like_time(s):
+        return bool(re.match(r'^\d+[.:]\d', s))
 
     for line in data.split('\n'):
-        if len(line.strip()) == 0:
+        stripped = line.strip()
+        if not stripped:
             continue
 
-        res = line.split()
+        # DNF with "ei aikaa" (all legacy variants):
+        #   "Name1 Name2 ei aikaa"
+        #   "4. Name1 Name2 ei aikaa"
+        #   "- Name1 Name2 Team ei aikaa"
+        #   "Name1 Name2   Team   ei aikaa"
+        if re.search(r'\bei\s+aikaa\b', stripped, re.IGNORECASE):
+            clean = re.sub(r'^[-\d]+\.?\s+', '', stripped)
+            clean = re.sub(r'\s+ei\s+aikaa\s*$', '', clean, flags=re.IGNORECASE)
+            words = clean.split()
+            if len(words) >= 2:
+                name = tuple(words[:2])
+                team = words[2] if len(words) > 2 else ""
+                if name in results:
+                    print("ERROR! Duplicate result for", name)
+                    exit()
+                results[name] = {"pos": "-", "time": None, "timediff": "", "team": team}
+            continue
 
-        pos = res[0]
-        name = tuple(res[1:3])
+        parts = stripped.split()
+        if len(parts) < 4:
+            continue
 
-        team = ""
-        if len(res) == 6:
-            team = res[3]
+        pos = parts[0]
+        name = tuple(parts[1:3])
 
-        time = res[-2]
-        if(time == '-'):
-            time = None
+        # Detect if the last token is a timediff
+        last = parts[-1]
+        second_last = parts[-2] if len(parts) >= 5 else None
+
+        has_timediff = (last.startswith('+') or
+                        (last == '-' and second_last == '-') or
+                        (second_last and looks_like_time(second_last) and not looks_like_time(last)))
+
+        if has_timediff:
+            time_str = parts[-2]
+            timediff_str = last
+            remaining = parts[3:-2]
         else:
-            time = formatTime(time)
+            time_str = parts[-1]
+            timediff_str = ""
+            remaining = parts[3:-1]
 
-        timeDiff = res[-1]
-        if(timeDiff == '-'):
-            timeDiff = ""
+        team = remaining[0] if remaining else ""
+
+        if time_str == '-':
+            time_val = None
+        elif looks_like_time(time_str):
+            time_val = formatTime(time_str)
+        else:
+            # Not a valid time — treat as team name for a DNF (e.g., "- Name1 Name2 Team")
+            team = time_str
+            time_val = None
+            timediff_str = ""
+
+        if timediff_str == '-':
+            timediff_str = ""
 
         if name in results:
             print("ERROR! Duplicate result for", name)
@@ -178,8 +194,8 @@ def parseOtherResults(data):
 
         results[name] = {
             "pos": pos,
-            "time": time,
-            "timediff": timeDiff,
+            "time": time_val,
+            "timediff": timediff_str,
             "team": team}
 
     return results
@@ -325,13 +341,14 @@ def calculatePoints(participants, threshold, reference):
 
 def createSeriesTable(series, eventData, config):
 
-    seriesData = eventData['series'][series]
+    trackName = eventData['series_mapping'][series]
+    trackData = eventData['tracks'][trackName]
     hdr = []
 
     hdr.append(SimpleTableRow(["Koneen Kerho", "suunnistusjaos", "sarjakilpailu", series.upper(), config["name"].upper(), "", ""], header=True))
     hdr.append(SimpleTableRow(["", "", "", "", "", "", ""], header=True))
     hdr.append(SimpleTableRow(["osakilpailu:", "{0} / {1}".format(eventData["event_number"], config["year"]), "", "", "", "", ""], header=True))
-    hdr.append(SimpleTableRow(["rata:", seriesData["track"], seriesData["length"], "", "", "", ""], header=True))
+    hdr.append(SimpleTableRow(["rata:", trackName, trackData.get("length", ""), "", "", "", ""], header=True))
     hdr.append(SimpleTableRow(["paikka:", eventData["location"], "", "", "", "", ""], header=True))
     hdr.append(SimpleTableRow(["päivä:", eventData["date"], "", "", "", "", ""], header=True))
     hdr.append(SimpleTableRow(["järjestäjä:", eventData["organizer"], "", "", "", "", ""], header=True))
@@ -404,17 +421,20 @@ def parseSeries(eventData, seriesName, config, outputData):
 
     seriesConfig = config['series'][seriesName]
     outputData.setdefault(seriesName, {})
-    parsedResults = parseResults(eventData['series'][seriesName]['data'])
+
+    trackName = eventData['series_mapping'][seriesName]
+    trackData = eventData['tracks'][trackName]
+    parsedResults = parseResults(trackData['data'])
 
     # Search for people from unknown series
-    # TODO: Make series selection automatic (with force override)
-    unknownPeople = findNamesFromResults(config['unknown_participants'], parsedResults, eventData['reverse_names'], False)
-    if(unknownPeople):
-        print("\n#############################################################\n")
-        print("   Found", len(unknownPeople), "participants with unknown series:")
-        for i in unknownPeople:
-            print("      ", i['first'], i['last'])
-        print("\n#############################################################\n")
+    if 'unknown_participants' in config:
+        unknownPeople = findNamesFromResults(config['unknown_participants'], parsedResults, eventData['reverse_names'], False)
+        if(unknownPeople):
+            print("\n#############################################################\n")
+            print("   Found", len(unknownPeople), "participants with unknown series:")
+            for i in unknownPeople:
+                print("      ", i['first'], i['last'])
+            print("\n#############################################################\n")
 
     correctPeople = findNamesFromResults(seriesConfig['participants'], parsedResults, eventData['reverse_names'], True)
     bestTime = calculatePoints(correctPeople, seriesConfig['participant_threshold'], seriesConfig['reference_position'])
@@ -445,7 +465,7 @@ def parseSeries(eventData, seriesName, config, outputData):
 
         # Save the participants to their own series
         outputData.setdefault(wrongSeriesName, {}).setdefault("wrongTrack", {})
-        wrongSeriesKey = "KoKe " + eventData['series'][seriesName]['track'] + " " + eventData['series'][seriesName]['length']
+        wrongSeriesKey = "KoKe " + trackName + " " + trackData.get("length", "")
         outputData[wrongSeriesName]["wrongTrack"][wrongSeriesKey] = wrongPeople
 
     # Save correct people to the series
@@ -453,20 +473,30 @@ def parseSeries(eventData, seriesName, config, outputData):
 
 def parseOtherSeries(eventData, config, outputData):
 
-    for seriesName, seriesData in eventData['series']['other'].items():
-        print("   Parsing other series:", seriesName)
+    mappedTracks = set(eventData['series_mapping'].values())
 
-        parsedResults = parseOtherResults(seriesData)
+    for trackName, trackData in eventData['tracks'].items():
+        if trackName in mappedTracks:
+            continue
+
+        seriesLabel = trackName
+        trackLength = trackData.get('length', '')
+        if trackLength:
+            seriesLabel = trackName + " " + trackLength
+
+        print("   Parsing other track:", seriesLabel)
+
+        parsedResults = parseResults(trackData['data'])
 
         # Search for people from unknown series
-        # TODO: Make series selection automatic (with force override)
-        unknownPeople = findNamesFromResults(config['unknown_participants'], parsedResults, eventData['reverse_names'], False)
-        if(unknownPeople):
-            print("\n#############################################################\n")
-            print("   Found", len(unknownPeople), "participants with unknown series:")
-            for i in unknownPeople:
-                print("      ", i['first'], i['last'])
-            print("\n#############################################################\n")
+        if 'unknown_participants' in config:
+            unknownPeople = findNamesFromResults(config['unknown_participants'], parsedResults, eventData['reverse_names'], False)
+            if(unknownPeople):
+                print("\n#############################################################\n")
+                print("   Found", len(unknownPeople), "participants with unknown series:")
+                for i in unknownPeople:
+                    print("      ", i['first'], i['last'])
+                print("\n#############################################################\n")
 
         # Add people from wrong series and set their points to X
         for wrongSeriesName, wrongSeriesConfig in config['series'].items():
@@ -481,12 +511,104 @@ def parseOtherSeries(eventData, config, outputData):
 
             # Save the participants to their own series
             outputData.setdefault(wrongSeriesName, {}).setdefault("wrongTrack", {})
-            wrongSeriesKey = seriesName
+            wrongSeriesKey = seriesLabel
             outputData[wrongSeriesName]["wrongTrack"][wrongSeriesKey] = wrongPeople
 
 
+def normalizeEventData(eventData):
+    """Convert old-format eventData (with 'series') to new format (with 'tracks' + 'series_mapping')."""
+    if 'tracks' in eventData:
+        return eventData
+
+    tracks = {}
+    series_mapping = {}
+    for seriesName in ['pitkä', 'lyhyt']:
+        if seriesName in eventData['series']:
+            sd = eventData['series'][seriesName]
+            trackName = sd['track']
+            series_mapping[seriesName] = trackName
+            tracks[trackName] = {'length': sd['length'], 'data': sd['data']}
+
+    if 'other' in eventData['series']:
+        for otherName, otherData in eventData['series']['other'].items():
+            tracks[otherName] = {'data': otherData}
+
+    eventData['series_mapping'] = series_mapping
+    eventData['tracks'] = tracks
+    return eventData
+
+def resolveAutoParticipants(config, sourcesDir):
+    """Scan all events and assign auto_participants to the series they run in most often."""
+    autoSeries = config.get('series', {}).get('auto')
+    if not autoSeries:
+        return
+
+    autoParticipants = autoSeries.get('participants', [])
+    if not autoParticipants:
+        return
+
+    # Remove 'auto' from series so it isn't processed as a real series
+    del config['series']['auto']
+
+    seriesNames = list(config['series'].keys())
+
+    # Ensure each real series has a participants list
+    for s in seriesNames:
+        config['series'][s].setdefault('participants', [])
+
+    # Count how many times each auto participant appears on each series' track
+    # Key: (last, first) -> {seriesName: count}
+    counts = {}
+    for p in autoParticipants:
+        counts[(p['last'], p['first'])] = {s: 0 for s in seriesNames}
+
+    # Scan all event source files
+    for filename in sorted(os.listdir(sourcesDir)):
+        if not filename.endswith(".yaml"):
+            continue
+
+        filepath = os.path.join(sourcesDir, filename)
+        eventData = normalizeEventData(readYamlFile(filepath))
+        reverseNames = eventData.get('reverse_names', True)
+
+        for seriesName in seriesNames:
+            if seriesName not in eventData.get('series_mapping', {}):
+                continue
+
+            trackName = eventData['series_mapping'][seriesName]
+            trackData = eventData['tracks'].get(trackName)
+            if not trackData or not trackData.get('data'):
+                continue
+
+            parsedResults = parseResults(trackData['data'])
+
+            for p in autoParticipants:
+                key = (p['last'], p['first'])
+                if reverseNames:
+                    t = (p['first'], p['last'])
+                else:
+                    t = (p['last'], p['first'])
+
+                if t in parsedResults:
+                    counts[key][seriesName] += 1
+
+    # Assign each auto participant to their most frequent series
+    for p in autoParticipants:
+        key = (p['last'], p['first'])
+        seriesCounts = counts[key]
+        bestSeries = max(seriesCounts, key=seriesCounts.get)
+
+        if seriesCounts[bestSeries] == 0:
+            continue
+
+        config['series'][bestSeries]['participants'].append(p)
+        print("  Auto: {0} {1} -> {2} ({3})".format(
+            p['first'], p['last'], bestSeries,
+            ", ".join("{0}: {1}".format(s, c) for s, c in seriesCounts.items() if c > 0)))
+
+
 def calculateEvent(eventFile, config, resultsDir):
-    eventData = readYamlFile(eventFile)
+    eventData = normalizeEventData(readYamlFile(eventFile))
     print("\nParsing event {0}: {1}".format(eventData['event_number'], eventData['location']))
 
     data = {}
@@ -494,8 +616,12 @@ def calculateEvent(eventFile, config, resultsDir):
     for seriesName in config['series'].keys():
         parseSeries(eventData, seriesName, config, data)
 
-    # Parse participants in other series
-    if 'other' in eventData['series']:
+    # Parse participants in other (unmapped) tracks
+    mappedTracks = set(eventData.get('series_mapping', {}).values())
+    hasOtherTracks = any(
+        t not in mappedTracks for t in eventData.get('tracks', {}).keys()
+    )
+    if hasOtherTracks:
         parseOtherSeries(eventData, config, data)
 
     # Output HTML
@@ -732,6 +858,8 @@ if args.sources is None:
 os.makedirs(args.results, exist_ok=True)
 
 config = readYamlFile(args.config)
+
+resolveAutoParticipants(config, args.sources)
 
 for filename in sorted(os.listdir(args.sources)):
     if not filename.endswith(".yaml"):
