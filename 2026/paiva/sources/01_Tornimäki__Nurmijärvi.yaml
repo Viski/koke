@@ -1,0 +1,193 @@
+event_number: 1
+location: Tornimäki, Nurmijärvi
+date: 14.4.
+organizer: RR / Tapio Ojala
+source_url: https://navisport.com/tapahtumat/nurmijarven-iltarastit-2026-tornimaki-iltarastit-04-14/tulokset/
+reverse_names: false
+series_mapping:
+  pitkä: A-rata
+  lyhyt: B-rata
+tracks:
+  B-rata:
+    data: |
+      1. Rantala Tommy 37.39
+      2. Viero Jukka 40.00
+      3. Laaksonen Tomi 41.50
+      4. Menna Juha 43.01
+      5. Niemi Arto 43.03
+      6. Mäyry Juho 43.38
+      7. Kuitunen Vilma 47.53
+      8. Vaaralahti Kirsi 48.35
+      9. Juholin Anders 49.46
+      10. Ruokokoski Raine 50.16
+      11. Kenttämies Jukka 50.21
+      12. Puhakka Janne 50.33
+      13. Nieminen Visa 50.55
+      14. Kuusela Kari 51.06
+      15. Tervonen Esa 52.36
+      16. Kurki Pekka 53.45
+      17. Tervo Vesa 54.48
+      18. Väisänen Jari 55.49
+      19. Kokkoniemi Jukka 55.54
+      20. Lipsonen Ville 56.19
+      21. Autio Keijo 56.25
+      22. Kamula Juha-Pekka 57.49
+      24. Autero Harri 58.06
+      25. Kortesluoma Juha 58.14
+      26. Timo Torniainen 58.42
+      27. Semenoja Jouni 59.01
+      28. Pallaspuro Juha 59.08
+      29. Lukkari Susanna 59.09
+      30. Lehtikuja Nuutti 1.00.22
+      31. Puputti Tapio 1.00.39
+      32. Nieminen 1.02.15
+      33. Kaartinen Riitu 1.06.33
+      34. Valkonen Timo 1.07.04
+      35. Leppänen Markku 1.09.10
+      36. Laine Micke 1.11.20
+      37. Jäkälä Jenni 1.12.56
+      38. Takkinen Juho 1.13.15
+      39. Vähäjylkkä Kimmo 1.18.13
+      40. Rytömaa Markus 1.19.11
+      41. Pellonperä Sirpa  1.23.40
+      42. Porma Mikko 1.24.17
+      43. Salmela Otso 1.30.13
+      44. Jääskeläinen Ari 1.30.47
+      45. Järvinen Sara 1.31.36
+      46. Myller Jouni 1.32.20
+      47. Tuominen & Pavas 1.46.06
+      48. Yliluoma Jaana 2.14.40
+      Piispa Sami ei aikaa
+      Uusitalo Timo ei aikaa
+      Salovaara Katriina ei aikaa
+      Karenius Nea ei aikaa
+  D-rata:
+    data: |
+      1. Viero Akseli 38.14 +0.00
+      2. Pinja + 2 39.51 +1.37
+      3. Varonen Reetta 45.44 +7.30
+      4. Heikkinen Pekka 46.21 +8.07
+      5. Luopponen Sami 47.05 +8.51
+      6. Tupitsa Nina 48.30 +10.16
+      7. Valkonen T.A 53.13 +14.59
+      8. Hotulainen Pirta 55.41 +17.27
+      9. Santonen Tiina 56.39 +18.25
+      10. Nukari Tuomo  58.09 +19.55
+      11. Peltokorpi Karoliina 1.00.10 +21.56
+      12. Kervinen Unto 1.03.39 +25.25
+      13. Koivunen Pertti 1.03.52 +25.38
+      14. Multala Essi 1.04.38 +26.24
+      15. Karjalainen Piia 1.04.52 +26.38
+      16. Saarela Leena 1.05.57 +27.43
+      17. Varonen Johanna 1.08.11 +29.57
+      18. Siikavuo Seija 1.08.42 +30.28
+      19. Mali Tuulia 1.09.48 +31.34
+      20. Niemi Viivi 1.16.31 +38.17
+      21. Karisto-Nieminen Marjatta 1.21.36 +43.22
+      22. Ilvenius Laura 1.24.34 +46.20
+      23. Pajuoja Heikki 1.25.42 +47.28
+      23. Pajuoja Hki 1.25.42 +47.28
+      - Kulha Tero - -
+      - Degerman Carita - -
+      - Reinikainen Katja - -
+      - Lindholm Agneta - -
+  C-rata:
+    data: |
+      1. Krook Seppo 41.47 +0.00
+      2. Roine Teemu 43.26 +1.39
+      3. Varmavuo Seppo 43.53 +2.06
+      4. Mänty Anne 44.41 +2.54
+      5. Permikangas Iiro 44.54 +3.07
+      6. Marko Pynnönen 44.57 +3.10
+      7. Saari Lasse 45.22 +3.35
+      8. Nieminen Markku 47.40 +5.53
+      9. Loukkalahti Antti 49.59 +8.12
+      10. Loukkalahti Mika 50.09 +8.22
+      11. Immonen Heikki 50.59 +9.12
+      12. Laine Juhani 52.24 +10.37
+      13. Lampinen Ismo 53.29 +11.42
+      14. Paalanen Anne 55.00 +13.13
+      15. Hämäläinen Teppo 55.02 +13.15
+      16. Pellikka Tarmo 55.18 +13.31
+      17. Hievanen Jouni 55.35 +13.48
+      18. Strang Heidi 55.44 +13.57
+      19. Ahokas Ari 56.30 +14.43
+      20. Vellamo Rikhard 57.19 +15.32
+      21. Pellikka Päivi 57.36 +15.49
+      22. Krook Reijo 59.22 +17.35
+      23. Salminen Anee 1.00.06 +18.19
+      24. Lahti Jouko 1.01.28 +19.41
+      25. Lajunen Glenn 1.01.30 +19.43
+      26. Alho Jukka 1.01.34 +19.47
+      27. Joensuu Liisa 1.02.17 +20.30
+      28. Vainionpää Anu 1.02.19 +20.32
+      29. Kaukola-Risku Tytti 1.03.57 +22.10
+      30. Heikkila Tuukka 1.04.50 +23.03
+      31. Oja Merja 1.05.51 +24.04
+      32. Paulanto Kaisu 1.06.21 +24.34
+      33. Seppälä Mika 1.06.23 +24.36
+      34. Laaksonen Ninni 1.06.42 +24.55
+      35. Lehto Erkki 1.06.53 +25.06
+      36. Kekalainen Inka 1.07.14 +25.27
+      37. Varmavuo Päivi 1.08.08 +26.21
+      38. Salomaa Tarja 1.11.17 +29.30
+      39. Hasa Mirva 1.11.48 +30.01
+      40. Pajamäki Sirpa 1.11.51 +30.04
+      41. Karvinen Jarmo 1.14.10 +32.23
+      42. Lindelöf Jasmine 1.18.17 +36.30
+      43.  Huimasalo Heli 1.19.08 +37.21
+      44. Lindholm Jonas 1.22.24 +40.37
+      45. Väisänen Jani 1.25.31 +43.44
+      46. Melina +1 1.29.26 +47.39
+      47. Nieminen Pauli 1.32.44 +50.57
+      48. Ruotsalainen Olli 1.36.37 +54.50
+      - Ristimäki Katja - -
+      - Väisänen Terhi - -
+      - Väänänen Aki - -
+      - Santonen Severi - -
+      - N.N - -
+  E-rata:
+    data: |
+      1. Nurminen Emma 9.40 +0.00
+      2. Santava Amalie 14.27 +4.47
+      3. Leppanen Iivo 26.59 +17.19
+      4. Kara Hilla 33.52 +24.12
+      5. Juvonen +3 36.36 +26.56
+      6. Enqvist Kerttu +1 42.29 +32.49
+      7. Leismala Jukka 42.33 +32.53
+      8. Aro Hilkka  +2 1.11.02 +1.01.22
+      - Relander +7 - -
+  A-rata:
+    data: |
+      1. Leinonen Otso 48.18
+      2. Peltokorpi Henrik 51.11
+      3. Simola Mikko 55.42
+      4. Pentti Markus 55.43
+      5. Yrjänä Erik 55.55
+      6. Peltokorpi Juho 56.10
+      7. Raikamo Jussi 57.28
+      8. Seppo Kukko 58.17
+      9. Pentti Matteus 58.51
+      10. Saue Eveli 1.00.05
+      11. Kiviaho Erkka 1.00.51
+      12. Hanhela Jouni 1.02.26
+      13. Peltokangas Urpo 1.02.35
+      14. Pohjola Hannu 1.05.11
+      15. Hietaila Jukka 1.05.53
+      16.  Rantanen Sinikka 1.06.13
+      17. Leismala Timo 1.07.34
+      18. Pyyhtiä Johannes 1.12.40
+      19. Haakana Jaakko 1.15.39
+      20. Takala Niklas 1.15.41
+      21. Aaltonen Lassi 1.15.46
+      22. Joensuu Jouni 1.18.02
+      23. Tenhunen Asmo 1.21.56
+      24. Hietala Topias 1.23.29
+      25. Seppälä Kari 1.25.36
+      26. Saari Kari 1.28.39
+      27. Juva Panu 1.32.53
+      28. Väkiparta Mikko 1.39.37
+      29. Rajala Annika 1.42.43
+      30. Viljakainen Harri 1.48.39
+      31. Karhu Otso 2.05.52
+      Haverinen Otto ei aikaa
