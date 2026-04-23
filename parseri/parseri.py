@@ -205,6 +205,13 @@ def readYamlFile(filePath):
     with open(filePath, 'r') as f:
         return yaml.safe_load(f)
 
+def _make_name_tuple(name, reverseNames):
+    if reverseNames:
+        return (name["first"], name["last"])
+    else:
+        return (name["last"], name["first"])
+
+
 def findNamesFromResults(participants, results, reverseNames, searchForCloseMatches):
 
     keys = [" ".join(a) for a in results]
@@ -214,26 +221,36 @@ def findNamesFromResults(participants, results, reverseNames, searchForCloseMatc
 
 # TODO: Loop through results first. Now we get close matches alse for people that got straight match
     for name in participants:
-        if(reverseNames):
-            t = (name["first"], name["last"])
-        else:
-            t = (name["last"], name["first"])
+        t = _make_name_tuple(name, reverseNames)
 
+        # Try main name first, then aliases
+        matched_key = None
         if t in results:
+            matched_key = t
+        else:
+            for alias in name.get("aliases", []):
+                alias_t = _make_name_tuple(alias, reverseNames)
+                if alias_t in results:
+                    matched_key = alias_t
+                    break
+
+        if matched_key is not None:
             n = {}
             n['first'] = name['first']
             n['last'] = name['last']
-            if 'pos' in results[t]:
-                n['pos'] = results[t]['pos']
-            n['time'] = results[t]['time']
-            if 'timediff' in results[t]:
-                n['timediff'] = results[t]['timediff']
-            n['team'] = results[t]['team']
+            if 'pos' in results[matched_key]:
+                n['pos'] = results[matched_key]['pos']
+            n['time'] = results[matched_key]['time']
+            if 'timediff' in results[matched_key]:
+                n['timediff'] = results[matched_key]['timediff']
+            n['team'] = results[matched_key]['team']
             ret.append(n)
         elif searchForCloseMatches:
-            matches = get_close_matches(" ".join(t), keys, cutoff=0.8)
-            if matches:
-                closeMatches[t] = matches
+            all_tuples = [t] + [_make_name_tuple(a, reverseNames) for a in name.get("aliases", [])]
+            for tup in all_tuples:
+                matches = get_close_matches(" ".join(tup), keys, cutoff=0.8)
+                if matches:
+                    closeMatches[tup] = matches
 
     if closeMatches:
         print("      Found close matches:")
@@ -584,12 +601,17 @@ def resolveAutoParticipants(config, sourcesDir):
 
             for p in autoParticipants:
                 key = (p['last'], p['first'])
-                if reverseNames:
-                    t = (p['first'], p['last'])
-                else:
-                    t = (p['last'], p['first'])
+                t = _make_name_tuple(p, reverseNames)
 
-                if t in parsedResults:
+                matched = t in parsedResults
+                if not matched:
+                    for alias in p.get("aliases", []):
+                        alias_t = _make_name_tuple(alias, reverseNames)
+                        if alias_t in parsedResults:
+                            matched = True
+                            break
+
+                if matched:
                     counts[key][seriesName] += 1
 
     # Assign each auto participant to their most frequent series

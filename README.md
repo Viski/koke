@@ -123,3 +123,15 @@ series:
 ```
 
 You can mix both approaches — some participants under `auto` and others hardcoded under a specific series.
+
+### Competitor name aliases
+
+If a competitor's name sometimes appears in alternate forms in result data (typos, abbreviations, different transliterations), you can define aliases on the participant entry:
+
+```yaml
+participants:
+    - {last: Jokelainen, first: Visa, aliases: [{last: Jokelaansen, first: Visa}]}
+    - {last: Krüger, first: Andrei, aliases: [{last: Kruger, first: Andrei}, {last: Krüger, first: Andre}]}
+```
+
+When results contain an entry matching an alias, the result is attributed to the participant's main name. Main name always takes priority if both exist. Aliases work in both hardcoded and `auto` series modes.
