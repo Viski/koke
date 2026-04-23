@@ -1,0 +1,188 @@
+event_number: 2
+location: Nurmijärvi, Herunen
+date: 22.4.
+organizer: HyRa / Kenneth Reinikka
+source_url: https://navisport.com/tapahtumat/hyvinkaan-iltarastit-2026-herunen2024-04-22/tulokset/
+reverse_names: false
+series_mapping:
+  pitkä: Firma pitkä A
+  lyhyt: Firma lyhyt B
+tracks:
+  A violetti:
+    data: |
+      1. Honkakari Jussi 47.22 +0.00
+      2. Laaksonen Tomi 47.56 +0.34
+      3. Pietari Marko  49.41 +2.19
+      4. Rantanen Eelis 49.56 +2.34
+      5. Ketola Akseli 51.51 +4.29
+      6. Laukkanen Jarno 54.56 +7.34
+      7. Pasanen Hannes 57.12 +9.50
+      8. Nurmo Katariina 57.51 +10.29
+      9. Ahola Petri 1.01.30 +14.08
+      10. Honkalehto Olli 1.07.50 +20.28
+      11. Suuraskola Mikko 1.10.36 +23.14
+      12. Koskiniemi Ville  1.16.25 +29.03
+      13. Ämmälä Pasi 1.17.53 +30.31
+      - Damskägg Marika - -
+  C vaativa punainen:
+    data: |
+      1. Salomäki Antti 23.14 +0.00
+      2. Jokinen Joel 23.26 +0.12
+      3. Moisander Olli 24.18 +1.04
+      4. Lähdesmäki Jouni 25.05 +1.51
+      5. Husu Jere 25.53 +2.39
+      6. Lahtonen Janne 29.45 +6.31
+      7. Koskinen Teija 31.28 +8.14
+      8. Pulkkinen Heimo 32.15 +9.01
+      9. Vuorenpää Iia 33.23 +10.09
+      10. Pellikka Tarmo 33.47 +10.33
+      11. Pankko Annika 35.03 +11.49
+      12. Paukkola Jari 35.14 +12.00
+      13. Kallela Erkki 36.24 +13.10
+      14. Lipsonen Jouko 37.10 +13.56
+      15. Keinänen Hanna 37.44 +14.30
+      16. Ahlström Valtteri 37.48 +14.34
+      16. Viitala Hannu 37.48 +14.34
+      18. Tenhunen Saara 38.19 +15.05
+      19. Manninen Ari-Pekka  39.13 +15.59
+      20. Ahokas Ari 40.17 +17.03
+      21. Nieminen Pauli 40.54 +17.40
+      22. Rantanen Jouni 41.08 +17.54
+      23. Saviaho Aarno 41.37 +18.23
+      24. Lehikoinen Liisa 46.22 +23.08
+      25. Nummela Pirkko 48.17 +25.03
+      26. Niemi Johanna  49.36 +26.22
+      27. Partanen Paavo 51.44 +28.30
+      28. Alikko Erja ja Pursiainen Sirja 54.20 +31.06
+      29. Pellikka Päivi 58.36 +35.22
+      30. Niinimäki Jukka 1.02.08 +38.54
+      31. Vasara Pekka  1.10.16 +47.02
+      32. Ohramaa Tuula 1.20.52 +57.38
+      - Hietala Marja +2  - -
+      - Palokangas Päivi - -
+  Pyörä A:
+    data: |
+      1. Hanhijärvi Petrus 42.24 +0.00
+      2. Kleemola Joona 43.46 +1.22
+      3. Similä Mika 51.23 +8.59
+      4. Mäkinen Seppo 52.08 +9.44
+      5. Forsman Petri 54.19 +11.55
+      6. Kleemola Jouko 1.01.09 +18.45
+      7. Raudus Timo 1.06.16 +23.52
+      8. Jaatinen Marko 1.07.22 +24.58
+      9. Lindfors Max 1.11.51 +29.27
+      10. Viinikainen Mikko 1.15.00 +32.36
+      11. Jastinen Satu 1.15.14 +32.50
+      - Kattainen  Ari - -
+      - Blomster Anders - -
+  B punainen:
+    data: |
+      1. Toivanen Aaron 33.20 +0.00
+      2. Kiljunen Pekka 35.02 +1.42
+      3. Himanen Juha 35.51 +2.31
+      4. Väisänen Juha 38.22 +5.02
+      5. Hyvärilä Jussi 40.04 +6.44
+      6. Vuorenpää Asmo 41.52 +8.32
+      7. Mäyry Juho 42.01 +8.41
+      8. Ahola Miko 42.18 +8.58
+      9. Hartikainen Antti 42.24 +9.04
+      10. Tervakoski Viljami 42.57 +9.37
+      11. Kemppi Pekka 44.40 +11.20
+      12. Reitti Ari 44.46 +11.26
+      13. Nordström Antti 46.56 +13.36
+      14. Anttola Sakari 48.22 +15.02
+      15. Autero Harri 49.31 +16.11
+      16. Molnar Pia 50.42 +17.22
+      17. Autero Petri 51.57 +18.37
+      18. Jääskeläinen Ari 53.00 +19.40
+      19. Pasanen Aappo 53.09 +19.49
+      20. Autero Markus 53.20 +20.00
+      20. Puputti Tapio 53.20 +20.00
+      22. Borgenström Elina 56.53 +23.33
+      23. Hätinen Aino 57.32 +24.12
+      24. Pirinen Vesa 57.35 +24.15
+      25. Haajanen Ari 58.55 +25.35
+      26. Ahonen Mikko 59.47 +26.27
+      27. Ahoniemi Riikka 1.02.09 +28.49
+      28. Kinkki Seppo 1.03.01 +29.41
+      29. Laine Reija 1.07.06 +33.46
+      30. Lukkarinen Sakari 1.07.39 +34.19
+      31. Knuuttila Olli 1.07.59 +34.39
+      32. Pietari Esko 1.11.10 +37.50
+      33. Pekonen Jouko 1.24.23 +51.03
+      34. Mäkelä Anja 1.32.03 +58.43
+      - Suur-Uski Päivi - -
+      - Sukanen Eero - -
+      - Honkakari Aada - -
+  C helppo keltainen:
+    data: |
+      1. Moisander Iivo 22.35 +0.00
+      2. Damskägg Mika 23.11 +0.36
+      3. Damskägg Hilda 23.21 +0.46
+      4. Damskägg Oiva 24.10 +1.35
+      5. Nyberg Henry 32.39 +10.04
+      6. Numminen Seppo 36.51 +14.16
+      7. Numminen Merja 37.19 +14.44
+      8. Sjöholm Kai 37.34 +14.59
+      9. Rämö Terhi ja Laura 38.54 +16.19
+      10. Yli-Juuti Riitta  42.34 +19.59
+      11. Kultaranta Katja 43.52 +21.17
+      12. Tukiainen Tapio 44.17 +21.42
+      13. Pulkkinen Arja 44.42 +22.07
+      14. Hartikainen Pertti S. 46.02 +23.27
+      15. Ruusunen Pirjo 47.34 +24.59
+      16. Rantanen Alisa 51.07 +28.32
+      17. Miettinen Aleksandra 53.40 +31.05
+      18. Nuutilainen  Anne 1.05.53 +43.18
+      19. Karisto-Nieminen Marjatta 1.14.16 +51.41
+      20. Ryhänen Oiva 1.18.05 +55.30
+      21. Lappalainen Merja 1.18.24 +55.49
+      22. Hakonen Anne 1.18.30 +55.55
+      23. Tuominen Mari 1.36.22 +1.13.47
+      - Savela Soili - -
+      - Alakotila Piritta - -
+  Firma lyhyt B:
+    data: |
+      1. Lipsonen Ville 48.21 +0.00
+      2. Lenz Reinhard 51.35 +3.14
+      3. Salomäki Hannu 53.40 +5.19
+      4. Välimaa Kirsi 1.17.22 +29.01
+      - Pyhälampi Risto - -
+  Firma pitkä A:
+    data: |
+      1. Salomäki Janne 51.51 +0.00
+      2. Kiviaho Erkka 58.28 +6.37
+      3. Viero Jukka 59.01 +7.10
+      4. Aaltonen Tero 1.00.15 +8.24
+      5. Tenhunen Asmo 1.01.14 +9.23
+      6. Pohjola Hannu 1.06.06 +14.15
+      7. Myllärinen Tomi 1.24.35 +32.44
+      8. Kattainen Jimi 1.25.52 +34.01
+      9. Karhu Otso 1.34.32 +42.41
+  D keltainen:
+    data: |
+      1. Haajanen Ari 20.37 +0.00
+      2. Moisander Heidi 21.22 +0.45
+      3. Salminen Virpi 33.29 +12.52
+      4. Vänskä Virve ja Koski Saana 40.28 +19.51
+      5. Enqvist Kerttu 43.14 +22.37
+      6. Koskiniemi Oskari 52.47 +32.10
+      7. Kerttu Peltomäki 54.59 +34.22
+      8. Jalonen Vili 55.31 +34.54
+      9. Jalonen Veera 55.41 +35.04
+      10. Rontu Piia 56.10 +35.33
+      11. Moisander Tuomo 57.18 +36.41
+      12. Koskiniemi Amalia 1.03.05 +42.28
+      13. Ehrsten Jessica 1.13.22 +52.45
+  Pyörä B:
+    data: |
+      1. Ahoniemi Sakke 45.33 +0.00
+      2. Riikonen Tiina 46.07 +0.34
+      3. Hirsimäki Raimo 56.55 +11.22
+      4. Kiljunen Pekka 57.18 +11.45
+  Pyörä C:
+    data: |
+      1. Torvikoski Jouko 47.05 +0.00
+      2. Välimaa Pertti 48.06 +1.01
+      3. Similä Otto 56.22 +9.17
+      4. Varonen Arto 59.19 +12.14
