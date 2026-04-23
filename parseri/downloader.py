@@ -233,27 +233,85 @@ def extract_navisport_slug(url):
 
 def resolve_navisport_event(slug):
     """Resolve a Navisport slug to event ID and metadata."""
-    # The slug is unique — search for it
-    resp = requests.get(
-        f"{NAVISPORT_API}/events",
-        params={"name": slug.split("-")[-3] if len(slug.split("-")) > 3 else "", "take": 100},
-        timeout=30,
-    )
-    resp.raise_for_status()
-    data = resp.json()
-
-    # Find the event with matching slug
-    for event in data.get("events", []):
-        if event.get("slug") == slug:
+    for term in _build_search_terms(slug):
+        event = _search_for_slug(term, slug)
+        if event:
             return event
-
-    # If slug search didn't work, try fetching all events from the parent
-    # and match by slug
-    for event in data.get("events", []):
-        if slug in event.get("slug", ""):
-            return event
-
     raise ValueError(f"Could not find Navisport event with slug: {slug}")
+
+
+def _build_search_terms(slug):
+    """Generate candidate API search terms from a Navisport event slug.
+
+    Slug patterns:
+      <series>-<YYYY>-<event-name>-<MM>-<DD>     (series includes year)
+      <series>-<event-name>-<YYYY>-<MM>-<DD>      (date includes year)
+
+    Event names may have a year suffix: "herunen2024" → "Herunen/2024".
+    """
+    parts = slug.split("-")
+    terms = []
+
+    # Strip trailing date MM-DD (two 2-digit segments)
+    if (len(parts) >= 3
+            and re.fullmatch(r'\d{2}', parts[-1])
+            and re.fullmatch(r'\d{2}', parts[-2])):
+        core = parts[:-2]
+    else:
+        core = list(parts)
+
+    # Find event name: portion after the first standalone 4-digit year
+    for i, p in enumerate(core):
+        if re.fullmatch(r'\d{4}', p):
+            name_parts = core[i + 1:]
+            if name_parts:
+                raw = "-".join(name_parts)
+                # Handle year suffix: "herunen2024" → "Herunen/2024"
+                m = re.match(r'^(.*?)(\d{4})$', raw)
+                if m and m.group(1):
+                    base = m.group(1).rstrip("-").replace("-", " ").title()
+                    terms.append(f"{base}/{m.group(2)}")
+                    terms.append(base)
+                else:
+                    terms.append(raw.replace("-", " ").title())
+                # For multi-word names, also try first word as fallback
+                if len(name_parts) > 1:
+                    terms.append(name_parts[0].title())
+            else:
+                # Event name is before the year (e.g., series-name-YYYY-MM-DD)
+                if i > 0 and not re.fullmatch(r'\d+', core[i - 1]):
+                    terms.append(core[i - 1].title())
+            break
+
+    # Fallback: last non-numeric part of core
+    if not terms:
+        for p in reversed(core):
+            if not re.fullmatch(r'\d+', p):
+                terms.append(p.title())
+                break
+
+    return terms
+
+
+def _search_for_slug(name, target_slug):
+    """Search Navisport events by name, paginating to find exact slug match."""
+    page_size = 100
+    skip = 0
+    while True:
+        resp = requests.get(
+            f"{NAVISPORT_API}/events",
+            params={"name": name, "take": page_size, "skip": skip},
+            timeout=30,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        events = data.get("events", [])
+        for event in events:
+            if event.get("slug") == target_slug:
+                return event
+        if len(events) < page_size:
+            return None
+        skip += page_size
 
 
 def fetch_navisport_event_details(event_id):
