@@ -847,91 +847,55 @@ def scpResults(config, resultsDir):
         os.path.join(resultsDir, '*'),
         config["scp_destination"]))
 
-# Main
+def main():
+    # Parse cli parameters
+    parser = argparse.ArgumentParser(epilog = __doc__)
+    parser.add_argument(
+        'config',
+        help = "Configuration file in yaml format")
+    parser.add_argument(
+        '-c',
+        action = "store_true",
+        dest = 'scp_enabled',
+        help = """If specified, parsed result files will be copied to
+    'scp_destination' specified in config file.""")
+    parser.add_argument(
+        '-r',
+        dest = 'results',
+        help = "Results folder")
+    parser.add_argument(
+        '-s',
+        dest = 'sources',
+        help = "Folder containing the event files in yaml format")
 
-# Parse cli parameters
-parser = argparse.ArgumentParser(epilog = __doc__)
-parser.add_argument(
-    'config',
-    help = "Configuration file in yaml format")
-parser.add_argument(
-    '-c',
-    action = "store_true",
-    dest = 'scp_enabled',
-    help = """If specified, parsed result files will be copied to
-'scp_destination' specified in config file.""")
-parser.add_argument(
-    '-r',
-    dest = 'results',
-    help = "Results folder")
-parser.add_argument(
-    '-s',
-    dest = 'sources',
-    help = "Folder containing the event files in yaml format")
+    args = parser.parse_args()
 
-args = parser.parse_args()
+    if args.results is None:
+        args.results = os.path.join(os.path.dirname(args.config), "results")
 
-if args.results is None:
-    args.results = os.path.join(os.path.dirname(args.config), "results")
+    if args.sources is None:
+        args.sources = os.path.join(os.path.dirname(args.config), "sources")
 
-if args.sources is None:
-    args.sources = os.path.join(os.path.dirname(args.config), "sources")
+    os.makedirs(args.results, exist_ok=True)
 
-os.makedirs(args.results, exist_ok=True)
+    config = readYamlFile(args.config)
 
-config = readYamlFile(args.config)
+    resolveAutoParticipants(config, args.sources)
 
-resolveAutoParticipants(config, args.sources)
+    for filename in sorted(os.listdir(args.sources)):
+        if not filename.endswith(".yaml"):
+            continue
 
-for filename in sorted(os.listdir(args.sources)):
-    if not filename.endswith(".yaml"):
-        continue
+        filepath = os.path.join(args.sources, filename)
+        calculateEvent(filepath, config, args.results)
 
-    filepath = os.path.join(args.sources, filename)
-    calculateEvent(filepath, config, args.results)
+    calculateTotalPoints(config)
 
-calculateTotalPoints(config)
+    outputSeriesTables(config, args.results)
+    outputIndexPage(config, args.results)
 
-outputSeriesTables(config, args.results)
-outputIndexPage(config, args.results)
+    if args.scp_enabled:
+        scpResults(config, args.results)
 
-if args.scp_enabled:
-    scpResults(config, args.results)
-########################################################333
-
-# Check for people with currently unknown series
-"""
-unknown = findNamesFromResults("unknown", names, results, args.reverseNames)
-print("\n\n#############################################################\n\n")
-print("Found", len(unknown), "participants with unknown series:")
-for i in unknown:
-    print("   ", i['first'], i['last'])
-print("\n\n#############################################################\n\n")
-
-# Find people from correct series and calculate their points
-correctPeople = findNamesFromResults(args.series, names, results, args.reverseNames)
-correctPeople = calculatePoints(correctPeople, args.series)
-
-# Add people from wrong series and set their points to X
-seriesList = ['long', 'short']
-seriesList.remove(args.series)
-wrongPeople = findNamesFromResults(seriesList[0], names, results, args.reverseNames)
-bestTime = correctPeople[0]['time'] if correctPeople else None
-for i in wrongPeople:
-    i['points'] = 'X'
-    if i['time'] and bestTime:
-        i['timediff'] = int(timeDiff(i['time'], bestTime))
-
-# Merge results
-res = correctPeople + wrongPeople
-
-# Print results
-print("Results:\n")
-prettyPrint(res)
-
-# TODO:
-# * osakilpailutietojen täyttö automaagisesti?
-# * sarjapisteiden laskenta kanssa?
-"""
-exit()
-
+if __name__ == "__main__":
+    main()

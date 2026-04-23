@@ -18,7 +18,8 @@ The tool processes race results from multiple events, calculates series points, 
 │   ├── main.py          # Interactive CLI frontend
 │   ├── parseri.py        # Points calculator & HTML generator
 │   ├── downloader.py     # Results downloader (HTML & Navisport)
-│   └── simpletable.py    # HTML table generator
+│   ├── simpletable.py    # HTML table generator
+│   └── tests/            # Unit tests
 ├── 2025/
 │   ├── paiva/
 │   │   ├── config.yaml   # Series config (participants, rules)
@@ -135,3 +136,9 @@ participants:
 ```
 
 When results contain an entry matching an alias, the result is attributed to the participant's main name. Main name always takes priority if both exist. Aliases work in both hardcoded and `auto` series modes.
+
+## Testing
+
+```bash
+uv run pytest parseri/tests/
+```
