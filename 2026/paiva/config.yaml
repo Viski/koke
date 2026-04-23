@@ -68,7 +68,8 @@ series:
             - {last: Lamminmäki, first: Timo}
             - {last: Lappalainen, first: Jani}
             - {last: Lehto, first: Matti}
-            - {last: Lenz, first: Reinhard}
+            - {last: Lenz, first: Reinhard,
+                aliases: [{last: Lentz, first: Reinhard}, {last: Lenz, first: Raikku}, {last: Lentz, first: Raikku}]}
             - {last: Lepistö, first: Erkki}
             - {last: Lindroos, first: Janne}
             - {last: Lipsonen, first: Ville}
