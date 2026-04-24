@@ -3,16 +3,20 @@
 Interactive CLI frontend for KoKe orienteering series management.
 
 Usage:
-    python main.py <config_or_folder>
+    python main.py [config_or_folder]
 
     config_or_folder: Path to config.yaml or the series base folder.
+                      If omitted, searches for config.yaml files and
+                      presents an interactive selection.
 
 Example:
     uv run parseri/main.py 2025/paiva
     uv run parseri/main.py 2025/paiva/config.yaml
+    uv run parseri/main.py
 """
 
 import argparse
+import glob
 import os
 import re
 import subprocess
@@ -205,17 +209,60 @@ def run_parseri(config_path):
         print(f"{'─'*50}")
 
 
+def find_config_files():
+    """Search for config.yaml files in the repository and return sorted list."""
+    repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    pattern = os.path.join(repo_root, "*", "*", "config.yaml")
+    configs = sorted(glob.glob(pattern), reverse=True)
+    return configs
+
+
+def prompt_config_selection(configs):
+    """Present config files for interactive selection, return chosen path."""
+    if not configs:
+        print("Error: No config.yaml files found.", file=sys.stderr)
+        sys.exit(1)
+
+    repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+    print("\nAvailable series:")
+    for i, path in enumerate(configs, 1):
+        rel = os.path.relpath(path, repo_root)
+        # Show parent dir (e.g. "2025/paiva") instead of full config path
+        label = os.path.dirname(rel)
+        print(f"  [{i}] {label}")
+
+    while True:
+        choice = input("\nSelect series: ").strip()
+        if choice.lower() in ("q", "quit", "exit"):
+            print("Bye!")
+            sys.exit(0)
+        try:
+            idx = int(choice) - 1
+            if 0 <= idx < len(configs):
+                return configs[idx]
+        except ValueError:
+            pass
+        print(f"Invalid choice. Enter 1-{len(configs)} or q to quit.")
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Interactive CLI frontend for KoKe orienteering series management."
     )
     parser.add_argument(
         "config",
-        help="Path to config.yaml or the series base folder",
+        nargs="?",
+        default=None,
+        help="Path to config.yaml or the series base folder (optional)",
     )
     args = parser.parse_args()
 
-    config_path = resolve_config_path(args.config)
+    if args.config:
+        config_path = resolve_config_path(args.config)
+    else:
+        configs = find_config_files()
+        config_path = prompt_config_selection(configs)
     base_dir = os.path.dirname(config_path)
     sources_dir = os.path.join(base_dir, "sources")
 

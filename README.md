@@ -42,6 +42,12 @@ The easiest way to add an event is through the interactive frontend:
 uv run parseri/main.py 2025/paiva
 ```
 
+If no argument is given, all available series are listed for interactive selection:
+
+```bash
+uv run parseri/main.py
+```
+
 This will:
 1. Show the series summary
 2. Offer to add a new event or recalculate points
