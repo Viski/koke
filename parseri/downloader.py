@@ -14,6 +14,7 @@ Usage:
 """
 
 import argparse
+import json
 import re
 import sys
 from urllib.parse import urlparse
@@ -217,6 +218,7 @@ def split_name_club(text):
 # ---------------------------------------------------------------------------
 
 NAVISPORT_API = "https://navisport.com/api"
+NAVISPORT_TRPC = "https://navisport.com/trpc"
 
 
 def extract_navisport_slug(url):
@@ -232,12 +234,38 @@ def extract_navisport_slug(url):
 
 
 def resolve_navisport_event(slug):
-    """Resolve a Navisport slug to event ID and metadata."""
+    """Resolve a Navisport slug to event ID and metadata.
+
+    Uses the tRPC endpoint (same as the Navisport frontend) for direct
+    slug lookup, falling back to name-based search if tRPC fails.
+    """
+    event = _resolve_by_trpc(slug)
+    if event:
+        return event
+
     for term in _build_search_terms(slug):
         event = _search_for_slug(term, slug)
         if event:
             return event
     raise ValueError(f"Could not find Navisport event with slug: {slug}")
+
+
+def _resolve_by_trpc(slug):
+    """Resolve a slug directly via the Navisport tRPC API."""
+    try:
+        resp = requests.get(
+            f"{NAVISPORT_TRPC}/eventsTrpcRouter.getEvent",
+            params={"input": json.dumps(slug)},
+            timeout=30,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        result = data.get("result", {}).get("data")
+        if result and result.get("id"):
+            return result
+    except (requests.RequestException, ValueError, KeyError):
+        pass
+    return None
 
 
 def _build_search_terms(slug):
