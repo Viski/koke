@@ -1,0 +1,176 @@
+event_number: 3
+location: Lentokenttä, Hyvinkää
+date: 29.4.
+organizer: HyRa / ??
+source_url: https://navisport.com/tapahtumat/hyvinkaan-iltarastit-2026-lentokentta2024-04-29/tulokset/a-punainen
+reverse_names: false
+series_mapping:
+  pitkä: Firma pitkä A
+  lyhyt: Firma lyhyt B
+tracks:
+  A punainen:
+    data: |
+      1. Pietari Marko  43.04 +0.00
+      2. Rantanen Eelis 49.05 +6.01
+      3. Lankinen Iikka 49.57 +6.53
+      4. Similä Mika 51.31 +8.27
+      5. Tuomi Pertti 54.06 +11.02
+      6. Ahola Miko 55.58 +12.54
+      7. Valkonen Henri 59.28 +16.24
+      8. Mäkinen Luukas 1.01.07 +18.03
+      9. Himanen Juha 1.02.24 +19.20
+      10. Ahola Petri 1.03.49 +20.45
+      11. Ämmälä Pasi 1.07.06 +24.02
+      12. Reinikka Kenneth 1.10.30 +27.26
+      - Rantanen Justus - -
+  C helppo keltainen:
+    data: |
+      1. Viero Akseli 29.26 +0.00
+      2. Moisander Heidi 29.59 +0.33
+      3. Yli-Juuti Riitta 34.48 +5.22
+      4. Luotonen Lyydia 34.57 +5.31
+      5. Lindqvist Alexandra 35.39 +6.13
+      6. Hartikainen Pertti S. 37.05 +7.39
+      7. Kultaranta Katja 37.38 +8.12
+      8. Suominen Pertti  39.44 +10.18
+      9. Otto Alakoski 45.39 +16.13
+      10. Pirita Alakoski 46.10 +16.44
+      11. Marjo Friman  46.45 +17.19
+      12. Nikkilä Helvi 47.03 +17.37
+      13. Salakka Veikko 48.04 +18.38
+      14. Laine Osmo 49.05 +19.39
+      15. Ahola Kristiina 51.37 +22.11
+      16. Keränen Ulla 52.21 +22.55
+      17. Jalonen Veera 54.19 +24.53
+      18. Jalonen Vili 54.22 +24.56
+      19. Romppainen Yulia  1.01.16 +31.50
+      20. Pasanen Sanna 1.01.17 +31.51
+      21. Laisi Salla 1.01.28 +32.02
+      22. Hakonen Anne 1.01.41 +32.15
+      23. Lappalainen Merja 1.01.51 +32.25
+      24. Ryhänen Oiva 1.01.55 +32.29
+      25. Rontu Piia 1.02.04 +32.38
+      26. Ehrsten Jessica 1.02.12 +32.46
+      - Sandström Marja - -
+      - Veijalainen Aarne - -
+      - Mirja - -
+      - Hakala Pilvi - -
+      - N.N - -
+      - Sandström Tytti - -
+      - Vallinkivi Laura - -
+      - Vallinkivi Linda - -
+  B punainen:
+    data: |
+      1. Hyvärilä Jussi 33.39 +0.00
+      2. Tonteri Joni 34.19 +0.40
+      3. Råberg Lotta 34.48 +1.09
+      4. Damskägg Hilda 35.15 +1.36
+      5. Lähdesmäki Jouni 36.06 +2.27
+      6. Rantanen Riku 37.05 +3.26
+      7. Husu Jere 38.59 +5.20
+      8. Paavo Kuisma 39.14 +5.35
+      9. Helminen Antti 39.34 +5.55
+      10. Salomäki Antti 39.40 +6.01
+      11. Laisi Iiro 40.57 +7.18
+      12. Kauppinen Olli 42.23 +8.44
+      14. Valkonen Jatta 44.09 +10.30
+      15. Lahti Johanna 44.38 +10.59
+      16. Viitala Hannu 45.59 +12.20
+      17. Ahlroth Timo 46.44 +13.05
+      18. Friman Kaisa 47.27 +13.48
+      19. Autero Harri 50.14 +16.35
+      20. Hätinen Aino 51.12 +17.33
+      21. Zukale Sauli 51.27 +17.48
+      22. Jääskeläinen Ari 53.57 +20.18
+      23. Ranz Janne 54.08 +20.29
+      24. Pasanen Aappo 54.37 +20.58
+      25. Jäkälä Jenni 56.30 +22.51
+      26. Mäkelä Anja 56.34 +22.55
+      27. Pietari Esko 56.40 +23.01
+      28. Anttila Juha 57.45 +24.06
+      29. Molnar Pia 57.52 +24.13
+      30. Similä Milla 58.37 +24.58
+      31. Aranko Iisa 58.54 +25.15
+      32. Similä Otto 59.28 +25.49
+      33. Laine Reija 59.34 +25.55
+      34. Valjakka Elisa 1.00.34 +26.55
+      35. Iida Timperi 1.01.43 +28.04
+      36. Aatola Laura ja Jaakko 1.03.09 +29.30
+      37. Marco Angeli 1.06.43 +33.04
+      38. Tenhunen Saara 1.15.48 +42.09
+      39. Saarikko Anne 1.16.34 +42.55
+      40. Jormanainen Pekka 1.19.02 +45.23
+      41. Laine Micke 1.28.25 +54.46
+      - Janne Havuluoto - -
+      - Kohtamäki Jaakko  - -
+      - Virkki Otto - -
+      - Karttila Anni - -
+      - Autero Petri - -
+  D keltainen:
+    data: |
+      1. Rannastik Jayson 29.05 +0.00
+      2. Rautajärvi Veeti 31.22 +2.17
+      3. Salminen Virpi 34.05 +5.00
+      4. Leppänen Aapo 37.19 +8.14
+      5. Hautala Hannu 38.06 +9.01
+      6. Virtanen Roope 40.12 +11.07
+      7. Aro Hilkka 40.20 +11.15
+      8. Moisander Tuomo 42.16 +13.11
+      9. Kukkola Ilmari 44.51 +15.46
+      - Perhe Claypole-Leppänen - -
+      - Mursula Pirjo - -
+  Firma lyhyt B:
+    data: |
+      13. Rautajärvi Henri 42.56 +9.17
+      1. Lentz Reinhard 49.02 +0.00
+      2. Lamminmäki Timo 51.56 +2.54
+      3. Puputti Tapio 54.02 +5.00
+      4. Rytömaa Markus 1.03.04 +14.02
+      5. Välimaa Pertti 1.06.59 +17.57
+      6. Pankko Annika 1.21.05 +32.03
+      - Pyhälampi Risto - -
+      - Rantala Hannu - -
+  Firma pitkä A:
+    data: |
+      1. Salomäki Janne 47.38 +0.00
+      2. Tenhunen Asmo 54.33 +6.55
+      3. Aaltonen Tero 58.49 +11.11
+      4. Tenkula Aleksi 1.02.26 +14.48
+      5. Poussu Jukka 1.06.39 +19.01
+      13. Karvinen Heikki 1.14.37 +31.33
+      6. Karhu Otso 1.36.20 +48.42
+  C vaativa oranssi:
+    data: |
+      1. Haajanen Ari 28.26 +0.00
+      2. Rautio Timo 29.45 +1.19
+      3. Damskägg Oiva 30.06 +1.40
+      4. Ahlström Valtteri 30.24 +1.58
+      5. Nieminen Pauli 31.26 +3.00
+      6. Savela Olli 32.36 +4.10
+      7. Sjöholm Kai 34.12 +5.46
+      8. Kallela Erkki 35.06 +6.40
+      9. Kantelinen Mona 35.58 +7.32
+      10. Lipsonen Jouko 36.36 +8.10
+      11. Åberg Ninni 39.03 +10.37
+      12. Saviaho Aarno 39.48 +11.22
+      13. Lahti Jouko 40.10 +11.44
+      14. Rantanen Jouni 40.17 +11.51
+      15. Kuisma Lotta 43.16 +14.50
+      16. Puhakka Mika 43.30 +15.04
+      17. Hassinen Kari 45.24 +16.58
+      18. Seppälä Paula 46.32 +18.06
+      19. Loiva Riikka 48.49 +20.23
+      20. Karisto-Nieminen Marjatta 49.23 +20.57
+      21. Salomaa Tarja 49.27 +21.01
+      22. Korpela Marianna 52.21 +23.55
+      23. Peevo Markus 56.07 +27.41
+      24. Kiiskinen Virpi 56.33 +28.07
+      25. Pesonen Panu 58.20 +29.54
+      26. Pekonen Jouko 1.01.05 +32.39
+      27. Korhoset 1.03.21 +34.55
+      28. Terho Zinaida 1.06.26 +38.00
+      - Molnar Geza - -
+      - Pyykkö Juho - -
+      - Pyykkö Pertti - -
+      - Palokangas Päivi - -
+      - N.N - -
