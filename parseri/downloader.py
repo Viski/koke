@@ -521,19 +521,33 @@ def prompt_series_mapping(track_names):
 
     Returns dict like {"pitkä": "A", "lyhyt": "B"}.
     """
-    print(f"\nAvailable tracks: {', '.join(track_names)}")
+    print(f"\nAvailable tracks:")
+    for i, name in enumerate(track_names, 1):
+        print(f"\n  {i}. {name}")
     print("Assign tracks to series (press Enter to skip):")
 
     mapping = {}
     for series in ["pitkä", "lyhyt"]:
+        available = [t for t in track_names if t not in mapping.values()]
+        if not available:
+            break
         while True:
-            answer = input(f"  {series} → which track? [{'/'.join(track_names)}]: ").strip()
+            choices = "  ".join(f"{track_names.index(t)+1}={t}" for t in available)
+            answer = input(f"  {series} → [{choices}]: ").strip()
             if not answer:
                 break
-            if answer in track_names:
+            # Accept number or name
+            if answer.isdigit():
+                idx = int(answer) - 1
+                if 0 <= idx < len(track_names) and track_names[idx] in available:
+                    mapping[series] = track_names[idx]
+                    break
+                print(f"  Invalid number. Choose from: {choices}")
+            elif answer in available:
                 mapping[series] = answer
                 break
-            print(f"  Unknown track '{answer}'. Choose from: {', '.join(track_names)}")
+            else:
+                print(f"  Invalid choice. Choose from: {choices}")
 
     unmapped = [t for t in track_names if t not in mapping.values()]
     if unmapped:
