@@ -576,8 +576,10 @@ def resolveAutoParticipants(config, sourcesDir):
     # Count how many times each auto participant appears on each series' track
     # Key: (last, first) -> {seriesName: count}
     counts = {}
+    otherCounts = {}
     for p in autoParticipants:
         counts[(p['last'], p['first'])] = {s: 0 for s in seriesNames}
+        otherCounts[(p['last'], p['first'])] = 0
 
     # Scan all event source files
     for filename in sorted(os.listdir(sourcesDir)):
@@ -614,6 +616,31 @@ def resolveAutoParticipants(config, sourcesDir):
                 if matched:
                     counts[key][seriesName] += 1
 
+        # Also scan unmapped ("other") tracks
+        mappedTracks = set(eventData.get('series_mapping', {}).values())
+        for trackName, trackData in eventData.get('tracks', {}).items():
+            if trackName in mappedTracks:
+                continue
+            if not trackData or not trackData.get('data'):
+                continue
+
+            parsedResults = parseResults(trackData['data'])
+
+            for p in autoParticipants:
+                key = (p['last'], p['first'])
+                t = _make_name_tuple(p, reverseNames)
+
+                matched = t in parsedResults
+                if not matched:
+                    for alias in p.get("aliases", []):
+                        alias_t = _make_name_tuple(alias, reverseNames)
+                        if alias_t in parsedResults:
+                            matched = True
+                            break
+
+                if matched:
+                    otherCounts[key] += 1
+
     # Assign each auto participant to their most frequent series
     for p in autoParticipants:
         key = (p['last'], p['first'])
@@ -621,12 +648,15 @@ def resolveAutoParticipants(config, sourcesDir):
         bestSeries = max(seriesCounts, key=seriesCounts.get)
 
         if seriesCounts[bestSeries] == 0:
-            continue
+            # Participant only found on unmapped ("other") tracks
+            if otherCounts[key] == 0:
+                continue
+            bestSeries = seriesNames[0]
 
         config['series'][bestSeries]['participants'].append(p)
         print("  Auto: {0} {1} -> {2} ({3})".format(
             p['first'], p['last'], bestSeries,
-            ", ".join("{0}: {1}".format(s, c) for s, c in seriesCounts.items() if c > 0)))
+            ", ".join("{0}: {1}".format(s, c) for s, c in seriesCounts.items() if c > 0) or "other only"))
 
 
 def calculateEvent(eventFile, config, resultsDir):
