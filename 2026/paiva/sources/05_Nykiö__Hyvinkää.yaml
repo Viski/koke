@@ -1,0 +1,104 @@
+event_number: 5
+location: Nykiö, Hyvinkää
+date: 13.5.
+organizer: HyRa / Marko Pietari
+source_url: https://navisport.com/tapahtumat/hyvinkaan-iltarastit-2026-nykio2025-05-13/tulokset/a-violetti
+reverse_names: false
+series_mapping:
+  pitkä: Firma Pitkä A
+  lyhyt: Firma lyhyt B
+tracks:
+  A violetti:
+    data: |
+      1. Vartiainen Juha 53.19 +0.00
+      2. Loikas JP 54.29 +1.10
+      4. Laukkanen Jarno 1.01.38 +8.19
+      6. Pasanen Hannes 1.04.29 +11.10
+      8. Rantanen Justus 1.05.08 +11.49
+      9. Käyhkö Aapo 1.15.07 +21.48
+      10. Viljasjärvi Riikka 1.21.29 +28.10
+      11. Husu Jere 1.23.06 +29.47
+      12. Rantanen Riku 1.30.27 +37.08
+      - Maria Hietala + Kaveri - -
+      - Koivu Tuuli ja Koskinen Kaisla - -
+  C keltainen:
+    data: |
+      1. Sjöholm Kai 42.07 +0.00
+      2. Satu Peltomäki 53.38 +11.31
+      3. Jalonen Veera 56.50 +14.43
+      4. Kultaranta Katja 59.18 +17.11
+      5. Kiiskinen Virpi 59.36 +17.29
+      6. Ryhänen Oiva 1.04.39 +22.32
+      7. Ruusunen Pirjo 1.09.52 +27.45
+      8. Hakonen Anne 1.10.20 +28.13
+      9. Pasanen Sanna 1.14.54 +32.47
+      10. Romppainen Yulia  1.31.53 +49.46
+      11. Lappalainen Merja 1.39.02 +56.55
+      - Moisander Iivo - -
+      - Nummela Matti - -
+  C punainen:
+    data: |
+      1. Moisander Suvi 39.45 +0.00
+      2. Jalonen Vili 46.30 +6.45
+      3. Haajanen Ari 48.14 +8.29
+      4. Savela Olli 50.04 +10.19
+      5. Jääskeläinen Ari 51.28 +11.43
+      6. Lahti Jouko 54.04 +14.19
+      7. Salomaa Tarja 54.23 +14.38
+      8. Ahokas Ari 55.22 +15.37
+      8. Pankko Annika 55.22 +15.37
+      10. Saviaho Aarno 55.46 +16.01
+      11. Lipsonen Jouko 58.44 +18.59
+      12. Viitala Hannu 59.04 +19.19
+      13. Puhakka Mika 59.28 +19.43
+      14. Tenhunen Saara 1.03.52 +24.07
+      15. Korpela Marianna 1.16.29 +36.44
+      16. Miettinen Aleksandra 1.20.51 +41.06
+      17. Kirsi, Heli, Vrundali 1.21.24 +41.39
+      18. Ahlqvist Kristiina 1.21.32 +41.47
+      19. Terho Zinaida 1.26.25 +46.40
+      20. Kokkonen  Vesa 1.27.00 +47.15
+      21. Hätinen Antti 1.36.28 +56.43
+      22. Lintumäki Riina 1.47.54 +1.08.09
+      23. Matikka Jukka 1.47.59 +1.08.14
+      - Aaltonen Tarja - -
+  B violetti:
+    data: |
+      1. Hautakangas Nuuti 53.19 +0.00
+      2. Hyvärilä Jussi 58.15 +4.56
+      3. Haavisto Mia 1.13.41 +20.22
+      4. Vähänen Jukka 1.13.51 +20.32
+      5. Autero Harri 1.18.13 +24.54
+      6. Hätinen Olli 1.18.33 +25.14
+      7. Borgenström Elina 1.33.21 +40.02
+      8. Pasanen Aappo 1.41.12 +47.53
+      9. Hudael 1.43.45 +50.26
+      10. Rontu Piia 2.32.26 +1.39.07
+      - Kauppinen Olli - -
+      - Manninen Nana - -
+      - Nummela Pirkko - -
+  Firma lyhyt B:
+    data: |
+      1. Pohjola Hannu 53.04 +0.00
+      2. Lipsonen Ville 57.45 +4.41
+      3. Lentz Reinhard 1.04.44 +11.40
+      4. Puputti Tapio 1.20.53 +27.49
+      5. Välimaa Pertti 1.24.26 +31.22
+      6. Rytömaa Markus 1.51.04 +58.00
+      - Salomäki Hannu - -
+  Firma Pitkä A:
+    data: |
+      3. Enqvist Pasi 57.27 +4.08
+      5. Korhonen Tomi 1.02.09 +8.50
+      1. Tenhunen Asmo 1.09.09 +0.00
+      2. Pyyhtiä Johannes 1.13.40 +4.31
+      3. Aaltonen Tero 1.41.00 +31.51
+      4. Sihvola Esko 1.48.32 +39.23
+      5. Karhu Otso 1.53.02 +43.53
+  D keltainen:
+    data: |
+      1. Sukanen Eero 35.11 +0.00
+      2. Moisander Tuomo 44.48 +9.37
+      3. Harjula Miko 47.12 +12.01
+      4. Laine Jasmin 52.21 +17.10
+      5. Jantunen Mia 1.17.21 +42.10
