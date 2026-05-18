@@ -25,7 +25,6 @@ series:
             - {last: Kiviaho, first: Erkka}
             - {last: Kollanus, first: Mika}
             - {last: Koponen, first: Sami}
-            - {last: Korhonen, first: Tomi}
             - {last: Koskinen, first: Pekka}
             - {last: Leppänen, first: Ilkka}
             - {last: Myllärinen, first: Tomi}
@@ -119,7 +118,6 @@ series:
             - {last: Wikström, first: Tim}
             - {last: Zakrewski, first: Maria}
             - {last: Aikkila, first: Riitta}
-            - {last: Enqvist, first: Pasi}
             - {last: Kattainen, first: Ari}
             - {last: Kauranen, first: Ari}
             - {last: Numelin, first: C-J}
