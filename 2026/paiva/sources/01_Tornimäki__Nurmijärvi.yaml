@@ -3,7 +3,7 @@ location: Tornimäki, Nurmijärvi
 date: 14.4.
 organizer: RR / Tapio Ojala
 source_url: https://navisport.com/tapahtumat/nurmijarven-iltarastit-2026-tornimaki-iltarastit-04-14/tulokset/
-reverse_names: false
+firstname_first: false
 series_mapping:
   pitkä: A-rata
   lyhyt: B-rata

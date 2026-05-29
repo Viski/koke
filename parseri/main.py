@@ -136,12 +136,12 @@ def add_event(config, config_path, sources_dir):
 
     metadata = prompt_metadata_with_auto_number(auto_metadata, next_num)
 
-    # 5. Generate YAML — downloader determines reverse_names for known sources
+    # 5. Generate YAML — downloader determines firstname_first for known sources
     doc = generate_yaml(metadata, tracks, series_mapping, url, source_type=source_type)
 
-    # If reverse_names was not set by the downloader, prompt the user
-    if "reverse_names" not in doc:
-        doc["reverse_names"] = prompt_name_order(tracks)
+    # If firstname_first was not set by the downloader, prompt the user
+    if "firstname_first" not in doc:
+        doc["firstname_first"] = prompt_name_order(tracks)
 
     num = metadata.get("event_number")
     loc = metadata.get("location", "unknown")

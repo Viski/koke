@@ -3,7 +3,7 @@ location: Kirkonkylä, Nurmijärvi
 date: 5.5.
 organizer: RR / Oliver Laapas
 source_url: https://navisport.com/tapahtumat/nurmijarven-iltarastit-2026-kirkonkyla-iltarastit-sprintti-05-05/tulokset/a-rata
-reverse_names: false
+firstname_first: false
 series_mapping:
   pitkä: A-rata
   lyhyt: B-rata

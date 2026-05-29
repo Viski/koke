@@ -3,7 +3,7 @@ location: Nurmijärvi, Herunen
 date: 22.4.
 organizer: HyRa / Kenneth Reinikka
 source_url: https://navisport.com/tapahtumat/hyvinkaan-iltarastit-2026-herunen2024-04-22/tulokset/
-reverse_names: false
+firstname_first: false
 series_mapping:
   pitkä: Firma pitkä A
   lyhyt: Firma lyhyt B

@@ -205,14 +205,14 @@ def readYamlFile(filePath):
     with open(filePath, 'r') as f:
         return yaml.safe_load(f)
 
-def _make_name_tuple(name, reverseNames):
-    if reverseNames:
+def _make_name_tuple(name, firstnameFirst):
+    if firstnameFirst:
         return (name["first"], name["last"])
     else:
         return (name["last"], name["first"])
 
 
-def findNamesFromResults(participants, results, reverseNames, searchForCloseMatches):
+def findNamesFromResults(participants, results, firstnameFirst, searchForCloseMatches):
 
     keys = [" ".join(a) for a in results]
 
@@ -221,7 +221,7 @@ def findNamesFromResults(participants, results, reverseNames, searchForCloseMatc
 
 # TODO: Loop through results first. Now we get close matches alse for people that got straight match
     for name in participants:
-        t = _make_name_tuple(name, reverseNames)
+        t = _make_name_tuple(name, firstnameFirst)
 
         # Try main name first, then aliases
         matched_key = None
@@ -229,7 +229,7 @@ def findNamesFromResults(participants, results, reverseNames, searchForCloseMatc
             matched_key = t
         else:
             for alias in name.get("aliases", []):
-                alias_t = _make_name_tuple(alias, reverseNames)
+                alias_t = _make_name_tuple(alias, firstnameFirst)
                 if alias_t in results:
                     matched_key = alias_t
                     break
@@ -246,7 +246,7 @@ def findNamesFromResults(participants, results, reverseNames, searchForCloseMatc
             n['team'] = results[matched_key]['team']
             ret.append(n)
         elif searchForCloseMatches:
-            all_tuples = [t] + [_make_name_tuple(a, reverseNames) for a in name.get("aliases", [])]
+            all_tuples = [t] + [_make_name_tuple(a, firstnameFirst) for a in name.get("aliases", [])]
             for tup in all_tuples:
                 matches = get_close_matches(" ".join(tup), keys, cutoff=0.8)
                 if matches:
@@ -445,7 +445,7 @@ def parseSeries(eventData, seriesName, config, outputData):
 
     # Search for people from unknown series
     if 'unknown_participants' in config:
-        unknownPeople = findNamesFromResults(config['unknown_participants'], parsedResults, eventData['reverse_names'], False)
+        unknownPeople = findNamesFromResults(config['unknown_participants'], parsedResults, eventData['firstname_first'], False)
         if(unknownPeople):
             print("\n#############################################################\n")
             print("   Found", len(unknownPeople), "participants with unknown series:")
@@ -453,7 +453,7 @@ def parseSeries(eventData, seriesName, config, outputData):
                 print("      ", i['first'], i['last'])
             print("\n#############################################################\n")
 
-    correctPeople = findNamesFromResults(seriesConfig['participants'], parsedResults, eventData['reverse_names'], True)
+    correctPeople = findNamesFromResults(seriesConfig['participants'], parsedResults, eventData['firstname_first'], True)
     bestTime = calculatePoints(correctPeople, seriesConfig['participant_threshold'], seriesConfig['reference_position'])
     updatePointsForParticipants(seriesConfig['participants'], correctPeople, eventData['event_number'], False)
 
@@ -462,7 +462,7 @@ def parseSeries(eventData, seriesName, config, outputData):
         if wrongSeriesName == seriesName:
             continue
 
-        wrongPeople = findNamesFromResults(wrongSeriesConfig['participants'], parsedResults, eventData['reverse_names'], False)
+        wrongPeople = findNamesFromResults(wrongSeriesConfig['participants'], parsedResults, eventData['firstname_first'], False)
 
         # First, set the points to X and calculate the time diffs
         for i in wrongPeople:
@@ -507,7 +507,7 @@ def parseOtherSeries(eventData, config, outputData):
 
         # Search for people from unknown series
         if 'unknown_participants' in config:
-            unknownPeople = findNamesFromResults(config['unknown_participants'], parsedResults, eventData['reverse_names'], False)
+            unknownPeople = findNamesFromResults(config['unknown_participants'], parsedResults, eventData['firstname_first'], False)
             if(unknownPeople):
                 print("\n#############################################################\n")
                 print("   Found", len(unknownPeople), "participants with unknown series:")
@@ -518,7 +518,7 @@ def parseOtherSeries(eventData, config, outputData):
         # Add people from wrong series and set their points to X
         for wrongSeriesName, wrongSeriesConfig in config['series'].items():
 
-            wrongPeople = findNamesFromResults(wrongSeriesConfig['participants'], parsedResults, eventData['reverse_names'], False)
+            wrongPeople = findNamesFromResults(wrongSeriesConfig['participants'], parsedResults, eventData['firstname_first'], False)
             print("      Found", len(wrongPeople), "participants from", wrongSeriesName)
 
             # Update points to the minimum and save for the participants
@@ -533,7 +533,14 @@ def parseOtherSeries(eventData, config, outputData):
 
 
 def normalizeEventData(eventData):
-    """Convert old-format eventData (with 'series') to new format (with 'tracks' + 'series_mapping')."""
+    """Convert old-format eventData (with 'series') to new format (with 'tracks' + 'series_mapping').
+
+    Also maps legacy 'reverse_names' to 'firstname_first'.
+    """
+    # Backward compat: rename reverse_names → firstname_first
+    if 'firstname_first' not in eventData and 'reverse_names' in eventData:
+        eventData['firstname_first'] = eventData.pop('reverse_names')
+
     if 'tracks' in eventData:
         return eventData
 
@@ -588,7 +595,7 @@ def resolveAutoParticipants(config, sourcesDir):
 
         filepath = os.path.join(sourcesDir, filename)
         eventData = normalizeEventData(readYamlFile(filepath))
-        reverseNames = eventData.get('reverse_names', True)
+        firstnameFirst = eventData.get('firstname_first', True)
 
         for seriesName in seriesNames:
             if seriesName not in eventData.get('series_mapping', {}):
@@ -603,12 +610,12 @@ def resolveAutoParticipants(config, sourcesDir):
 
             for p in autoParticipants:
                 key = (p['last'], p['first'])
-                t = _make_name_tuple(p, reverseNames)
+                t = _make_name_tuple(p, firstnameFirst)
 
                 matched = t in parsedResults
                 if not matched:
                     for alias in p.get("aliases", []):
-                        alias_t = _make_name_tuple(alias, reverseNames)
+                        alias_t = _make_name_tuple(alias, firstnameFirst)
                         if alias_t in parsedResults:
                             matched = True
                             break
@@ -628,12 +635,12 @@ def resolveAutoParticipants(config, sourcesDir):
 
             for p in autoParticipants:
                 key = (p['last'], p['first'])
-                t = _make_name_tuple(p, reverseNames)
+                t = _make_name_tuple(p, firstnameFirst)
 
                 matched = t in parsedResults
                 if not matched:
                     for alias in p.get("aliases", []):
-                        alias_t = _make_name_tuple(alias, reverseNames)
+                        alias_t = _make_name_tuple(alias, firstnameFirst)
                         if alias_t in parsedResults:
                             matched = True
                             break

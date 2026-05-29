@@ -182,7 +182,7 @@ class TestFindNamesFromResults:
         found = findNamesFromResults(participants, results, False, False)
         assert len(found) == 0
 
-    def test_reverse_names(self):
+    def test_firstname_first(self):
         results = self._make_results("1. Otso Karhu 24.49\n")
         participants = [{"last": "Karhu", "first": "Otso"}]
         found = findNamesFromResults(participants, results, True, False)
@@ -213,7 +213,7 @@ class TestFindNamesFromResults:
         assert len(found) == 1
         assert found[0]["time"].minute == 24  # Main name's time
 
-    def test_alias_with_reverse_names(self):
+    def test_alias_with_firstname_first(self):
         results = self._make_results("1. Otso Karhuu 24.49\n")
         participants = [{"last": "Karhu", "first": "Otso",
                          "aliases": [{"last": "Karhuu", "first": "Otso"}]}]
@@ -557,7 +557,7 @@ class TestResolveAutoParticipants:
                 "location": "Test",
                 "date": "1.1.",
                 "organizer": "Test",
-                "reverse_names": event.get("reverse_names", False),
+                "firstname_first": event.get("firstname_first", False),
                 "series_mapping": event["series_mapping"],
                 "tracks": event["tracks"],
             }

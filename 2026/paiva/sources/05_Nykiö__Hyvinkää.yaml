@@ -3,7 +3,7 @@ location: Nykiö, Hyvinkää
 date: 13.5.
 organizer: HyRa / Marko Pietari
 source_url: https://navisport.com/tapahtumat/hyvinkaan-iltarastit-2026-nykio2025-05-13/tulokset/a-violetti
-reverse_names: false
+firstname_first: false
 series_mapping:
   pitkä: Firma Pitkä A
   lyhyt: Firma lyhyt B

@@ -487,7 +487,8 @@ def parse_navisport_results(url):
 def prompt_name_order(tracks):
     """Show sample names and ask the user about name order.
 
-    Returns True if names are in "Lastname Firstname" order.
+    Returns True if names are in "Firstname Lastname" order,
+    False if "Lastname Firstname".
     """
     # Collect sample names
     samples = []
@@ -501,7 +502,7 @@ def prompt_name_order(tracks):
             break
 
     if not samples:
-        return True
+        return False
 
     print(f"\nSample names from results:")
     for s in samples[:5]:
@@ -510,9 +511,9 @@ def prompt_name_order(tracks):
     while True:
         answer = input("\nName order? [L]astname Firstname / [F]irstname Lastname: ").strip().upper()
         if answer in ("L", ""):
-            return True
-        elif answer == "F":
             return False
+        elif answer == "F":
+            return True
         print("Please enter L or F.")
 
 
@@ -606,11 +607,11 @@ def format_data_block(results):
     return "\n".join(lines) + "\n"
 
 
-def generate_yaml(metadata, tracks, series_mapping, source_url, reverse_names=None, source_type=None):
+def generate_yaml(metadata, tracks, series_mapping, source_url, firstname_first=None, source_type=None):
     """Generate YAML content for the source file.
 
-    reverse_names can be set explicitly, or determined automatically from source_type.
-    Navisport data always uses Lastname Firstname order (reverse_names=False).
+    firstname_first can be set explicitly, or determined automatically from source_type.
+    Navisport data always uses Lastname Firstname order (firstname_first=False).
     """
     doc = {}
 
@@ -625,10 +626,10 @@ def generate_yaml(metadata, tracks, series_mapping, source_url, reverse_names=No
     if source_url:
         doc["source_url"] = source_url
 
-    if reverse_names is not None:
-        doc["reverse_names"] = reverse_names
+    if firstname_first is not None:
+        doc["firstname_first"] = firstname_first
     elif source_type == "navisport":
-        doc["reverse_names"] = False
+        doc["firstname_first"] = False
 
     if series_mapping:
         doc["series_mapping"] = series_mapping
@@ -712,14 +713,14 @@ def main():
         print(f"  {name}{length}: {count} results")
 
     # Prompt for name order only when source type doesn't determine it
-    reverse_names = None
+    firstname_first = None
     if source_type != "navisport":
-        reverse_names = prompt_name_order(tracks)
+        firstname_first = prompt_name_order(tracks)
 
     series_mapping = prompt_series_mapping(track_names)
     metadata = prompt_metadata(auto_metadata)
 
-    doc = generate_yaml(metadata, tracks, series_mapping, url, reverse_names, source_type)
+    doc = generate_yaml(metadata, tracks, series_mapping, url, firstname_first, source_type)
 
     # Generate output filename
     num = metadata.get("event_number")
