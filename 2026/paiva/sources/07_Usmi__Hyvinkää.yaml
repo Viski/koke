@@ -1,0 +1,149 @@
+event_number: 7
+location: Usmi, Hyvinkää
+date: 27.5.
+organizer: HyRa / Janne Åberg
+source_url: https://navisport.com/tapahtumat/hyvinkaan-iltarastit-2026-usmi2024-05-27/tulokset/e-musta
+firstname_first: false
+series_mapping:
+  pitkä: Firma Pitkä A
+  lyhyt: Firma Lyhyt B
+tracks:
+  A musta:
+    data: |
+      1. Vähänen Elmeri 59.30 +0.00
+      2. Rantanen Eelis 1.09.15 +9.45
+      3. Nurminen Kaarina 1.10.42 +11.12
+      4. Lautamäki Asko 1.10.49 +11.19
+      5. Korhonen Tomi 1.11.41 +12.11
+      6. Tonteri Joni 1.11.43 +12.13
+      7. Aaltonen Lassi 1.13.35 +14.05
+      8. Friman Sami 1.14.25 +14.55
+      9. Rantala Joonas 1.19.41 +20.11
+      10. Moisander Olli 1.22.39 +23.09
+      11. Svetloff Maria 1.22.46 +23.16
+      12. Kuusinen Petri 1.26.00 +26.30
+      13. Kauppinen Juuso 1.28.24 +28.54
+      14. Kimpimäki Lauri 1.28.55 +29.25
+      15. Laurila Anneli 1.34.19 +34.49
+      16. Vaaralahti Kirsi 1.37.26 +37.56
+      17. Tölli Tuomas 1.46.51 +47.21
+      18. Palo Unna-Sisko 1.48.08 +48.38
+      19. Junes Mirjam 1.49.15 +49.45
+      20. Mäkinen Antti 1.49.20 +49.50
+      21. Haaranen Kari 2.11.46 +1.12.16
+      - Vanhala Heidi - -
+      - Koivu Tuuli - -
+      - Aaltonen Tarja - -
+      - Koskinen Kaisla - -
+  C (vaativa) violetti:
+    data: |
+      1. Väisänen Juha 41.28 +0.00
+      2. Lietzen Jukka 46.45 +5.17
+      3. Ijas Markku 48.58 +7.30
+      4. Friman Kaisa 51.39 +10.11
+      5. Tervo Vesa 56.21 +14.53
+      6. Remahl Virpi 56.33 +15.05
+      7. Ahola Petri 1.00.21 +18.53
+      8. Lintumäki Aki 1.05.04 +23.36
+      9. Pulkkinen Tatu 1.18.12 +36.44
+      10. Rautanen Pauli 1.20.57 +39.29
+      11. Rantanen Jouni 1.22.54 +41.26
+      12. Borgenström Lotta 1.24.00 +42.32
+      13. Lipsonen Jouko 1.25.20 +43.52
+      14. Borgenström Elina 1.25.31 +44.03
+      15. Lahti Jouko 1.30.01 +48.33
+      16. Mikkola Jarkko 1.38.35 +57.07
+      17. Nieminen Pauli 1.40.13 +58.45
+      18. Pekonen Jouko 1.57.30 +1.16.02
+      19. Tiainen HANNU 2.04.27 +1.22.59
+      20. Pelttari Maria 2.05.23 +1.23.55
+      - Hietala Maria + 2 - -
+  C (helppo) punainen:
+    data: |
+      1. Arvela Leena 39.11 +0.00
+      2. Saviaho Aarno 40.06 +0.55
+      3. Kallela Erkki 44.57 +5.46
+      4. Rantala Ari 48.15 +9.04
+      5. Sjöholm Kai 50.39 +11.28
+      6. Salminen Virpi 52.54 +13.43
+      7. Rautajärvi Veeti 56.25 +17.14
+      8. Rautajärvi Henri 56.30 +17.19
+      9. Ryhänen Oiva 58.35 +19.24
+      10. Hakonen Anne 59.50 +20.39
+      11. Seppälä Paula 1.00.10 +20.59
+      12. Karisto-Nieminen Marjatta 1.03.45 +24.34
+      13. Peltomäki Satu 1.05.13 +26.02
+      14. Salomaa Tarja 1.06.43 +27.32
+      15. Jormanainen Pekka 1.10.47 +31.36
+      16. Tölli Tapio 1.11.38 +32.27
+      17. Hautakangas Susanna Ja Niilo 1.14.25 +35.14
+      18. Rontu Piia 1.18.17 +39.06
+      - Orrainen Marja -Liisa + Minna - -
+      - Hautakangas Niilo - -
+      - Sukanen Eero - -
+      - Tamminen Hanna - -
+  Firma Pitkä A:
+    data: |
+      1. Salomäki Janne 1.03.46 +0.00
+      2. Tenkula Aleksi 1.24.13 +20.27
+      3. Tenhunen Asmo 1.30.05 +26.19
+      4. Koskinen Pekka 1.54.42 +50.56
+      5. Karhu Otso 2.23.28 +1.19.42
+      - Aaltonen Tero - -
+  D keltainen:
+    data: |
+      - Sukanen Akseli - -
+  B sininen:
+    data: |
+      1. Oskari Salomäki 44.44 +0.00
+      2. Lietzen Jaakko 48.36 +3.52
+      3. Salminen Harri 55.42 +10.58
+      4. Hietaoja Nelli 57.18 +12.34
+      5. Himanen Juha 1.01.22 +16.38
+      6. Pätäri Päivi 1.05.00 +20.16
+      7. Kortesluoma Juha 1.06.37 +21.53
+      8. Ikkala Sari 1.09.27 +24.43
+      9. Moisio Niklas 1.09.49 +25.05
+      10. Mäkinen Aki 1.10.25 +25.41
+      11. Vuori Mirva 1.12.16 +27.32
+      12. Viljamaa Janne 1.13.13 +28.29
+      13. Elovaara Kari 1.13.58 +29.14
+      14. Jääskeläinen Toni 1.14.54 +30.10
+      15. Vuorenpää Iia 1.16.45 +32.01
+      16. Enqvist Enna 1.21.07 +36.23
+      17. Sane Kari 1.21.26 +36.42
+      18. Rantala Ilkka 1.24.22 +39.38
+      19. Manninen Nana ja Ari-Pekka 1.28.43 +43.59
+      21. Paukkola Jari 1.55.33 +1.10.49
+      22. Leinonen Jukka 2.00.11 +1.15.27
+      23. Husu Jere 2.05.10 +1.20.26
+      - Pasanen Aappo - -
+      - Lehtinen Sauli - -
+      - Vuorenpää Asmo - -
+      - Vasara Pekka - -
+      - Korhonen Eetu - -
+  E musta:
+    data: |
+      1. Friman Eemeli 1.08.46 +0.00
+      2. Kelkka Kalle 1.20.16 +11.30
+      3. Loikas JP 1.23.33 +14.47
+      4. Nurminen Juuso 1.58.30 +49.44
+      5. Korhonen Antti 2.09.55 +1.01.09
+      6. Saarinen Hetta 2.15.10 +1.06.24
+      - Pasanen Hannes - -
+      - Koskiniemi Ville - -
+  Firma Lyhyt B:
+    data: |
+      1. Pohjola Hannu 51.58 +0.00
+      2. Poussu Jukka 1.03.01 +11.03
+      3. Tiainen Ville 1.05.31 +13.33
+      4. Pyyhtiä Johannes 1.11.14 +19.16
+      5. Lentz Reinhard 1.17.19 +25.21
+      6. Puputti Tapio 1.22.48 +30.50
+      7. Salomäki Hannu 1.23.04 +31.06
+      8. Välimaa Pertti 1.23.24 +31.26
+      9. Lamminmäki Timo 1.26.34 +34.36
+      10. Jalonen Vili 1.35.38 +43.40
+      20. Ahoniemi Sakke 1.36.31 +51.47
+      11. Rytömaa Markus 1.43.56 +51.58
+      - Pyhälampi Risto - -
