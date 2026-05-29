@@ -1,0 +1,106 @@
+event_number: 6
+location: Haminankylä, Hausjärvi
+date: 19.5.
+organizer: RiSu
+source_url: https://risu.fi/tulokset/t20260519.html
+series_mapping:
+  pitkä: A
+  lyhyt: B
+tracks:
+  A:
+    length: 5,2 km
+    data: |
+      1. Rantala Joonas 50.20 +0.00
+      2. Ahoniemi Santeri 50.59 +00.39
+      3. Rönkä Tero 52.25 +02.05
+      4. Rantanen Eelis 52.47 +02.27
+      5. Heikkilä Mikko 54.13 +03.53
+      6. Tammi Matti 54.58 +04.38
+      7. Hakala Nuutti 56.41 +06.21
+      8. Louekari Sami 57.23 +07.03
+      9. Laukkanen Jarno 1.00.16 +09.56
+      10. Pekkala Pekka 1.01.45 +11.25
+      11. Käyhkö Aapo 1.01.46 +11.26
+      12. Ikonen Jonna 1.01.54 +11.34
+      13. Saloranta Risto 1.06.07 +15.47
+      14. Korhonen Tomi 1.06.44 +16.24
+      15. Tenhunen Asmo 1.06.57 +16.37
+      16. Jalava Mauri 1.07.47 +17.27
+      17. Aaltonen Tero 1.10.29 +20.09
+      18. Tonteri Joni 1.12.39 +22.19
+      19. Koskinen Pekka 1.13.14 +22.54
+      20. Veijalainen Reima 1.13.41 +23.21
+      21. Juonela Lauri 1.15.24 +25.04
+      22. Rantanen Riku 1.20.01 +29.41
+      23. Pyyhtiä Johannes 1.21.06 +30.46
+      24. Nissinen Joni 1.21.54 +31.34
+      25. Elovaara Kari 1.22.26 +32.06
+      26. Pyttynen Joakim 1.24.01 +33.41
+      27. Tynjälä Petri 1.27.28 +37.08
+      28. Lahti Johanna 1.28.53 +38.33
+      29. Jaakkola Lasse 1.29.37 +39.17
+      30. Karvinen Heikki 1.32.12 +41.52
+      31. Sihvola Esko 1.34.52 +44.32
+      32. Jormalainen Juha 1.35.50 +45.30
+      33. Lintumäki Aki 1.45.03 +54.43
+      34. Lintumäki Patrik 2.00.25 +1.10.05
+      35. Karhu Otso 2.04.39 +1.14.19
+  B:
+    length: 3,8 km
+    data: |
+      1. Ahlroth Timo 59.25 +0.00
+      2. Ahoniemi Sakke 1.02.24 +02.59
+      3. Inkinen Teppo 1.04.51 +05.26
+      4. Salomäki Hannu 1.05.09 +05.44
+      5. Lauttia Petri 1.06.32 +07.07
+      6. Salo Mika 1.08.34 +09.09
+      7. Hakola Martti 1.10.45 +11.20
+      8. Rantala Ilkka 1.14.57 +15.32
+      9. Salo Hannu 1.18.12 +18.47
+      10. Särssi Mauri 1.19.05 +19.40
+      11. Puputti Tapio 1.20.57 +21.32
+      12. Turunen N 1.24.30 +25.05
+      13. Yrjönen Iida 1.25.51 +26.26
+      14. Yrjönen Heli 1.26.31 +27.06
+      15. Kontio-Marins Laura 1.26.33 +27.08
+      16. Korpiaho Mikko 1.26.46 +27.21
+      17. Määttä Arto 1.27.11 +27.46
+      18. Nordström Antti 1.27.29 +28.04
+      19. Lenz Reinhard 1.28.36 +29.11
+      20. Rytömaa Markus 1.33.47 +34.22
+      21. Saloranta Eve 1.34.31 +35.06
+      22. Aalto Pekka 1.45.22 +45.57
+      - Ala-Mutka Esa - -
+      - Mäkelä Tapio - -
+      - Pyhälampi Risto - -
+  C:
+    length: 3 km
+    data: |
+      1. Nurminen Hannu 1.00.05 +0.00
+      2. Andelin Marjaana 1.04.08 +04.03
+      3. Kautonen Sirkka 1.09.29 +09.24
+      4. Jormanainen Pekka 1.16.53 +16.48
+      5. Saarinen Mauri 1.17.57 +17.52
+      6. Laine Jorma 1.18.07 +18.02
+      7. Koskinen Katariina 1.29.14 +29.09
+      8. Öhman Jaana 1.29.17 +29.12
+      9. Pajunen Heli 1.35.33 +35.28
+      10. Penttinen Sirpa 1.35.43 +35.38
+      10. Matikainen Piia 1.35.43 +35.38
+      12. Aalto Mikko 1.51.02 +50.57
+      13. Ellit 1.59.41 +59.36
+      14. Kemoff Aino 2.03.48 +1.03.43
+      15. Heli E 2.03.59 +1.03.54
+      16. Renja ja Moso 2.04.17 +1.04.12
+      - Heinilä Seija - -
+      - Salo Niina - -
+  D:
+    length: 2,3 km
+    data: |
+      1. Niemi Antero 54.28 +0.00
+      2. Rantala Ari 59.59 +05.31
+      - Alakoski Otto - -
+      - Anna Kurtti - -
+      - Friman Marjo - -
+      - Salmela Juulia - -
+firstname_first: false
