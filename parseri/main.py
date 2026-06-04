@@ -271,20 +271,22 @@ def main():
 
     show_series_summary(config, sources_dir)
 
-    print("\nActions:")
-    print("  [1] Add event")
-    print("  [2] Recalculate points")
-    print("  [q] Quit")
+    while True:
+        print("\nActions:")
+        print("  [1] Add event")
+        print("  [2] Recalculate points")
+        print("  [q] Quit")
 
-    choice = input("\nChoice: ").strip().lower()
-    if choice in ("1", "add", "add event"):
-        add_event(config, config_path, sources_dir)
-    elif choice in ("2", "recalculate"):
-        run_parseri(config_path)
-    elif choice in ("q", "quit", "exit"):
-        print("Bye!")
-    else:
-        print(f"Unknown choice: {choice}")
+        choice = input("\nChoice: ").strip().lower()
+        if choice in ("1", "add", "add event"):
+            add_event(config, config_path, sources_dir)
+        elif choice in ("2", "recalculate"):
+            run_parseri(config_path)
+        elif choice in ("q", "quit", "exit", ""):
+            print("Bye!")
+            break
+        else:
+            print(f"Unknown choice: {choice}")
 
 
 if __name__ == "__main__":
