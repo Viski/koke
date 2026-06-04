@@ -1,0 +1,146 @@
+event_number: 8
+location: Nyry, Hyvinkää
+date: 3.6.
+organizer: HyRa / Jari Nokkala, Panu Pesonen
+source_url: https://navisport.com/tapahtumat/hyvinkaan-iltarastit-2026-nyry2021-06-03/tulokset/a-sininen
+firstname_first: false
+series_mapping:
+  pitkä: Firma Pitkä A
+  lyhyt: Firma Lyhyt B
+tracks:
+  A sininen:
+    data: |
+      1. Ahoniemi Santeri 49.47 +0.00
+      2. Savelainen Timo 56.00 +6.13
+      3. Koivisto Toni 57.28 +7.41
+      4. Loikas JP 58.26 +8.39
+      5. Pietari Marko  1.01.11 +11.24
+      6. Friman Sami 1.04.18 +14.31
+      7. Rantala Joonas 1.05.47 +16.00
+      8. Käyhkö Aapo 1.06.44 +16.57
+      9. Nissinen Joni 1.09.16 +19.29
+      10. Lappalainen Miko 1.10.43 +20.56
+      11. Similä Mika 1.13.28 +23.41
+      12. Tuokko Jyrki 1.15.59 +26.12
+      13. Lanne Ristomatti 1.17.01 +27.14
+      14. Molnar Julianna 1.17.53 +28.06
+      15. Hannes Pasanen 1.18.16 +28.29
+      16. Harmaala Ismo 1.20.52 +31.05
+      17. Rantanen Justus 1.23.09 +33.22
+      18. Rantanen Riku 1.28.25 +38.38
+      19. Lehtinen Sauli 1.42.51 +53.04
+      20. Mäkelä Anja 2.13.46 +1.23.59
+      - Laimio Jussi - -
+      - Aki Starkman - -
+      - Hilda Damskägg - -
+  D violetti:
+    data: |
+      1. Rantala Ari 41.54 +0.00
+      2. Korpela Mari-anne 44.40 +2.46
+      3. Peevo Markus 48.41 +6.47
+      4. Rontu Piia 49.05 +7.11
+      5. Salminen Virpi 49.59 +8.05
+      6. Hartikainen Pertti S. 50.57 +9.03
+      7. Valtteri Saviaho 54.30 +12.36
+      8. Saviaho Aarno 54.38 +12.44
+      9. Ville Santajoki 57.04 +15.10
+      10. Santajoki Anu 57.24 +15.30
+      11. Veera Jalonen 58.48 +16.54
+      12. Vähänen Pia 1.09.31 +27.37
+      13. Miko Harjula 1.14.03 +32.09
+      - Lappalainen Merja - -
+      - Marika Damskägg - -
+      - Soili Savela  - -
+      - Lassi Mäkeläinen - -
+      - Otto ja Nuutti Sipola - -
+      - Saarela Jenni - -
+      - Otto Similä - -
+  C violetti:
+    data: |
+      1. Åberg Janne 37.14 +0.00
+      2. Saarinen Hetta 39.02 +1.48
+      3. Ijas Markku 39.53 +2.39
+      4. Sares Timo 39.57 +2.43
+      5. Ninni Åberg 40.17 +3.03
+      6. Laurila Jouni 46.07 +8.53
+      7. Ojanen Juha 50.25 +13.11
+      8. Toivonen Esa ja Ulla Kupiainen 52.43 +15.29
+      9. Puhakka Mika 53.23 +16.09
+      10. Lipsonen Jouko 53.37 +16.23
+      11. Lyly Saarinen 58.47 +21.33
+      12. Lahti Jouko 1.01.17 +24.03
+      13. Mona Martta Matilda Kantelinen  1.01.57 +24.43
+      14. Ojanen Pinja 1.05.03 +27.49
+      15. Miettinen Aleksandra 1.06.29 +29.15
+      16. Salomaa Tarja 1.06.58 +29.44
+      17. Välimaa Kirsi 1.07.49 +30.35
+      18. Hannu Tiainen 1.10.42 +33.28
+      19. Loiva Riikka 1.14.29 +37.15
+      20. Tukiainen Tapio 1.18.05 +40.51
+      21. Viitala Hannu 1.22.48 +45.34
+      22. Tenhunen Saara 1.24.24 +47.10
+      23. Seppälä Paula 1.27.17 +50.03
+      24. Pekonen Jouko 1.31.20 +54.06
+      25. Hakonen Anne 1.46.23 +1.09.09
+      26. Kokkonen  Vesa 1.48.31 +1.11.17
+      - Vilma Noponen - -
+      - Sjöholm Kai - -
+      - Jessika Ehrsten - -
+      - Venla Hyvölä - -
+      - Anu - -
+      - Suur-Uski Päivi - -
+  Firma Lyhyt B:
+    data: |
+      1. Lentz Reinhard 1.02.55 +0.00
+      2. Puputti Tapio 1.11.03 +8.08
+      3. Salomäki Hannu 1.18.57 +16.02
+      4. Välimaa Pertti 1.24.24 +21.29
+      5. Rytömaa Markus 1.28.38 +25.43
+      6. Ahoniemi Sakke 1.30.18 +27.23
+      7. Ahlström Valtteri 1.31.50 +28.55
+      8. Loisa Markus 1.39.31 +36.36
+      9. Jalonen Vili 1.45.23 +42.28
+      10. Paljakka Elisa 1.47.33 +44.38
+      11. Pankko Annika 2.00.11 +57.16
+      - Viero Jukka - -
+      - Pyhälampi Risto - -
+  Firma Pitkä A:
+    data: |
+      1. Salomäki Janne 57.44 +0.00
+      2. Jussi Kivelä 1.03.38 +5.54
+      3. Pyyhtiä Johannes 1.14.57 +17.13
+      4. Tenhunen Asmo 1.15.08 +17.24
+      5. Aaltonen Tero 1.17.56 +20.12
+      6. Koskinen Pekka 1.22.15 +24.31
+      7. Karhu Otso 1.54.00 +56.16
+      8. Karvinen Heikki 2.22.06 +1.24.22
+  B sininen:
+    data: |
+      1. Korhonen Tomi 45.36 +0.00
+      2. Niklas Moisio 47.04 +1.28
+      3. Haapola Juha 52.05 +6.29
+      4. Hyvärilä Jussi 53.22 +7.46
+      5. Nuuti Hautakangas 53.28 +7.52
+      6. Tervo Vesa 1.01.25 +15.49
+      7. Rautanen Pauli 1.04.47 +19.11
+      8. Laurinen Mari 1.06.45 +21.09
+      9. Molnar Pia 1.07.35 +21.59
+      10. Svetloff Maria 1.07.55 +22.19
+      11. Haavisto Mia 1.08.48 +23.12
+      12. Vähänen Jukka 1.08.59 +23.23
+      13. Kinnunen Antti 1.09.26 +23.50
+      14. Rantala Ilkka 1.12.05 +26.29
+      15. Autero Markus 1.12.34 +26.58
+      16. Kuitunen Tuomas 1.14.18 +28.42
+      17. Kuitunen Sanna 1.14.23 +28.47
+      18. Borgenström Elina 1.14.41 +29.05
+      19. Paukkola Jari 1.16.55 +31.19
+      20. Pätäri Päivi 1.18.36 +33.00
+      21. Pietari Esko 1.27.21 +41.45
+      22. Ikkala Sari 1.31.14 +45.38
+      23. Toivanen Antti 1.31.21 +45.45
+      24. Autero Harri 1.32.59 +47.23
+      25. Teitto Elli 1.38.19 +52.43
+      26. Jormanainen Pekka 1.50.01 +1.04.25
+      - Pasanen Aappo - -
+      - Similä Inka - -
