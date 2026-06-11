@@ -1,0 +1,120 @@
+event_number: 9
+location: Kuru, Hausjärvi
+date: 10.6.
+organizer: HyRa / Erja ja Raili
+source_url: https://navisport.com/tapahtumat/hyvinkaan-iltarastit-2026-kuru2024-06-10/tulokset/a-sininen
+firstname_first: false
+series_mapping:
+  pitkä: Firma A
+  lyhyt: Firma B
+tracks:
+  A-sininen:
+    data: |
+      1. Rantala Tommy 1.00.23 +0.00
+      2. Salomäki Oskari 1.06.07 +5.44
+      3. Mäkinen Seppo 1.09.10 +8.47
+      4. Hautakangas Nuuti 1.16.19 +15.56
+      5. Loikas JP 1.20.00 +19.37
+      6. Similä Mika 1.45.36 +45.13
+      7. Juotsi Kimmo 2.03.15 +1.02.52
+      8. Lehtinen Sauli 2.13.58 +1.13.35
+      9. Ahola Petri 2.28.57 +1.28.34
+      - heli Vrunda - -
+      - Similä Inka - -
+  C-violetti:
+    data: |
+      1. Väisänen Juha 42.20 +0.00
+      2. Kokkoniemi Jukka 46.26 +4.06
+      3. Reinikka Kenneth 49.29 +7.09
+      4. Sjöholm Kai 57.04 +14.44
+      5. Saviaho Aarno 1.00.15 +17.55
+      6. Borgenström Lotta 1.08.00 +25.40
+      7. Kivistö Erkki 1.09.18 +26.58
+      8. Hautakangas Niilo 1.10.40 +28.20
+      9. Karhumäki Reino 1.15.14 +32.54
+      10. Viitala Hannu 1.15.45 +33.25
+      11. Ryhänen Oiva 1.18.01 +35.41
+      12. Ojanen Juha 1.18.35 +36.15
+      13. Laurila Jouni 1.19.32 +37.12
+      14. Toivonen Esa ja Ulla Kupiainen 1.19.38 +37.18
+      15. Lahti Jouko 1.20.53 +38.33
+      16. Tastula Niko 1.21.59 +39.39
+      17. Salomaa Tarja 1.22.22 +40.02
+      18. Peltomäki Satu 1.27.48 +45.28
+      19. Korpela Mari-anne 1.31.14 +48.54
+      20. Lipsonen Jouko 1.36.03 +53.43
+      21. Ahokas Ari 1.39.30 +57.10
+      22. Veera Uusitalo 1.42.58 +1.00.38
+      23. Pekonen Jouko 1.53.48 +1.11.28
+      24. Hannes Pasanen 2.15.23 +1.33.03
+      - Lappalainen Merja - -
+      - Hakonen Anne - -
+      - Kärkkäinen Eero - -
+      - Näveri - -
+      - Similä Milla - -
+      - Simonen Jaana - -
+      - Hietala Maria +2 - -
+      - Verkasalo Pekka - -
+      - Mäkinen Harri - -
+      - Moisander Iivo - -
+      - Tenhunen Saara - -
+  B-sininen:
+    data: |
+      1. Korhonen Jussi 46.10 +0.00
+      2. Partanen Tapani 56.33 +10.23
+      3. Moisander Olli 1.02.16 +16.06
+      4. Akseli Sannamo 1.03.27 +17.17
+      5. Ahlroth Timo 1.05.53 +19.43
+      6. Moisander Suvi 1.07.28 +21.18
+      7. Vähänen Jukka 1.13.33 +27.23
+      8. Kinkki Seppo 1.16.46 +30.36
+      9. Pasanen Hannes 1.17.26 +31.16
+      10. Rantala Ilkka 1.17.40 +31.30
+      11. Rantala Justus 1.27.02 +40.52
+      12. Borgenström Elina 1.27.52 +41.42
+      13. Salomäki Antti 1.28.59 +42.49
+      14. Koskiniemi Ville 1.29.21 +43.11
+      15. Tastula Hanna-Leena 1.43.44 +57.34
+      16. Manninen Nana Ja Aripekka 1.53.17 +1.07.07
+      - Kaisa Valkeapää - -
+      - Yli-juuti Riitta - -
+      - Anthoni Mikael - -
+  D-punainen:
+    data: |
+      1. Hartikainen Pertti S. 45.29 +0.00
+      2. Rantala Ari 47.07 +1.38
+      3. Rontu Piia 51.00 +5.31
+      4. Salminen Virpi 51.32 +6.03
+      5. Nieminen Aapo 52.34 +7.05
+      6. Koskinen Teija 55.54 +10.25
+      7. Similä Otto 1.01.26 +15.57
+      8. Löfgren Wilma 1.07.48 +22.19
+      9. Vähänen Pia 1.13.08 +27.39
+      10. Salakka Veikko 1.17.49 +32.20
+      11. Hautakangas Susanna 1.20.30 +35.01
+      12. Veera Jalonen 1.25.43 +40.14
+      - Koskiniemi Amalia - -
+      - Koskiniemi Oskari - -
+      - Ehrsten - -
+      - Jantunen Mia - -
+      - Siivonen Raimo - -
+  Firma A:
+    data: |
+      1. Salomäki Janne 1.02.03 +0.00
+      2. Aaltonen Tero 1.17.29 +15.26
+      3. Tenhunen Asmo 1.18.35 +16.32
+      4. Viero Jukka 1.24.27 +22.24
+      5. Karhu Otso 2.37.51 +1.35.48
+      - Karvinen Heikki - -
+  Firma B:
+    data: |
+      1. Tiainen Ville 1.06.31 +0.00
+      2. Paakkulainen Harri 1.14.47 +8.16
+      3. Lamminmäki Timo 1.15.39 +9.08
+      4. Pankko Annika 1.26.36 +20.05
+      5. Puputti Tapio 1.28.22 +21.51
+      6. Salomäki Hannu 1.32.43 +26.12
+      7. Ahlström Valtteri 1.46.42 +40.11
+      8. Jalonen Vili 1.55.48 +49.17
+      9. Rytömaa Markus 2.22.38 +1.16.07
+      - Pyhälampi Risto - -
