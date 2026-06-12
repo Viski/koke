@@ -212,7 +212,26 @@ def _make_name_tuple(name, firstnameFirst):
         return (name["last"], name["first"])
 
 
-def findNamesFromResults(participants, results, firstnameFirst, searchForCloseMatches):
+def _name_and_alias_tuples(name, firstnameFirst):
+    return [_make_name_tuple(name, firstnameFirst)] + [
+        _make_name_tuple(alias, firstnameFirst) for alias in name.get("aliases", [])
+    ]
+
+
+def _find_match_and_reversed(name, results, firstnameFirst):
+    reversed_matches = {}
+    for tup in _name_and_alias_tuples(name, firstnameFirst):
+        if tup in results:
+            return tup, reversed_matches
+
+        reversed_t = tuple(reversed(tup))
+        if reversed_t in results:
+            reversed_matches[tup] = reversed_t
+
+    return None, reversed_matches
+
+
+def findNamesFromResults(participants, results, firstnameFirst):
 
     keys = [" ".join(a) for a in results]
 
@@ -221,18 +240,22 @@ def findNamesFromResults(participants, results, firstnameFirst, searchForCloseMa
 
 # TODO: Loop through results first. Now we get close matches alse for people that got straight match
     for name in participants:
-        t = _make_name_tuple(name, firstnameFirst)
-
-        # Try main name first, then aliases
+        all_tuples = _name_and_alias_tuples(name, firstnameFirst)
         matched_key = None
-        if t in results:
-            matched_key = t
-        else:
-            for alias in name.get("aliases", []):
-                alias_t = _make_name_tuple(alias, firstnameFirst)
-                if alias_t in results:
-                    matched_key = alias_t
-                    break
+        reversed_matches = {}
+        participant_close_matches = {}
+        for tup in all_tuples:
+            if tup in results:
+                matched_key = tup
+                break
+
+            reversed_t = tuple(reversed(tup))
+            if reversed_t in results:
+                reversed_matches[tup] = reversed_t
+
+            matches = get_close_matches(" ".join(tup), keys, cutoff=0.8)
+            if matches:
+                participant_close_matches[tup] = matches
 
         if matched_key is not None:
             n = {}
@@ -245,12 +268,15 @@ def findNamesFromResults(participants, results, firstnameFirst, searchForCloseMa
                 n['timediff'] = results[matched_key]['timediff']
             n['team'] = results[matched_key]['team']
             ret.append(n)
-        elif searchForCloseMatches:
-            all_tuples = [t] + [_make_name_tuple(a, firstnameFirst) for a in name.get("aliases", [])]
-            for tup in all_tuples:
-                matches = get_close_matches(" ".join(tup), keys, cutoff=0.8)
-                if matches:
-                    closeMatches[tup] = matches
+        else:
+            for expected, found in reversed_matches.items():
+                print(
+                    "      WARNING: Found reversed name order in results:",
+                    " ".join(found),
+                    "(expected",
+                    " ".join(expected) + "). Not matched automatically.",
+                )
+            closeMatches.update(participant_close_matches)
 
     if closeMatches:
         print("      Found close matches:")
@@ -445,7 +471,7 @@ def parseSeries(eventData, seriesName, config, outputData):
 
     # Search for people from unknown series
     if 'unknown_participants' in config:
-        unknownPeople = findNamesFromResults(config['unknown_participants'], parsedResults, eventData['firstname_first'], False)
+        unknownPeople = findNamesFromResults(config['unknown_participants'], parsedResults, eventData['firstname_first'])
         if(unknownPeople):
             print("\n#############################################################\n")
             print("   Found", len(unknownPeople), "participants with unknown series:")
@@ -453,7 +479,7 @@ def parseSeries(eventData, seriesName, config, outputData):
                 print("      ", i['first'], i['last'])
             print("\n#############################################################\n")
 
-    correctPeople = findNamesFromResults(seriesConfig['participants'], parsedResults, eventData['firstname_first'], True)
+    correctPeople = findNamesFromResults(seriesConfig['participants'], parsedResults, eventData['firstname_first'])
     bestTime = calculatePoints(correctPeople, seriesConfig['participant_threshold'], seriesConfig['reference_position'])
     updatePointsForParticipants(seriesConfig['participants'], correctPeople, eventData['event_number'], False)
 
@@ -462,7 +488,7 @@ def parseSeries(eventData, seriesName, config, outputData):
         if wrongSeriesName == seriesName:
             continue
 
-        wrongPeople = findNamesFromResults(wrongSeriesConfig['participants'], parsedResults, eventData['firstname_first'], False)
+        wrongPeople = findNamesFromResults(wrongSeriesConfig['participants'], parsedResults, eventData['firstname_first'])
 
         # First, set the points to X and calculate the time diffs
         for i in wrongPeople:
@@ -507,7 +533,7 @@ def parseOtherSeries(eventData, config, outputData):
 
         # Search for people from unknown series
         if 'unknown_participants' in config:
-            unknownPeople = findNamesFromResults(config['unknown_participants'], parsedResults, eventData['firstname_first'], False)
+            unknownPeople = findNamesFromResults(config['unknown_participants'], parsedResults, eventData['firstname_first'])
             if(unknownPeople):
                 print("\n#############################################################\n")
                 print("   Found", len(unknownPeople), "participants with unknown series:")
@@ -518,7 +544,7 @@ def parseOtherSeries(eventData, config, outputData):
         # Add people from wrong series and set their points to X
         for wrongSeriesName, wrongSeriesConfig in config['series'].items():
 
-            wrongPeople = findNamesFromResults(wrongSeriesConfig['participants'], parsedResults, eventData['firstname_first'], False)
+            wrongPeople = findNamesFromResults(wrongSeriesConfig['participants'], parsedResults, eventData['firstname_first'])
             print("      Found", len(wrongPeople), "participants from", wrongSeriesName)
 
             # Update points to the minimum and save for the participants
@@ -610,15 +636,21 @@ def resolveAutoParticipants(config, sourcesDir):
 
             for p in autoParticipants:
                 key = (p['last'], p['first'])
-                t = _make_name_tuple(p, firstnameFirst)
-
-                matched = t in parsedResults
-                if not matched:
-                    for alias in p.get("aliases", []):
-                        alias_t = _make_name_tuple(alias, firstnameFirst)
-                        if alias_t in parsedResults:
-                            matched = True
-                            break
+                matched_key, reversed_matches = _find_match_and_reversed(
+                    p, parsedResults, firstnameFirst
+                )
+                matched = matched_key is not None
+                for expected, found in reversed_matches.items():
+                    print(
+                        "  WARNING: Auto participant",
+                        p['first'],
+                        p['last'],
+                        "found with reversed name order in",
+                        filename + "/" + trackName + ":",
+                        " ".join(found),
+                        "(expected",
+                        " ".join(expected) + "). Not matched automatically.",
+                    )
 
                 if matched:
                     counts[key][seriesName] += 1
@@ -635,15 +667,21 @@ def resolveAutoParticipants(config, sourcesDir):
 
             for p in autoParticipants:
                 key = (p['last'], p['first'])
-                t = _make_name_tuple(p, firstnameFirst)
-
-                matched = t in parsedResults
-                if not matched:
-                    for alias in p.get("aliases", []):
-                        alias_t = _make_name_tuple(alias, firstnameFirst)
-                        if alias_t in parsedResults:
-                            matched = True
-                            break
+                matched_key, reversed_matches = _find_match_and_reversed(
+                    p, parsedResults, firstnameFirst
+                )
+                matched = matched_key is not None
+                for expected, found in reversed_matches.items():
+                    print(
+                        "  WARNING: Auto participant",
+                        p['first'],
+                        p['last'],
+                        "found with reversed name order in",
+                        filename + "/" + trackName + ":",
+                        " ".join(found),
+                        "(expected",
+                        " ".join(expected) + "). Not matched automatically.",
+                    )
 
                 if matched:
                     otherCounts[key] += 1

@@ -171,7 +171,7 @@ class TestFindNamesFromResults:
     def test_exact_match(self):
         results = self._make_results("1. Karhu Otso 24.49\n")
         participants = [{"last": "Karhu", "first": "Otso"}]
-        found = findNamesFromResults(participants, results, False, False)
+        found = findNamesFromResults(participants, results, False)
         assert len(found) == 1
         assert found[0]["last"] == "Karhu"
         assert found[0]["first"] == "Otso"
@@ -179,13 +179,13 @@ class TestFindNamesFromResults:
     def test_no_match(self):
         results = self._make_results("1. Karhu Otso 24.49\n")
         participants = [{"last": "Niemi", "first": "Tero"}]
-        found = findNamesFromResults(participants, results, False, False)
+        found = findNamesFromResults(participants, results, False)
         assert len(found) == 0
 
     def test_firstname_first(self):
         results = self._make_results("1. Otso Karhu 24.49\n")
         participants = [{"last": "Karhu", "first": "Otso"}]
-        found = findNamesFromResults(participants, results, True, False)
+        found = findNamesFromResults(participants, results, True)
         assert len(found) == 1
         assert found[0]["last"] == "Karhu"
 
@@ -193,14 +193,14 @@ class TestFindNamesFromResults:
         results = self._make_results("1. Karhuu Otso 24.49\n")
         participants = [{"last": "Karhu", "first": "Otso",
                          "aliases": [{"last": "Karhuu", "first": "Otso"}]}]
-        found = findNamesFromResults(participants, results, False, False)
+        found = findNamesFromResults(participants, results, False)
         assert len(found) == 1
         assert found[0]["last"] == "Karhu"  # Main name, not alias
 
     def test_no_match_without_alias_field(self):
         results = self._make_results("1. Karhuu Otso 24.49\n")
         participants = [{"last": "Karhu", "first": "Otso"}]
-        found = findNamesFromResults(participants, results, False, False)
+        found = findNamesFromResults(participants, results, False)
         assert len(found) == 0
 
     def test_main_name_priority_over_alias(self):
@@ -209,7 +209,7 @@ class TestFindNamesFromResults:
         )
         participants = [{"last": "Karhu", "first": "Otso",
                          "aliases": [{"last": "Karhuu", "first": "Otso"}]}]
-        found = findNamesFromResults(participants, results, False, False)
+        found = findNamesFromResults(participants, results, False)
         assert len(found) == 1
         assert found[0]["time"].minute == 24  # Main name's time
 
@@ -217,7 +217,7 @@ class TestFindNamesFromResults:
         results = self._make_results("1. Otso Karhuu 24.49\n")
         participants = [{"last": "Karhu", "first": "Otso",
                          "aliases": [{"last": "Karhuu", "first": "Otso"}]}]
-        found = findNamesFromResults(participants, results, True, False)
+        found = findNamesFromResults(participants, results, True)
         assert len(found) == 1
         assert found[0]["last"] == "Karhu"
 
@@ -228,7 +228,7 @@ class TestFindNamesFromResults:
                              {"last": "Karhuu", "first": "Otso"},
                              {"last": "Bear", "first": "Otso"},
                          ]}]
-        found = findNamesFromResults(participants, results, False, False)
+        found = findNamesFromResults(participants, results, False)
         assert len(found) == 1
         assert found[0]["last"] == "Karhu"
 
@@ -241,21 +241,39 @@ class TestFindNamesFromResults:
              "aliases": [{"last": "Karhuu", "first": "Otso"}]},
             {"last": "Niemi", "first": "Tero"},
         ]
-        found = findNamesFromResults(participants, results, False, False)
+        found = findNamesFromResults(participants, results, False)
         assert len(found) == 2
 
     def test_close_matches_reported(self, capsys):
         results = self._make_results("1. Karhune Otso 24.49\n")
         participants = [{"last": "Karhun", "first": "Otso"}]
-        found = findNamesFromResults(participants, results, False, True)
+        found = findNamesFromResults(participants, results, False)
         assert len(found) == 0
         captured = capsys.readouterr()
         assert "close matches" in captured.out.lower()
 
+    def test_reversed_name_order_warned_and_not_matched(self, capsys):
+        results = self._make_results("1. Otso Karhu 24.49\n")
+        participants = [{"last": "Karhu", "first": "Otso"}]
+        found = findNamesFromResults(participants, results, False)
+        assert len(found) == 0
+        captured = capsys.readouterr()
+        assert "reversed name order" in captured.out.lower()
+        assert "not matched automatically" in captured.out.lower()
+
+    def test_reversed_alias_name_order_warned_and_not_matched(self, capsys):
+        results = self._make_results("1. Otso Karhuu 24.49\n")
+        participants = [{"last": "Karhu", "first": "Otso",
+                         "aliases": [{"last": "Karhuu", "first": "Otso"}]}]
+        found = findNamesFromResults(participants, results, False)
+        assert len(found) == 0
+        captured = capsys.readouterr()
+        assert "reversed name order" in captured.out.lower()
+
     def test_dnf_result_matched(self):
         results = self._make_results("Karhu Otso ei aikaa\n")
         participants = [{"last": "Karhu", "first": "Otso"}]
-        found = findNamesFromResults(participants, results, False, False)
+        found = findNamesFromResults(participants, results, False)
         assert len(found) == 1
         assert found[0]["time"] is None
 
@@ -265,7 +283,7 @@ class TestFindNamesFromResults:
             {"last": "Karhu", "first": "Otso"},
             {"last": "Niemi", "first": "Tero"},
         ]
-        found = findNamesFromResults(participants, results, False, False)
+        found = findNamesFromResults(participants, results, False)
         assert len(found) == 2
 
 
@@ -660,7 +678,7 @@ class TestIntegration:
             {"last": "Lehto", "first": "Matti"},
         ]
 
-        found = findNamesFromResults(participants_cfg, results, False, False)
+        found = findNamesFromResults(participants_cfg, results, False)
         assert len(found) == 3
 
         calculatePoints(found, threshold=3, reference=2)
@@ -683,7 +701,7 @@ class TestIntegration:
             {"last": "Niemi", "first": "Tero"},
         ]
 
-        found = findNamesFromResults(participants_cfg, results, False, False)
+        found = findNamesFromResults(participants_cfg, results, False)
         assert len(found) == 2
         assert found[0]["last"] == "Karhu"
 
