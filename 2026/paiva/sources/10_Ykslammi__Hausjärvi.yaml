@@ -1,0 +1,148 @@
+event_number: 10
+location: Ykslammi, Hausjärvi
+date: 16.6.
+organizer: RiSu / ???
+source_url: https://risu.fi/tulokset/t260616.html
+series_mapping:
+  pitkä: A
+  lyhyt: B
+tracks:
+  A:
+    length: 3,2 km
+    data: |
+      1. Saario Juhani 21.09 +0.00
+      2. Miettinen Tero 26.44 +05.35
+      3. Järvenpää Juha 28.33 +07.24
+      4. Laukkanen Jarno 28.54 +07.45
+      5. Ylis-Junttila Vesa 29.00 +07.51
+      6. Sannamo Akseli 29.54 +08.45
+      7. Kolehmainen Samuli 30.15 +09.06
+      8. Louekari Sami 30.34 +09.25
+      9. Koskela Pertti 31.05 +09.56
+      10. Aaltonen Tero 31.37 +10.28
+      11. Tenhunen Asmo 33.04 +11.55
+      12. Ikonen Jonna 33.47 +12.38
+      13. Hautakangas Nuuti 34.07 +12.58
+      14. Lähdesmäki Jouni 34.25 +13.16
+      15. Pyyhtiä Johannes 34.31 +13.22
+      16. Niittymäki Tero 37.19 +16.10
+      17. Eskola Jari 38.57 +17.48
+      18. Nordström Antti 39.37 +18.28
+      19. Ala-Nikkola Anssi 40.17 +19.08
+      20. Rantanen Riku 40.24 +19.15
+      21. Wathén Mikael 42.49 +21.40
+      22. Tynjälä Petri 42.53 +21.44
+      23. Kosenius Iida 44.00 +22.51
+      24. Saario Eetu 44.48 +23.39
+      25. Lahti Johanna 46.23 +25.14
+      26. Teppo Terhi 47.29 +26.20
+      27. Riikonen Joanna 48.08 +26.59
+      28. Stellberg Timo 48.13 +27.04
+      29. Sihvola Esko 48.39 +27.30
+      30. Ojala Hanna 51.32 +30.23
+      31. Särssi Mauri 51.38 +30.29
+      32. Keskinen Pia ja Jarmo 52.31 +31.22
+      33. Manninen Nana ja Ari-Pekka 53.11 +32.02
+      34. Kosenius Teija 53.26 +32.17
+      35. Karhu Otso 54.53 +33.44
+      36. Heino Kati 55.13 +34.04
+      37. Heiskanen Esko 58.23 +37.14
+      38. Viitala Hannu 58.27 +37.18
+      39. Mäkelä Anja 1.00.41 +39.32
+      40. Aalto Pekka 1.02.03 +40.54
+      41. Rantanen Jarmo 1.06.21 +45.12
+  B:
+    length: 2,7 km
+    data: |
+      1. Järvenpää Juha 25.39 +0.00
+      2. Yrjönen Iida 34.20 +08.41
+      3. Inkinen Teppo 35.29 +09.50
+      4. Lenz Reinhard 38.00 +12.21
+      5. Lamminmäki Timo 39.59 +14.20
+      6. Jalonen Vili 40.17 +14.38
+      7. Puputti Tapio 44.40 +19.01
+      8. Pelttari Maria 45.14 +19.35
+      9. Pullinen Ari 47.20 +21.41
+      10. Roihas Eetu 48.08 +22.29
+      11. Myllyniemi Esa 49.23 +23.44
+      11. Tenhunen Saara 49.23 +23.44
+      13. Wathen Helka 49.41 +24.02
+      14. Simola Anna 50.27 +24.48
+      15. Tuokko Piia 52.55 +27.16
+      16. Kultaranta Katja 52.56 +27.17
+      17. Kemoff Aino 54.11 +28.32
+      18. Rytömaa Markus 59.31 +33.52
+      19. A.R. 59.32 +33.53
+      20. Mattila Silja 1.00.35 +34.56
+      21. Tarkkonen Markku 1.01.17 +35.38
+      22. Råman Sirkku 1.05.19 +39.40
+      23. Järvinen Leena 1.05.21 +39.42
+      24. Ellit 1.05.48 +40.09
+      25. Saarinen Mauri 1.05.55 +40.16
+      26. Mäkelä Ulla 1.10.58 +45.19
+      27. Mäkelä Tapio 1.11.09 +45.30
+      28. Niinimäki Jukka 1.32.13 +1.06.34
+      - Ikonen Jenni - -
+      - Latomäki Olga - -
+      - Pyhälampi Risto - -
+      - Vuorensyrjä Ilkka - -
+  C:
+    length: 2,1 km
+    data: |
+      1. Nousiainen Sampo 27.44 +0.00
+      2. Hautakangas Niilo 30.20 +02.36
+      3. Salonen Roni 31.31 +03.47
+      4. Änäkkälä Heli 31.52 +04.08
+      5. Lähdesmäki Hugo 32.06 +04.22
+      6. Salomaa Tarja 34.55 +07.11
+      7. Kallela Erkki 36.35 +08.51
+      8. Pentikäinen Heimo 37.00 +09.16
+      9. Lahti Jouko 37.44 +10.00
+      10. Orava Esa 37.53 +10.09
+      11. Eskola Hanna 38.39 +10.55
+      12. Kautonen Sirkka 39.17 +11.33
+      13. Andelin Marjaana 40.01 +12.17
+      14. Saarimaa Jonna 41.41 +13.57
+      15. Sorvari Hanna 42.20 +14.36
+      16. Wathen Verna 42.52 +15.08
+      17. Peltopuro Minna 44.21 +16.37
+      18. Lindqvist Alexandra 45.11 +17.27
+      19. Rintakoski Arto 46.10 +18.26
+      20. Pajunen Heli 47.31 +19.47
+      21. Penttinen Sirpa 47.38 +19.54
+      22. Kirsi Renja 48.55 +21.11
+      23. Hakkarainen Katja 49.13 +21.29
+      24. Akkanen Tina 52.49 +25.05
+      25. Paasonen Jani 53.20 +25.36
+      26. Aalto Mikko 53.57 +26.13
+      27. Salonen Roi 54.56 +27.12
+      28. Jalonen Veera 56.36 +28.52
+      29. Ahonen Ulla 58.20 +30.36
+      30. Ranta Anni 1.03.53 +36.09
+      31. Hatakka Venla 1.04.05 +36.21
+      32. Rauna ja Suvi 1.04.12 +36.28
+      33. Kurtti Anna 1.10.45 +43.01
+      34. Ohramaa Tuula 1.27.41 +59.57
+      35. Wathen Saima 1.38.40 +1.10.56
+      - Pirjo - -
+  D:
+    length: 1,4 km
+    data: |
+      1. Niemi Antero 18.55 +0.00
+      2. Hartikainen Pertti S. 23.24 +04.29
+      3. Hämäläinen Samuli 26.46 +07.51
+      4. Elsi 28.24 +09.29
+      5. Toivo 30.51 +11.56
+      6. Paananen Keimo 35.48 +16.53
+      7. Wathen Maire 37.30 +18.35
+      8. Jormanainen Pekka 45.37 +26.42
+      9. Virtanen Elias 1.01.12 +42.17
+  E:
+    length: 0,9 km
+    data: |
+      1. Paananen Keimo 14.46 +0.00
+      2. Robin 17.19 +02.33
+      3. Reino 22.38 +07.52
+      4. Elle 29.01 +14.15
+      5. Ronja 34.09 +19.23
+firstname_first: false
