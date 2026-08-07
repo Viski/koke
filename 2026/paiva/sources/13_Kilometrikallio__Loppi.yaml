@@ -1,0 +1,121 @@
+event_number: 13
+location: Kilometrikallio, Loppi
+date: 4.8.
+organizer: RiSu / ???
+source_url: https://risu.fi/tulokset/t260804.html
+series_mapping:
+  pitkä: A
+  lyhyt: B
+tracks:
+  A:
+    length: 5,1 km
+    data: |
+      1. Friman Eemeli 39.35 +0.00
+      2. Rantala Joonas 47.28 +07.53
+      3. Friman Sami 53.09 +13.34
+      4. Kiviaho Erkka 53.41 +14.06
+      5. Louekari Sami 56.38 +17.03
+      6. Aaltonen Tero 57.36 +18.01
+      7. Laukkanen Jarno 57.54 +18.19
+      8. Korhonen Tomi 58.21 +18.46
+      9. Lietzen Jaakko 1.04.09 +24.34
+      10. Tammi Matti 1.04.50 +25.15
+      11. Nissinen Joni 1.05.24 +25.49
+      12. Koskinen Pekka 1.06.29 +26.54
+      13. Pyyhtiä Johannes 1.06.31 +26.56
+      14. Nordström Antti 1.07.56 +28.21
+      15. Viero Jukka 1.11.47 +32.12
+      16. Rantanen Riku 1.12.02 +32.27
+      17. Salo Jari 1.12.32 +32.57
+      18. Juonela Lauri 1.12.35 +33.00
+      19. Ikonen Jonna 1.12.57 +33.22
+      20. Honkala Juha 1.15.14 +35.39
+      21. Uusitalo Timo 1.18.55 +39.20
+      22. Rantala Ilkka 1.20.47 +41.12
+      23. Karhu Otso 1.22.57 +43.22
+      24. Jaakkola Lasse 1.23.48 +44.13
+      25. Vauhkonen Antti 1.24.16 +44.41
+      26. Lahti Johanna 1.26.08 +46.33
+      27. Tynjälä Petri 1.26.14 +46.39
+      28. Leinonen Risto 1.27.18 +47.43
+      29. Salo Mika 1.31.09 +51.34
+      30. Ojala Hanna 1.36.04 +56.29
+      31. Ala-Nikkola Anssi 1.42.25 +1.02.50
+      - Paananen Teemu - -
+  B:
+    length: 4,1 km
+    data: |
+      1. Lietzen Jukka 53.24 +0.00
+      2. Lamminmäki Timo 55.54 +02.30
+      3. Friman Kaisa 56.16 +02.52
+      4. Lipsonen Ville 58.24 +05.00
+      5. Inkinen Teppo 59.59 +06.35
+      6. Puputti Tapio 1.01.24 +08.00
+      7. Kemppi Pekka 1.01.44 +08.20
+      8. Anthoni Mikael 1.04.26 +11.02
+      9. Nurmi Ville 1.04.40 +11.16
+      10. Hakola Martti 1.05.58 +12.34
+      11. Lenz Reinhard 1.08.29 +15.05
+      12. Pulkkinen Tatu 1.09.18 +15.54
+      13. Määttä Arto 1.10.01 +16.37
+      14. Niittymäki Tero 1.10.44 +17.20
+      15. Salomäki Hannu 1.11.04 +17.40
+      16. Niittymäki Frans 1.12.13 +18.49
+      17. Jokiniemi Jouni 1.13.32 +20.08
+      18. Ponto Tommi 1.14.29 +21.05
+      18. Siivonen Tapani 1.14.29 +21.05
+      20. Lahti Jouko 1.17.51 +24.27
+      21. Pelttari Marja 1.26.06 +32.42
+      22. Salo Hannu 1.29.19 +35.55
+      23. Hänninen Matti 1.36.29 +43.05
+      24. Törmä Johanna 1.36.33 +43.09
+      25. Porma Mikko 1.37.48 +44.24
+      26. Ahokas Jorma 1.38.21 +44.57
+      27. Ala-Mutka Esa 1.38.23 +44.59
+      28. Heino Kati 1.57.55 +1.04.31
+      29. Korpiaho Mikko 2.01.16 +1.07.52
+      30. Ponto Juha 2.19.13 +1.25.49
+      - Aalto Pekka - -
+      - Heiskanen Esko - -
+  C:
+    length: 3,1 km
+    data: |
+      1. Kontio-Marins Laura 44.58 +0.00
+      2. Sorvari Hanna 55.46 +10.48
+      3. Manninen 58.21 +13.23
+      4. Tarkkonen Markku 59.25 +14.27
+      5. Karjalainen Piia 1.00.17 +15.19
+      6. Kosenius Iida 1.04.06 +19.08
+      7. Andelin Marjaana 1.05.02 +20.04
+      8. Erämaja Johanna 1.07.14 +22.16
+      9. Rintakoski Arto 1.09.02 +24.04
+      10. Yli-Eerola Irja 1.10.02 +25.04
+      11. Loiva Riikka 1.10.11 +25.13
+      12. Lappalainen Heikki 1.11.44 +26.46
+      13. Hätinen Antti 1.12.46 +27.48
+      14. Kemoff Aino 1.16.09 +31.11
+      15. Salomaa Tarja 1.21.44 +36.46
+      15. Yrjönen Heli ja Marjo 1.21.44 +36.46
+      17. Saarinen Mauri 1.27.39 +42.41
+      18. Heinilä Seija 1.29.15 +44.17
+      19. Renja ja Moso 1.29.29 +44.31
+      20. Pajunen Heli 1.37.56 +52.58
+      21. Penttinen Sirpa 1.38.00 +53.02
+      22. Jormanainen Pekka 1.39.42 +54.44
+      23. Mattila Silja 1.43.04 +58.06
+      24. Hult Marja-Liisa 2.21.07 +1.36.09
+      - Hätinen Olli - -
+      - Koivunen Pertti - -
+      - Pentikäinen Heimo - -
+  D:
+    length: 1,8 km
+    data: |
+      1. Niemi Antero 28.10 +0.00
+      2. Orava Esa 35.11 +07.01
+      3. Hartikainen Pertti S. 38.55 +10.45
+      4. Glyckert Sanna 46.32 +18.22
+      5. Alakoski Otto 48.06 +19.56
+      6. Alakoski Pirita 49.01 +20.51
+      7. Friman Marjo 49.02 +20.52
+      8. Kuusisto Kalevi 51.20 +23.10
+firstname_first: false
