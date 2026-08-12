@@ -1,0 +1,196 @@
+event_number: 14
+location: Jätinlukot, Hyvinkää
+date: 11.8.
+organizer: RR / Jukka Alho
+source_url: https://navisport.com/tapahtumat/nurmijarven-iltarastit-2026-jatinlukot-iltarastit-08-11/tulokset/a-rata
+firstname_first: false
+series_mapping:
+  pitkä: A-rata
+  lyhyt: B-rata
+tracks:
+  A-rata:
+    data: |
+      1. Rantala Tommy 54.02 +0.00
+      2. Laapas Ari 54.11 +0.09
+      3. Pentti Markus 55.46 +1.44
+      4. Eeronen Riku 59.42 +5.40
+      5. Salomäki Janne 59.53 +5.51
+      6. Hietala Jukka 1.00.58 +6.56
+      7. Peltokorpi Henrik 1.01.37 +7.35
+      8. Laaksonen Tomi 1.03.10 +9.08
+      8. Louekkari Sami 1.03.10 +9.08
+      10. Laimio Jussi 1.03.13 +9.11
+      11. Miettinen Kiia 1.06.17 +12.15
+      12. Nissinen Joni 1.06.49 +12.47
+      13. Peltokangas Urpo 1.08.09 +14.07
+      14. Laapas Oliver 1.08.31 +14.29
+      15. Haverinen Otto 1.09.20 +15.18
+      16. Turunen Väinö 1.09.45 +15.43
+      17. Rantanen Sinikka 1.10.31 +16.29
+      18. Pohjola Hannu 1.10.35 +16.33
+      19. Huhdankoski Outi 1.11.39 +17.37
+      20. Leismala Timo 1.11.48 +17.46
+      21. Nieminen Henri 1.12.44 +18.42
+      21. Veikkola Lassi 1.12.44 +18.42
+      23. Pyyhtiä Johannes 1.13.25 +19.23
+      24. Kiviaho Erkka 1.15.13 +21.11
+      25. Nieminen Visa 1.15.31 +21.29
+      26. Tenhunen Asmo 1.16.30 +22.28
+      27. Koskinen Pekka 1.19.58 +25.56
+      28. Salomäki Antti 1.20.10 +26.08
+      29. Virpi Joel 1.20.30 +26.28
+      30. Kemppi Pekka 1.25.34 +31.32
+      30. Serenius Matti 1.25.34 +31.32
+      32. Aaltonen Tero 1.27.04 +33.02
+      33. Hartikainen Elsa 1.29.50 +35.48
+      34. Hietaoja Nelli 1.32.09 +38.07
+      35. Hannuksela Lassi 1.36.18 +42.16
+      36. Sihvola Esko 1.38.40 +44.38
+      37. Saarinen Marko 1.40.44 +46.42
+      38. Väkiparta Mikko 1.42.06 +48.04
+      39. Juva Panu 1.42.35 +48.33
+      40. Hanhela Jouni 1.43.49 +49.47
+      41. Leppänen Ilkka 1.45.43 +51.41
+      42. Karhu Otso 1.50.38 +56.36
+      43. Nieminen Kaisa 1.59.28 +1.05.26
+      44. Suur-askola Mikko 2.01.26 +1.07.24
+      - Korhonen Tomi - -
+      - Savela Soili - -
+      - Jesper Donner - -
+      - Piilinen Roni - -
+      - Hämäläinen Valtteri - -
+      - Ohtonen Urho - -
+      - Venemies Arttu - -
+  B-rata:
+    data: |
+      1. Heikkinen Mikko 39.03 +0.00
+      2. Järvenpää Juha 39.43 +0.40
+      3. Sillanpää Markus 40.33 +1.30
+      4. Olenius Roger 41.11 +2.08
+      5. Hyvärilä Jussi 45.41 +6.38
+      6. Vuorio Joni 50.07 +11.04
+      7. Kuivalainen Jukka 51.01 +11.58
+      8. Brandt Jani 52.59 +13.56
+      9. Tervonen Esa 53.20 +14.17
+      10. Alho Ville 53.56 +14.53
+      11. Suominen Anni 54.47 +15.44
+      11. Tervakoski Viljami 54.47 +15.44
+      13. Rautiainen Kimmo 56.18 +17.15
+      14. Multala Tuomas 56.22 +17.19
+      15. Heikura Mika 56.34 +17.31
+      16. Kanto Antti 58.18 +19.15
+      17. Autio Keijo 59.01 +19.58
+      18. Jakobsson Julia 59.04 +20.01
+      19. Lamminmäki Timo 59.31 +20.28
+      20. Laurila Anneli 59.53 +20.50
+      21. Haltia Riikka 1.00.11 +21.08
+      22. Salomäki Hannu 1.00.22 +21.19
+      23. Lipsonen Ville 1.00.55 +21.52
+      24. Kamula Juha-Pekka 1.01.13 +22.10
+      25. Ahonen Teppo 1.01.17 +22.14
+      26. Hietala Topias 1.01.22 +22.19
+      27. Kokkoniemi Jukka 1.02.08 +23.05
+      28. Piispa Sami 1.03.48 +24.45
+      29. Pynnönen Marko 1.06.22 +27.19
+      30. Autero Harri 1.06.46 +27.43
+      31. Autero Markus 1.07.02 +27.59
+      32. Ryhänen Pia 1.07.44 +28.41
+      33. Raudus Timo 1.08.29 +29.26
+      34. Nieminen Saara 1.08.32 +29.29
+      35. Lankinen Ismo+1 1.09.46 +30.43
+      36. Lentz Reinhard 1.10.17 +31.14
+      37. Jalonen Vili 1.12.39 +33.36
+      38. Väänänen Aki 1.17.00 +37.57
+      39. Juholin Anders 1.18.01 +38.58
+      40. Knuuttila Olli 1.24.08 +45.05
+      41. Laurila Jouni 1.35.42 +56.39
+      42. Peltonen Tapio 1.49.08 +1.10.05
+      43. Pekonen Jouko 1.51.36 +1.12.33
+      44. Myller Jouni 2.19.08 +1.40.05
+      45. Yliluoma Jaana 2.25.47 +1.46.44
+      - Hietala Marja +1 - -
+      - Lainpelto Eino - -
+      - Heikkilä Jimi - -
+      - Savolainen Leo - -
+      - Hautaniemi Juho - -
+      - Pakarinen Niilo - -
+      - Myllyneva Eevert - -
+      - Menna Juha - -
+      - Pyhälampi Risto - -
+  D-rata:
+    data: |
+      1. Sjöholm Kai 44.25 +0.00
+      2. Niilo Ja Tanja 49.14 +4.49
+      3. Heikkinen Vilho 57.35 +13.10
+      4. Salomaa Tarja 58.07 +13.42
+      5. Vartia Jaana 1.03.51 +19.26
+      6. Krook Seppo 1.04.24 +19.59
+      7. Heikkinen Eeli 1.05.32 +21.07
+      8. Joktöyrä Pihla 1.10.02 +25.37
+      9. Vuorio Olavi 1.10.43 +26.18
+      10. Väärälä +1 1.17.08 +32.43
+      11. Väisänen E & T 1.30.32 +46.07
+      12. Männistö Antti 1.30.51 +46.26
+      13. Männistö Liisa 1.30.57 +46.32
+      14. Vähätalo Jyrki Ja Mervi 1.35.53 +51.28
+      15. Westerholm Raija 1.36.37 +52.12
+      16. Hagström Miia 1.46.10 +1.01.45
+      17. Agneta LINDHOLM 1.47.48 +1.03.23
+      18. Nissinen Ulla 1.52.12 +1.07.47
+      - Ruuskanen Piia - -
+      - Oja Merja - -
+      - Helminen Erkki - -
+  C-rata:
+    data: |
+      1. Sares Timo 33.55 +0.00
+      2. Kuivalainen Akseli 35.40 +1.45
+      3. Vaaralahti Kirsi 39.48 +5.53
+      4. Friman Kaisa 41.33 +7.38
+      5. Ahokas Ari 48.46 +14.51
+      6. Saari Lasse 48.53 +14.58
+      7. Pinja+2 49.35 +15.40
+      8. Rantala Petri 50.13 +16.18
+      9. Loukkalahti Antti 50.41 +16.46
+      10. Loukkalahti Mika 50.44 +16.49
+      11. Krook Reijo 51.06 +17.11
+      12. Mourujärvi Henna 53.01 +19.06
+      13. Lindholm Jonas 54.03 +20.08
+      14. Joensuu Liisa 54.40 +20.45
+      15. Puhakka Mika 56.01 +22.06
+      16. Korsulainen Sauli 56.17 +22.22
+      17. Tuvikene Maris 56.42 +22.47
+      18. Viitala Hannu 57.28 +23.33
+      19. Virkkunen Jenni 58.55 +25.00
+      20. Ojala Tapio 59.11 +25.16
+      21. Tertsunen Ari 59.32 +25.37
+      22. Sillanpää Heli 59.53 +25.58
+      23. Strang Heidi 1.00.31 +26.36
+      24. Laaksonen Ninni 1.01.17 +27.22
+      25. Immonen Heikki 1.01.46 +27.51
+      26. Heikkinen Pekka 1.07.17 +33.22
+      27. Alho Antti 1.08.24 +34.29
+      28. Salminen Anne 1.08.52 +34.57
+      29. Saarela Leena 1.10.05 +36.10
+      30. Miettinen Sami 1.10.12 +36.17
+      31. Palo Unna-Sisko 1.11.08 +37.13
+      32. Lahti Jouko 1.12.47 +38.52
+      33. Leppänen Markku 1.13.44 +39.49
+      34. Siikavuo Seija 1.20.01 +46.06
+      35. Juholin Johanna 1.23.54 +49.59
+      36. Jääskeläinen Ari 1.27.58 +54.03
+      37. Tuominen Pavas 1.30.48 +56.53
+      38. Hämäläinen Teppo 1.31.22 +57.27
+      39. Alamiekkaoja 2.12.46 +1.38.51
+      - Alamiekkaoja - -
+      - Riikola Sanna-mari - -
+      - Tervo Tiina - -
+      - Pentti Eliel - -
+  E-rata:
+    data: |
+      1. Lepistö Akseli 32.21 +0.00
+      2. Heikkinen Sanni 33.56 +1.35
+      3. Lind Usko 43.59 +11.38
+      4. Toivonen Liina+1 45.28 +13.07
+      5. Nemlander Daniel 47.31 +15.10
+      6. Timo +1 1.32.19 +59.58
+      - Laajaniemi - -
