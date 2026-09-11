@@ -1,0 +1,102 @@
+event_number: 1
+location: Nyry, Hausjärvi
+date: 9.9.
+organizer: HyRa / Kenneth Reinikka
+source_url: https://navisport.com/tapahtumat/hyvinkaan-iltarastit-2026-nyry2021-09-09/tulokset/a-sininen-haastava
+firstname_first: false
+series_mapping:
+  pitkä: KoKe yö pitkä B
+  lyhyt: KoKe yö lyhyt C vaativa
+tracks:
+  C vaativa violetti melko haastava:
+    data: |
+      1. Himanen Juha 35.42 +0.00
+      2. Vainio Jarmo 36.50 +1.08
+      3. Jalonen Vili 46.19 +10.37
+      4. Nieminen Pauli 53.46 +18.04
+      5. Lahti Jouko 55.34 +19.52
+      6. Lipsonen Jouko 55.53 +20.11
+      7. Sjöholm Kai 56.36 +20.54
+      8. Miettinen Aleksandra 1.09.18 +33.36
+      9. Pekonen Jouko 1.09.53 +34.11
+      10. Roihas Eetu 1.41.47 +1.06.05
+      11. Myllyniemi Esa 1.42.06 +1.06.24
+      - Salomaa Tarja - -
+      - Niinimäki Jukka - -
+      - Joutsenniemi Juhani - -
+      - Reinikka Kenneth - -
+  B sininen haastava:
+    data: |
+      1. Laapas Oliver 39.57 +0.00
+      2. Saarinen Sauli 44.52 +4.55
+      3. Reinikainen Antti 51.18 +11.21
+      4. Hyvärilä Jussi 54.17 +14.20
+      5. Heikura Mika 57.01 +17.04
+      6. Pyyhtiä Johannes 57.41 +17.44
+      7. Moisio Niklas 58.31 +18.34
+      8. Lautamäki Asko 59.10 +19.13
+      9. Vaaralahti Kirsi 1.00.50 +20.53
+      10. Saarinen Hetta 1.03.30 +23.33
+      11. Koskiniemi Ville 1.08.48 +28.51
+      12. Saarinen Silva 1.13.48 +33.51
+      13. Vinkanharju Waltteri 1.14.30 +34.33
+      14. Rantala Ilkka 1.15.53 +35.56
+      15. Puputti Tapio 1.18.48 +38.51
+      16. Pärssinen Jaakko 1.21.23 +41.26
+      - Lehti Juuso - -
+  B-rata yö:
+    data: |
+      1. Parttimaa Timo 1.00.35 +0.00
+      2. Rantanen Eelis 1.07.42 +7.07
+      3. Lahti Johanna 1.26.06 +25.31
+      4. Kokkoniemi Jukka 1.44.52 +44.17
+      - Ahoniemi Sakke - -
+  C helppo punainen keskitaso 2:
+    data: |
+      1. Männistö Liisa 47.18 +0.00
+      2. Ryhänen Oiva 54.35 +7.17
+      3. Männistö Antti 1.02.35 +15.17
+      4. Rontu Piia 1.12.05 +24.47
+      5. Rondelius Julia 1.23.58 +36.40
+      6. Karisto-Nieminen Marjatta 1.45.46 +58.28
+      7. Salomäki Heikki 2.12.18 +1.25.00
+      - Murtola Veikko - -
+      - Haapa-aho Jarkko - -
+      - Riihola Sandra - -
+  C helppo yö:
+    data: |
+      1. Hartikainen Pertti S. 1.08.41 +0.00
+      2. Manninen 1.14.40 +5.59
+  C vaativa yö:
+    data: |
+      1. Kinkki Seppo 1.04.02 +0.00
+      2. Franssila Hanna 1.04.31 +0.29
+      3. Rantanen Jouni 1.10.17 +6.15
+  D oranssi keskitaso 1:
+    data: |
+      1. Hartikainen Pertti S. 30.17 +0.00
+      - Moisander Heidi - -
+  KoKe yö lyhyt C vaativa:
+    data: |
+      1. Salomäki Hannu 51.06 +0.00
+      2. Lentz Reinhard 1.01.59 +10.53
+      - Nieminen Ari - -
+      - Pyhälampi Risto - -
+  A sininen haastava:
+    data: |
+      1. Laapas Ari 56.28 +0.00
+      2. Rantala Justus 56.46 +0.18
+      3. Käyhkö Aapo 1.01.42 +5.14
+      4. Loikas J-P 1.07.59 +11.31
+      5. Korhonen Tomi 1.11.03 +14.35
+      6. Tonteri Joni 1.14.49 +18.21
+      - Hietala Maria+kaveri - -
+  KoKe yö pitkä B:
+    data: |
+      1. Salomäki Janne 56.08 +0.00
+      - Tenhunen Asmo - -
+      - Karhu Otso - -
+  A-rata yö:
+    data: |
+      1. Laukkanen Jarno 1.36.05 +0.00
+      - Similä Mika - -
