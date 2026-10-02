@@ -1,0 +1,149 @@
+event_number: 2
+location: Hikiä, Hausjärvi
+date: 15.9.
+organizer: RiSu / Ari-Pekka Miettinen
+source_url: https://risu.fi/tulokset/t260915.html
+series_mapping:
+  pitkä: Rata B Yö 4,3km
+  lyhyt: Rata C Yö 3km
+tracks:
+  A:
+    length: 6 km
+    data: |
+      1. Rantala Joonas 43.28 +0.00
+      2. Tonteri Joni 51.28 +08.00
+      3. Miettinen Tero 52.45 +09.17
+      4. Virtanen Markku 56.44 +13.16
+      5. Pyyhtiä Johannes 59.25 +15.57
+      6. Saloranta Risto 1.03.03 +19.35
+      7. Harmaala Ismo 1.06.39 +23.11
+      8. Nieminen Henri 1.06.47 +23.19
+      9. Tynjälä Petri 1.08.51 +25.23
+      10. Ikonen Jonna 1.11.20 +27.52
+      11. Jaakkola Lasse 1.24.49 +41.21
+      12. Ojala Hanna 1.30.47 +47.19
+      13. Luukko PASI 1.39.37 +56.09
+      14. Minna ja Emmi 2.23.05 +1.39.37
+  B:
+    length: 4,3 km
+    data: |
+      1. Vuorenpää Asmo 38.04 +0.00
+      2. Lähdesmäki Jouni 38.42 +00.38
+      3. Hyvölä Sampo 41.11 +03.07
+      4. Vire Markku 43.53 +05.49
+      5. Inkinen Teppo 45.22 +07.18
+      6. Pätäri Päivi 45.28 +07.24
+      7. Lipsonen Ville 48.36 +10.32
+      8. Vähänen Jukka 49.25 +11.21
+      9. Molnar Pia 49.40 +11.36
+      10. Kosenius Anna-Kaisa 50.12 +12.08
+      11. Yrjönen Iida 50.24 +12.20
+      12. Manninen 53.40 +15.36
+      13. Eskola Jari 53.42 +15.38
+      14. Lindqvist Juhani 55.55 +17.51
+      15. Rantala Ilkka 58.04 +20.00
+      16. Nöjd Sami 58.34 +20.30
+      17. Kultaranta Katja 59.01 +20.57
+      18. Salo Hannu 59.35 +21.31
+      19. Laine Mikko 1.00.07 +22.03
+      20. Heiskanen Esko 1.01.30 +23.26
+      21. Saloranta Eve 1.07.03 +28.59
+      22. Pullinen Ari 1.10.25 +32.21
+      23. Venäläinen Helinä 1.16.10 +38.06
+      24. Mäkinen Harri 1.16.27 +38.23
+      25. Aalto Pekka 1.17.00 +38.56
+      26. Heinilä Seija 1.17.46 +39.42
+      27. Tiira Mikko 1.23.59 +45.55
+      28. Hyle Pia 1.24.03 +45.59
+      29. Kosenius Iida 1.26.03 +47.59
+      30. Kosenius Teija 1.26.12 +48.08
+      31. Penttinen Sirpa 1.28.58 +50.54
+      32. Pajunen Heli 1.29.04 +51.00
+      - Kuosma Katariina - -
+  C:
+    length: 3 km
+    data: |
+      1. Hyvölä Anna 27.10 +0.00
+      2. Markkola Anu 27.36 +00.26
+      3. Österman Liisa 28.03 +00.53
+      4. Lappalainen Heikki 30.04 +02.54
+      5. Nousiainen Sampo 31.02 +03.52
+      6. Salonen Roni 31.09 +03.59
+      7. Vuorenpää Iia 31.12 +04.02
+      8. Tarkkonen Markku 31.48 +04.38
+      9. Sjöholm Kai 34.20 +07.10
+      10. Lähdesmäki Hugo 35.08 +07.58
+      11. Ruohoniemi Aimo 36.15 +09.05
+      12. Savolainen Kauko 37.07 +09.57
+      13. Salomaa Tarja 37.10 +10.00
+      14. Lahti Jouko 37.21 +10.11
+      15. Orava Esa 37.53 +10.43
+      16. Mattila Silja 38.02 +10.52
+      17. Långström Veikko 40.58 +13.48
+      18. Akkanen Tina 48.36 +21.26
+      19. Jokinen Hanna 54.21 +27.11
+      20. Lindström Atte 55.59 +28.49
+      21. Vähänen Pia 56.46 +29.36
+      22. Ellit 57.40 +30.30
+      23. A.R. 1.01.42 +34.32
+      24. Laura ja Mirka 1.08.58 +41.48
+      25. Latomäki Olga 1.20.52 +53.42
+      26. Syrjä Eemil 1.27.57 +1.00.47
+      - Laine Jorma - -
+      - Oksanen Heidi - -
+  D:
+    length: 1,8 km
+    data: |
+      1. Saarimaa Atte 20.06 +0.00
+      2. Rantala Ari 26.48 +06.42
+      3. Saarimaa Jonna 27.44 +07.38
+      4. Emir 31.43 +11.37
+      5. Salonen Roi 37.04 +16.58
+      6. Leo 40.07 +20.01
+      7. Eetu Yrjönen 41.51 +21.45
+      8. Rauha 1.02.10 +42.04
+      9. Lahja 1.02.11 +42.05
+      10. Hovikorpi Aarno 1.05.42 +45.36
+      11. Virtanen Elias 1.06.28 +46.22
+      - Elle - -
+  Rata A Yö 6km:
+    data: |
+      1. Tammi Matti 56.47 +0.00
+      2. Löfroos Andreas 57.39 +00.52
+      3. Korhonen Tomi 1.00.42 +03.55
+      4. Juonela Lauri 1.10.02 +13.15
+  Rata B Yö 4,3km:
+    data: |
+      1. Laukkanen Jarno 40.46 +0.00
+      2. Ustinov Jarkko 41.03 +00.17
+      3. Svetloff Maria 49.23 +08.37
+      4. Nordström Antti 53.36 +12.50
+      5. Lahti Johanna 55.07 +14.21
+      6. Karhu Otso 1.14.52 +34.06
+      7. Ahoniemi Sakke 1.15.09 +34.23
+      8. Salo Mika 1.20.01 +39.15
+      9. Wathen Mikael 1.22.18 +41.32
+  Rata C Yö 3km:
+    data: |
+      1. Vaaralahti Kirsi 26.44 +0.00
+      2. Puputti Tapio 31.04 +04.20
+      3. Kultaranta Katja 32.15 +05.31
+      4. Hakola Martti 32.57 +06.13
+      5. Hovikorpi Auli 36.00 +09.16
+      6. Lamminmäki Timo 38.01 +11.17
+      7. Vauhkonen Antti 39.17 +12.33
+      8. Lenz Reinhard 40.57 +14.13
+      9. Liimatainen Raili 43.09 +16.25
+      10. Mäkelä Anja 46.38 +19.54
+      11. Raiko Erja 48.07 +21.23
+      12. Kallio Arja 56.00 +29.16
+      13. Jormanainen Pekka 1.34.46 +1.08.02
+      - Pyhälampi Risto - -
+  Rata D Yö 1,8km:
+    data: |
+      1. Hartikainen Pertti S. 22.10 +0.00
+      2. Koskinen Teija 27.35 +05.25
+      3. Saarinen Mauri 29.30 +07.20
+      4. Salmela Juulia 47.24 +25.14
+      - Siivonen Raimo - -
+firstname_first: false

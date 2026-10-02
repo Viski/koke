@@ -1,0 +1,98 @@
+event_number: 3
+location: Keravanjärvi, Mäntsälä
+date: 23.9.
+organizer: HyRa / Markku Ijäs
+source_url: https://navisport.com/tapahtumat/hyvinkaan-iltarastit-2026-keravanjarvi2023-09-23/tulokset/a-sininen-haastava
+firstname_first: false
+series_mapping:
+  pitkä: KoKe pitkä B yö
+  lyhyt: KoKe lyhyt Cv yö
+tracks:
+  D keltainen helppo:
+    data: |
+      1. Vuori Jalo 37.35 +0.00
+      2. Torttila Vilho 43.48 +6.13
+      3. Laurila Selma ja Kallas Helena 49.52 +12.17
+      4. Elina Borgenström 1.53.03 +1.15.28
+      - Lind Usko - -
+      - Vuori Mara - -
+  C vaativa yö:
+    data: |
+      1. Hyvärilä Jussi 1.03.55 +0.00
+      - Liimatainen Raili - -
+  B violetti melko haastava:
+    data: |
+      1. Seppo Mäkinen 49.19 +0.00
+      2. Moisio Niklas 53.00 +3.41
+      3. Himanen Juha 54.13 +4.54
+      4. Peltoranta Pekka 57.32 +8.13
+      5. Laurinen Mari 1.07.58 +18.39
+      6. Autero Markus 1.09.42 +20.23
+      7. Jalonen Vili 1.11.48 +22.29
+      8. Laura Alestalo 1.37.08 +47.49
+  A sininen haastava:
+    data: |
+      1. Valtonen Miikka 1.01.03 +0.00
+      2. Korhonen Tomi 1.08.47 +7.44
+      3. Tonteri Joni 1.12.54 +11.51
+      4. Tähkäpää Anssi 1.24.37 +23.34
+      5. Koskela Niko 1.57.12 +56.09
+      - Kannusmäki Osku - -
+      - Vanhanen Soile - -
+  C vaativa violetti:
+    data: |
+      1. Reinikainen Antti 32.44 +0.00
+      2. Saarinen Heikki 44.27 +11.43
+      3. Inkinen Paavo 45.36 +12.52
+      4. Salonen Ilkka 47.32 +14.48
+      5. Moisander Olli 47.51 +15.07
+      6. Kemppi Pekka 48.54 +16.10
+      7. Reinikka Kenneth 50.41 +17.57
+      8. Koivisto Heidi 59.49 +27.05
+      9. Antikainen Jarmo 1.07.38 +34.54
+  B-rata yö:
+    data: |
+      1. Friman Sami 58.16 +0.00
+      2. Suominen Tauno 1.28.11 +29.55
+      3. Lahti Johanna 1.47.16 +49.00
+  KoKe pitkä B yö:
+    data: |
+      - Karhu Otso - -
+  C helppo oranssi:
+    data: |
+      1. Moisander Iivo 26.55 +0.00
+      2. Moisander Heidi 34.32 +7.37
+      3. Pelttari Mariia 40.46 +13.51
+      4. Salomaa Tarja 44.34 +17.39
+      5. Lahti Jouko 46.22 +19.27
+      6. Pirhonen Tero 48.50 +21.55
+      7. Pietarinen Asta 54.21 +27.26
+      8. Koponen Anna-Liisa 54.25 +27.30
+      9. Karisto-Nieminen Marjatta 57.57 +31.02
+      9. Nieminen Pauli 57.57 +31.02
+      11. Nikkilä Helvi ja Säde 1.00.35 +33.40
+      12. Salomäki Heikki 1.06.48 +39.53
+      13. Raiko Manu 1.14.09 +47.14
+      14. Torttila Sylvi 1.22.45 +55.50
+      15. Eklund Jarkko 1.31.05 +1.04.10
+      - Sjöholm Kai - -
+  KoKe lyhyt Cv yö:
+    data: |
+      1. Lipsonen Ville 55.13 +0.00
+      2. Salomäki Hannu 59.31 +4.18
+      3. Lamminmäki Timo 1.09.46 +14.33
+      4. Nieminen Ari 1.14.46 +19.33
+      5. Puputti Tapio 1.26.01 +30.48
+      - Pyhälampi Risto - -
+      - Välimaa Pertti - -
+  A-rata yö:
+    data: |
+      - Friman Eemeli - -
+  C helppo yö:
+    data: |
+      1. Karenius Nea 53.36 +0.00
+      2. Mäkelä Anja 54.49 +1.13
+  D-rata yö:
+    data: |
+      1. Hartikainen Pertti S. 40.20 +0.00
+      2. Salmela Juulia 1.12.44 +32.24

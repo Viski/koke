@@ -1,0 +1,68 @@
+event_number: 4
+location: Palojoki, Nurmijärvi
+date: 29.9.
+organizer: RR / ???
+source_url: https://navisport.com/tapahtumat/nurmijarven-iltarastit-2026-palojoki-koulu-yorastit-09-29/tulokset/a-rata-yo
+firstname_first: false
+series_mapping:
+  pitkä: B-rata YÖ
+  lyhyt: C-rata YÖ
+tracks:
+  C-rata YÖ:
+    data: |
+      1. Ahoniemi Santeri 33.24 +0.00
+      2. Puhakka Janne 46.01 +12.37
+      3. Nieminen Pertti 47.20 +13.56
+      4. Lamminmäki Timo 47.53 +14.29
+      5. Ahlroth Timo 49.08 +15.44
+      6. Salomäki Hannu 55.08 +21.44
+      7. Lentz Reinhard 56.21 +22.57
+      8. Puputti Tapio 58.11 +24.47
+      9. Hänninen Olli 1.03.57 +30.33
+      10. Viitala Hannu 1.04.17 +30.53
+      11. Anne Mänty 1.06.10 +32.46
+      12. Valkonen Timo 1.08.47 +35.23
+      13. Krook Reijo 1.13.27 +40.03
+      14. Latvasto-Hyvärinen Elisa 1.18.24 +45.00
+      - Hyvärilä Jussi - -
+  B-rata YÖ:
+    data: |
+      1. Hokajärvi Anja-Riitta 1.23.42 +0.00
+      2. Lipsonen Ville 1.31.26 +7.44
+      3. Piispa Sami 1.44.47 +21.05
+      4. Karhu Otso 2.11.27 +47.45
+      - Himanen Juha - -
+      - Juva Panu - -
+      - Ahoniemi Sakke - -
+  A-rata YÖ:
+    data: |
+      1. Pentti Markus 57.22 +0.00
+      2. Mourujärvi Jonne 1.00.51 +3.29
+      3. Laaksonen Tomi 1.03.05 +5.43
+      4. Pasi Enqvist 1.07.46 +10.24
+      5. Jukka Hietala 1.08.49 +11.27
+      6. Ahoniemi Santeri 1.12.10 +14.48
+      7. Hytönen Harri 1.20.56 +23.34
+      8. Raikamo Jussi 1.26.05 +28.43
+      9. Menna Juha 1.33.45 +36.23
+      10. Peltokangas Urpo 1.34.45 +37.23
+      11. Tonteri Petri 1.38.45 +41.23
+      12. Lahti Johanna 1.49.13 +51.51
+      13. Viljakainen Harri 1.57.56 +1.00.34
+      - Pasanen Hannes - -
+      - Hintsala Lauri - -
+      - Ruokokoski Raine - -
+      - Laapas Oliver - -
+      - Salomäki Antti - -
+  D-rata YÖ:
+    data: |
+      1. Nyberg Henry 36.52 +0.00
+      2. Kurki Lauri 44.03 +7.11
+      3. Leinonen Emma +2 54.38 +17.46
+      4. Varonen Arto 56.59 +20.07
+      5. Tuominen Pavas 59.09 +22.17
+      6. Hartikainen Pertti S. 1.06.27 +29.35
+      7. Risto Sirola 1.12.10 +35.18
+  E-rata YÖ:
+    data: |
+      1. Kurki Pekka 25.27 +0.00
